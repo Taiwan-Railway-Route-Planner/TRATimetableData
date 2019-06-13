@@ -1,20 +1,19 @@
-# railway
+# TRA railway information
 
-台鐵相關資料開放
+This repo was originally forked from [g0v-data](https://github.com/g0v-data/railway)
 
-## 台鐵火車站資料
+## Station information
 
 type: 
 - csv (station.csv)
 - GeoJSON (station.json)
 
-## 台鐵運務段資料
+## Office information
 
 type: csv (offices.csv)
 
-## 台鐵未來 40 天列車時刻表
+## RailInformation
 
-每日清晨五點更新，最下面有資料格式說明。
 
-[http://163.29.3.98/xml/](http://163.29.3.98/xml/)
+[http://163.29.3.98/xml/](http://163.29.3.98/xml/)\
 [http://163.29.3.98/json/](http://163.29.3.98/json/)
