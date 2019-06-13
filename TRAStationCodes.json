@@ -1201,14 +1201,14 @@
       "eng站名": "Badouzi"
     },
     {
-      "Code": "7130",
+      "traWebsiteCode": "7130",
       "站名": "蘇澳新",
-      "eng": "Su'aoxin"
+      "eng站名": "Su'aoxin"
     },
     {
-      "Code": "7120",
+      "traWebsiteCode": "7120",
       "站名": "蘇澳",
-      "eng": "Su'ao"
+      "eng站名": "Su'ao"
     }
   ]
 }
