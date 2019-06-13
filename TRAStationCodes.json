@@ -641,10 +641,6 @@
       "eng站名": "Zhuifen"
     },
     {
-      "traWebsiteCode": "0920",
-      "站名": "八堵"
-    },
-    {
       "traWebsiteCode": "7390",
       "站名": "暖暖",
       "eng站名": "Nuannuan"
@@ -960,10 +956,6 @@
       "eng站名": "Taitung"
     },
     {
-      "traWebsiteCode": "5000",
-      "站名": "屏東"
-    },
-    {
       "traWebsiteCode": "5010",
       "站名": "歸來",
       "eng站名": "Guilai"
@@ -1069,14 +1061,6 @@
       "eng站名": "Kangle"
     },
     {
-      "traWebsiteCode": "6000",
-      "站名": "臺東"
-    },
-    {
-      "traWebsiteCode": "7330",
-      "站名": "三貂嶺"
-    },
-    {
       "traWebsiteCode": "7331",
       "站名": "大華",
       "eng站名": "Dahua"
@@ -1105,14 +1089,6 @@
       "traWebsiteCode": "7336",
       "站名": "菁桐",
       "eng站名": "Jingtong"
-    },
-    {
-      "traWebsiteCode": "1210",
-      "站名": "新竹"
-    },
-    {
-      "traWebsiteCode": "1190",
-      "站名": "北新竹"
     },
     {
       "traWebsiteCode": "1191",
@@ -1170,10 +1146,6 @@
       "eng站名": "Neiwan"
     },
     {
-      "traWebsiteCode": "3430",
-      "站名": "二水"
-    },
-    {
       "traWebsiteCode": "3431",
       "站名": "源泉",
       "eng站名": "Yuanquan"
@@ -1204,18 +1176,6 @@
       "eng站名": "Checheng"
     },
     {
-      "traWebsiteCode": "3350",
-      "站名": "成功"
-    },
-    {
-      "traWebsiteCode": "2260",
-      "站名": "追分"
-    },
-    {
-      "traWebsiteCode": "4270",
-      "站名": "中洲"
-    },
-    {
       "traWebsiteCode": "4271",
       "站名": "長榮大學",
       "eng站名": "Chang Jung Christian University"
@@ -1226,17 +1186,9 @@
       "eng站名": "Shalun"
     },
     {
-      "traWebsiteCode": "1193",
-      "站名": "竹中"
-    },
-    {
       "traWebsiteCode": "1194",
       "站名": "六家",
       "eng站名": "Liujia"
-    },
-    {
-      "traWebsiteCode": "7360",
-      "站名": "瑞芳"
     },
     {
       "traWebsiteCode": "7361",
