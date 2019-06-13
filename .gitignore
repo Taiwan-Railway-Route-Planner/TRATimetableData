@@ -1,0 +1,7 @@
+# Intellij
+*.iml
+.idea/
+
+#Node.js
+node_modules/
+dist/
