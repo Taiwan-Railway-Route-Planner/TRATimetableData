@@ -20,7 +20,7 @@ type: csv (offices.csv)
 
 
 
-[https://depickeresven.github.io/TRA-Information/stationInfo.json](StationInfo with names in English)
+[StationInfo with names in English](https://depickeresven.github.io/TRA-Information/stationInfo.json)
 
 ### Schedules in JSON 
 
