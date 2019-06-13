@@ -1,0 +1,1252 @@
+{
+  "stations": [
+    {
+      "traWebsiteCode": "0900",
+      "站名": "基隆",
+      "eng": "Keelung"
+    },
+    {
+      "traWebsiteCode": "0910",
+      "站名": "三坑",
+      "eng": "Sankeng"
+    },
+    {
+      "traWebsiteCode": "0920",
+      "站名": "八堵",
+      "eng": "Badu"
+    },
+    {
+      "traWebsiteCode": "0930",
+      "站名": "七堵",
+      "eng": "Qidu"
+    },
+    {
+      "traWebsiteCode": "0940",
+      "站名": "百福",
+      "eng": "Baifu"
+    },
+    {
+      "traWebsiteCode": "0950",
+      "站名": "五堵",
+      "eng": "Wudu"
+    },
+    {
+      "traWebsiteCode": "0960",
+      "站名": "汐止",
+      "eng": "Xizhi"
+    },
+    {
+      "traWebsiteCode": "0970",
+      "站名": "汐科",
+      "eng": "Xike"
+    },
+    {
+      "traWebsiteCode": "0980",
+      "站名": "南港",
+      "eng": "Nangang"
+    },
+    {
+      "traWebsiteCode": "0990",
+      "站名": "松山",
+      "eng": "Songshan"
+    },
+    {
+      "traWebsiteCode": "1000",
+      "站名": "臺北",
+      "eng": "Taipei"
+    },
+    {
+      "traWebsiteCode": "1010",
+      "站名": "萬華",
+      "eng": "Wanhua"
+    },
+    {
+      "traWebsiteCode": "1020",
+      "站名": "板橋",
+      "eng": "Banqiao"
+    },
+    {
+      "traWebsiteCode": "1030",
+      "站名": "浮洲",
+      "eng": "Fuzhou"
+    },
+    {
+      "traWebsiteCode": "1040",
+      "站名": "樹林",
+      "eng": "Shulin"
+    },
+    {
+      "traWebsiteCode": "1050",
+      "站名": "南樹林",
+      "eng": "South Shulin"
+    },
+    {
+      "traWebsiteCode": "1060",
+      "站名": "山佳",
+      "eng": "Shanjia"
+    },
+    {
+      "traWebsiteCode": "1070",
+      "站名": "鶯歌",
+      "eng": "Yingge"
+    },
+    {
+      "traWebsiteCode": "1080",
+      "站名": "桃園",
+      "eng": "Taoyuan"
+    },
+    {
+      "traWebsiteCode": "1090",
+      "站名": "內壢",
+      "eng": "Neili"
+    },
+    {
+      "traWebsiteCode": "1100",
+      "站名": "中壢",
+      "eng": "Zhongli"
+    },
+    {
+      "traWebsiteCode": "1110",
+      "站名": "埔心",
+      "eng": "Puxin"
+    },
+    {
+      "traWebsiteCode": "1120",
+      "站名": "楊梅",
+      "eng": "Yangmei"
+    },
+    {
+      "traWebsiteCode": "1130",
+      "站名": "富岡",
+      "eng": "Fugang"
+    },
+    {
+      "traWebsiteCode": "1140",
+      "站名": "新富",
+      "eng": "Xinfu"
+    },
+    {
+      "traWebsiteCode": "1150",
+      "站名": "北湖",
+      "eng": "Beihu"
+    },
+    {
+      "traWebsiteCode": "1160",
+      "站名": "湖口",
+      "eng": "Hukou"
+    },
+    {
+      "traWebsiteCode": "1170",
+      "站名": "新豐",
+      "eng": "Xinfeng"
+    },
+    {
+      "traWebsiteCode": "1180",
+      "站名": "竹北",
+      "eng": "Zhubei"
+    },
+    {
+      "traWebsiteCode": "1190",
+      "站名": "北新竹",
+      "eng": "North Hsinchu"
+    },
+    {
+      "traWebsiteCode": "1210",
+      "站名": "新竹",
+      "eng": "Hsinchu"
+    },
+    {
+      "traWebsiteCode": "1220",
+      "站名": "三姓橋",
+      "eng": "Sanxingqiao"
+    },
+    {
+      "traWebsiteCode": "1230",
+      "站名": "香山",
+      "eng": "Xiangshan"
+    },
+    {
+      "traWebsiteCode": "1240",
+      "站名": "崎頂",
+      "eng": "Qiding"
+    },
+    {
+      "traWebsiteCode": "1250",
+      "站名": "竹南",
+      "eng": "Zhunan"
+    },
+    {
+      "traWebsiteCode": "3140",
+      "站名": "造橋",
+      "eng": "Zaoqiao"
+    },
+    {
+      "traWebsiteCode": "3150",
+      "站名": "豐富",
+      "eng": "Fengfu"
+    },
+    {
+      "traWebsiteCode": "3160",
+      "站名": "苗栗",
+      "eng": "Miaoli"
+    },
+    {
+      "traWebsiteCode": "3170",
+      "站名": "南勢",
+      "eng": "Nanshi"
+    },
+    {
+      "traWebsiteCode": "3180",
+      "站名": "銅鑼",
+      "eng": "Tongluo"
+    },
+    {
+      "traWebsiteCode": "3190",
+      "站名": "三義",
+      "eng": "Sanyi"
+    },
+    {
+      "traWebsiteCode": "3210",
+      "站名": "泰安",
+      "eng": "Tai'an"
+    },
+    {
+      "traWebsiteCode": "3220",
+      "站名": "后里",
+      "eng": "Houli"
+    },
+    {
+      "traWebsiteCode": "3230",
+      "站名": "豐原",
+      "eng": "Fengyuan"
+    },
+    {
+      "traWebsiteCode": "3240",
+      "站名": "栗林",
+      "eng": "Lilin"
+    },
+    {
+      "traWebsiteCode": "3250",
+      "站名": "潭子",
+      "eng": "Tanzi"
+    },
+    {
+      "traWebsiteCode": "3260",
+      "站名": "頭家厝",
+      "eng": "Toujiacuo"
+    },
+    {
+      "traWebsiteCode": "3270",
+      "站名": "松竹",
+      "eng": "Songzhu"
+    },
+    {
+      "traWebsiteCode": "3280",
+      "站名": "太原",
+      "eng": "Taiyuan"
+    },
+    {
+      "traWebsiteCode": "3290",
+      "站名": "精武",
+      "eng": "Jingwu"
+    },
+    {
+      "traWebsiteCode": "3300",
+      "站名": "臺中",
+      "eng": "Taichung"
+    },
+    {
+      "traWebsiteCode": "3310",
+      "站名": "五權",
+      "eng": "Wuquan"
+    },
+    {
+      "traWebsiteCode": "3320",
+      "站名": "大慶",
+      "eng": "Daqing"
+    },
+    {
+      "traWebsiteCode": "3330",
+      "站名": "烏日",
+      "eng": "Wuri"
+    },
+    {
+      "traWebsiteCode": "3340",
+      "站名": "新烏日",
+      "eng": "Xinwuri"
+    },
+    {
+      "traWebsiteCode": "3350",
+      "站名": "成功",
+      "eng": "Chenggong"
+    },
+    {
+      "traWebsiteCode": "3360",
+      "站名": "彰化",
+      "eng": "Changhua"
+    },
+    {
+      "traWebsiteCode": "3370",
+      "站名": "花壇",
+      "eng": "Huatan"
+    },
+    {
+      "traWebsiteCode": "3380",
+      "站名": "大村",
+      "eng": "Dacun"
+    },
+    {
+      "traWebsiteCode": "3390",
+      "站名": "員林",
+      "eng": "Yuanlin"
+    },
+    {
+      "traWebsiteCode": "3400",
+      "站名": "永靖",
+      "eng": "Yongjing"
+    },
+    {
+      "traWebsiteCode": "3410",
+      "站名": "社頭",
+      "eng": "Shetou"
+    },
+    {
+      "traWebsiteCode": "3420",
+      "站名": "田中",
+      "eng": "Tianzhong"
+    },
+    {
+      "traWebsiteCode": "3430",
+      "站名": "二水",
+      "eng": "Ershui"
+    },
+    {
+      "traWebsiteCode": "3450",
+      "站名": "林內",
+      "eng": "Linnei"
+    },
+    {
+      "traWebsiteCode": "3460",
+      "站名": "石榴",
+      "eng": "Shiliu"
+    },
+    {
+      "traWebsiteCode": "3470",
+      "站名": "斗六",
+      "eng": "Douliu"
+    },
+    {
+      "traWebsiteCode": "3480",
+      "站名": "斗南",
+      "eng": "Dounan"
+    },
+    {
+      "traWebsiteCode": "3490",
+      "站名": "石龜",
+      "eng": "Shigui"
+    },
+    {
+      "traWebsiteCode": "4050",
+      "站名": "大林",
+      "eng": "Dalin"
+    },
+    {
+      "traWebsiteCode": "4060",
+      "站名": "民雄",
+      "eng": "Minxiong"
+    },
+    {
+      "traWebsiteCode": "4070",
+      "站名": "嘉北",
+      "eng": "Jiabei"
+    },
+    {
+      "traWebsiteCode": "4080",
+      "站名": "嘉義",
+      "eng": "Chiayi"
+    },
+    {
+      "traWebsiteCode": "4090",
+      "站名": "水上",
+      "eng": "Shuishang"
+    },
+    {
+      "traWebsiteCode": "4100",
+      "站名": "南靖",
+      "eng": "Nanjing"
+    },
+    {
+      "traWebsiteCode": "4110",
+      "站名": "後壁",
+      "eng": "Houbi"
+    },
+    {
+      "traWebsiteCode": "4120",
+      "站名": "新營",
+      "eng": "Xinying"
+    },
+    {
+      "traWebsiteCode": "4130",
+      "站名": "柳營",
+      "eng": "Liuying"
+    },
+    {
+      "traWebsiteCode": "4140",
+      "站名": "林鳳營",
+      "eng": "Linfengying"
+    },
+    {
+      "traWebsiteCode": "4150",
+      "站名": "隆田",
+      "eng": "Longtian"
+    },
+    {
+      "traWebsiteCode": "4160",
+      "站名": "拔林",
+      "eng": "Balin"
+    },
+    {
+      "traWebsiteCode": "4170",
+      "站名": "善化",
+      "eng": "Shanhua"
+    },
+    {
+      "traWebsiteCode": "4180",
+      "站名": "南科",
+      "eng": "Nanke"
+    },
+    {
+      "traWebsiteCode": "4190",
+      "站名": "新市",
+      "eng": "Xinshi"
+    },
+    {
+      "traWebsiteCode": "4200",
+      "站名": "永康",
+      "eng": "Yongkang"
+    },
+    {
+      "traWebsiteCode": "4210",
+      "站名": "大橋",
+      "eng": "Daqiao"
+    },
+    {
+      "traWebsiteCode": "4220",
+      "站名": "臺南",
+      "eng": "Tainan"
+    },
+    {
+      "traWebsiteCode": "4230",
+      "站名": "林森",
+      "eng": "Linsen"
+    },
+    {
+      "traWebsiteCode": "4240",
+      "站名": "南臺南",
+      "eng": "South Tainan"
+    },
+    {
+      "traWebsiteCode": "4250",
+      "站名": "保安",
+      "eng": "Bao'an"
+    },
+    {
+      "traWebsiteCode": "4260",
+      "站名": "仁德",
+      "eng": "Rende"
+    },
+    {
+      "traWebsiteCode": "4270",
+      "站名": "中洲",
+      "eng": "Zhongzhou"
+    },
+    {
+      "traWebsiteCode": "4290",
+      "站名": "大湖",
+      "eng": "Dahu"
+    },
+    {
+      "traWebsiteCode": "4300",
+      "站名": "路竹",
+      "eng": "Luzhu"
+    },
+    {
+      "traWebsiteCode": "4310",
+      "站名": "岡山",
+      "eng": "Gangshan"
+    },
+    {
+      "traWebsiteCode": "4320",
+      "站名": "橋頭",
+      "eng": "Qiaotou"
+    },
+    {
+      "traWebsiteCode": "4330",
+      "站名": "楠梓",
+      "eng": "Nanzi"
+    },
+    {
+      "traWebsiteCode": "4340",
+      "站名": "新左營",
+      "eng": "Xinzuoying"
+    },
+    {
+      "traWebsiteCode": "4350",
+      "站名": "左營",
+      "eng": "Zuoying"
+    },
+    {
+      "traWebsiteCode": "4360",
+      "站名": "內惟",
+      "eng": "Neiwei"
+    },
+    {
+      "traWebsiteCode": "4370",
+      "站名": "美術館",
+      "eng": "Museum of Fine Arts"
+    },
+    {
+      "traWebsiteCode": "4380",
+      "站名": "鼓山",
+      "eng": "Gushan"
+    },
+    {
+      "traWebsiteCode": "4390",
+      "站名": "三塊厝",
+      "eng": "Sankuaicuo"
+    },
+    {
+      "traWebsiteCode": "4400",
+      "站名": "高雄",
+      "eng": "Kaohsiung"
+    },
+    {
+      "traWebsiteCode": "4410",
+      "站名": "民族",
+      "eng": "Minzu"
+    },
+    {
+      "traWebsiteCode": "4420",
+      "站名": "科工館",
+      "eng": "Science And Technology Museum"
+    },
+    {
+      "traWebsiteCode": "4430",
+      "站名": "正義",
+      "eng": "Zhengyi"
+    },
+    {
+      "traWebsiteCode": "4440",
+      "站名": "鳳山",
+      "eng": "Fengshan"
+    },
+    {
+      "traWebsiteCode": "4450",
+      "站名": "後庄",
+      "eng": "Houzhuang"
+    },
+    {
+      "traWebsiteCode": "4460",
+      "站名": "九曲堂",
+      "eng": "Jiuqutang"
+    },
+    {
+      "traWebsiteCode": "4470",
+      "站名": "六塊厝",
+      "eng": "Liukuaicuo"
+    },
+    {
+      "traWebsiteCode": "5000",
+      "站名": "屏東",
+      "eng": "Pingtung"
+    },
+    {
+      "traWebsiteCode": "2110",
+      "站名": "談文",
+      "eng": "Tanwen"
+    },
+    {
+      "traWebsiteCode": "2120",
+      "站名": "大山",
+      "eng": "Dashan"
+    },
+    {
+      "traWebsiteCode": "2130",
+      "站名": "後龍",
+      "eng": "Houlong"
+    },
+    {
+      "traWebsiteCode": "2140",
+      "站名": "龍港",
+      "eng": "Longgang"
+    },
+    {
+      "traWebsiteCode": "2150",
+      "站名": "白沙屯",
+      "eng": "Baishatun"
+    },
+    {
+      "traWebsiteCode": "2160",
+      "站名": "新埔",
+      "eng": "Xinpu"
+    },
+    {
+      "traWebsiteCode": "2170",
+      "站名": "通霄",
+      "eng": "Tongxiao"
+    },
+    {
+      "traWebsiteCode": "2180",
+      "站名": "苑裡",
+      "eng": "Yuanli"
+    },
+    {
+      "traWebsiteCode": "2190",
+      "站名": "日南",
+      "eng": "Rinan"
+    },
+    {
+      "traWebsiteCode": "2200",
+      "站名": "大甲",
+      "eng": "Dajia"
+    },
+    {
+      "traWebsiteCode": "2210",
+      "站名": "臺中港",
+      "eng": "Taichung Port"
+    },
+    {
+      "traWebsiteCode": "2220",
+      "站名": "清水",
+      "eng": "Qingshui"
+    },
+    {
+      "traWebsiteCode": "2230",
+      "站名": "沙鹿",
+      "eng": "Shalu"
+    },
+    {
+      "traWebsiteCode": "2240",
+      "站名": "龍井",
+      "eng": "Longjing"
+    },
+    {
+      "traWebsiteCode": "2250",
+      "站名": "大肚",
+      "eng": "Dadu"
+    },
+    {
+      "traWebsiteCode": "2260",
+      "站名": "追分",
+      "eng": "Zhuifen"
+    },
+    {
+      "traWebsiteCode": "0920",
+      "站名": "八堵"
+    },
+    {
+      "traWebsiteCode": "7390",
+      "站名": "暖暖",
+      "eng": "Nuannuan"
+    },
+    {
+      "traWebsiteCode": "7380",
+      "站名": "四腳亭",
+      "eng": "Sijiaoting"
+    },
+    {
+      "traWebsiteCode": "7360",
+      "站名": "瑞芳",
+      "eng": "Ruifang"
+    },
+    {
+      "traWebsiteCode": "7350",
+      "站名": "猴硐",
+      "eng": "Houtong"
+    },
+    {
+      "traWebsiteCode": "7330",
+      "站名": "三貂嶺",
+      "eng": "Sandiaoling"
+    },
+    {
+      "traWebsiteCode": "7320",
+      "站名": "牡丹",
+      "eng": "Mudan"
+    },
+    {
+      "traWebsiteCode": "7310",
+      "站名": "雙溪",
+      "eng": "Shuangxi"
+    },
+    {
+      "traWebsiteCode": "7300",
+      "站名": "貢寮",
+      "eng": "Gongliao"
+    },
+    {
+      "traWebsiteCode": "7290",
+      "站名": "福隆",
+      "eng": "Fulong"
+    },
+    {
+      "traWebsiteCode": "7280",
+      "站名": "石城",
+      "eng": "Shicheng"
+    },
+    {
+      "traWebsiteCode": "7270",
+      "站名": "大里",
+      "eng": "Dali"
+    },
+    {
+      "traWebsiteCode": "7260",
+      "站名": "大溪",
+      "eng": "Daxi"
+    },
+    {
+      "traWebsiteCode": "7250",
+      "站名": "龜山",
+      "eng": "Guishan"
+    },
+    {
+      "traWebsiteCode": "7240",
+      "站名": "外澳",
+      "eng": "Wai'ao"
+    },
+    {
+      "traWebsiteCode": "7230",
+      "站名": "頭城",
+      "eng": "Toucheng"
+    },
+    {
+      "traWebsiteCode": "7220",
+      "站名": "頂埔",
+      "eng": "Dingpu"
+    },
+    {
+      "traWebsiteCode": "7210",
+      "站名": "礁溪",
+      "eng": "Jiaoxi"
+    },
+    {
+      "traWebsiteCode": "7200",
+      "站名": "四城",
+      "eng": "Sicheng"
+    },
+    {
+      "traWebsiteCode": "7190",
+      "站名": "宜蘭",
+      "eng": "Yilan"
+    },
+    {
+      "traWebsiteCode": "7180",
+      "站名": "二結",
+      "eng": "Erjie"
+    },
+    {
+      "traWebsiteCode": "7170",
+      "站名": "中里",
+      "eng": "Zhongli"
+    },
+    {
+      "traWebsiteCode": "7160",
+      "站名": "羅東",
+      "eng": "Luodong"
+    },
+    {
+      "traWebsiteCode": "7150",
+      "站名": "冬山",
+      "eng": "Dongshan"
+    },
+    {
+      "traWebsiteCode": "7140",
+      "站名": "新馬",
+      "eng": "Xinma"
+    },
+    {
+      "traWebsiteCode": "7130",
+      "站名": "蘇澳新站",
+      "eng": "Su'aoxin"
+    },
+    {
+      "traWebsiteCode": "7110",
+      "站名": "永樂",
+      "eng": "Yongle"
+    },
+    {
+      "traWebsiteCode": "7100",
+      "站名": "東澳",
+      "eng": "Dong'ao"
+    },
+    {
+      "traWebsiteCode": "7090",
+      "站名": "南澳",
+      "eng": "Nan'ao"
+    },
+    {
+      "traWebsiteCode": "7080",
+      "站名": "武塔",
+      "eng": "Wuta"
+    },
+    {
+      "traWebsiteCode": "7070",
+      "站名": "漢本",
+      "eng": "Hanben"
+    },
+    {
+      "traWebsiteCode": "7060",
+      "站名": "和平",
+      "eng": "Heping"
+    },
+    {
+      "traWebsiteCode": "7050",
+      "站名": "和仁",
+      "eng": "Heren"
+    },
+    {
+      "traWebsiteCode": "7040",
+      "站名": "崇德",
+      "eng": "Chongde"
+    },
+    {
+      "traWebsiteCode": "7030",
+      "站名": "新城",
+      "eng": "Xincheng"
+    },
+    {
+      "traWebsiteCode": "7020",
+      "站名": "景美",
+      "eng": "Jingmei"
+    },
+    {
+      "traWebsiteCode": "7010",
+      "站名": "北埔",
+      "eng": "Beipu"
+    },
+    {
+      "traWebsiteCode": "7000",
+      "站名": "花蓮",
+      "eng": "Hualien"
+    },
+    {
+      "traWebsiteCode": "6250",
+      "站名": "吉安",
+      "eng": "Ji'an"
+    },
+    {
+      "traWebsiteCode": "6240",
+      "站名": "志學",
+      "eng": "Zhixue"
+    },
+    {
+      "traWebsiteCode": "6230",
+      "站名": "平和",
+      "eng": "Pinghe"
+    },
+    {
+      "traWebsiteCode": "6220",
+      "站名": "壽豐",
+      "eng": "Shoufeng"
+    },
+    {
+      "traWebsiteCode": "6210",
+      "站名": "豐田",
+      "eng": "Fengtian"
+    },
+    {
+      "traWebsiteCode": "6200",
+      "站名": "林榮新光",
+      "eng": "Linrong Shin Kong"
+    },
+    {
+      "traWebsiteCode": "6190",
+      "站名": "南平",
+      "eng": "Nanping"
+    },
+    {
+      "traWebsiteCode": "6180",
+      "站名": "鳳林",
+      "eng": "Fenglin"
+    },
+    {
+      "traWebsiteCode": "6170",
+      "站名": "萬榮",
+      "eng": "Wanrong"
+    },
+    {
+      "traWebsiteCode": "6160",
+      "站名": "光復",
+      "eng": "Guangfu"
+    },
+    {
+      "traWebsiteCode": "6150",
+      "站名": "大富",
+      "eng": "Dafu"
+    },
+    {
+      "traWebsiteCode": "6140",
+      "站名": "富源",
+      "eng": "Fuyuan"
+    },
+    {
+      "traWebsiteCode": "6130",
+      "站名": "瑞穗",
+      "eng": "Ruisui"
+    },
+    {
+      "traWebsiteCode": "6120",
+      "站名": "三民",
+      "eng": "Sanmin"
+    },
+    {
+      "traWebsiteCode": "6110",
+      "站名": "玉里",
+      "eng": "Yuli"
+    },
+    {
+      "traWebsiteCode": "6100",
+      "站名": "東里",
+      "eng": "Dongli"
+    },
+    {
+      "traWebsiteCode": "6090",
+      "站名": "東竹",
+      "eng": "Dongzhu"
+    },
+    {
+      "traWebsiteCode": "6080",
+      "站名": "富里",
+      "eng": "Fuli"
+    },
+    {
+      "traWebsiteCode": "6070",
+      "站名": "池上",
+      "eng": "Chishang"
+    },
+    {
+      "traWebsiteCode": "6060",
+      "站名": "海端",
+      "eng": "Haiduan"
+    },
+    {
+      "traWebsiteCode": "6050",
+      "站名": "關山",
+      "eng": "Guanshan"
+    },
+    {
+      "traWebsiteCode": "6040",
+      "站名": "瑞和",
+      "eng": "Ruihe"
+    },
+    {
+      "traWebsiteCode": "6030",
+      "站名": "瑞源",
+      "eng": "Ruiyuan"
+    },
+    {
+      "traWebsiteCode": "6020",
+      "站名": "鹿野",
+      "eng": "Luye"
+    },
+    {
+      "traWebsiteCode": "6010",
+      "站名": "山里",
+      "eng": "Shanli"
+    },
+    {
+      "traWebsiteCode": "6000",
+      "站名": "臺東",
+      "eng": "Taitung"
+    },
+    {
+      "traWebsiteCode": "5000",
+      "站名": "屏東"
+    },
+    {
+      "traWebsiteCode": "5010",
+      "站名": "歸來",
+      "eng": "Guilai"
+    },
+    {
+      "traWebsiteCode": "5020",
+      "站名": "麟洛",
+      "eng": "Linluo"
+    },
+    {
+      "traWebsiteCode": "5030",
+      "站名": "西勢",
+      "eng": "Xishi"
+    },
+    {
+      "traWebsiteCode": "5040",
+      "站名": "竹田",
+      "eng": "Zhutian"
+    },
+    {
+      "traWebsiteCode": "5050",
+      "站名": "潮州",
+      "eng": "Chaozhou"
+    },
+    {
+      "traWebsiteCode": "5060",
+      "站名": "崁頂",
+      "eng": "Kanding"
+    },
+    {
+      "traWebsiteCode": "5070",
+      "站名": "南州",
+      "eng": "Nanzhou"
+    },
+    {
+      "traWebsiteCode": "5080",
+      "站名": "鎮安",
+      "eng": "Zhen'an"
+    },
+    {
+      "traWebsiteCode": "5090",
+      "站名": "林邊",
+      "eng": "Linbian"
+    },
+    {
+      "traWebsiteCode": "5100",
+      "站名": "佳冬",
+      "eng": "Jiadong"
+    },
+    {
+      "traWebsiteCode": "5110",
+      "站名": "東海",
+      "eng": "Donghai"
+    },
+    {
+      "traWebsiteCode": "5120",
+      "站名": "枋寮",
+      "eng": "Fangliao"
+    },
+    {
+      "traWebsiteCode": "5130",
+      "站名": "加祿",
+      "eng": "Jialu"
+    },
+    {
+      "traWebsiteCode": "5140",
+      "站名": "內獅",
+      "eng": "Neishi"
+    },
+    {
+      "traWebsiteCode": "5160",
+      "站名": "枋山",
+      "eng": "Fangshan"
+    },
+    {
+      "traWebsiteCode": "5190",
+      "站名": "大武",
+      "eng": "Dawu"
+    },
+    {
+      "traWebsiteCode": "5200",
+      "站名": "瀧溪",
+      "eng": "Longxi"
+    },
+    {
+      "traWebsiteCode": "5210",
+      "站名": "金崙",
+      "eng": "Jinlun"
+    },
+    {
+      "traWebsiteCode": "5220",
+      "站名": "太麻里",
+      "eng": "Taimali"
+    },
+    {
+      "traWebsiteCode": "5230",
+      "站名": "知本",
+      "eng": "Zhiben"
+    },
+    {
+      "traWebsiteCode": "5240",
+      "站名": "康樂",
+      "eng": "Kangle"
+    },
+    {
+      "traWebsiteCode": "6000",
+      "站名": "臺東"
+    },
+    {
+      "traWebsiteCode": "7330",
+      "站名": "三貂嶺"
+    },
+    {
+      "traWebsiteCode": "7331",
+      "站名": "大華",
+      "eng": "Dahua"
+    },
+    {
+      "traWebsiteCode": "7332",
+      "站名": "十分",
+      "eng": "Shifen"
+    },
+    {
+      "traWebsiteCode": "7333",
+      "站名": "望古",
+      "eng": "Wanggu"
+    },
+    {
+      "traWebsiteCode": "7334",
+      "站名": "嶺腳",
+      "eng": "Lingjiao"
+    },
+    {
+      "traWebsiteCode": "7335",
+      "站名": "平溪",
+      "eng": "Pingxi"
+    },
+    {
+      "traWebsiteCode": "7336",
+      "站名": "菁桐",
+      "eng": "Jingtong"
+    },
+    {
+      "traWebsiteCode": "1210",
+      "站名": "新竹"
+    },
+    {
+      "traWebsiteCode": "1190",
+      "站名": "北新竹"
+    },
+    {
+      "traWebsiteCode": "1191",
+      "站名": "千甲",
+      "eng": "Qianjia"
+    },
+    {
+      "traWebsiteCode": "1192",
+      "站名": "新莊",
+      "eng": "Xinzhuang"
+    },
+    {
+      "traWebsiteCode": "1193",
+      "站名": "竹中",
+      "eng": "Zhuzhong"
+    },
+    {
+      "traWebsiteCode": "1201",
+      "站名": "上員",
+      "eng": "Shangyuan"
+    },
+    {
+      "traWebsiteCode": "1202",
+      "站名": "榮華",
+      "eng": "Ronghua"
+    },
+    {
+      "traWebsiteCode": "1203",
+      "站名": "竹東",
+      "eng": "Zhudong"
+    },
+    {
+      "traWebsiteCode": "1204",
+      "站名": "橫山",
+      "eng": "Hengshan"
+    },
+    {
+      "traWebsiteCode": "1205",
+      "站名": "九讚頭",
+      "eng": "Jiuzantou"
+    },
+    {
+      "traWebsiteCode": "1206",
+      "站名": "合興",
+      "eng": "Hexing"
+    },
+    {
+      "traWebsiteCode": "1207",
+      "站名": "富貴",
+      "eng": "Fugui"
+    },
+    {
+      "traWebsiteCode": "1208",
+      "站名": "內灣",
+      "eng": "Neiwan"
+    },
+    {
+      "traWebsiteCode": "3430",
+      "站名": "二水"
+    },
+    {
+      "traWebsiteCode": "3431",
+      "站名": "源泉",
+      "eng": "Yuanquan"
+    },
+    {
+      "traWebsiteCode": "3432",
+      "站名": "濁水",
+      "eng": "Zhuoshui"
+    },
+    {
+      "traWebsiteCode": "3433",
+      "站名": "龍泉",
+      "eng": "Longquan"
+    },
+    {
+      "traWebsiteCode": "3434",
+      "站名": "集集",
+      "eng": "Jiji"
+    },
+    {
+      "traWebsiteCode": "3435",
+      "站名": "水里",
+      "eng": "Shuili"
+    },
+    {
+      "traWebsiteCode": "3436",
+      "站名": "車埕",
+      "eng": "Checheng"
+    },
+    {
+      "traWebsiteCode": "3350",
+      "站名": "成功"
+    },
+    {
+      "traWebsiteCode": "2260",
+      "站名": "追分"
+    },
+    {
+      "traWebsiteCode": "4270",
+      "站名": "中洲"
+    },
+    {
+      "traWebsiteCode": "4271",
+      "站名": "長榮大學",
+      "eng": "Chang Jung Christian University"
+    },
+    {
+      "traWebsiteCode": "4272",
+      "站名": "沙崙",
+      "eng": "Shalun"
+    },
+    {
+      "traWebsiteCode": "1193",
+      "站名": "竹中"
+    },
+    {
+      "traWebsiteCode": "1194",
+      "站名": "六家",
+      "eng": "Liujia"
+    },
+    {
+      "traWebsiteCode": "7360",
+      "站名": "瑞芳"
+    },
+    {
+      "traWebsiteCode": "7361",
+      "站名": "海科館",
+      "eng": "Haikeguan"
+    },
+    {
+      "traWebsiteCode": "7362",
+      "站名": "八斗子",
+      "eng": "Badouzi"
+    }
+  ]
+}
