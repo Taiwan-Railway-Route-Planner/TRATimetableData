@@ -17,3 +17,11 @@ type: csv (offices.csv)
 
 [http://163.29.3.98/xml/](http://163.29.3.98/xml/)\
 [http://163.29.3.98/json/](http://163.29.3.98/json/)
+
+
+
+[https://depickeresven.github.io/TRA-Information/stationInfo.json](StationInfo with names in English)
+
+### Schedules in JSON 
+
+By example https://depickeresven.github.io/TRA-Information/Schedules/20190615.json
