@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<meta charset="UTF-8">
+<!--電子分類檢索START-->
+<!-- <meta http-equiv="Pragma" content="no-cache" /> -->
+<!-- <meta http-equiv="Cache-Control" content="no-cache" /> -->
+<meta http-equiv="Expires" content="0" />
+<meta property="og:image" content="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/images/train.jpg">
+<meta property="og:title" content="交通部臺灣鐵路管理局">
+<!-- <meta name="_csrf" th:content="${_csrf.token}" /> -->
+<!-- <meta name="_csrf_header" th:content="${_csrf.headerName}" /> -->
+<meta name="DC.Title" content="TRA WebSite - tw">
+<meta name="DC.Creator" content="交通部臺灣鐵路管理局">
+<meta name="DC.Subject" content="TRA WebSite - tw">
+<meta name="DC.Description" content="">
+<meta name="DC.Contributor" content="交通部臺灣鐵路管理局">
+<meta name="DC.Type" content="Text">
+<meta name="DC.Format" content="text/html">
+<meta name="DC.Source" content="交通部臺灣鐵路管理局">
+<meta name="DC.Language" content="中文">
+<meta name="DC.coverage.t.max" content="">
+<meta name="DC.coverage.t.min" content="">
+<meta name="DC.Publisher" content="交通部臺灣鐵路管理局">
+<meta name="DC.Date" content="2008-12-11">
+<meta name="DC.Identifier" content="315180000M">
+<meta name="DC.Rights" content="交通部臺灣鐵路管理局">
+<meta name="Category.Theme" content="9Z0">
+<meta name="Category.Cake" content="J4Z">
+<meta name="Category.Service" content="I6Z">
+
+<meta name="Keywords" content="交通部臺灣鐵路管理局, 臺灣鐵路管理局, 台鐵, Railway,台鐵 悠遊卡,多卡通,腳踏車 火車,去回票,台鐵 無障礙,阿里山小火車,電子票證">
+<!--電子分類檢索END-->
+<link rel="shortcut icon" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/images/favicon.ico">
+<title>交通部臺灣鐵路管理局</title>
+
+
+
+
+	<!--[if lte IE 9]>
+    <link rel="stylesheet" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/tip_default_ie8.css">
+    <script src="/tra-tip-web/static/js/jquery.min-1.12.js"></script>
+    <script src="/tra-tip-web/static/js/html5shiv.min.js"></script>
+    <script src="/tra-tip-web/static/js/respond.min.js"></script>
+    <script>
+    window.location.href = '/tra-tip-web/tip/iebox'
+    </script>
+    <![endif]-->
+
+	<link rel="stylesheet" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/webjars/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/webjars/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/tip_normal.css?version=8.6.9">
+
+	<link rel="stylesheet" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/tip_default.css?version=8.6.9">
+	<link rel="stylesheet" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/tip_station_map.css?version=8.6.9">
+	<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/085DF4FA-653C-F34A-B052-76F52B5EE07C/main.js" charset="UTF-8"></script><style>
+@media print {
+	a[href]:after {
+		content: none !important;
+	}
+}
+</style>
+
+	<!-- /*外文版的css*/ -->
+
+
+	<link href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/images/favicon.ico" rel="icon" type="image/ico">
+
+
+	<link href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/traincode.css?version=8.6.9" rel="stylesheet">
+
+
+
+	<script src="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/webjars/jquery/1.12.4/dist/jquery.min.js"></script>
+	<script src="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/webjars/jquery-blockui/2.65/jquery.blockUI.js"></script>
+	<script src="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/script/tip_default.js?version=8.6.9"></script>
+
+	<script src="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/script/tipCommon.js?version=8.6.9"></script>
+	<script src="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/script/jquery.subwayMap-0.5.1-train.js?version=8.6.9"></script>
+	<script src="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/webjars/bootstrap-3-datepicker/1.6.4/dist/js/bootstrap-datepicker.min.js"></script>
+	<script src="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/webjars/bootstrap-3-datepicker/1.6.4/dist/locales/bootstrap-datepicker.zh-TW.min.js"></script>
+
+
+
+
+
+
+	<script type="text/javascript">
+		function showBlockUI() {
+			$.blockUI({
+				message : '處理中，請稍候...'
+			});
+		}
+		// 關 blockUI
+		function unBlockUI() {
+			$.unblockUI();
+		}
+		<!-- /* 修正 safari 上一頁cache停留blockUI()問題 */ -->
+		window.onpageshow = function(event) {
+		    if (event.persisted) {
+		        $.unblockUI();
+		    }
+		};
+		$(function(){
+			$('input[data-plugin=datepicker]').keypress(function(){
+				$(this).attr('maxlength',10)
+				if($(this).val().length == 4||$(this).val().length == 7){
+					var rideDateValue = $(this).val();
+					$(this).val(rideDateValue.concat('/'))
+				}
+			})
+		})
+		if(!(document.cookie || navigator.cookieEnabled)){
+			alert("\u8ACB\u5C07\u700F\u89BD\u5668\u8A2D\u70BA\u555F\u7528 Cookies \u3002 Cookie \u662F\u5132\u5B58\u5728\u60A8\u96FB\u8166\u4E2D\u6709\u52A9\u65BC\u7CFB\u7D71\u904B\u4F5C\u7684\u6A94\u6848\u3002\u5982\u679C\u7121\u6CD5\u6B63\u5E38\u4F7F\u7528\u672C\u7DB2\u7AD9\u76F8\u95DC\u529F\u80FD\uFF0C\u8ACB\u6AA2\u67E5\u60A8\u7684\u700F\u89BD\u5668\u662F\u5426\u5DF2\u8A2D\u70BA\u63A5\u53D7 Cookie\u3002\u5982\u679C\u672A\u8A2D\u5B9A\u63A5\u53D7Cookie\uFF0C\u53EF\u80FD\u5C31\u6C92\u6709\u8FA6\u6CD5\u4FDD\u6301\u6B63\u5E38\u64CD\u4F5C\u3002");
+		};
+	</script>
+
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136244739-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-136244739-1');
+	</script>
+
+</head>
+<body class="demo-include">
+	<!--頂端功能(在tip_demo.js載入_tmp_header.html的內容)-->
+	<div class="header">
+		<div class="container">
+			<!--快速鍵-->
+			<a href="#U" id="AU" name="U" title="上方功能區塊" accesskey="U">:::</a>
+			<!--logo 區-->
+			<div class="logo col-xs-8">
+				<a href="/tra-tip-web/tip" title="交通部臺灣鐵路管理局">
+					<img src="/tra-tip-web/static/images/logo-tra.png" alt="交通部臺灣鐵路管理局LOGO">
+				</a>
+			</div>
+			<!-- 右側選單 -->
+			<div class="navtop col-xs-4">
+				<li class="login">
+					<a href="/tra-tip-web/tip/tip008/tip811/memberLogin" title="登入" alt="登入">登入</a>
+
+						<a href="/tra-tip-web/tip/tip008/tip821/createPerson" title="註冊" alt="註冊">註冊</a>
+
+				</li>
+
+
+				<!--語言切換 尚未上線 先註解-->
+				<li class="language-selector">
+					<div class="dropdown">
+						<a id="dLabe1" class="langon" href="/tra-tip-web/tip?lang=ZH_TW" data-toggle="dropdown" role="button" title="Language">Language</a>
+						<ul class="dropdown-menu" aria-labelledby="dLabe1">
+							<li>
+								<a href="/tra-tip-web/tip?lang=ZH_TW" title="繁體中文">繁體中文</a>
+							</li>
+							<li>
+								<a href="/tra-tip-web/tip?lang=ZH_CN" title="简体中文">简体中文</a>
+							</li>
+							<li>
+								<a href="/tra-tip-web/tip?lang=EN_US" title="English">English</a>
+							</li>
+							<li>
+								<a href="/tra-tip-web/tip?lang=JA_JP" title="日本語">日本語</a>
+							</li>
+							<li>
+								<a href="/tra-tip-web/tip?lang=KO_KA" title="한국어">한국어</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<!--語言切換 end-->
+			</div>
+			<div class="btntop">
+				<a href="#top" title="回頁面上方" class="icon-fa chevron-up">TOP</a>
+			</div>
+			<!-- 						<input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" /> -->
+		</div>
+	</div>
+
+
+	<!--主選單(在tip_demo.js載入_tmp_menu.html的內容)-->
+	<div class="menu">
+		<div class="container">
+			<ul class="parent">
+				<li>
+					<a href="" title="線上訂票">線上訂票</a>
+					<div class="sub">
+
+							<ul class="container sub-area menusub-1">
+								<li>
+									<div class="menutitle">一般票券</div>
+									<ul class="menu-item">
+										<li class="book-ticket">
+											<div>自強/莒光/普悠瑪 等列車 單/多行程 訂票</div>
+											<div class="book-ticket-btn">
+												<a href="/tra-tip-web/tip/tip001/tip121/query" class="btn btn-line btn-lg booking-user" title="個人訂票">個人訂票</a>
+												<a href="/tra-tip-web/tip/tip002/tip210/query" class="btn btn-line btn-lg booking-users" title="團體訂票">團體訂票</a>
+											</div>
+										</li>
+									</ul>
+									<ul class="menu-item column2">
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip001/tip112/gobytime" title="列車時刻/車次查詢">列車時刻/車次查詢</a>
+										</li>
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip001/tip115/query" title="個人訂票紀錄查詢/取消訂票/網路付款">個人訂票紀錄查詢/取消訂票/網路付款</a>
+										</li>
+
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip001/tip119/queryTime" title="剩餘座位查詢">剩餘座位查詢</a>
+										</li>
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip00C/tipC11/view11" title="車票類型與價格">車票類型與價格</a>
+										</li>
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip002/tip212/gobytime" title="團體訂票剩餘座位查詢">團體訂票剩餘座位查詢</a>
+										</li>
+										<li class="sublist" style="visibility: hidden">
+											<a href="" title="車票類型與價格">要多長兩列撐開才不會破版</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+
+
+					</div>
+				</li>
+				<li>
+					<a href="" title="旅客服務">旅客服務</a>
+					<div class="sub">
+						<ul class="container sub-area menusub-3">
+							<li>
+								<div class="menutitle">票價與訂票流程</div>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00C/tipC11/view11" title="車票類型與價格">車票類型與價格</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00C/tipC12/view10" title="購票/取票說明">購票/取票說明</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00C/tipC13/view11" title="退/換票">退/換票</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00C/tipC14/view" title="電子票證乘車">電子票證乘車</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00C/tipC14/creditCardInfo" title="信用卡付款">信用卡付款</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00C/tipC14/buyLunchBox" title="網路訂票預訂便當公告">網路訂票預訂便當公告</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip001/tip114/query" title="票價試算">票價試算</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<div class="menutitle">列車時刻與轉乘</div>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip001/tip112/gobytime" title="列車時刻/車次查詢">列車時刻/車次查詢</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip001/tip117/queryTraTransferThsr" title="臺鐵高鐵轉乘查詢">臺鐵高鐵轉乘查詢</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip007/tip711/blockList" title="路線運行狀態">路線運行狀態</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00H/tipH41/goTH41" title="車站與周邊資訊">車站與周邊資訊</a>
+									</li>
+									<!-- 									<li class="sublist"> -->
+									<!-- 										<a th:href="@{/tip/tip001/tip118/delayCertificate}" th:title="#{tip.breadcrumb.delayCertificate}" th:text="#{tip.breadcrumb.delayCertificate}">誤點證明</a> -->
+									<!-- 									</li> -->
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00C/tipC19/view10" title="時刻表下載">時刻表下載</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00C/tipC19/view30" title="停車場收費標準">停車場收費標準</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<div class="menutitle">行李/包裹託運</div>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00C/tipC15/view10" title="託運規範">託運規範</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00C/tipC16/view10" title="運費說明">運費說明</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00C/tipC17/view" title="自動存物箱寄存服務">自動存物箱寄存服務</a>
+									</li>
+								</ul>
+							</li>
+
+
+								<li>
+									<div class="menutitle">
+										<a class="icon-fa angle-right" href="/tra-tip-web/tip/tip009/tip911/newsList" title="最新消息">最新消息</a>
+									</div>
+									<div class="menutitle">
+										<a class="icon-fa angle-right" href="/tra-tip-web/tip/tip00E/tipE11/goTE11" title="遺失物公告">遺失物公告</a>
+									</div>
+									<div class="menutitle">
+										<a class="icon-fa angle-right" href="/tra-tip-web/tip/tip008/tip847/query" title="常見問題">常見問題</a>
+									</div>
+									<div class="menutitle">
+										<a class="icon-fa angle-right" href="/tra-tip-web/tip/callCenter" title="聯絡客服">聯絡客服</a>
+									</div>
+									<div class="menutitle">
+										<a class="icon-fa angle-right" href="/tra-tip-web/tip/tip00C/tipC18/view00" title="旅客運送契約">旅客運送契約</a>
+									</div>
+									<!-- 									<div class="menutitle"> -->
+									<!-- 										<a class="icon-fa angle-right" th:href="@{/tip/tip00C/tipC18/view00}" th:title="#{tip.menu.title.passengerRegulation}" th:text="#{tip.breadcrumb.passengerContract}">乘車規範</a> -->
+									<!-- 									</div> -->
+									<div class="menutitle">
+										<a class="icon-fa angle-right" href="/tra-tip-web/tip/tip00C/tipC20/view00" title="無障礙空間說明">無障礙空間說明</a>
+									</div>
+								</li>
+
+
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a href="">旅遊票券</a>
+					<div class="sub">
+						<ul class="container sub-area menusub-1">
+							<li>
+								<div class="menutitle">旅遊票券</div>
+								<ul class="menu-item column3">
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip003/tip311/view10" title="TR-PASS">TR-PASS</a>
+										<div class="subtitle" title="旅客環臺一日/多日券">旅客環臺一日/多日券</div>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00D/tipD11/view11" title="兩鐵列車">兩鐵列車</a>
+										<div class="subtitle" title="旅客與腳踏車共同搭乘">旅客與腳踏車共同搭乘</div>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00H/tipH11/query" title="郵輪式列車">郵輪式列車</a>
+										<div class="subtitle" title="一輛會等人的列車">一輛會等人的列車</div>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip003/tip313/view10" title="一日周遊券">周遊券/悠遊券</a>
+										<div class="subtitle">平溪、內灣、集集列車</div>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip003/tip312/view10" title="交通聯票">交通聯票</a>
+										<div class="subtitle" title="搭配其他大眾運輸">搭配其他大眾運輸</div>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip003/tip314/view" title="Joint-Pass雙鐵周遊券">Joint-Pass雙鐵周遊券</a>
+										<div class="subtitle" title="專屬外國國籍旅客搭乘優惠">專屬外國國籍旅客搭乘優惠</div>
+									</li>
+									<li class="sublist">
+										<a href="https://afrch.forest.gov.tw/" title="阿里山林業鐵路" target="_blank">阿里山林業鐵路</a>
+										<div class="subtitle" title="代售阿里山林業鐵路票券">代售阿里山林業鐵路票券</div>
+									</li>
+									<li class="sublist">
+										<a href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/TRA_Sightseeing/index.html" title="國際鐵道觀光交流" target="_blank">國際鐵道觀光交流</a>
+										<div class="subtitle" title="國際鐵道觀光交流">國際鐵道觀光交流</div>
+									</li>
+
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a href="/tra-tip-web/tip/tip00H/tipH21/goTH21" title="鐵道旅遊">鐵道旅遊</a>
+					<div class="sub">
+						<ul class="container sub-area menusub-2">
+
+								<li>
+									<div class="menutitle">
+										<a class="icon-fa angle-right" href="/tra-tip-web/tip/tip00H/tipH21/query?ratraClass=8a8183195ca5257a015ca527a8930000&amp;ratraSecondClass=0" title="主題旅遊">主題旅遊</a>
+									</div>
+									<ul class="menu-item">
+
+											<li class="sublist">
+												<a href="/tra-tip-web/tip/tip00H/tipH21/query?ratraClass=8a8183195ca5257a015ca527a8930000&amp;ratraSecondClass=8ae4cac25f9448c7015f999dbbbc002b" title="知識之旅">知識之旅</a>
+											</li>
+
+
+
+											<li class="sublist">
+												<a href="/tra-tip-web/tip/tip00H/tipH21/query?ratraClass=8a8183195ca5257a015ca527a8930000&amp;ratraSecondClass=2c948a825ce2f2c3015ce3d2400d0014" title="在地之旅">在地之旅</a>
+											</li>
+
+
+
+											<li class="sublist">
+												<a href="/tra-tip-web/tip/tip00H/tipH21/query?ratraClass=8a8183195ca5257a015ca527a8930000&amp;ratraSecondClass=2c948a825ce2f2c3015ce3d1f4950013" title="支線之旅">支線之旅</a>
+											</li>
+
+
+
+									</ul>
+
+								</li>
+
+							<li>
+								<div class="menutitle">
+									<a class="icon-fa angle-right" href="javascript:void(0)">推薦旅遊</a>
+								</div>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/TRA_Sightseeing/index.html" title="國際鐵道觀光交流" target="_blank">國際鐵道觀光交流</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/tip/tip00H/tipH21/summerisland" title="仲夏寶島號">仲夏寶島號</a>
+									</li>
+								</ul>
+							</li>
+							<li></li>
+							<li class="travel-area">
+								<div class="travel-area-inner">
+
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<a href="" title="線上購物">線上購物</a>
+					<div class="sub">
+
+							<ul class="container sub-area menusub-4">
+								<li>
+									<div class="menutitle">
+										<a class="icon-fa angle-right" href="/tra-tip-web/tip/tip005/tip511/shop" title="臺鐵夢工場">臺鐵夢工場</a>
+									</div>
+									<ul class="menu-item">
+										<li class="sublist">
+											<a title="視聽圖書" href="/tra-tip-web/tip/tip005/tip511/query?goodsTypeCode=GOODTYPE01">視聽圖書</a>
+										</li>
+										<li class="sublist">
+											<a title="趣味生活" href="/tra-tip-web/tip/tip005/tip511/query?goodsTypeCode=GOODTYPE02">趣味生活</a>
+										</li>
+										<li class="sublist">
+											<a title="服飾配件" href="/tra-tip-web/tip/tip005/tip511/query?goodsTypeCode=GOODTYPE03">服飾配件</a>
+										</li>
+										<li class="sublist">
+											<a title="火車模型" href="/tra-tip-web/tip/tip005/tip511/query?goodsTypeCode=GOODTYPE04">火車模型</a>
+										</li>
+										<li class="sublist">
+											<a title="主題與人物" href="/tra-tip-web/tip/tip005/tip511/query?goodsTypeCode=GOODTYPE05">主題與人物</a>
+										</li>
+										<li class="sublist">
+											<a title="福袋活動" href="/tra-tip-web/tip/tip005/tip511/luckyBag">福袋活動</a>
+										</li>
+									</ul>
+									<ul class="menu-item">
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip009/tip911/newsList" title="最新消息">最新消息</a>
+										</li>
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip005/tip511/stores" title="門市據點">門市據點</a>
+										</li>
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip005/tip511/about" title="品牌故事">品牌故事</a>
+										</li>
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip008/tip847/query" title="常見問題">常見問題</a>
+										</li>
+										<li class="sublist unvisible">
+											<a href="" title="訂單查詢">訂單查詢</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<div class="menutitle">
+										<a class="icon-fa angle-right" href="/tra-tip-web/tip/tip004/tip421/entry" title="鐵路便當">鐵路便當</a>
+									</div>
+									<ul class="menu-item">
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip004/tip421/entry" title="便當菜色">便當菜色</a>
+										</li>
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip004/tip421/delivery" title="便當外送資訊">便當外送資訊</a>
+										</li>
+									</ul>
+									<ul class="menu-item">
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip008/tip847/query" title="常見問題">常見問題</a>
+										</li>
+										<li class="sublist">
+											<a href="/tra-tip-web/tip/tip004/tip431/orderView" title="訂單查詢">訂單查詢</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+
+
+					</div>
+				</li>
+				<li>
+					<a href="" title="會員服務">會員服務</a>
+					<div class="sub">
+						<div class="container sub-area">
+							<!--未登入時-->
+							<div class="sub-account">
+								<div class="menutitle">為什麼要加入會員</div>
+								<p>加入臺鐵會員可以享有專屬服務，包含「會員點數」、「車位候補」、「分級優惠」等服務。出外旅遊少不了火車的你，趕快加入會員吧！</p>
+								<div class="btn-fullgroup2">
+									<a href="/tra-tip-web/tip/tip008/tip821/createPerson" class="btn btn-basic btn-lg" title="加入會員">加入會員</a>
+									<a href="/tra-tip-web/tip/tip008/tip811/memberLogin" class="btn btn-line btn-lg" title="會員登入">會員登入</a>
+								</div>
+								<ul class="menu-item">
+									<li class="sublist" style="margin-bottom: 10px; margin-top: 10px;">
+										<a href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/file/Member_Regulation.pdf" download="">
+											會員服務規約
+											<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+											PDF
+										</a>
+									</li>
+									<li class="sublist" style="margin-bottom: 10px;">
+										<a href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/file/Member_Point.pdf" download="">
+											會員點數累積及使用辦法說明
+											<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+											PDF
+										</a>
+									</li>
+									<li class="sublist" style="margin-bottom: 10px;">
+										<a href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/file/Member_Level.pdf" download="">
+											會員等級說明表
+											<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+											PDF
+										</a>
+									</li>
+									<li class="sublist" style="margin-bottom: 10px;">
+										<a href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/file/Member_QA.pdf" download="">
+											會員服務常見問答
+											<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+											PDF
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--已登入-->
+
+					</div>
+				</li>
+				<li>
+					<a href="" title="招商資訊">招商資訊</a>
+					<div class="sub">
+
+						<ul class="container sub-area menusub-4">
+							<li>
+								<div class="menutitle">
+									<a class="icon-fa angle-right" href="/tra-tip-web/adr/rent-place-1" title="招商出租">招商出租</a>
+								</div>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/rent-tender-1" title="招商公告">招商公告</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/rent-tender-2" title="已出租情形">已出租情形</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/rent-ad" title="廣告出租">廣告出租</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/rent-place-3" title="拍攝場地設備出租">拍攝場地設備出租</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/rent-place-4" title="場地短期出租">場地短期出租</a>
+									</li>
+								</ul>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/rent-place-1" title="會議室出租">會議室出租</a>
+									</li>
+
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/rent-place-2" title="辦公室出租">辦公室出租</a>
+									</li>
+
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/rent-equipment" title="其他場地出租">其他場地出租</a>
+									</li>
+
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/rent-place-5" title="臺北車站多功能展演區短期出租說明">臺北車站多功能展演區短期出租說明</a>
+									</li>
+								</ul>
+							<li>
+								<div class="menutitle">
+									<a class="icon-fa angle-right" href="/tra-tip-web/adr/rent-tender" title="招標公告">招標公告</a>
+								</div>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/rent-tender" title="招標公告">招標公告</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/rent-tender?isAwaitOfBid=1" title="決標公告">決標公告</a>
+									</li>
+
+								</ul>
+							</li>
+						</ul>
+
+
+					</div>
+				</li>
+				<li>
+					<a href="" title="關於臺鐵">關於臺鐵</a>
+					<div class="sub">
+						<ul class="container sub-area menusub-7">
+							<li>
+								<div class="menutitle">認識臺鐵</div>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-vision" title="臺鐵簡介">臺鐵簡介</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-director" title="局長簡介">局長簡介</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-timeline" title="臺鐵大事紀">臺鐵大事紀</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-1-5" title="臺灣鐵路路線建造史">臺灣鐵路路線建造史</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-1-8" title="靚道專區">靚道專區</a>
+									</li>
+								</ul>
+								<a href="/tra-tip-web/adr/about-vision" class="btn btn-line btn-more" title="更多">更多...</a>
+							</li>
+							<li>
+								<div class="menutitle">政令宣導</div>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-policy" title="重大政策">重大政策</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-publication" title="本局政府出版品">本局政府出版品</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-labor-safety" title="職安專區">職安專區</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-ac" title="廉政專區">廉政專區</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<div class="menutitle">行政與人員招募</div>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-recruit-1" title="人員招募">人員招募</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-recruit-2" title="產學合作">產學合作</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<div class="menutitle">業務申辦</div>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-biz-2" title="臺鐵便當特約批發">臺鐵便當特約批發</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-biz-3" title="商標授權">商標授權</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-biz-4" title="圖像授權">圖像授權</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-biz-1" title="商品代銷">商品代銷</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<div class="menutitle">公開資訊</div>
+								<ul class="menu-item">
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-public-info-1" title="政府資訊公開專區">政府資訊公開專區</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-public-info-2" title="為民服務專區">為民服務專區</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-public-info-3" title="臺鐵統計資訊">臺鐵統計資訊</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-public-info-4" title="電子公文區">電子公文區</a>
+									</li>
+									<li class="sublist">
+										<a href="/tra-tip-web/adr/about-public-info-7" title="OpenData">OpenData</a>
+									</li>
+								</ul>
+								<a href="/tra-tip-web/adr/about-public-info-1" class="btn btn-line btn-more" title="更多">更多...</a>
+							</li>
+							<li>
+								<div class="menutitle">
+									<a class="icon-fa angle-right" href="/tra-tip-web/adr/about-videos" title="影音專區">影音專區</a>
+								</div>
+								<div class="menutitle">
+									<a class="icon-fa angle-right" href="/tra-tip-web/adr/about-feedback" title="局長(民意)信箱">局長(民意)信箱</a>
+								</div>
+								<div class="menutitle">
+									<a class="icon-fa angle-right" href="/tra-tip-web/adr/about-Puyuma-1" title="普悠瑪關懷專區">普悠瑪關懷專區</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+
+
+		<script>
+			$(function() {
+				//主類別
+				$(".menutitle a").click(function() {
+					$(this).closest('form').submit();
+				})
+				//附類別
+				$(".menu-item a").click(function() {
+					$(this).closest('form').submit();
+				})
+				//點擊更多button
+				$("button[name='getMore']").click(function() {
+					$(this).closest('form').submit();
+				})
+				//外語版網頁導覽
+				$('#generalInfo a').on('click', function() {
+					var loc = $(this).attr('href');
+					location.href = loc
+				})
+				//外語版網頁導覽
+				$('#tourPackageBooking').on('click', function() {
+					var loc = $(this).attr('href');
+					location.href = loc
+				})
+			})
+		</script>
+	</div>
+
+
+	<!--主要內容區塊-->
+	<div class="container main-wrap">
+		<!--麵包屑-->
+		<ol class="breadcrumb">
+			<li>
+				<a href="" title="首頁">首頁</a>
+			</li>
+			<li>旅客服務</li>
+			<li>搭乘與轉乘</li>
+			<li>車站代碼表</li>
+		</ol>
+		<!--麵包屑 end-->
+
+		<!--標題-->
+		<div class="main-header">
+			<h1>
+				<strong>車站代碼表</strong>
+			</h1>
+		</div>
+
+
+			<!--西部幹線-->
+			<div class="traincode_all">
+				<!--西部幹線中文-->
+				<div class="traincode_cen">
+					<div class="traincode_title">西部幹線</div>
+					<div class="traincode_main">
+						<!--0508-->
+						<div class="traincode_name1">基隆</div>
+						<div class="traincode_code1">0900</div>
+						<div class="traincode_name1">三坑</div>
+						<div class="traincode_code1">0910</div>
+						<div class="traincode_name1">八堵</div>
+						<div class="traincode_code1">0920</div>
+						<div class="traincode_name1">七堵</div>
+						<div class="traincode_code1">0930</div>
+						<div class="traincode_name1">百福</div>
+						<div class="traincode_code1">0940</div>
+						<div class="traincode_name1">五堵</div>
+						<div class="traincode_code1">0950</div>
+						<div class="traincode_name1">汐止</div>
+						<div class="traincode_code1">0960</div>
+						<div class="traincode_name1">汐科</div>
+						<div class="traincode_code1">0970</div>
+						<div class="traincode_name1">南港</div>
+						<div class="traincode_code1">0980</div>
+						<div class="traincode_name1">松山</div>
+						<div class="traincode_code1">0990</div>
+						<div class="traincode_name1">臺北</div>
+						<div class="traincode_code1">1000</div>
+						<div class="traincode_name1">萬華</div>
+						<div class="traincode_code1">1010</div>
+						<div class="traincode_name1">板橋</div>
+						<div class="traincode_code1">1020</div>
+						<div class="traincode_name1">浮洲</div>
+						<div class="traincode_code1">1030</div>
+						<div class="traincode_name1">樹林</div>
+						<div class="traincode_code1">1040</div>
+						<div class="traincode_name1">南樹林</div>
+						<div class="traincode_code1">1050</div>
+						<div class="traincode_name1">山佳</div>
+						<div class="traincode_code1">1060</div>
+						<div class="traincode_name1">鶯歌</div>
+						<div class="traincode_code1">1070</div>
+						<div class="traincode_name1">桃園</div>
+						<div class="traincode_code1">1080</div>
+						<div class="traincode_name1">內壢</div>
+						<div class="traincode_code1">1090</div>
+						<div class="traincode_name1">中壢</div>
+						<div class="traincode_code1">1100</div>
+						<div class="traincode_name1">埔心</div>
+						<div class="traincode_code1">1110</div>
+						<div class="traincode_name1">楊梅</div>
+						<div class="traincode_code1">1120</div>
+						<div class="traincode_name1">富岡</div>
+						<div class="traincode_code1">1130</div>
+						<div class="traincode_name1">新富</div>
+						<div class="traincode_code1">1140</div>
+						<div class="traincode_name1">北湖</div>
+						<div class="traincode_code1">1150</div>
+						<div class="traincode_name1">湖口</div>
+						<div class="traincode_code1">1160</div>
+						<div class="traincode_name1">新豐</div>
+						<div class="traincode_code1">1170</div>
+						<div class="traincode_name1">竹北</div>
+						<div class="traincode_code1">1180</div>
+						<div class="traincode_name1">北新竹</div>
+						<div class="traincode_code1">1190</div>
+						<div class="traincode_name1">新竹</div>
+						<div class="traincode_code1">1210</div>
+						<div class="traincode_name1">三姓橋</div>
+						<div class="traincode_code1">1220</div>
+						<div class="traincode_name1">香山</div>
+						<div class="traincode_code1">1230</div>
+						<div class="traincode_name1">崎頂</div>
+						<div class="traincode_code1">1240</div>
+						<div class="traincode_name1">竹南</div>
+						<div class="traincode_code1">1250</div>
+						<div class="traincode_name1">造橋</div>
+						<div class="traincode_code1">3140</div>
+						<div class="traincode_name1">豐富</div>
+						<div class="traincode_code1">3150</div>
+						<div class="traincode_name1">苗栗</div>
+						<div class="traincode_code1">3160</div>
+						<div class="traincode_name1">南勢</div>
+						<div class="traincode_code1">3170</div>
+						<div class="traincode_name1">銅鑼</div>
+						<div class="traincode_code1">3180</div>
+						<div class="traincode_name1">三義</div>
+						<div class="traincode_code1">3190</div>
+						<div class="traincode_name1">泰安</div>
+						<div class="traincode_code1">3210</div>
+						<div class="traincode_name1">后里</div>
+						<div class="traincode_code1">3220</div>
+						<div class="traincode_name1">豐原</div>
+						<div class="traincode_code1">3230</div>
+						<div class="traincode_name1">栗林</div>
+						<div class="traincode_code1">3240</div>
+						<div class="traincode_name1">潭子</div>
+						<div class="traincode_code1">3250</div>
+						<div class="traincode_name1">頭家厝</div>
+						<div class="traincode_code1">3260</div>
+						<div class="traincode_name1">松竹</div>
+						<div class="traincode_code1">3270</div>
+						<div class="traincode_name1">太原</div>
+						<div class="traincode_code1">3280</div>
+						<div class="traincode_name1">精武</div>
+						<div class="traincode_code1">3290</div>
+						<div class="traincode_name1">臺中</div>
+						<div class="traincode_code1">3300</div>
+						<div class="traincode_name1">五權</div>
+						<div class="traincode_code1">3310</div>
+						<div class="traincode_name1">大慶</div>
+						<div class="traincode_code1">3320</div>
+						<div class="traincode_name1">烏日</div>
+						<div class="traincode_code1">3330</div>
+						<div class="traincode_name1">新烏日</div>
+						<div class="traincode_code1">3340</div>
+						<div class="traincode_name1">成功</div>
+						<div class="traincode_code1">3350</div>
+					</div>
+					<!--0508-->
+
+					<div class="traincode_main">
+						<!--0508-->
+						<div class="traincode_name1">彰化</div>
+						<div class="traincode_code1">3360</div>
+						<div class="traincode_name1">花壇</div>
+						<div class="traincode_code1">3370</div>
+						<div class="traincode_name1">大村</div>
+						<div class="traincode_code1">3380</div>
+						<div class="traincode_name1">員林</div>
+						<div class="traincode_code1">3390</div>
+						<div class="traincode_name1">永靖</div>
+						<div class="traincode_code1">3400</div>
+						<div class="traincode_name1">社頭</div>
+						<div class="traincode_code1">3410</div>
+						<div class="traincode_name1">田中</div>
+						<div class="traincode_code1">3420</div>
+						<div class="traincode_name1">二水</div>
+						<div class="traincode_code1">3430</div>
+						<div class="traincode_name1">林內</div>
+						<div class="traincode_code1">3450</div>
+						<div class="traincode_name1">石榴</div>
+						<div class="traincode_code1">3460</div>
+						<div class="traincode_name1">斗六</div>
+						<div class="traincode_code1">3470</div>
+						<div class="traincode_name1">斗南</div>
+						<div class="traincode_code1">3480</div>
+						<div class="traincode_name1">石龜</div>
+						<div class="traincode_code1">3490</div>
+						<div class="traincode_name1">大林</div>
+						<div class="traincode_code1">4050</div>
+						<div class="traincode_name1">民雄</div>
+						<div class="traincode_code1">4060</div>
+						<div class="traincode_name1">嘉北</div>
+						<div class="traincode_code1">4070</div>
+						<div class="traincode_name1">嘉義</div>
+						<div class="traincode_code1">4080</div>
+						<div class="traincode_name1">水上</div>
+						<div class="traincode_code1">4090</div>
+						<div class="traincode_name1">南靖</div>
+						<div class="traincode_code1">4100</div>
+						<div class="traincode_name1">後壁</div>
+						<div class="traincode_code1">4110</div>
+						<div class="traincode_name1">新營</div>
+						<div class="traincode_code1">4120</div>
+						<div class="traincode_name1">柳營</div>
+						<div class="traincode_code1">4130</div>
+						<div class="traincode_name1">林鳳營</div>
+						<div class="traincode_code1">4140</div>
+						<div class="traincode_name1">隆田</div>
+						<div class="traincode_code1">4150</div>
+						<div class="traincode_name1">拔林</div>
+						<div class="traincode_code1">4160</div>
+						<div class="traincode_name1">善化</div>
+						<div class="traincode_code1">4170</div>
+						<div class="traincode_name1">南科</div>
+						<div class="traincode_code1">4180</div>
+						<div class="traincode_name1">新市</div>
+						<div class="traincode_code1">4190</div>
+						<div class="traincode_name1">永康</div>
+						<div class="traincode_code1">4200</div>
+						<div class="traincode_name1">大橋</div>
+						<div class="traincode_code1">4210</div>
+						<div class="traincode_name1">臺南</div>
+						<div class="traincode_code1">4220</div>
+						<div class="traincode_name1">林森</div>
+						<div class="traincode_code1">4230</div>
+						<div class="traincode_name1">南臺南</div>
+						<div class="traincode_code1">4240</div>
+						<div class="traincode_name1">保安</div>
+						<div class="traincode_code1">4250</div>
+						<div class="traincode_name1">仁德</div>
+						<div class="traincode_code1">4260</div>
+						<div class="traincode_name1">中洲</div>
+						<div class="traincode_code1">4270</div>
+						<div class="traincode_name1">大湖</div>
+						<div class="traincode_code1">4290</div>
+						<div class="traincode_name1">路竹</div>
+						<div class="traincode_code1">4300</div>
+						<div class="traincode_name1">岡山</div>
+						<div class="traincode_code1">4310</div>
+						<div class="traincode_name1">橋頭</div>
+						<div class="traincode_code1">4320</div>
+						<div class="traincode_name1">楠梓</div>
+						<div class="traincode_code1">4330</div>
+						<div class="traincode_name1">新左營</div>
+						<div class="traincode_code1">4340</div>
+						<div class="traincode_name1">左營</div>
+						<div class="traincode_code1">4350</div>
+						<div class="traincode_name1">內惟</div>
+						<div class="traincode_code1">4360</div>
+						<div class="traincode_name1">美術館</div>
+						<div class="traincode_code1">4370</div>
+						<div class="traincode_name1">鼓山</div>
+						<div class="traincode_code1">4380</div>
+						<div class="traincode_name1">三塊厝</div>
+						<div class="traincode_code1">4390</div>
+						<div class="traincode_name1">高雄</div>
+						<div class="traincode_code1">4400</div>
+						<div class="traincode_name1">民族</div>
+						<div class="traincode_code1">4410</div>
+						<div class="traincode_name1">科工館</div>
+						<div class="traincode_code1">4420</div>
+						<div class="traincode_name1">正義</div>
+						<div class="traincode_code1">4430</div>
+						<div class="traincode_name1">鳳山</div>
+						<div class="traincode_code1">4440</div>
+						<div class="traincode_name1">後庄</div>
+						<div class="traincode_code1">4450</div>
+						<div class="traincode_name1">九曲堂</div>
+						<div class="traincode_code1">4460</div>
+						<div class="traincode_name1">六塊厝</div>
+						<div class="traincode_code1">4470</div>
+						<div class="traincode_name1">屏東</div>
+						<div class="traincode_code1">5000</div>
+					</div>
+					<!--0508-->
+				</div>
+				<!--西部幹線中文結束-->
+
+				<!--西部幹線英文-->
+
+				<!--西部幹線英文結束-->
+
+				<!--西部幹線日文-->
+
+				<!--西部幹線日文結束-->
+
+				<!--西部幹線簡體中文-->
+
+				<!--西部幹線簡體中文結束-->
+
+				<!--西部幹線韓文-->
+
+				<!--西部幹線韓文結束-->
+			</div>
+			<!--西部幹線結束-->
+			<!--西部幹線海線-->
+			<div class="traincode_all">
+				<!--西部幹線海線中文-->
+				<div class="traincode_cen">
+					<div class="traincode_title">西部幹線-海線</div>
+					<div class="traincode_main">
+						<!--0508-->
+						<div class="traincode_name1">談文</div>
+						<div class="traincode_code1">2110</div>
+						<div class="traincode_name1">大山</div>
+						<div class="traincode_code1">2120</div>
+						<div class="traincode_name1">後龍</div>
+						<div class="traincode_code1">2130</div>
+						<div class="traincode_name1">龍港</div>
+						<div class="traincode_code1">2140</div>
+						<div class="traincode_name1">白沙屯</div>
+						<div class="traincode_code1">2150</div>
+						<div class="traincode_name1">新埔</div>
+						<div class="traincode_code1">2160</div>
+						<div class="traincode_name1">通霄</div>
+						<div class="traincode_code1">2170</div>
+						<div class="traincode_name1">苑裡</div>
+						<div class="traincode_code1">2180</div>
+					</div>
+					<!--0508-->
+					<div class="traincode_main">
+						<!--0508-->
+						<div class="traincode_name1">日南</div>
+						<div class="traincode_code1">2190</div>
+						<div class="traincode_name1">大甲</div>
+						<div class="traincode_code1">2200</div>
+						<div class="traincode_name1">臺中港</div>
+						<div class="traincode_code1">2210</div>
+						<div class="traincode_name1">清水</div>
+						<div class="traincode_code1">2220</div>
+						<div class="traincode_name1">沙鹿</div>
+						<div class="traincode_code1">2230</div>
+						<div class="traincode_name1">龍井</div>
+						<div class="traincode_code1">2240</div>
+						<div class="traincode_name1">大肚</div>
+						<div class="traincode_code1">2250</div>
+						<div class="traincode_name1">追分</div>
+						<div class="traincode_code1">2260</div>
+					</div>
+					<!--0508-->
+				</div>
+				<!--西部幹線海線中文結束-->
+
+
+				<!--西部幹線海線英文-->
+
+				<!--西部幹線海線英文結束-->
+
+				<!--西部幹線海線日文-->
+
+				<!--西部幹線海線日文結束-->
+				<!--西部幹線海線簡體中文-->
+
+
+				<!--西部幹線海線簡體中文結束-->
+				<!--西部幹線海線韓文-->
+
+				<!--西部幹線海線韓文結束-->
+			</div>
+			<!--西部幹線海線結束-->
+			<!--東部幹線-->
+			<div class="traincode_all">
+				<!--東部幹線中文-->
+				<div class="traincode_cen">
+					<div class="traincode_title">東部幹線</div>
+					<div class="traincode_main">
+						<!--0508-->
+						<div class="traincode_name1">八堵</div>
+						<div class="traincode_code1">0920</div>
+						<div class="traincode_name1">暖暖</div>
+						<div class="traincode_code1">7390</div>
+						<div class="traincode_name1">四腳亭</div>
+						<div class="traincode_code1">7380</div>
+						<div class="traincode_name1">瑞芳</div>
+						<div class="traincode_code1">7360</div>
+						<div class="traincode_name1">猴硐</div>
+						<div class="traincode_code1">7350</div>
+						<div class="traincode_name1">三貂嶺</div>
+						<div class="traincode_code1">7330</div>
+						<div class="traincode_name1">牡丹</div>
+						<div class="traincode_code1">7320</div>
+						<div class="traincode_name1">雙溪</div>
+						<div class="traincode_code1">7310</div>
+						<div class="traincode_name1">貢寮</div>
+						<div class="traincode_code1">7300</div>
+						<div class="traincode_name1">福隆</div>
+						<div class="traincode_code1">7290</div>
+						<div class="traincode_name1">石城</div>
+						<div class="traincode_code1">7280</div>
+						<div class="traincode_name1">大里</div>
+						<div class="traincode_code1">7270</div>
+						<div class="traincode_name1">大溪</div>
+						<div class="traincode_code1">7260</div>
+						<div class="traincode_name1">龜山</div>
+						<div class="traincode_code1">7250</div>
+						<div class="traincode_name1">外澳</div>
+						<div class="traincode_code1">7240</div>
+						<div class="traincode_name1">頭城</div>
+						<div class="traincode_code1">7230</div>
+						<div class="traincode_name1">頂埔</div>
+						<div class="traincode_code1">7220</div>
+						<div class="traincode_name1">礁溪</div>
+						<div class="traincode_code1">7210</div>
+						<div class="traincode_name1">四城</div>
+						<div class="traincode_code1">7200</div>
+						<div class="traincode_name1">宜蘭</div>
+						<div class="traincode_code1">7190</div>
+						<div class="traincode_name1">二結</div>
+						<div class="traincode_code1">7180</div>
+						<div class="traincode_name1">中里</div>
+						<div class="traincode_code1">7170</div>
+						<div class="traincode_name1">羅東</div>
+						<div class="traincode_code1">7160</div>
+						<div class="traincode_name1">冬山</div>
+						<div class="traincode_code1">7150</div>
+						<div class="traincode_name1">新馬</div>
+						<div class="traincode_code1">7140</div>
+						<div class="traincode_name1">蘇澳新站</div>
+						<div class="traincode_code1">7130</div>
+						<div class="traincode_name1">永樂</div>
+						<div class="traincode_code1">7110</div>
+						<div class="traincode_name1">東澳</div>
+						<div class="traincode_code1">7100</div>
+						<div class="traincode_name1">南澳</div>
+						<div class="traincode_code1">7090</div>
+						<div class="traincode_name1">武塔</div>
+						<div class="traincode_code1">7080</div>
+						<div class="traincode_name1">漢本</div>
+						<div class="traincode_code1">7070</div>
+						<div class="traincode_name1">和平</div>
+						<div class="traincode_code1">7060</div>
+
+					</div>
+					<!--0508-->
+					<div class="traincode_main">
+						<!--0508-->
+
+						<div class="traincode_name1">和仁</div>
+						<div class="traincode_code1">7050</div>
+						<div class="traincode_name1">崇德</div>
+						<div class="traincode_code1">7040</div>
+						<div class="traincode_name1">新城</div>
+						<div class="traincode_code1">7030</div>
+						<div class="traincode_name1">景美</div>
+						<div class="traincode_code1">7020</div>
+						<div class="traincode_name1">北埔</div>
+						<div class="traincode_code1">7010</div>
+						<div class="traincode_name1">花蓮</div>
+						<div class="traincode_code1">7000</div>
+						<div class="traincode_name1">吉安</div>
+						<div class="traincode_code1">6250</div>
+						<div class="traincode_name1">志學</div>
+						<div class="traincode_code1">6240</div>
+						<div class="traincode_name1">平和</div>
+						<div class="traincode_code1">6230</div>
+						<div class="traincode_name1">壽豐</div>
+						<div class="traincode_code1">6220</div>
+						<div class="traincode_name1">豐田</div>
+						<div class="traincode_code1">6210</div>
+						<div class="traincode_name1">林榮新光</div>
+						<div class="traincode_code1">6200</div>
+						<div class="traincode_name1">南平</div>
+						<div class="traincode_code1">6190</div>
+						<div class="traincode_name1">鳳林</div>
+						<div class="traincode_code1">6180</div>
+						<div class="traincode_name1">萬榮</div>
+						<div class="traincode_code1">6170</div>
+						<div class="traincode_name1">光復</div>
+						<div class="traincode_code1">6160</div>
+						<div class="traincode_name1">大富</div>
+						<div class="traincode_code1">6150</div>
+						<div class="traincode_name1">富源</div>
+						<div class="traincode_code1">6140</div>
+						<div class="traincode_name1">瑞穗</div>
+						<div class="traincode_code1">6130</div>
+						<div class="traincode_name1">三民</div>
+						<div class="traincode_code1">6120</div>
+						<div class="traincode_name1">玉里</div>
+						<div class="traincode_code1">6110</div>
+						<div class="traincode_name1">東里</div>
+						<div class="traincode_code1">6100</div>
+						<div class="traincode_name1">東竹</div>
+						<div class="traincode_code1">6090</div>
+						<div class="traincode_name1">富里</div>
+						<div class="traincode_code1">6080</div>
+						<div class="traincode_name1">池上</div>
+						<div class="traincode_code1">6070</div>
+						<div class="traincode_name1">海端</div>
+						<div class="traincode_code1">6060</div>
+						<div class="traincode_name1">關山</div>
+						<div class="traincode_code1">6050</div>
+						<div class="traincode_name1">瑞和</div>
+						<div class="traincode_code1">6040</div>
+						<div class="traincode_name1">瑞源</div>
+						<div class="traincode_code1">6030</div>
+						<div class="traincode_name1">鹿野</div>
+						<div class="traincode_code1">6020</div>
+						<div class="traincode_name1">山里</div>
+						<div class="traincode_code1">6010</div>
+						<div class="traincode_name1">臺東</div>
+						<div class="traincode_code1">6000</div>
+					</div>
+					<!--0508-->
+				</div>
+				<!--東部幹線中文結束-->
+
+				<!--東部幹線英文-->
+
+				<!--東部幹線英文結束-->
+
+				<!--東部幹線日文-->
+
+				<!--東部幹線日文結束-->
+				<!--東部幹線簡體中文-->
+
+				<!--東部幹線簡體中文結束-->
+				<!--東部幹線韓文-->
+
+				<!--東部幹線韓文結束-->
+			</div>
+			<!--東部幹線結束-->
+			<!--屏東南迴-->
+			<div class="traincode_all">
+				<!--屏東南迴中文-->
+				<div class="traincode_cen">
+					<div class="traincode_title">屏東-南迴線</div>
+					<div class="traincode_main">
+						<!--0508-->
+						<div class="traincode_name1">屏東</div>
+						<div class="traincode_code1">5000</div>
+						<div class="traincode_name1">歸來</div>
+						<div class="traincode_code1">5010</div>
+						<div class="traincode_name1">麟洛</div>
+						<div class="traincode_code1">5020</div>
+						<div class="traincode_name1">西勢</div>
+						<div class="traincode_code1">5030</div>
+						<div class="traincode_name1">竹田</div>
+						<div class="traincode_code1">5040</div>
+						<div class="traincode_name1">潮州</div>
+						<div class="traincode_code1">5050</div>
+						<div class="traincode_name1">崁頂</div>
+						<div class="traincode_code1">5060</div>
+						<div class="traincode_name1">南州</div>
+						<div class="traincode_code1">5070</div>
+						<div class="traincode_name1">鎮安</div>
+						<div class="traincode_code1">5080</div>
+						<div class="traincode_name1">林邊</div>
+						<div class="traincode_code1">5090</div>
+						<div class="traincode_name1">佳冬</div>
+						<div class="traincode_code1">5100</div>
+						<div class="traincode_name1">東海</div>
+						<div class="traincode_code1">5110</div>
+					</div>
+					<!--0508-->
+					<div class="traincode_main">
+						<!--0508-->
+						<div class="traincode_name1">枋寮</div>
+						<div class="traincode_code1">5120</div>
+						<div class="traincode_name1">加祿</div>
+						<div class="traincode_code1">5130</div>
+						<div class="traincode_name1">內獅</div>
+						<div class="traincode_code1">5140</div>
+						<div class="traincode_name1">枋山</div>
+						<div class="traincode_code1">5160</div>
+						<div class="traincode_name1">大武</div>
+						<div class="traincode_code1">5190</div>
+						<div class="traincode_name1">瀧溪</div>
+						<div class="traincode_code1">5200</div>
+						<div class="traincode_name1">金崙</div>
+						<div class="traincode_code1">5210</div>
+						<div class="traincode_name1">太麻里</div>
+						<div class="traincode_code1">5220</div>
+						<div class="traincode_name1">知本</div>
+						<div class="traincode_code1">5230</div>
+						<div class="traincode_name1">康樂</div>
+						<div class="traincode_code1">5240</div>
+						<div class="traincode_name1">臺東</div>
+						<div class="traincode_code1">6000</div>
+					</div>
+					<!--0508-->
+				</div>
+				<!--屏東南迴中文結束-->
+
+
+				<!--屏東南迴英文-->
+
+				<!--屏東南迴英文結束-->
+
+				<!--屏東南迴日文-->
+
+				<!--屏東南迴日文結束-->
+				<!--屏東南迴簡體中文-->
+
+				<!--屏東南迴簡體中文結束-->
+				<!--屏東南迴韓文-->
+
+				<!--屏東南迴結束-->
+				<!--平溪線-->
+				<div class="traincode_all">
+					<!--平溪線中文-->
+					<div class="traincode_cen">
+						<div class="traincode_title">平溪線</div>
+						<div class="traincode_name1">三貂嶺</div>
+						<div class="traincode_code1">7330</div>
+						<div class="traincode_name1">大華</div>
+						<div class="traincode_code1">7331</div>
+						<div class="traincode_name1">十分</div>
+						<div class="traincode_code1">7332</div>
+						<div class="traincode_name1">望古</div>
+						<div class="traincode_code1">7333</div>
+						<div class="traincode_name1">嶺腳</div>
+						<div class="traincode_code1">7334</div>
+						<div class="traincode_name1">平溪</div>
+						<div class="traincode_code1">7335</div>
+						<div class="traincode_name1">菁桐</div>
+						<div class="traincode_code1">7336</div>
+					</div>
+					<!--平溪線中文結束-->
+
+					<!--平溪線英文-->
+
+					<!--平溪線英文結束-->
+
+					<!--平溪線日文-->
+
+					<!--平溪線日文結束-->
+					<!--平溪線簡體中文-->
+
+					<!--平溪線簡體中文結束-->
+					<!--平溪線韓文-->
+
+					<!--平溪線韓文結束-->
+				</div>
+				<!--平溪線結束-->
+				<!--內灣線-->
+				<div class="traincode_all">
+					<!--內灣線中文-->
+					<div class="traincode_cen">
+						<div class="traincode_title">內灣線</div>
+						<div class="traincode_name1">新竹</div>
+						<div class="traincode_code1">1210</div>
+						<div class="traincode_name1">北新竹</div>
+						<div class="traincode_code1">1190</div>
+						<div class="traincode_name1">千甲</div>
+						<div class="traincode_code1">1191</div>
+						<div class="traincode_name1">新莊</div>
+						<div class="traincode_code1">1192</div>
+						<div class="traincode_name1">竹中</div>
+						<div class="traincode_code1">1193</div>
+						<div class="traincode_name1">上員</div>
+						<div class="traincode_code1">1201</div>
+						<div class="traincode_name1">榮華</div>
+						<div class="traincode_code1">1202</div>
+						<div class="traincode_name1">竹東</div>
+						<div class="traincode_code1">1203</div>
+						<div class="traincode_name1">橫山</div>
+						<div class="traincode_code1">1204</div>
+						<div class="traincode_name1">九讚頭</div>
+						<div class="traincode_code1">1205</div>
+						<div class="traincode_name1">合興</div>
+						<div class="traincode_code1">1206</div>
+						<div class="traincode_name1">富貴</div>
+						<div class="traincode_code1">1207</div>
+						<div class="traincode_name1">內灣</div>
+						<div class="traincode_code1">1208</div>
+					</div>
+					<!--內灣線中文結束-->
+
+					<!--內灣線英文-->
+
+					<!--內灣線英文結束-->
+
+					<!--內灣線日文-->
+
+					<!--內灣線日文結束-->
+					<!--內灣線簡體中文-->
+
+					<!--內灣線簡體中文結束-->
+					<!--內灣線韓文-->
+
+					<!--內灣線韓文結束-->
+				</div>
+				<!--內灣線結束-->
+				<!--集集線-->
+				<div class="traincode_all">
+					<!--集集線中文-->
+					<div class="traincode_cen">
+						<div class="traincode_title">集集線</div>
+						<div class="traincode_name1">二水</div>
+						<div class="traincode_code1">3430</div>
+						<div class="traincode_name1">源泉</div>
+						<div class="traincode_code1">3431</div>
+						<div class="traincode_name1">濁水</div>
+						<div class="traincode_code1">3432</div>
+						<div class="traincode_name1">龍泉</div>
+						<div class="traincode_code1">3433</div>
+						<div class="traincode_name1">集集</div>
+						<div class="traincode_code1">3434</div>
+						<div class="traincode_name1">水里</div>
+						<div class="traincode_code1">3435</div>
+						<div class="traincode_name1">車埕</div>
+						<div class="traincode_code1">3436</div>
+					</div>
+					<!--集集線中文結束-->
+
+
+					<!--集集線英文-->
+
+					<!--集集線英文結束-->
+
+					<!--集集線日文-->
+
+					<!--集集線日文結束-->
+					<!--集集線簡體中文-->
+
+					<!--集集線簡體中文結束-->
+					<!--集集線韓文-->
+
+					<!--集集線韓文結束-->
+				</div>
+				<!--集集線結束-->
+				<!--成追線-->
+				<div class="traincode_all">
+					<!--成追線中文-->
+					<div class="traincode_cen">
+						<div class="traincode_title">成追線</div>
+						<div class="traincode_name1">成功</div>
+						<div class="traincode_code1">3350</div>
+						<div class="traincode_name1">追分</div>
+						<div class="traincode_code1">2260</div>
+					</div>
+					<!--成追線中文結束-->
+
+
+					<!--成追線英文-->
+
+					<!--成追線英文結束-->
+
+					<!--成追線日文-->
+
+					<!--成追線日文結束-->
+					<!--成追線簡體中文-->
+
+					<!--成追線簡體中文結束-->
+					<!--成追線韓文-->
+
+					<!--成追線韓文結束-->
+				</div>
+				<!--成追線結束-->
+				<!--沙崙線-->
+				<div class="traincode_all">
+					<!--沙崙線中文-->
+					<div class="traincode_cen">
+						<div class="traincode_title">沙崙線</div>
+						<div class="traincode_name1">中洲</div>
+						<div class="traincode_code1">4270</div>
+						<div class="traincode_name1">長榮大學</div>
+						<div class="traincode_code1">4271</div>
+						<div class="traincode_name1">沙崙</div>
+						<div class="traincode_code1">4272</div>
+					</div>
+					<!--沙崙線中文結束-->
+
+
+					<!--沙崙線英文-->
+
+					<!--沙崙線英文結束-->
+
+					<!--沙崙線日文-->
+
+					<!--沙崙線日文結束-->
+					<!--沙崙線簡體中文-->
+
+					<!--沙崙線簡體中文結束-->
+					<!--沙崙線韓文-->
+
+					<!--沙崙線韓文結束-->
+				</div>
+				<!--沙崙線結束-->
+				<!--六家線-->
+				<div class="traincode_all">
+					<!--六家線中文-->
+					<div class="traincode_cen">
+						<div class="traincode_title">六家線</div>
+						<div class="traincode_name1">竹中</div>
+						<div class="traincode_code1">1193</div>
+						<div class="traincode_name1">六家</div>
+						<div class="traincode_code1">1194</div>
+					</div>
+					<!--六家線中文結束-->
+
+
+					<!--六家線英文-->
+
+					<!--六家線英文結束-->
+
+					<!--六家線日文-->
+
+					<!--六家線日文結束-->
+					<!--六家線簡體中文-->
+
+					<!--六家線簡體中文結束-->
+					<!--六家線韓文-->
+
+					<!--六家線韓文結束-->
+				</div>
+				<!--六家線結束-->
+				<!--深澳線-->
+				<div class="traincode_all">
+					<!--深澳線中文-->
+					<div class="traincode_cen">
+						<div class="traincode_title">深澳線</div>
+						<div class="traincode_name1">瑞芳</div>
+						<div class="traincode_code1">7360</div>
+						<div class="traincode_name1">海科館</div>
+						<div class="traincode_code1">7361</div>
+						<div class="traincode_name1">八斗子</div>
+						<div class="traincode_code1">7362</div>
+					</div>
+					<!--深澳線中文結束-->
+
+
+					<!--深澳線英文-->
+
+					<!--深澳線英文結束-->
+
+					<!--深澳線日文-->
+
+					<!--深澳線日文結束-->
+					<!--深澳線簡體中文-->
+
+					<!--深澳線簡體中文結束-->
+					<!--深澳線韓文-->
+
+					<!--深澳線韓文結束-->
+				</div>
+				<!--深澳線結束-->
+			</div>
+			<!--主要內容區塊 end-->
+
+	</div>
+	<!--表尾(在tip_demo.js載入_tmp_footer.html的內容) -->
+	<div class="footer">
+		<!--頁尾導盲磚-->
+		<div class="footer-content container fix_position_r">
+			<a href="#Z" id="AZ" title="下方選單連結區，此區塊列有[常用服務]、[關於臺鐵]、[隱私權政策]等連結" accesskey="Z" name="Z">:::</a>
+			<div class="footer-links common-links">
+				<div class="link-head">常見服務</div>
+				<ul>
+					<li>
+						<a href="/tra-tip-web/tip/tip001/tip123/query" title="訂票服務">訂票服務</a>
+					</li>
+					<li>
+						<a href="/tra-tip-web/tip/tip00C/tipC11/view11" title="票價/票種">票價/票種</a>
+					</li>
+					<li>
+						<a href="/tra-tip-web/tip/tip001/tip112/gobytime" title="列車時刻查詢">列車時刻查詢</a>
+					</li>
+					<li>
+						<a href="/tra-tip-web/tip/tip00F/tipF15/view" title="網站導覽">網站導覽</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-links about-links">
+				<div class="link-head">交通部臺灣鐵路管理局</div>
+				<ul>
+					<li>
+
+
+
+
+
+
+								<a href="/tra-tip-web/adr/about-vision" title="關於臺鐵">關於臺鐵</a>
+
+
+					</li>
+
+						<li>
+							<a href="/tra-tip-web/adr/about-policy" title="政令宣導">政令宣導</a>
+						</li>
+						<li>
+							<a href="/tra-tip-web/adr/about-biz-1" title="業務申辦">業務申辦</a>
+						</li>
+
+				</ul>
+				<ul>
+					<li>
+						<a href="/tra-tip-web/adr/rent-place-1" title="招標與場地租售">招標與場地租售</a>
+					</li>
+					<li>
+						<a href="/tra-tip-web/adr/about-public-info-1" title="公開資訊">公開資訊</a>
+					</li>
+					<li>
+						<a href="/tra-tip-web/tip/tip00G/tipG11/view" title="相關連結">相關連結</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-links app-links">
+				<div class="link-head">台鐵e訂通2019</div>
+				<ul>
+					<li>
+						<img src="/tra-tip-web/static/images/APP.png" alt="台鐵e訂通2019">
+					</li>
+					<li>
+						<a href="https://itunes.apple.com/app/id1441617748" target="_blank" class="ios" title="台鐵e訂通2019 ios用戶下載">
+							<img src="/tra-tip-web/static/images/apply-store.png" alt="App Store商店" title="App Store商店">
+						</a>
+						<a href="https://play.google.com/store/apps/details?id=tw.gov.tra.twtraffic" target="_blank" class="googleplay" title="台鐵e訂通2019 Android用戶下載">
+							<img src="/tra-tip-web/static/images/google-play.png" alt="Google play商店" title="Google play商店">
+						</a>
+					</li>
+					<li>
+						<ul class="app-info">
+							<li>即時掌握最新票價資訊、時刻表及列車準誤點資訊。</li>
+							<li>訂位、付款服務。</li>
+							<li>交易安全有保障。</li>
+							<li>直接修改訂位資訊或退票。</li>
+							<li>可區域性或全域性接收本局最新消息與通告。</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-contact">
+			<div class="container">
+				<ul class="footer-contact-wrapper">
+					<li title="客服電話（一般服務諮詢及旅客申訴）：0800-765-888（限市話）02-2191-0096（市話、手機）">客服電話（一般服務諮詢及旅客申訴）：0800-765-888（限市話）02-2191-0096（市話、手機）</li>
+					<li title="24小時緊急通報電話：0800-800-333（僅限發現軌道、平交道、橋樑及隧道等有障礙物之通報專用）">24小時緊急通報電話：0800-800-333（僅限發現軌道、平交道、橋樑及隧道等有障礙物之通報專用）</li>
+					<li title="機關電話：(02)2381-5226（總機）">機關電話：(02)2381-5226（總機）</li>
+					<li title="機關地址：臺北市中正區北平西路三號（郵遞區號10041）">機關地址：臺北市中正區北平西路三號（郵遞區號10041）</li>
+					<li title="最低解析度1280x1024，建議使用Chrome, FireFox, Edge, Safari">最低解析度1280x1024，建議使用Chrome, FireFox, Edge, Safari</li>
+					<li class="call">
+						<a href="http://cscenter.railway.gov.tw/webcall.html" title="網路語音客服">網路語音客服</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div class="pull-left">
+					<a href="/tra-tip-web/tip/tip00F/tipF12/view" title="隱私權宣告">隱私權宣告</a>
+					<a href="/tra-tip-web/tip/tip00F/tipF13/view10" title="資訊安全政策">資訊安全政策</a>
+					<a href="/tra-tip-web/tip/tip00F/tipF14/view" title="著作權聲明">著作權聲明</a>
+					<a href="/tra-tip-web/tip?site_preference=mobile" title="行動版官網">行動版官網</a>
+				</div>
+				<div class="pull-right">
+					<li>交通部臺灣鐵路管理局</li>
+					<li>版權所有 ©2019 All Rights Reserved</li>
+					<li>網站更新時間：2019-06-12</li>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+const fs = require('fs');
+const util = require('util');
+
+const readFile = util.promisify(fs.readFile);
+
+function removeTheWordStationFromTheTitle() {
+    async function getStuff() {
+        return await readFile('station.json');
+    }
+
+    getStuff().then(data => {
+        data = JSON.parse(data);
+        data.features = data.features.map(function (el) {
+            el.properties.站名 = el.properties.站名.replace('站', '');
+            return el;
+        });
+        exportNewData(JSON.stringify(data));
+    });
+
+
+    function exportNewData(newData){
+        fs.writeFile('station.json', newData, err => {
+            if (err) {
+                console.log('Error writing file', err)
+            } else {
+                console.log('Successfully wrote file')
+            }
+        })
+    }
+}
+
+mergeTRAStationCodesAndStationJson();
+
+function mergeTRAStationCodesAndStationJson() {
+
+    async function getStation() {
+        return await readFile('station.json');
+    }
+
+    async function getTRAStationCodes() {
+        return await readFile('TRAStationCodes.json');
+    }
+
+    getStation().then(stationData => {
+        getTRAStationCodes().then(TRAData => {
+            stationData = JSON.parse(stationData);
+            TRAData = JSON.parse(TRAData);
+            stationData.features = stationData.features.map(function (el) {
+                let index = TRAData.stations.findIndex(function (traEl) {
+                    return traEl.站名 === el.properties.站名
+                });
+                if (index !== -1){
+                    el.properties.traWebsiteCode = TRAData.stations[index].traWebsiteCode;
+                    el.properties.eng站名 = TRAData.stations[index].eng站名;
+                }
+                return el;
+            });
+            exportNewData(JSON.stringify(stationData));
+        });
+    });
+
+
+    function exportNewData(newData){
+        fs.writeFile('stationsWithEnglishNames.json', newData, err => {
+            if (err) {
+                console.log('Error writing file', err)
+            } else {
+                console.log('Successfully wrote file')
+            }
+        })
+    }
+}
+
+checkTRAStationcodesForMissingEnglishNames();
+checkStationWithEnglishNamesForMissingTraWebsiteCode();
+
+function checkTRAStationcodesForMissingEnglishNames() {
+
+    async function getTRAStationCodes() {
+        return await readFile('TRAStationCodes.json');
+    }
+
+    getTRAStationCodes().then(TRAData => {
+        TRAData = JSON.parse(TRAData);
+        let newObject = [];
+        TRAData.stations.forEach(function (el) {
+            if (!(el.hasOwnProperty("eng站名"))){
+                newObject.push(el);
+            }
+        });
+        exportNewData(JSON.stringify(newObject));
+    });
+
+
+    function exportNewData(newData){
+        fs.writeFile('TRAStationCodesFalse.json', newData, err => {
+            if (err) {
+                console.log('Error writing file', err)
+            } else {
+                console.log('Successfully wrote file')
+            }
+        })
+    }
+}
+
+function checkStationWithEnglishNamesForMissingTraWebsiteCode() {
+
+    async function getTRAStationCodes() {
+        return await readFile('stationsWithEnglishNames.json');
+    }
+
+    getTRAStationCodes().then(data => {
+        data = JSON.parse(data);
+        let newObject = [];
+        data.features.forEach(function (el) {
+            if (!(el.properties.hasOwnProperty("traWebsiteCode"))){
+                newObject.push(el);
+            }
+        });
+        exportNewData(JSON.stringify(newObject));
+    });
+
+
+    function exportNewData(newData){
+        fs.writeFile('stationsWithEnglishNamesFalse.json', newData, err => {
+            if (err) {
+                console.log('Error writing file', err)
+            } else {
+                console.log('Successfully wrote file')
+            }
+        })
+    }
+}

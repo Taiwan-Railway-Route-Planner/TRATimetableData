@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip111/view -->
+<html lang="zh-TW" class="">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!--電子分類檢索START-->
+    <!-- <meta http-equiv="Pragma" content="no-cache" /> -->
+    <!-- <meta http-equiv="Cache-Control" content="no-cache" /> -->
+    <meta http-equiv="Expires" content="0">
+    <meta property="og:image" content="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/images/train.jpg">
+    <meta property="og:title" content="交通部臺灣鐵路管理局">
+    <!-- <meta name="_csrf" th:content="${_csrf.token}" /> -->
+    <!-- <meta name="_csrf_header" th:content="${_csrf.headerName}" /> -->
+    <meta name="DC.Title" content="TRA WebSite - tw">
+    <meta name="DC.Creator" content="交通部臺灣鐵路管理局">
+    <meta name="DC.Subject" content="TRA WebSite - tw">
+    <meta name="DC.Description" content="">
+    <meta name="DC.Contributor" content="交通部臺灣鐵路管理局">
+    <meta name="DC.Type" content="Text">
+    <meta name="DC.Format" content="text/html">
+    <meta name="DC.Source" content="交通部臺灣鐵路管理局">
+    <meta name="DC.Language" content="中文">
+    <meta name="DC.coverage.t.max" content="">
+    <meta name="DC.coverage.t.min" content="">
+    <meta name="DC.Publisher" content="交通部臺灣鐵路管理局">
+    <meta name="DC.Date" content="2008-12-11">
+    <meta name="DC.Identifier" content="315180000M">
+    <meta name="DC.Rights" content="交通部臺灣鐵路管理局">
+    <meta name="Category.Theme" content="9Z0">
+    <meta name="Category.Cake" content="J4Z">
+    <meta name="Category.Service" content="I6Z">
+
+    <meta name="Keywords" content="交通部臺灣鐵路管理局, 臺灣鐵路管理局, 台鐵, Railway,台鐵 悠遊卡,多卡通,腳踏車 火車,去回票,台鐵 無障礙,阿里山小火車,電子票證">
+    <!--電子分類檢索END-->
+    <link rel="shortcut icon" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/images/favicon.ico">
+    <title>交通部臺灣鐵路管理局</title>
+
+
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/css/tip_default_ie8.css">
+    <script src="/tra-tip-web/static/js/jquery.min-1.12.js"></script>
+    <script src="/tra-tip-web/static/js/html5shiv.min.js"></script>
+    <script src="/tra-tip-web/static/js/respond.min.js"></script>
+    <script>
+        window.location.href = '/tra-tip-web/tip/iebox'
+    </script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="./交通部臺灣鐵路管理局en_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./交通部臺灣鐵路管理局en_files/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./交通部臺灣鐵路管理局en_files/tip_normal_en.css">
+
+
+    <style>
+        @media print {
+            a[href]:after {
+                content: none !important;
+            }
+        }
+    </style>
+
+    <!-- /*外文版的css*/ -->
+    <link rel="stylesheet" href="./交通部臺灣鐵路管理局en_files/tip_default_en.css">
+    <link rel="stylesheet" href="./交通部臺灣鐵路管理局en_files/tip_station_map_en.css">
+    <link href="https://tip-tr4cdn.cdn.hinet.net/tra-tip-web/static/images/favicon.ico" rel="icon" type="image/ico">
+
+
+    <link href="./交通部臺灣鐵路管理局en_files/traincode.css" rel="stylesheet">
+
+
+    <script type="text/javascript" async="" src="./交通部臺灣鐵路管理局en_files/analytics.js.download"></script>
+    <script src="./交通部臺灣鐵路管理局en_files/jquery.min.js.download"></script>
+    <script src="./交通部臺灣鐵路管理局en_files/bootstrap.min.js.download"></script>
+    <script src="./交通部臺灣鐵路管理局en_files/jquery.blockUI.js.download"></script>
+
+    <script src="./交通部臺灣鐵路管理局en_files/tip_default_en.js.download"></script>
+    <script src="./交通部臺灣鐵路管理局en_files/tipCommon.js.download"></script>
+    <script src="./交通部臺灣鐵路管理局en_files/jquery.subwayMap-0.5.1-train.js.download"></script>
+    <script src="./交通部臺灣鐵路管理局en_files/bootstrap-datepicker.min.js.download"></script>
+
+
+    <script src="./交通部臺灣鐵路管理局en_files/bootstrap-datepicker.en-GB.min.js.download"></script>
+
+
+    <script type="text/javascript">
+        function showBlockUI() {
+            $.blockUI({
+                message: 'Processing, Please wait...'
+            });
+        }
+
+        // 關 blockUI
+        function unBlockUI() {
+            $.unblockUI();
+        }
+
+        <!-- /* 修正 safari 上一頁cache停留blockUI()問題 */ -->
+        window.onpageshow = function (event) {
+            if (event.persisted) {
+                $.unblockUI();
+            }
+        };
+        $(function () {
+            $('input[data-plugin=datepicker]').keypress(function () {
+                $(this).attr('maxlength', 10)
+                if ($(this).val().length == 4 || $(this).val().length == 7) {
+                    var rideDateValue = $(this).val();
+                    $(this).val(rideDateValue.concat('/'))
+                }
+            })
+        })
+        if (!(document.cookie || navigator.cookieEnabled)) {
+            alert("Please Set your Browser to enable cookies.");
+        }
+        ;
+    </script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="./交通部臺灣鐵路管理局en_files/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-136244739-1');
+    </script>
+
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="./交通部臺灣鐵路管理局en_files/translateelement.css">
+</head>
+<body class="demo-include">
+
+<!--頂端功能(在tip_demo.js載入_tmp_header.html的內容)-->
+<div class="header">
+    <div class="container">
+        <!--快速鍵-->
+        <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip111/view#U" id="AU" name="U" title="上方功能區塊" accesskey="U">:::</a>
+        <!--logo 區-->
+        <div class="logo col-xs-8">
+            <a href="https://www.railway.gov.tw/tra-tip-web/tip" title="交通部臺灣鐵路管理局">
+                <img src="./交通部臺灣鐵路管理局en_files/logo-tra.png" alt="交通部臺灣鐵路管理局LOGO">
+            </a>
+        </div>
+        <!-- 右側選單 -->
+        <div class="navtop col-xs-4">
+
+
+            <!--語言切換 尚未上線 先註解-->
+            <li class="language-selector">
+                <div class="dropdown">
+                    <a id="dLabe1" class="langon" href="https://www.railway.gov.tw/tra-tip-web/tip?lang=ZH_TW" data-toggle="dropdown" role="button" title="Language">Language</a>
+                    <ul class="dropdown-menu" aria-labelledby="dLabe1">
+                        <li>
+                            <a href="https://www.railway.gov.tw/tra-tip-web/tip?lang=ZH_TW" title="繁體中文">繁體中文</a>
+                        </li>
+                        <li>
+                            <a href="https://www.railway.gov.tw/tra-tip-web/tip?lang=ZH_CN" title="简体中文">简体中文</a>
+                        </li>
+                        <li>
+                            <a href="https://www.railway.gov.tw/tra-tip-web/tip?lang=EN_US" title="English">English</a>
+                        </li>
+                        <li>
+                            <a href="https://www.railway.gov.tw/tra-tip-web/tip?lang=JA_JP" title="日本語">日本語</a>
+                        </li>
+                        <li>
+                            <a href="https://www.railway.gov.tw/tra-tip-web/tip?lang=KO_KA" title="한국어">한국어</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <!--語言切換 end-->
+        </div>
+        <div class="btntop">
+            <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip111/view#top" title="回頁面上方" class="icon-fa chevron-up">TOP</a>
+        </div>
+        <!-- 						<input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" /> -->
+    </div>
+</div>
+
+
+<!--主選單(在tip_demo.js載入_tmp_menu.html的內容)-->
+<div class="menu" style="position: static;">
+
+    <div class="container">
+        <ul class="parent">
+            <li>
+                <!-- 					<a id="generalInfo" th:href="@{/tip/tip001/tip127/generalInfo}" th:title="#{tip.menu.title.personBooking}" th:text="#{tip.menu.title.personBooking}">General booking</a> -->
+                <a title="General booking">General booking</a>
+                <div class="sub">
+                    <ul class="container sub-area menusub-2">
+                        <li>
+                            <div class="menutitle">
+                                <a class="icon-fa angle-right" href="javascript:viod(0)" title="Please select your preferred car type">Please select your preferred car type</a>
+                            </div>
+                            <ul class="menu-item">
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip123/query">Regular car</a>
+                                </li>
+
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip115/query">Booking inquiry</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="menutitle">
+                                <a class="icon-fa angle-right" href="javascript:viod(0)" title="Search for trains that meet your needs">Search for trains that meet your needs</a>
+                            </div>
+                            <ul class="menu-item">
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime">Train schedule/code inquiry</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip117/queryTraTransferThsr">TRA-THSR transfer inquiry</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="menutitle">
+                                <a class="icon-fa angle-right" href="javascript:viod(0)" title="Ticketing information">Ticketing information</a>
+                            </div>
+                            <ul class="menu-item">
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC12/view10">Ticket booking/collection information</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC11/view11">Ticket types and prices</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC14/creditCardInfo" title="Internet Credit Card Payment Purchase">Internet Credit Card Payment Purchase</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <!-- 					<a id="tourPackageBooking" th:href="@{/tip/tip003/tip315/view}" th:title="#{tip.menu.title.tourPackageBooking}" th:text="#{tip.menu.title.tourPackageBooking}">Tour package booking</a> -->
+                <a title="Tour ticket">Tour ticket</a>
+                <div class="sub">
+                    <ul class="container sub-area menusub-2">
+                        <li>
+                            <div class="menutitle">
+                                <a class="icon-fa angle-right" title="Tour ticket">Tour ticket</a>
+                            </div>
+                            <ul class="menu-item">
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00H/tipH11/query">Cruise train</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip311/view10">TR-PASS</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip314/view">Joint-PASS</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip313/view10">Day pass/Tour pass</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00D/tipD11/view11">Bicycle-friendly train</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip003/tip312/view10">Ticket set</a>
+                                </li>
+                                <!-- 									<li class="sublist"> -->
+                                <!-- 										<a th:href="@{/tip/tip00C/tipC14/buyLunchBox}" th:title="#{tip.menu.title.buylunchbox}" th:text="#{tip.menu.title.buylunchbox}">網路訂票預訂便當公告</a> -->
+                                <!-- 									</li> -->
+                                <li class="sublist">
+                                    <a href="https://www.forest.gov.tw/EN" target="_blank">Alishan Forest Railway</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00H/tipH21/goTH21" title="Railway tour">Railway tour</a>
+                <div class="sub">
+                    <ul class="container sub-area menusub-2">
+
+                        <li>
+                            <div class="menutitle">
+                                <a class="icon-fa angle-right" href="https://www.railway.gov.tw/tra-tip-web/tip/tip00H/tipH21/query?ratraClass=8a8183195ca5257a015ca527a8930000&amp;ratraSecondClass=0" title="Theme Tour">Theme Tour</a>
+                            </div>
+                            <ul class="menu-item">
+
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00H/tipH21/query?ratraClass=8a8183195ca5257a015ca527a8930000&amp;ratraSecondClass=8ae4cac25f9448c7015f999dbbbc002b" title="Knowledge Tour">Knowledge Tour</a>
+                                </li>
+
+
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00H/tipH21/query?ratraClass=8a8183195ca5257a015ca527a8930000&amp;ratraSecondClass=2c948a825ce2f2c3015ce3d2400d0014" title="Local Tour">Local Tour</a>
+                                </li>
+
+
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00H/tipH21/query?ratraClass=8a8183195ca5257a015ca527a8930000&amp;ratraSecondClass=2c948a825ce2f2c3015ce3d1f4950013" title="Sub Line Tour">Sub Line Tour</a>
+                                </li>
+
+
+                            </ul>
+
+                        </li>
+
+                        <li>
+                            <div class="menutitle">
+                                <a class="icon-fa angle-right" href="javascript:void(0)">Recommended Trip</a>
+                            </div>
+                            <ul class="menu-item">
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00H/tipH21/summerisland" title="Mid-Summer Formosa Train">Mid-Summer Formosa Train</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li></li>
+                        <li class="travel-area"></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li>
+                <a title="Schedule and stations">Schedule and stations</a>
+                <div class="sub">
+                    <ul class="container sub-area menusub">
+                        <li>
+                            <div class="menutitle">
+                                <a class="icon-fa angle-right" href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip111/view" title="Train schedule and transfers">Train schedule and transfers</a>
+                            </div>
+                            <ul class="menu-item">
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime" title="Train schedule/code inquiry">Train schedule/code inquiry</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip117/queryTraTransferThsr" title="TRA-THSR transfer inquiry">TRA-THSR transfer inquiry</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip007/tip711/blockList" title="Train operation status">Train operation status</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00H/tipH41/goTH41" title="Stations and vicinity">Stations and vicinity</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="menutitle">
+                                <a class="icon-fa angle-right" href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip111/view" title="Fares and booking procedure">Fares and booking procedure</a>
+                            </div>
+                            <ul class="menu-item">
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC11/view11" title="Ticket types and prices">Ticket types and prices</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC12/view10" title="Ticket booking/collection information">Ticket booking/collection information</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC13/view11" title="Ticket return/exchange">Ticket return/exchange</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC14/view" title="Travel with e-tickets">Travel with e-tickets</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a title="Passenger service">Passenger service</a>
+                <div class="sub">
+                    <ul class="container sub-area menusub">
+                        <li>
+                            <div class="menutitle">
+                                <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip111/view" class="icon-fa angle-right" title="Checked luggage/parcels">Checked luggage/parcels</a>
+                            </div>
+                            <ul class="menu-item">
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC15/view10" title="Luggage check regulations">Luggage check regulations</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC16/view10" title="Fee description">Fee description</a>
+                                </li>
+                                <li class="sublist">
+                                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC17/view" title="Station Automatic Storage Lockers Storage Service">Station Automatic Storage Lockers Storage Service</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="menutitle">
+                                <a class="icon-fa angle-right" href="https://www.railway.gov.tw/tra-tip-web/tip/tip009/tip911/newsList" title="Latest news">Latest news</a>
+                            </div>
+                            <div class="menutitle">
+                                <a class="icon-fa angle-right" href="https://www.railway.gov.tw/tra-tip-web/tip/tip008/tip847/query" title="FAQ">FAQ</a>
+                            </div>
+                            <div class="menutitle">
+                                <a class="icon-fa angle-right" href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC18/view00" title="Passenger Transportation Contract">Passenger Transportation Contract</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li id="generalInfo">
+                <a title="About TRA" href="https://www.railway.gov.tw/tra-tip-web/adr/about-TRA/en">About TRA</a>
+
+
+            </li>
+        </ul>
+    </div>
+
+
+    <script>
+        $(function () {
+            //主類別
+            $(".menutitle a").click(function () {
+                $(this).closest('form').submit();
+            })
+            //附類別
+            $(".menu-item a").click(function () {
+                $(this).closest('form').submit();
+            })
+            //點擊更多button
+            $("button[name='getMore']").click(function () {
+                $(this).closest('form').submit();
+            })
+            //外語版網頁導覽
+            $('#generalInfo a').on('click', function () {
+                var loc = $(this).attr('href');
+                location.href = loc
+            })
+            //外語版網頁導覽
+            $('#tourPackageBooking').on('click', function () {
+                var loc = $(this).attr('href');
+                location.href = loc
+            })
+        })
+    </script>
+</div>
+
+
+<!--主要內容區塊-->
+<div class="container main-wrap">
+    <!--麵包屑-->
+    <ol class="breadcrumb">
+        <li>
+            <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip111/view" title="首頁">HomePage</a>
+        </li>
+        <li>Passenger service</li>
+        <li>Train schedule and transfers</li>
+        <li>Station code table</li>
+    </ol>
+    <!--麵包屑 end-->
+
+    <!--標題-->
+    <div class="main-header">
+        <h1>
+            <strong>Station code table</strong>
+        </h1>
+    </div>
+
+
+    <!--西部幹線-->
+    <div class="traincode_all">
+        <!--西部幹線中文-->
+
+        <!--西部幹線中文結束-->
+
+        <!--西部幹線英文-->
+        <div class="traincode_cen">
+                <!--0508-->
+                <div class="traincode_name1">Keelung</div>
+                <div class="traincode_code1">0900</div>
+                <div class="traincode_name1">Sankeng</div>
+                <div class="traincode_code1">0910</div>
+                <div class="traincode_name1">Badu</div>
+                <div class="traincode_code1">0920</div>
+                <div class="traincode_name1">Qidu</div>
+                <div class="traincode_code1">0930</div>
+                <div class="traincode_name1">Baifu</div>
+                <div class="traincode_code1">0940</div>
+                <div class="traincode_name1">Wudu</div>
+                <div class="traincode_code1">0950</div>
+                <div class="traincode_name1">Xizhi</div>
+                <div class="traincode_code1">0960</div>
+                <div class="traincode_name1">Xike</div>
+                <div class="traincode_code1">0970</div>
+                <div class="traincode_name1">Nangang</div>
+                <div class="traincode_code1">0980</div>
+                <div class="traincode_name1">Songshan</div>
+                <div class="traincode_code1">0990</div>
+                <div class="traincode_name1">Taipei</div>
+                <div class="traincode_code1">1000</div>
+                <div class="traincode_name1">Wanhua</div>
+                <div class="traincode_code1">1010</div>
+                <div class="traincode_name1">Banqiao</div>
+                <div class="traincode_code1">1020</div>
+                <div class="traincode_name1">Fuzhou</div>
+                <div class="traincode_code1">1030</div>
+                <div class="traincode_name1">Shulin</div>
+                <div class="traincode_code1">1040</div>
+                <div class="traincode_name1">South Shulin</div>
+                <div class="traincode_code1">1050</div>
+                <div class="traincode_name1">Shanjia</div>
+                <div class="traincode_code1">1060</div>
+                <div class="traincode_name1">Yingge</div>
+                <div class="traincode_code1">1070</div>
+                <div class="traincode_name1">Taoyuan</div>
+                <div class="traincode_code1">1080</div>
+                <div class="traincode_name1">Neili</div>
+                <div class="traincode_code1">1090</div>
+                <div class="traincode_name1">Zhongli</div>
+                <div class="traincode_code1">1100</div>
+                <div class="traincode_name1">Puxin</div>
+                <div class="traincode_code1">1110</div>
+                <div class="traincode_name1">Yangmei</div>
+                <div class="traincode_code1">1120</div>
+                <div class="traincode_name1">Fugang</div>
+                <div class="traincode_code1">1130</div>
+                <div class="traincode_name1">Xinfu</div>
+                <div class="traincode_code1">1140</div>
+                <div class="traincode_name1">Beihu</div>
+                <div class="traincode_code1">1150</div>
+                <div class="traincode_name1">Hukou</div>
+                <div class="traincode_code1">1160</div>
+                <div class="traincode_name1">Xinfeng</div>
+                <div class="traincode_code1">1170</div>
+                <div class="traincode_name1">Zhubei</div>
+                <div class="traincode_code1">1180</div>
+                <div class="traincode_name1">North Hsinchu</div>
+                <div class="traincode_code1">1190</div>
+                <div class="traincode_name1">Hsinchu</div>
+                <div class="traincode_code1">1210</div>
+                <div class="traincode_name1">Sanxingqiao</div>
+                <div class="traincode_code1">1220</div>
+                <div class="traincode_name1">Xiangshan</div>
+                <div class="traincode_code1">1230</div>
+                <div class="traincode_name1">Qiding</div>
+                <div class="traincode_code1">1240</div>
+                <div class="traincode_name1">Zhunan</div>
+                <div class="traincode_code1">1250</div>
+                <div class="traincode_name1">Zaoqiao</div>
+                <div class="traincode_code1">3140</div>
+                <div class="traincode_name1">Fengfu</div>
+                <div class="traincode_code1">3150</div>
+                <div class="traincode_name1">Miaoli</div>
+                <div class="traincode_code1">3160</div>
+                <div class="traincode_name1">Nanshi</div>
+                <div class="traincode_code1">3170</div>
+                <div class="traincode_name1">Tongluo</div>
+                <div class="traincode_code1">3180</div>
+                <div class="traincode_name1">Sanyi</div>
+                <div class="traincode_code1">3190</div>
+                <div class="traincode_name1">Tai'an</div>
+                <div class="traincode_code1">3210</div>
+                <div class="traincode_name1">Houli</div>
+                <div class="traincode_code1">3220</div>
+                <div class="traincode_name1">Fengyuan</div>
+                <div class="traincode_code1">3230</div>
+                <div class="traincode_name1">Lilin</div>
+                <div class="traincode_code1">3240</div>
+                <div class="traincode_name1">Tanzi</div>
+                <div class="traincode_code1">3250</div>
+                <div class="traincode_name1">Toujiacuo</div>
+                <div class="traincode_code1">3260</div>
+                <div class="traincode_name1">Songzhu</div>
+                <div class="traincode_code1">3270</div>
+                <div class="traincode_name1">Taiyuan</div>
+                <div class="traincode_code1">3280</div>
+                <div class="traincode_name1">Jingwu</div>
+                <div class="traincode_code1">3290</div>
+                <div class="traincode_name1">Taichung</div>
+                <div class="traincode_code1">3300</div>
+                <div class="traincode_name1">Wuquan</div>
+                <div class="traincode_code1">3310</div>
+                <div class="traincode_name1">Daqing</div>
+                <div class="traincode_code1">3320</div>
+                <div class="traincode_name1">Wuri</div>
+                <div class="traincode_code1">3330</div>
+                <div class="traincode_name1">Xinwuri</div>
+                <div class="traincode_code1">3340</div>
+                <div class="traincode_name1">Chenggong</div>
+                <div class="traincode_code1">3350</div>
+
+                <!--0508-->
+                <div class="traincode_name1">Changhua</div>
+                <div class="traincode_code1">3360</div>
+                <div class="traincode_name1">Huatan</div>
+                <div class="traincode_code1">3370</div>
+                <div class="traincode_name1">Dacun</div>
+                <div class="traincode_code1">3380</div>
+                <div class="traincode_name1">Yuanlin</div>
+                <div class="traincode_code1">3390</div>
+                <div class="traincode_name1">Yongjing</div>
+                <div class="traincode_code1">3400</div>
+                <div class="traincode_name1">Shetou</div>
+                <div class="traincode_code1">3410</div>
+                <div class="traincode_name1">Tianzhong</div>
+                <div class="traincode_code1">3420</div>
+                <div class="traincode_name1">Ershui</div>
+                <div class="traincode_code1">3430</div>
+                <div class="traincode_name1">Linnei</div>
+                <div class="traincode_code1">3450</div>
+                <div class="traincode_name1">Shiliu</div>
+                <div class="traincode_code1">3460</div>
+                <div class="traincode_name1">Douliu</div>
+                <div class="traincode_code1">3470</div>
+                <div class="traincode_name1">Dounan</div>
+                <div class="traincode_code1">3480</div>
+                <div class="traincode_name1">Shigui</div>
+                <div class="traincode_code1">3490</div>
+                <div class="traincode_name1">Dalin</div>
+                <div class="traincode_code1">4050</div>
+                <div class="traincode_name1">Minxiong</div>
+                <div class="traincode_code1">4060</div>
+                <div class="traincode_name1">Jiabei</div>
+                <div class="traincode_code1">4070</div>
+                <div class="traincode_name1">Chiayi</div>
+                <div class="traincode_code1">4080</div>
+                <div class="traincode_name1">Shuishang</div>
+                <div class="traincode_code1">4090</div>
+                <div class="traincode_name1">Nanjing</div>
+                <div class="traincode_code1">4100</div>
+                <div class="traincode_name1">Houbi</div>
+                <div class="traincode_code1">4110</div>
+                <div class="traincode_name1">Xinying</div>
+                <div class="traincode_code1">4120</div>
+                <div class="traincode_name1">Liuying</div>
+                <div class="traincode_code1">4130</div>
+                <div class="traincode_name1">Linfengying</div>
+                <div class="traincode_code1">4140</div>
+                <div class="traincode_name1">Longtian</div>
+                <div class="traincode_code1">4150</div>
+                <div class="traincode_name1">Balin</div>
+                <div class="traincode_code1">4160</div>
+                <div class="traincode_name1">Shanhua</div>
+                <div class="traincode_code1">4170</div>
+                <div class="traincode_name1">Nanke</div>
+                <div class="traincode_code1">4180</div>
+                <div class="traincode_name1">Xinshi</div>
+                <div class="traincode_code1">4190</div>
+                <div class="traincode_name1">Yongkang</div>
+                <div class="traincode_code1">4200</div>
+                <div class="traincode_name1">Daqiao</div>
+                <div class="traincode_code1">4210</div>
+                <div class="traincode_name1">Tainan</div>
+                <div class="traincode_code1">4220</div>
+                <div class="traincode_name1">Linsen</div>
+                <div class="traincode_code1">4230</div>
+                <div class="traincode_name1">South Tainan</div>
+                <div class="traincode_code1">4240</div>
+                <div class="traincode_name1">Bao'an</div>
+                <div class="traincode_code1">4250</div>
+                <div class="traincode_name1">Rende</div>
+                <div class="traincode_code1">4260</div>
+                <div class="traincode_name1">Zhongzhou</div>
+                <div class="traincode_code1">4270</div>
+                <div class="traincode_name1">Dahu</div>
+                <div class="traincode_code1">4290</div>
+                <div class="traincode_name1">Luzhu</div>
+                <div class="traincode_code1">4300</div>
+                <div class="traincode_name1">Gangshan</div>
+                <div class="traincode_code1">4310</div>
+                <div class="traincode_name1">Qiaotou</div>
+                <div class="traincode_code1">4320</div>
+                <div class="traincode_name1">Nanzi</div>
+                <div class="traincode_code1">4330</div>
+                <div class="traincode_name1">Xinzuoying</div>
+                <div class="traincode_code1">4340</div>
+                <div class="traincode_name1">Zuoying</div>
+                <div class="traincode_code1">4350</div>
+                <div class="traincode_name1">Neiwei</div>
+                <div class="traincode_code1">4360</div>
+                <div class="traincode_name1">Museum of Fine Arts</div>
+                <div class="traincode_code1">4370</div>
+                <div class="traincode_name1">Gushan</div>
+                <div class="traincode_code1">4380</div>
+                <div class="traincode_name1">Sankuaicuo</div>
+                <div class="traincode_code1">4390</div>
+                <div class="traincode_name1">Kaohsiung</div>
+                <div class="traincode_code1">4400</div>
+                <div class="traincode_name1">Minzu</div>
+                <div class="traincode_code1">4410</div>
+                <div class="traincode_name1">Science And Technology Museum</div>
+                <div class="traincode_code1">4420</div>
+                <div class="traincode_name1">Zhengyi</div>
+                <div class="traincode_code1">4430</div>
+                <div class="traincode_name1">Fengshan</div>
+                <div class="traincode_code1">4440</div>
+                <div class="traincode_name1">Houzhuang</div>
+                <div class="traincode_code1">4450</div>
+                <div class="traincode_name1">Jiuqutang</div>
+                <div class="traincode_code1">4460</div>
+                <div class="traincode_name1">Liukuaicuo</div>
+                <div class="traincode_code1">4470</div>
+                <div class="traincode_name1">Pingtung</div>
+                <div class="traincode_code1">5000</div>
+            <!--0508-->
+        </div>
+        <!--西部幹線英文結束-->
+
+        <!--西部幹線日文-->
+
+        <!--西部幹線日文結束-->
+
+        <!--西部幹線簡體中文-->
+
+        <!--西部幹線簡體中文結束-->
+
+        <!--西部幹線韓文-->
+
+        <!--西部幹線韓文結束-->
+    </div>
+    <!--西部幹線結束-->
+    <!--西部幹線海線-->
+    <div class="traincode_all">
+        <!--西部幹線海線中文-->
+
+        <!--西部幹線海線中文結束-->
+
+
+        <!--西部幹線海線英文-->
+        <div class="traincode_cen">
+
+                <!--0508-->
+                <div class="traincode_name1">Tanwen</div>
+                <div class="traincode_code1">2110</div>
+                <div class="traincode_name1">Dashan</div>
+                <div class="traincode_code1">2120</div>
+                <div class="traincode_name1">Houlong</div>
+                <div class="traincode_code1">2130</div>
+                <div class="traincode_name1">Longgang</div>
+                <div class="traincode_code1">2140</div>
+                <div class="traincode_name1">Baishatun</div>
+                <div class="traincode_code1">2150</div>
+                <div class="traincode_name1">Xinpu</div>
+                <div class="traincode_code1">2160</div>
+                <div class="traincode_name1">Tongxiao</div>
+                <div class="traincode_code1">2170</div>
+                <div class="traincode_name1">Yuanli</div>
+                <div class="traincode_code1">2180</div>
+
+                <!--0508-->
+                <div class="traincode_name1">Rinan</div>
+                <div class="traincode_code1">2190</div>
+                <div class="traincode_name1">Dajia</div>
+                <div class="traincode_code1">2200</div>
+                <div class="traincode_name1">Taichung Port</div>
+                <div class="traincode_code1">2210</div>
+                <div class="traincode_name1">Qingshui</div>
+                <div class="traincode_code1">2220</div>
+                <div class="traincode_name1">Shalu</div>
+                <div class="traincode_code1">2230</div>
+                <div class="traincode_name1">Longjing</div>
+                <div class="traincode_code1">2240</div>
+                <div class="traincode_name1">Dadu</div>
+                <div class="traincode_code1">2250</div>
+                <div class="traincode_name1">Zhuifen</div>
+                <div class="traincode_code1">2260</div>
+            <!--0508-->
+        </div>
+        <!--西部幹線海線英文結束-->
+
+        <!--西部幹線海線日文-->
+
+        <!--西部幹線海線日文結束-->
+        <!--西部幹線海線簡體中文-->
+
+
+        <!--西部幹線海線簡體中文結束-->
+        <!--西部幹線海線韓文-->
+
+        <!--西部幹線海線韓文結束-->
+    </div>
+    <!--西部幹線海線結束-->
+    <!--東部幹線-->
+    <div class="traincode_all">
+        <!--東部幹線中文-->
+
+        <!--東部幹線中文結束-->
+
+        <!--東部幹線英文-->
+        <div class="traincode_cen">
+                <!--0508-->
+                <div class="traincode_name1">Badu</div>
+                <div class="traincode_code1">0920</div>
+                <div class="traincode_name1">Nuannuan</div>
+                <div class="traincode_code1">7390</div>
+                <div class="traincode_name1">Sijiaoting</div>
+                <div class="traincode_code1">7380</div>
+                <div class="traincode_name1">Ruifang</div>
+                <div class="traincode_code1">7360</div>
+                <div class="traincode_name1">Houtong</div>
+                <div class="traincode_code1">7350</div>
+                <div class="traincode_name1">Sandiaoling</div>
+                <div class="traincode_code1">7330</div>
+                <div class="traincode_name1">Mudan</div>
+                <div class="traincode_code1">7320</div>
+                <div class="traincode_name1">Shuangxi</div>
+                <div class="traincode_code1">7310</div>
+                <div class="traincode_name1">Gongliao</div>
+                <div class="traincode_code1">7300</div>
+                <div class="traincode_name1">Fulong</div>
+                <div class="traincode_code1">7290</div>
+                <div class="traincode_name1">Shicheng</div>
+                <div class="traincode_code1">7280</div>
+                <div class="traincode_name1">Dali</div>
+                <div class="traincode_code1">7270</div>
+                <div class="traincode_name1">Daxi</div>
+                <div class="traincode_code1">7260</div>
+                <div class="traincode_name1">Guishan</div>
+                <div class="traincode_code1">7250</div>
+                <div class="traincode_name1">Wai'ao</div>
+                <div class="traincode_code1">7240</div>
+                <div class="traincode_name1">Toucheng</div>
+                <div class="traincode_code1">7230</div>
+                <div class="traincode_name1">Dingpu</div>
+                <div class="traincode_code1">7220</div>
+                <div class="traincode_name1">Jiaoxi</div>
+                <div class="traincode_code1">7210</div>
+                <div class="traincode_name1">Sicheng</div>
+                <div class="traincode_code1">7200</div>
+                <div class="traincode_name1">Yilan</div>
+                <div class="traincode_code1">7190</div>
+                <div class="traincode_name1">Erjie</div>
+                <div class="traincode_code1">7180</div>
+                <div class="traincode_name1">Zhongli</div>
+                <div class="traincode_code1">7170</div>
+                <div class="traincode_name1">Luodong</div>
+                <div class="traincode_code1">7160</div>
+                <div class="traincode_name1">Dongshan</div>
+                <div class="traincode_code1">7150</div>
+                <div class="traincode_name1">Xinma</div>
+                <div class="traincode_code1">7140</div>
+                <div class="traincode_name1">Su'aoxin</div>
+                <div class="traincode_code1">7130</div>
+                <div class="traincode_name1">Yongle</div>
+                <div class="traincode_code1">7110</div>
+                <div class="traincode_name1">Dong'ao</div>
+                <div class="traincode_code1">7100</div>
+                <div class="traincode_name1">Nan'ao</div>
+                <div class="traincode_code1">7090</div>
+                <div class="traincode_name1">Wuta</div>
+                <div class="traincode_code1">7080</div>
+                <div class="traincode_name1">Hanben</div>
+                <div class="traincode_code1">7070</div>
+                <div class="traincode_name1">Heping</div>
+                <div class="traincode_code1">7060</div>
+
+                <!--0508-->
+                <div class="traincode_name1">Heren</div>
+                <div class="traincode_code1">7050</div>
+                <div class="traincode_name1">Chongde</div>
+                <div class="traincode_code1">7040</div>
+                <div class="traincode_name1">Xincheng</div>
+                <div class="traincode_code1">7030</div>
+                <div class="traincode_name1">Jingmei</div>
+                <div class="traincode_code1">7020</div>
+                <div class="traincode_name1">Beipu</div>
+                <div class="traincode_code1">7010</div>
+                <div class="traincode_name1">Hualien</div>
+                <div class="traincode_code1">7000</div>
+                <div class="traincode_name1">Ji'an</div>
+                <div class="traincode_code1">6250</div>
+                <div class="traincode_name1">Zhixue</div>
+                <div class="traincode_code1">6240</div>
+                <div class="traincode_name1">Pinghe</div>
+                <div class="traincode_code1">6230</div>
+                <div class="traincode_name1">Shoufeng</div>
+                <div class="traincode_code1">6220</div>
+                <div class="traincode_name1">Fengtian</div>
+                <div class="traincode_code1">6210</div>
+                <div class="traincode_name1">Linrong Shin Kong</div>
+                <div class="traincode_code1">6200</div>
+                <div class="traincode_name1">Nanping</div>
+                <div class="traincode_code1">6190</div>
+                <div class="traincode_name1">Fenglin</div>
+                <div class="traincode_code1">6180</div>
+                <div class="traincode_name1">Wanrong</div>
+                <div class="traincode_code1">6170</div>
+                <div class="traincode_name1">Guangfu</div>
+                <div class="traincode_code1">6160</div>
+                <div class="traincode_name1">Dafu</div>
+                <div class="traincode_code1">6150</div>
+                <div class="traincode_name1">Fuyuan</div>
+                <div class="traincode_code1">6140</div>
+                <div class="traincode_name1">Ruisui</div>
+                <div class="traincode_code1">6130</div>
+                <div class="traincode_name1">Sanmin</div>
+                <div class="traincode_code1">6120</div>
+                <div class="traincode_name1">Yuli</div>
+                <div class="traincode_code1">6110</div>
+                <div class="traincode_name1">Dongli</div>
+                <div class="traincode_code1">6100</div>
+                <div class="traincode_name1">Dongzhu</div>
+                <div class="traincode_code1">6090</div>
+                <div class="traincode_name1">Fuli</div>
+                <div class="traincode_code1">6080</div>
+                <div class="traincode_name1">Chishang</div>
+                <div class="traincode_code1">6070</div>
+                <div class="traincode_name1">Haiduan</div>
+                <div class="traincode_code1">6060</div>
+                <div class="traincode_name1">Guanshan</div>
+                <div class="traincode_code1">6050</div>
+                <div class="traincode_name1">Ruihe</div>
+                <div class="traincode_code1">6040</div>
+                <div class="traincode_name1">Ruiyuan</div>
+                <div class="traincode_code1">6030</div>
+                <div class="traincode_name1">Luye</div>
+                <div class="traincode_code1">6020</div>
+                <div class="traincode_name1">Shanli</div>
+                <div class="traincode_code1">6010</div>
+                <div class="traincode_name1">Taitung</div>
+                <div class="traincode_code1">6000</div>
+            <!--0508-->
+        </div>
+        <!--東部幹線英文結束-->
+
+        <!--東部幹線日文-->
+
+        <!--東部幹線日文結束-->
+        <!--東部幹線簡體中文-->
+
+        <!--東部幹線簡體中文結束-->
+        <!--東部幹線韓文-->
+
+        <!--東部幹線韓文結束-->
+    </div>
+    <!--東部幹線結束-->
+    <!--屏東南迴-->
+    <div class="traincode_all">
+        <!--屏東南迴中文-->
+
+        <!--屏東南迴中文結束-->
+
+
+        <!--屏東南迴英文-->
+        <div class="traincode_cen">
+                <!--0508-->
+                <div class="traincode_name1">Pingtung</div>
+                <div class="traincode_code1">5000</div>
+                <div class="traincode_name1">Guilai</div>
+                <div class="traincode_code1">5010</div>
+                <div class="traincode_name1">Linluo</div>
+                <div class="traincode_code1">5020</div>
+                <div class="traincode_name1">Xishi</div>
+                <div class="traincode_code1">5030</div>
+                <div class="traincode_name1">Zhutian</div>
+                <div class="traincode_code1">5040</div>
+                <div class="traincode_name1">Chaozhou</div>
+                <div class="traincode_code1">5050</div>
+                <div class="traincode_name1">Kanding</div>
+                <div class="traincode_code1">5060</div>
+                <div class="traincode_name1">Nanzhou</div>
+                <div class="traincode_code1">5070</div>
+                <div class="traincode_name1">Zhen'an</div>
+                <div class="traincode_code1">5080</div>
+                <div class="traincode_name1">Linbian</div>
+                <div class="traincode_code1">5090</div>
+                <div class="traincode_name1">Jiadong</div>
+                <div class="traincode_code1">5100</div>
+                <div class="traincode_name1">Donghai</div>
+                <div class="traincode_code1">5110</div>
+
+                <!--0508-->
+                <div class="traincode_name1">Fangliao</div>
+                <div class="traincode_code1">5120</div>
+                <div class="traincode_name1">Jialu</div>
+                <div class="traincode_code1">5130</div>
+                <div class="traincode_name1">Neishi</div>
+                <div class="traincode_code1">5140</div>
+                <div class="traincode_name1">Fangshan</div>
+                <div class="traincode_code1">5160</div>
+                <div class="traincode_name1">Dawu</div>
+                <div class="traincode_code1">5190</div>
+                <div class="traincode_name1">Longxi</div>
+                <div class="traincode_code1">5200</div>
+                <div class="traincode_name1">Jinlun</div>
+                <div class="traincode_code1">5210</div>
+                <div class="traincode_name1">Taimali</div>
+                <div class="traincode_code1">5220</div>
+                <div class="traincode_name1">Zhiben</div>
+                <div class="traincode_code1">5230</div>
+                <div class="traincode_name1">Kangle</div>
+                <div class="traincode_code1">5240</div>
+                <div class="traincode_name1">Taitung</div>
+                <div class="traincode_code1">6000</div>
+            <!--0508-->
+        </div>
+        <!--屏東南迴英文結束-->
+
+        <!--屏東南迴日文-->
+
+        <!--屏東南迴日文結束-->
+        <!--屏東南迴簡體中文-->
+
+        <!--屏東南迴簡體中文結束-->
+        <!--屏東南迴韓文-->
+
+        <!--屏東南迴結束-->
+        <!--平溪線-->
+        <div class="traincode_all">
+            <!--平溪線中文-->
+
+            <!--平溪線中文結束-->
+
+            <!--平溪線英文-->
+            <div class="traincode_cen">
+                <div class="traincode_name1">Sandiaoling</div>
+                <div class="traincode_code1">7330</div>
+                <div class="traincode_name1">Dahua</div>
+                <div class="traincode_code1">7331</div>
+                <div class="traincode_name1">Shifen</div>
+                <div class="traincode_code1">7332</div>
+                <div class="traincode_name1">Wanggu</div>
+                <div class="traincode_code1">7333</div>
+                <div class="traincode_name1">Lingjiao</div>
+                <div class="traincode_code1">7334</div>
+                <div class="traincode_name1">Pingxi</div>
+                <div class="traincode_code1">7335</div>
+                <div class="traincode_name1">Jingtong</div>
+                <div class="traincode_code1">7336</div>
+            </div>
+            <!--平溪線英文結束-->
+
+            <!--平溪線日文-->
+
+            <!--平溪線日文結束-->
+            <!--平溪線簡體中文-->
+
+            <!--平溪線簡體中文結束-->
+            <!--平溪線韓文-->
+
+            <!--平溪線韓文結束-->
+        </div>
+        <!--平溪線結束-->
+        <!--內灣線-->
+        <div class="traincode_all">
+            <!--內灣線中文-->
+
+            <!--內灣線中文結束-->
+
+            <!--內灣線英文-->
+            <div class="traincode_cen">
+                <div class="traincode_name1">Hsinchu</div>
+                <div class="traincode_code1">1210</div>
+                <div class="traincode_name1">North Hsinchu</div>
+                <div class="traincode_code1">1190</div>
+                <div class="traincode_name1">Qianjia</div>
+                <div class="traincode_code1">1191</div>
+                <div class="traincode_name1">Xinzhuang</div>
+                <div class="traincode_code1">1192</div>
+                <div class="traincode_name1">Zhuzhong</div>
+                <div class="traincode_code1">1193</div>
+                <div class="traincode_name1">Shangyuan</div>
+                <div class="traincode_code1">1201</div>
+                <div class="traincode_name1">Ronghua</div>
+                <div class="traincode_code1">1202</div>
+                <div class="traincode_name1">Zhudong</div>
+                <div class="traincode_code1">1203</div>
+                <div class="traincode_name1">Hengshan</div>
+                <div class="traincode_code1">1204</div>
+                <div class="traincode_name1">Jiuzantou</div>
+                <div class="traincode_code1">1205</div>
+                <div class="traincode_name1">Hexing</div>
+                <div class="traincode_code1">1206</div>
+                <div class="traincode_name1">Fugui</div>
+                <div class="traincode_code1">1207</div>
+                <div class="traincode_name1">Neiwan</div>
+                <div class="traincode_code1">1208</div>
+            </div>
+            <!--內灣線英文結束-->
+
+            <!--內灣線日文-->
+
+            <!--內灣線日文結束-->
+            <!--內灣線簡體中文-->
+
+            <!--內灣線簡體中文結束-->
+            <!--內灣線韓文-->
+
+            <!--內灣線韓文結束-->
+        </div>
+        <!--內灣線結束-->
+        <!--集集線-->
+        <div class="traincode_all">
+            <!--集集線中文-->
+
+            <!--集集線中文結束-->
+
+
+            <!--集集線英文-->
+            <div class="traincode_cen">
+                <div class="traincode_name1">Ershui</div>
+                <div class="traincode_code1">3430</div>
+                <div class="traincode_name1">Yuanquan</div>
+                <div class="traincode_code1">3431</div>
+                <div class="traincode_name1">Zhuoshui</div>
+                <div class="traincode_code1">3432</div>
+                <div class="traincode_name1">Longquan</div>
+                <div class="traincode_code1">3433</div>
+                <div class="traincode_name1">Jiji</div>
+                <div class="traincode_code1">3434</div>
+                <div class="traincode_name1">Shuili</div>
+                <div class="traincode_code1">3435</div>
+                <div class="traincode_name1">Checheng</div>
+                <div class="traincode_code1">3436</div>
+            </div>
+            <!--集集線英文結束-->
+
+            <!--集集線日文-->
+
+            <!--集集線日文結束-->
+            <!--集集線簡體中文-->
+
+            <!--集集線簡體中文結束-->
+            <!--集集線韓文-->
+
+            <!--集集線韓文結束-->
+        </div>
+        <!--集集線結束-->
+        <!--成追線-->
+        <div class="traincode_all">
+            <!--成追線中文-->
+
+            <!--成追線中文結束-->
+
+
+            <!--成追線英文-->
+            <div class="traincode_cen">
+                <div class="traincode_name1">Chenggong</div>
+                <div class="traincode_code1">3350</div>
+                <div class="traincode_name1">Zhuifen</div>
+                <div class="traincode_code1">2260</div>
+            </div>
+            <!--成追線英文結束-->
+
+            <!--成追線日文-->
+
+            <!--成追線日文結束-->
+            <!--成追線簡體中文-->
+
+            <!--成追線簡體中文結束-->
+            <!--成追線韓文-->
+
+            <!--成追線韓文結束-->
+        </div>
+        <!--成追線結束-->
+        <!--沙崙線-->
+        <div class="traincode_all">
+            <!--沙崙線中文-->
+
+            <!--沙崙線中文結束-->
+
+
+            <!--沙崙線英文-->
+            <div class="traincode_cen">
+                <div class="traincode_name1">Zhongzhou</div>
+                <div class="traincode_code1">4270</div>
+                <div class="traincode_name1">Chang Jung Christian University</div>
+                <div class="traincode_code1">4271</div>
+                <div class="traincode_name1">Shalun</div>
+                <div class="traincode_code1">4272</div>
+            </div>
+            <!--沙崙線英文結束-->
+
+            <!--沙崙線日文-->
+
+            <!--沙崙線日文結束-->
+            <!--沙崙線簡體中文-->
+
+            <!--沙崙線簡體中文結束-->
+            <!--沙崙線韓文-->
+
+            <!--沙崙線韓文結束-->
+        </div>
+        <!--沙崙線結束-->
+        <!--六家線-->
+        <div class="traincode_all">
+            <!--六家線中文-->
+
+            <!--六家線中文結束-->
+
+
+            <!--六家線英文-->
+            <div class="traincode_cen">
+                <div class="traincode_name1">Zhuzhong</div>
+                <div class="traincode_code1">1193</div>
+                <div class="traincode_name1">Liujia</div>
+                <div class="traincode_code1">1194</div>
+            </div>
+            <!--六家線英文結束-->
+
+            <!--六家線日文-->
+
+            <!--六家線日文結束-->
+            <!--六家線簡體中文-->
+
+            <!--六家線簡體中文結束-->
+            <!--六家線韓文-->
+
+            <!--六家線韓文結束-->
+        </div>
+        <!--六家線結束-->
+        <!--深澳線-->
+        <div class="traincode_all">
+            <!--深澳線中文-->
+
+            <!--深澳線中文結束-->
+
+
+            <!--深澳線英文-->
+            <div class="traincode_cen">
+                <div class="traincode_name1">Ruifang</div>
+                <div class="traincode_code1">7360</div>
+                <div class="traincode_name1">Haikeguan</div>
+                <div class="traincode_code1">7361</div>
+                <div class="traincode_name1">Badouzi</div>
+                <div class="traincode_code1">7362</div>
+            </div>
+            <!--深澳線英文結束-->
+
+            <!--深澳線日文-->
+
+            <!--深澳線日文結束-->
+            <!--深澳線簡體中文-->
+
+            <!--深澳線簡體中文結束-->
+            <!--深澳線韓文-->
+
+            <!--深澳線韓文結束-->
+        </div>
+        <!--深澳線結束-->
+    </div>
+    <!--主要內容區塊 end-->
+
+</div>
+<!--表尾(在tip_demo.js載入_tmp_footer.html的內容) -->
+<div class="footer">
+    <!--頁尾導盲磚-->
+    <div class="footer-content container fix_position_r">
+        <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip111/view#Z" id="AZ" title="Link area of menu below.  This area is listed with links of [Booking service]、[Ticket types/fares]、[Travel information], etc." accesskey="Z" name="Z">:::</a>
+        <div class="footer-links common-links">
+            <div class="link-head">Frequently used services</div>
+            <ul>
+                <li>
+                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip123/query" title="Booking service">Booking service</a>
+                </li>
+                <li>
+                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00C/tipC11/view11" title="Ticket types/fares">Ticket types/fares</a>
+                </li>
+                <li>
+                    <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime" title="Travel information">Travel information</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footer-links about-links">
+            <div class="link-head">Taiwan Railways Administration</div>
+            <ul>
+                <li>
+
+
+                    <a href="https://www.railway.gov.tw/tra-tip-web/adr/about-TRA/en" title="About TRA">About TRA</a>
+
+
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="footer-links app-links">
+            <div class="link-head">TRA E-booking 2019</div>
+            <ul>
+                <li>
+                    <img src="./交通部臺灣鐵路管理局en_files/APP.png" alt="TRA E-booking 2019">
+                </li>
+                <li>
+                    <a href="https://itunes.apple.com/app/id1441617748" target="_blank" class="ios" title="Download TRA E-booking 2019 for iOS users">
+                        <img src="./交通部臺灣鐵路管理局en_files/apply-store.png" alt="App Store" title="App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=tw.gov.tra.twtraffic" target="_blank" class="googleplay" title="Download TRA E-booking 2019 for Android users">
+                        <img src="./交通部臺灣鐵路管理局en_files/google-play.png" alt="Google play" title="Google play">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="footer-contact">
+        <div class="container">
+            <ul class="footer-contact-wrapper">
+                <li title="TEL：886-2-2381-5226">TEL：886-2-2381-5226</li>
+                <li title="Customer Service : 0800-765-888 ">Customer Service : 0800-765-888</li>
+                <li title="Local service line：886-2-21910096 ">Local service line：886-2-21910096</li>
+                <li title="Address : No.3, Beiping W. Rd., Jhongjheng District, Taipei City 100, Taiwan (R.O.C.)(Zip Code10041)">Address : No.3, Beiping W. Rd., Jhongjheng District, Taipei City 100, Taiwan (R.O.C.)(Zip Code10041)</li>
+                <li title="The optimal resolution 1280 x 1024, suggest to use Chrome, FireFox, Edge, Safari">The optimal resolution 1280 x 1024, suggest to use Chrome, FireFox, Edge, Safari</li>
+                <li class="call">
+                    <a href="http://cscenter.railway.gov.tw/webcall.html" title="Voice service">Voice service</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="copyright">
+        <div class="container">
+            <div>
+                <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00F/tipF12/view" title="Privacy policy">Privacy policy</a>
+                <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00F/tipF13/view10" title="Information security policy">Information security policy</a>
+                <a href="https://www.railway.gov.tw/tra-tip-web/tip/tip00F/tipF14/view" title="Copyright Declaration">Copyright Declaration</a>
+                <a href="https://www.railway.gov.tw/tra-tip-web/tip?site_preference=mobile" title="Switch to mobile version">Switch to mobile version</a>
+            </div>
+            <div>
+                <li>©Taiwan Railways Administration ,MOTC. 2019 All Rights Reserved.</li>
+                <li>Website update：2019-06-12</li>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr">
+    <div style="padding: 8px;">
+        <div>
+            <div class="logo"><img src="./交通部臺灣鐵路管理局en_files/translate_24dp.png" width="20" height="20" alt="Google Translate"></div>
+        </div>
+    </div>
+    <div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Oorspronkelijke tekst</h1></div>
+    <div class="middle" style="padding: 8px;">
+        <div class="original-text"></div>
+    </div>
+    <div class="bottom" style="padding: 8px;">
+        <div class="activity-links"><span class="activity-link">Een betere vertaling bijdragen</span><span class="activity-link"></span></div>
+        <div class="started-activity-container">
+            <hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;">
+            <div class="activity-root"></div>
+        </div>
+    </div>
+    <div class="status-message" style="display: none;"></div>
+</div>
+
+<div class="goog-te-spinner-pos">
+    <div class="goog-te-spinner-animation">
+        <svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66">
+            <circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+        </svg>
+    </div>
+</div>
+</body>
+<script src="scrapWebsiteCodesForEnglishVersions.js"></script>
+</html>
