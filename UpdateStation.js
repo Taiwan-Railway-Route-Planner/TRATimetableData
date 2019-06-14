@@ -59,8 +59,30 @@ function mergeTRAStationCodesAndStationJson() {
     });
 }
 
-checkTRAStationcodesForMissingEnglishNames();
-checkStationWithEnglishNamesForMissingTraWebsiteCode();
+createStationData();
+function createStationData() {
+
+    async function getTRAStations() {
+        return await readFile('stationsWithEnglishNames.json');
+    }
+
+    getTRAStations().then(stationData => {
+       let newStationData = [];
+       stationData = JSON.parse(stationData);
+       stationData.features.forEach(function (el) {
+           newStationData.push({
+               "時刻表編號": el.properties.時刻表編號,
+               "traWebsiteCode": el.properties.traWebsiteCode,
+               "站名": el.properties.站名,
+               "eng站名": el.properties.eng站名
+           })
+       });
+        exportNewData('./docs/stationInfo.json', newStationData);
+    });
+}
+
+// checkTRAStationcodesForMissingEnglishNames();
+// checkStationWithEnglishNamesForMissingTraWebsiteCode();
 
 function checkTRAStationcodesForMissingEnglishNames() {
 
