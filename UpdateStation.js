@@ -14,12 +14,12 @@ function removeTheWordStationFromTheTitle() {
             el.properties.站名 = el.properties.站名.replace('站', '');
             return el;
         });
-        exportNewData(JSON.stringify(data));
+        exportNewData(data);
     });
 
 
-    function exportNewData(newData){
-        fs.writeFile('station.json', newData, err => {
+    function exportNewData(newData) {
+        fs.writeFile('station.json', JSON.stringify(newData), err => {
             if (err) {
                 console.log('Error writing file', err)
             } else {
@@ -49,19 +49,19 @@ function mergeTRAStationCodesAndStationJson() {
                 let index = TRAData.stations.findIndex(function (traEl) {
                     return traEl.站名 === el.properties.站名
                 });
-                if (index !== -1){
+                if (index !== -1) {
                     el.properties.traWebsiteCode = TRAData.stations[index].traWebsiteCode;
                     el.properties.eng站名 = TRAData.stations[index].eng站名;
                 }
                 return el;
             });
-            exportNewData(JSON.stringify(stationData));
+            exportNewData(stationData);
         });
     });
 
 
-    function exportNewData(newData){
-        fs.writeFile('stationsWithEnglishNames.json', newData, err => {
+    function exportNewData(newData) {
+        fs.writeFile('stationsWithEnglishNames.json', JSON.stringify(newData), err => {
             if (err) {
                 console.log('Error writing file', err)
             } else {
@@ -84,16 +84,16 @@ function checkTRAStationcodesForMissingEnglishNames() {
         TRAData = JSON.parse(TRAData);
         let newObject = [];
         TRAData.stations.forEach(function (el) {
-            if (!(el.hasOwnProperty("eng站名"))){
+            if (!(el.hasOwnProperty("eng站名"))) {
                 newObject.push(el);
             }
         });
-        exportNewData(JSON.stringify(newObject));
+        exportNewData(newObject);
     });
 
 
-    function exportNewData(newData){
-        fs.writeFile('TRAStationCodesFalse.json', newData, err => {
+    function exportNewData(newData) {
+        fs.writeFile('TRAStationCodesFalse.json', JSON.stringify(newData), err => {
             if (err) {
                 console.log('Error writing file', err)
             } else {
@@ -113,16 +113,16 @@ function checkStationWithEnglishNamesForMissingTraWebsiteCode() {
         data = JSON.parse(data);
         let newObject = [];
         data.features.forEach(function (el) {
-            if (!(el.properties.hasOwnProperty("traWebsiteCode"))){
+            if (!(el.properties.hasOwnProperty("traWebsiteCode"))) {
                 newObject.push(el);
             }
         });
-        exportNewData(JSON.stringify(newObject));
+        exportNewData(newObject);
     });
 
 
-    function exportNewData(newData){
-        fs.writeFile('stationsWithEnglishNamesFalse.json', newData, err => {
+    function exportNewData(newData) {
+        fs.writeFile('stationsWithEnglishNamesFalse.json', JSON.stringify(newData), err => {
             if (err) {
                 console.log('Error writing file', err)
             } else {
