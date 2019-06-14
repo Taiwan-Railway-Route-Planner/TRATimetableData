@@ -3,6 +3,16 @@ const util = require('util');
 
 const readFile = util.promisify(fs.readFile);
 
+function exportNewData(fileName, newData) {
+    fs.writeFile(fileName, JSON.stringify(newData), err => {
+        if (err) {
+            console.log('Error writing file', err)
+        } else {
+            console.log('Successfully wrote file')
+        }
+    })
+}
+
 function removeTheWordStationFromTheTitle() {
     async function getStuff() {
         return await readFile('station.json');
@@ -14,19 +24,8 @@ function removeTheWordStationFromTheTitle() {
             el.properties.站名 = el.properties.站名.replace('站', '');
             return el;
         });
-        exportNewData(data);
+        exportNewData('station.json', data);
     });
-
-
-    function exportNewData(newData) {
-        fs.writeFile('station.json', JSON.stringify(newData), err => {
-            if (err) {
-                console.log('Error writing file', err)
-            } else {
-                console.log('Successfully wrote file')
-            }
-        })
-    }
 }
 
 mergeTRAStationCodesAndStationJson();
@@ -55,20 +54,9 @@ function mergeTRAStationCodesAndStationJson() {
                 }
                 return el;
             });
-            exportNewData(stationData);
+            exportNewData('stationsWithEnglishNames.json', stationData);
         });
     });
-
-
-    function exportNewData(newData) {
-        fs.writeFile('stationsWithEnglishNames.json', JSON.stringify(newData), err => {
-            if (err) {
-                console.log('Error writing file', err)
-            } else {
-                console.log('Successfully wrote file')
-            }
-        })
-    }
 }
 
 checkTRAStationcodesForMissingEnglishNames();
@@ -88,19 +76,8 @@ function checkTRAStationcodesForMissingEnglishNames() {
                 newObject.push(el);
             }
         });
-        exportNewData(newObject);
+        exportNewData('TRAStationCodesFalse.json', newObject);
     });
-
-
-    function exportNewData(newData) {
-        fs.writeFile('TRAStationCodesFalse.json', JSON.stringify(newData), err => {
-            if (err) {
-                console.log('Error writing file', err)
-            } else {
-                console.log('Successfully wrote file')
-            }
-        })
-    }
 }
 
 function checkStationWithEnglishNamesForMissingTraWebsiteCode() {
@@ -117,17 +94,6 @@ function checkStationWithEnglishNamesForMissingTraWebsiteCode() {
                 newObject.push(el);
             }
         });
-        exportNewData(newObject);
+        exportNewData('stationsWithEnglishNamesFalse.json', newObject);
     });
-
-
-    function exportNewData(newData) {
-        fs.writeFile('stationsWithEnglishNamesFalse.json', JSON.stringify(newData), err => {
-            if (err) {
-                console.log('Error writing file', err)
-            } else {
-                console.log('Successfully wrote file')
-            }
-        })
-    }
 }
