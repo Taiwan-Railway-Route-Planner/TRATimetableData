@@ -3,8 +3,8 @@ const util = require('util');
 
 const readFile = util.promisify(fs.readFile);
 
-const path = "./docs/Schedules/";
-const alternatedPath = "./docs/ASchedules/";
+const path = "./docs/routes/";
+const destPath = "./docs/Schedules/";
 
 function readDir() {
 
@@ -32,13 +32,15 @@ function readJsonFile(fileName) {
             el.StartTime = el.TimeInfos[0].DepTime;
             el.EndStation = parseInt(el.TimeInfos[el.TimeInfos.length-1].Station);
             el.EndTime = el.TimeInfos[el.TimeInfos.length-1].DepTime;
+            el.Stations = [];
+            el.TimeInfos.forEach((tel => el.Stations.push(parseInt(tel.Station))));
             return el;
         });
         exportNewData(JSON.stringify(fileData));
     }
 
     function exportNewData(newData){
-        fs.writeFile(alternatedPath + fileName, newData, err => {
+        fs.writeFile(destPath + fileName, newData, err => {
             if (err) {
                 console.log('Error writing file', err)
             } else {
