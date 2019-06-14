@@ -13,6 +13,8 @@ function exportNewData(fileName, newData) {
     })
 }
 
+// removeTheWordStationFromTheTitle()
+
 function removeTheWordStationFromTheTitle() {
     async function getStuff() {
         return await readFile('station.json');
@@ -28,7 +30,7 @@ function removeTheWordStationFromTheTitle() {
     });
 }
 
-mergeTRAStationCodesAndStationJson();
+// mergeTRAStationCodesAndStationJson();
 
 function mergeTRAStationCodesAndStationJson() {
 
@@ -59,7 +61,8 @@ function mergeTRAStationCodesAndStationJson() {
     });
 }
 
-createStationData();
+// createStationData();
+
 function createStationData() {
 
     async function getTRAStations() {
