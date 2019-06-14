@@ -74,7 +74,7 @@ function createStationData() {
        stationData = JSON.parse(stationData);
        stationData.features.forEach(function (el) {
            newStationData.push({
-               "時刻表編號": el.properties.時刻表編號,
+               "時刻表編號": parseInt(el.properties.時刻表編號),
                "traWebsiteCode": el.properties.traWebsiteCode,
                "站名": el.properties.站名,
                "eng站名": el.properties.eng站名
