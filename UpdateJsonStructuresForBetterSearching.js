@@ -28,9 +28,9 @@ function readJsonFile(fileName) {
 
     function alternateData(fileData) {
         fileData.TrainInfos.map(function (el) {
-            el.StartStation = el.TimeInfos[0].Station;
+            el.StartStation = parseInt(el.TimeInfos[0].Station);
             el.StartTime = el.TimeInfos[0].DepTime;
-            el.EndStation = el.TimeInfos[el.TimeInfos.length-1].Station;
+            el.EndStation = parseInt(el.TimeInfos[el.TimeInfos.length-1].Station);
             el.EndTime = el.TimeInfos[el.TimeInfos.length-1].DepTime;
             return el;
         });
