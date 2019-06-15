@@ -13,7 +13,7 @@ function exportNewData(fileName, newData) {
     })
 }
 
-// removeTheWordStationFromTheTitle()
+// removeTheWordStationFromTheTitle();
 
 function removeTheWordStationFromTheTitle() {
     async function getStuff() {
