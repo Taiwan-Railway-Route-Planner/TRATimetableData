@@ -70,18 +70,79 @@ function createStationData() {
     }
 
     getTRAStations().then(stationData => {
-       let newStationData = [];
-       stationData = JSON.parse(stationData);
-       stationData.features.forEach(function (el) {
-           newStationData.push({
-               "時刻表編號": parseInt(el.properties.時刻表編號),
-               "traWebsiteCode": el.properties.traWebsiteCode,
-               "站名": el.properties.站名,
-               "eng站名": el.properties.eng站名
-           })
-       });
+        let newStationData = {
+                "routeInfo": [
+                    {
+                        "name": "RoundLine",
+                        "code": 1,
+                    },
+                    {
+                        "name": "CoastLine",
+                        "code": 2,
+                    },
+                    {
+                        "name": "PingxiLine",
+                        "code": 3,
+                    },
+                    {
+                        "name": "NiewanLiujaLine",
+                        "code": 4,
+                    },
+                    {
+                        "name": "JijiLine",
+                        "code": 5,
+                    },
+                    {
+                        "name": "ShalunLine",
+                        "code": 6,
+                    }
+
+                ],
+                "stations": [],
+            };
+        stationData = JSON.parse(stationData);
+        stationData.features.forEach(function (el) {
+            newStationData.stations.push({
+                "時刻表編號": parseInt(el.properties.時刻表編號),
+                "traWebsiteCode": el.properties.traWebsiteCode,
+                "站名": el.properties.站名,
+                "eng站名": el.properties.eng站名,
+                "routeCode": getTheRightTrainLine(parseInt(el.properties.traWebsiteCode))
+            })
+        });
         exportNewData('./docs/stationInfo.json', newStationData);
     });
+    
+    
+    function getTheRightTrainLine(traWebsiteCode) {
+        let trainRouteCode = [];
+        if (traWebsiteCode <= 1210 && traWebsiteCode >= 1190){
+            trainRouteCode.push(4);
+        }
+        if (traWebsiteCode <= 3446 && traWebsiteCode >= 3430){
+            trainRouteCode.push(5);
+        }
+        if (traWebsiteCode <= 4272 && traWebsiteCode >= 4270){
+            trainRouteCode.push(6);
+        }
+        if (traWebsiteCode <= 7336 && traWebsiteCode >= 7330){
+            trainRouteCode.push(3);
+        }
+        if (traWebsiteCode <= 2260 && traWebsiteCode >= 2110){
+            trainRouteCode.push(2);
+        }
+        if (traWebsiteCode <= 9999 && traWebsiteCode >= 0
+            && !(traWebsiteCode < 1210 && traWebsiteCode > 1190)
+            && !(traWebsiteCode < 3446 && traWebsiteCode > 3430)
+            && !(traWebsiteCode < 4272 && traWebsiteCode > 4270)
+            && !(traWebsiteCode < 7336 && traWebsiteCode > 7330)
+            && !(traWebsiteCode < 2260 && traWebsiteCode > 2110)
+        ){
+            trainRouteCode.push(1);
+        }
+
+        return trainRouteCode;
+    }
 }
 
 // checkTRAStationcodesForMissingEnglishNames();
