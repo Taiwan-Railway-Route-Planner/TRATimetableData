@@ -6,17 +6,32 @@ const readFile = util.promisify(fs.readFile);
 const path = "./docs/routes/";
 const destPath = "./docs/Schedules/";
 
-function readDir() {
+function readStationInfoFile() {
+
+    async function getJsonFile() {
+        return await readFile("./docs/stationInfo.json");
+    }
+
+    getJsonFile().then(stationInfo => {
+        readDir(JSON.parse(stationInfo));
+    })
+}
+
+function readDir(stationInfo) {
 
     fs.readdir(path, function(err, items) {
 
         for (let i=0; i<items.length; i++) {
-            readJsonFile(items[i]);
+            readJsonFile(items[i],stationInfo);
         }
     });
 }
 
-function readJsonFile(fileName) {
+function readJsonFile(fileName,stationInfo) {
+
+    function onlyUnique(value, index, self) {
+        return self.indexOf(value) === index;
+    }
 
     async function getJsonFile() {
         return await readFile(path + fileName);
@@ -33,7 +48,17 @@ function readJsonFile(fileName) {
             el.EndStation = parseInt(el.TimeInfos[el.TimeInfos.length-1].Station);
             el.EndTime = el.TimeInfos[el.TimeInfos.length-1].DepTime;
             el.Stations = [];
-            el.TimeInfos.forEach((tel => el.Stations.push(parseInt(tel.Station))));
+            el.Routes = [];
+            el.TimeInfos.forEach(function (tel) {
+                let routes = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(tel.Station))).routeCode;
+                el.Routes = el.Routes.concat(routes);
+                el.Stations.push({
+                    "Code": parseInt(tel.Station),
+                    "routeCode": routes,
+                });
+            });
+            el.Routes = el.Routes.filter(onlyUnique);
+            el.MultiRoute = el.Routes.length !== 1;
             return el;
         });
         exportNewData(JSON.stringify(fileData));
@@ -48,10 +73,6 @@ function readJsonFile(fileName) {
             }
         })
     }
-
 }
 
-readDir();
-
-
-
+readStationInfoFile();
