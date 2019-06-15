@@ -2059,6 +2059,132 @@
         6,
         1
       ]
+    },
+    {
+      "時刻表編號": 1325,
+      "traWebsiteCode": "3240",
+      "站名": "栗林",
+      "eng站名": "Lilin",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1326,
+      "traWebsiteCode": "3260",
+      "站名": "頭家厝",
+      "eng站名": "Toujiacuo",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1327,
+      "traWebsiteCode": "3270",
+      "站名": "松竹",
+      "eng站名": "Songzhu",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1328,
+      "traWebsiteCode": "3290",
+      "站名": "精武",
+      "eng站名": "Jingwu",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1329,
+      "traWebsiteCode": "3310",
+      "站名": "五權",
+      "eng站名": "Wuquan",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1245,
+      "traWebsiteCode": "4360",
+      "站名": "內惟",
+      "eng站名": "Neiwei",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1246,
+      "traWebsiteCode": "4370",
+      "站名": "美術館",
+      "eng站名": "Museum of Fine Arts",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1237,
+      "traWebsiteCode": "4380",
+      "站名": "鼓山",
+      "eng站名": "Gushan",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1247,
+      "traWebsiteCode": "4390",
+      "站名": "三塊厝",
+      "eng站名": "Sankuaicuo",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1419,
+      "traWebsiteCode": "4410",
+      "站名": "民族",
+      "eng站名": "Minzu",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1420,
+      "traWebsiteCode": "4420",
+      "站名": "科工館",
+      "eng站名": "Science And Technology Museum",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1421,
+      "traWebsiteCode": "4430",
+      "站名": "正義",
+      "eng站名": "Zhengyi",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1036,
+      "traWebsiteCode": "1140",
+      "站名": "新富",
+      "eng站名": "Xinfu",
+      "routeCode": [
+        1
+      ]
+    },
+    {
+      "時刻表編號": 1608,
+      "traWebsiteCode": "6200",
+      "站名": "林榮新光",
+      "eng站名": "Linrong Shin Kong",
+      "routeCode": [
+        1
+      ]
     }
   ]
 }
