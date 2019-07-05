@@ -49,11 +49,12 @@ function readJsonFile(fileName,stationInfo) {
             el.EndTime = el.TimeInfos[el.TimeInfos.length-1].DepTime;
             el.Stations = {};
             el.Routes = [];
-            el.TimeInfos.forEach(function (tel) {
+            el.TimeInfos.forEach(function (tel, index) {
                 let routes = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(tel.Station))).routeCode;
                 el.Routes = el.Routes.concat(routes);
                 el.Stations[parseInt(tel.Station)] = {
                     "routeCode": routes,
+                    "index": index
                 };
             });
             el.Routes = el.Routes.filter(onlyUnique);
