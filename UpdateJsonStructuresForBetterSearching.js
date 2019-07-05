@@ -47,15 +47,14 @@ function readJsonFile(fileName,stationInfo) {
             el.StartTime = el.TimeInfos[0].DepTime;
             el.EndStation = parseInt(el.TimeInfos[el.TimeInfos.length-1].Station);
             el.EndTime = el.TimeInfos[el.TimeInfos.length-1].DepTime;
-            el.Stations = [];
+            el.Stations = {};
             el.Routes = [];
             el.TimeInfos.forEach(function (tel) {
                 let routes = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(tel.Station))).routeCode;
                 el.Routes = el.Routes.concat(routes);
-                el.Stations.push({
-                    "Code": parseInt(tel.Station),
+                el.Stations[parseInt(tel.Station)] = {
                     "routeCode": routes,
-                });
+                };
             });
             el.Routes = el.Routes.filter(onlyUnique);
             el.MultiRoute = el.Routes.length !== 1;
