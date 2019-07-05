@@ -49,14 +49,23 @@ function readJsonFile(fileName,stationInfo) {
             el.EndTime = el.TimeInfos[el.TimeInfos.length-1].DepTime;
             el.Stations = {};
             el.Routes = [];
+            let newTimeInfo = {};
             el.TimeInfos.forEach(function (tel, index) {
                 let routes = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(tel.Station))).routeCode;
                 el.Routes = el.Routes.concat(routes);
-                el.Stations[parseInt(tel.Station)] = {
-                    "routeCode": routes,
-                    "index": index
+                newTimeInfo[tel.Station] = {
+                    "Station": tel.Station,
+                    "Order": tel.Order,
+                    "DepTime": tel.DepTime,
+                    "ArrTime": tel.ArrTime,
+                    "Routes": routes
                 };
+                // el.Stations[parseInt(tel.Station)] = {
+                //     "routeCode": routes,
+                //     "index": index
+                // };
             });
+            el.TimeInfos = newTimeInfo;
             el.Routes = el.Routes.filter(onlyUnique);
             el.MultiRoute = el.Routes.length !== 1;
             return el;
