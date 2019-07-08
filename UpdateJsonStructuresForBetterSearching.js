@@ -140,36 +140,45 @@ function readJsonFile(fileName, stationInfo) {
     let Specials = 0;
     let special = [];
 
-    function getMainRoute (startStation, endStation, el){
+    function getMainRoute(startStation, endStation, el) {
         let startNumbers = getRouteNumbers(startStation);
         let endNumbers = getRouteNumbers(endStation);
-        if (startNumbers[0] === endNumbers[0]){
+        if (startNumbers[0] === endNumbers[0]) {
             let startStationCode = getTraWebsiteCode(startStation);
             let endStationCode = getTraWebsiteCode(endStation);
-            if (startStationCode < endStationCode){
-                return startNumbers[0];
+            if (startStationCode < endStationCode) {
+                if (startNumbers[0] === 4 && endNumbers[0] === 4) {
+                    return startNumbers[1];
+                } else {
+                    return startNumbers[0];
+                }
             } else {
-                return "-" + startNumbers[0]
+                if (startNumbers[0] === 4 && endNumbers[0] === 4) {
+                    return "-" + startNumbers[1];
+                } else {
+                    return "-" + startNumbers[0];
+                }
             }
         } else {
-            if (startNumbers.length === 2 && endNumbers.length === 2){
-                if (startNumbers[1] === endNumbers[0]){
+            if (startNumbers.length === 2 && endNumbers.length === 2) {
+                if (startNumbers[1] === endNumbers[0]) {
                     return endNumbers[1];
                 } else {
                     return "-" + endNumbers[0];
                 }
             } else {
-                if (startNumbers.length === 2 && endNumbers.length === 1){
+                if (startNumbers.length === 2 && endNumbers.length === 1) {
                     return endNumbers[0];
                 } else {
-                    if (startNumbers.length === 1 && endNumbers.length === 2){
+                    if (startNumbers.length === 1 && endNumbers.length === 2) {
                         return "-" + endNumbers[0];
                     } else {
-                        if (startNumbers[0] === 1){
+                        if (startNumbers[0] === 1) {
                             return endNumbers[0];
                         } else {
                             return "-" + startNumbers[0];
                         }
+                        // Specials++;
                         // special.push({
                         //     startStation: startStation,
                         //     endStation: endStation,
@@ -182,17 +191,16 @@ function readJsonFile(fileName, stationInfo) {
                         // console.log("Specials");
                         // console.log("startNumbers", startNumbers, startNumbers.length, startStation);
                         // console.log("endNumbers", endNumbers, endNumbers.length, endStation);
-                        Specials++;
                     }
                 }
             }
         }
     }
 
-    function ObjectLength( object ) {
+    function ObjectLength(object) {
         let length = 0;
-        for( let key in object ) {
-            if( object.hasOwnProperty(key) ) {
+        for (let key in object) {
+            if (object.hasOwnProperty(key)) {
                 ++length;
             }
         }
