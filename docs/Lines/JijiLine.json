@@ -1,12 +1,22 @@
 [
   {
+    "時刻表編號": 1206,
+    "traWebsiteCode": "3420",
+    "站名": "田中",
+    "eng站名": "Tianzhong",
+    "routeCode": [
+      1,
+      6
+    ]
+  },
+  {
     "時刻表編號": 1207,
     "traWebsiteCode": "3430",
     "站名": "二水",
     "eng站名": "Ershui",
     "routeCode": [
-      6,
-      1
+      1,
+      6
     ]
   },
   {
