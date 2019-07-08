@@ -192,9 +192,9 @@ function checkStationWithEnglishNamesForMissingTraWebsiteCode() {
     });
 }
 
-// functionCreateDifferentJsonLineFiles();
+// CreateDifferentJsonLineFiles();
 
-function functionCreateDifferentJsonLineFiles() {
+function CreateDifferentJsonLineFiles() {
 
     async function getUpdatedStationInfo() {
         return await readFile('./docs/stationInfo.json');
