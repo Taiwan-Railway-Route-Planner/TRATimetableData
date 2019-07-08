@@ -1,0 +1,67 @@
+[
+  {
+    "時刻表編號": 1806,
+    "traWebsiteCode": "7330",
+    "站名": "三貂嶺",
+    "eng站名": "Sandiaoling",
+    "routeCode": [
+      3,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1903,
+    "traWebsiteCode": "7331",
+    "站名": "大華",
+    "eng站名": "Dahua",
+    "routeCode": [
+      3
+    ]
+  },
+  {
+    "時刻表編號": 1904,
+    "traWebsiteCode": "7332",
+    "站名": "十分",
+    "eng站名": "Shifen",
+    "routeCode": [
+      3
+    ]
+  },
+  {
+    "時刻表編號": 1905,
+    "traWebsiteCode": "7333",
+    "站名": "望古",
+    "eng站名": "Wanggu",
+    "routeCode": [
+      3
+    ]
+  },
+  {
+    "時刻表編號": 1906,
+    "traWebsiteCode": "7334",
+    "站名": "嶺腳",
+    "eng站名": "Lingjiao",
+    "routeCode": [
+      3
+    ]
+  },
+  {
+    "時刻表編號": 1907,
+    "traWebsiteCode": "7335",
+    "站名": "平溪",
+    "eng站名": "Pingxi",
+    "routeCode": [
+      3
+    ]
+  },
+  {
+    "時刻表編號": 1908,
+    "traWebsiteCode": "7336",
+    "站名": "菁桐",
+    "eng站名": "Jingtong",
+    "routeCode": [
+      3,
+      1
+    ]
+  }
+]

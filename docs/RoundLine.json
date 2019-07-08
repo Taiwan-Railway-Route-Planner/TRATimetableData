@@ -1,0 +1,1821 @@
+[
+  {
+    "時刻表編號": 1001,
+    "traWebsiteCode": "0900",
+    "站名": "基隆",
+    "eng站名": "Keelung",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1029,
+    "traWebsiteCode": "0910",
+    "站名": "三坑",
+    "eng站名": "Sankeng",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1002,
+    "traWebsiteCode": "0920",
+    "站名": "八堵",
+    "eng站名": "Badu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1003,
+    "traWebsiteCode": "0930",
+    "站名": "七堵",
+    "eng站名": "Qidu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1030,
+    "traWebsiteCode": "0940",
+    "站名": "百福",
+    "eng站名": "Baifu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1004,
+    "traWebsiteCode": "0950",
+    "站名": "五堵",
+    "eng站名": "Wudu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1005,
+    "traWebsiteCode": "0960",
+    "站名": "汐止",
+    "eng站名": "Xizhi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1031,
+    "traWebsiteCode": "0970",
+    "站名": "汐科",
+    "eng站名": "Xike",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1006,
+    "traWebsiteCode": "0980",
+    "站名": "南港",
+    "eng站名": "Nangang",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1007,
+    "traWebsiteCode": "0990",
+    "站名": "松山",
+    "eng站名": "Songshan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1008,
+    "traWebsiteCode": "1000",
+    "站名": "臺北",
+    "eng站名": "Taipei",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1009,
+    "traWebsiteCode": "1010",
+    "站名": "萬華",
+    "eng站名": "Wanhua",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1011,
+    "traWebsiteCode": "1020",
+    "站名": "板橋",
+    "eng站名": "Banqiao",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1032,
+    "traWebsiteCode": "1030",
+    "站名": "浮洲",
+    "eng站名": "Fuzhou",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1012,
+    "traWebsiteCode": "1040",
+    "站名": "樹林",
+    "eng站名": "Shulin",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1034,
+    "traWebsiteCode": "1050",
+    "站名": "南樹林",
+    "eng站名": "South Shulin",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1013,
+    "traWebsiteCode": "1060",
+    "站名": "山佳",
+    "eng站名": "Shanjia",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1014,
+    "traWebsiteCode": "1070",
+    "站名": "鶯歌",
+    "eng站名": "Yingge",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1015,
+    "traWebsiteCode": "1080",
+    "站名": "桃園",
+    "eng站名": "Taoyuan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1016,
+    "traWebsiteCode": "1090",
+    "站名": "內壢",
+    "eng站名": "Neili",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1017,
+    "traWebsiteCode": "1100",
+    "站名": "中壢",
+    "eng站名": "Zhongli",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1018,
+    "traWebsiteCode": "1110",
+    "站名": "埔心",
+    "eng站名": "Puxin",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1019,
+    "traWebsiteCode": "1120",
+    "站名": "楊梅",
+    "eng站名": "Yangmei",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1020,
+    "traWebsiteCode": "1130",
+    "站名": "富岡",
+    "eng站名": "Fugang",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1033,
+    "traWebsiteCode": "1150",
+    "站名": "北湖",
+    "eng站名": "Beihu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1021,
+    "traWebsiteCode": "1160",
+    "站名": "湖口",
+    "eng站名": "Hukou",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1022,
+    "traWebsiteCode": "1170",
+    "站名": "新豐",
+    "eng站名": "Xinfeng",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1023,
+    "traWebsiteCode": "1180",
+    "站名": "竹北",
+    "eng站名": "Zhubei",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1024,
+    "traWebsiteCode": "1190",
+    "站名": "北新竹",
+    "eng站名": "North Hsinchu",
+    "routeCode": [
+      4,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1025,
+    "traWebsiteCode": "1210",
+    "站名": "新竹",
+    "eng站名": "Hsinchu",
+    "routeCode": [
+      4,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1035,
+    "traWebsiteCode": "1220",
+    "站名": "三姓橋",
+    "eng站名": "Sanxingqiao",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1026,
+    "traWebsiteCode": "1230",
+    "站名": "香山",
+    "eng站名": "Xiangshan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1027,
+    "traWebsiteCode": "1240",
+    "站名": "崎頂",
+    "eng站名": "Qiding",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1028,
+    "traWebsiteCode": "1250",
+    "站名": "竹南",
+    "eng站名": "Zhunan",
+    "routeCode": [
+      2,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1302,
+    "traWebsiteCode": "3140",
+    "站名": "造橋",
+    "eng站名": "Zaoqiao",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1304,
+    "traWebsiteCode": "3150",
+    "站名": "豐富",
+    "eng站名": "Fengfu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1305,
+    "traWebsiteCode": "3160",
+    "站名": "苗栗",
+    "eng站名": "Miaoli",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1307,
+    "traWebsiteCode": "3170",
+    "站名": "南勢",
+    "eng站名": "Nanshi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1308,
+    "traWebsiteCode": "3180",
+    "站名": "銅鑼",
+    "eng站名": "Tongluo",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1310,
+    "traWebsiteCode": "3190",
+    "站名": "三義",
+    "eng站名": "Sanyi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1314,
+    "traWebsiteCode": "3210",
+    "站名": "泰安",
+    "eng站名": "Tai'an",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1315,
+    "traWebsiteCode": "3220",
+    "站名": "后里",
+    "eng站名": "Houli",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1317,
+    "traWebsiteCode": "3230",
+    "站名": "豐原",
+    "eng站名": "Fengyuan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1318,
+    "traWebsiteCode": "3250",
+    "站名": "潭子",
+    "eng站名": "Tanzi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1323,
+    "traWebsiteCode": "3280",
+    "站名": "太原",
+    "eng站名": "Taiyuan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1319,
+    "traWebsiteCode": "3300",
+    "站名": "臺中",
+    "eng站名": "Taichung",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1322,
+    "traWebsiteCode": "3320",
+    "站名": "大慶",
+    "eng站名": "Daqing",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1320,
+    "traWebsiteCode": "3330",
+    "站名": "烏日",
+    "eng站名": "Wuri",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1324,
+    "traWebsiteCode": "3340",
+    "站名": "新烏日",
+    "eng站名": "Xinwuri",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1321,
+    "traWebsiteCode": "3350",
+    "站名": "成功",
+    "eng站名": "Chenggong",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1102,
+    "traWebsiteCode": "2110",
+    "站名": "談文",
+    "eng站名": "Tanwen",
+    "routeCode": [
+      2,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1118,
+    "traWebsiteCode": "2260",
+    "站名": "追分",
+    "eng站名": "Zhuifen",
+    "routeCode": [
+      2,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1120,
+    "traWebsiteCode": "3360",
+    "站名": "彰化",
+    "eng站名": "Changhua",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1202,
+    "traWebsiteCode": "3370",
+    "站名": "花壇",
+    "eng站名": "Huatan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1240,
+    "traWebsiteCode": "3380",
+    "站名": "大村",
+    "eng站名": "Dacun",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1203,
+    "traWebsiteCode": "3390",
+    "站名": "員林",
+    "eng站名": "Yuanlin",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1204,
+    "traWebsiteCode": "3400",
+    "站名": "永靖",
+    "eng站名": "Yongjing",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1205,
+    "traWebsiteCode": "3410",
+    "站名": "社頭",
+    "eng站名": "Shetou",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1206,
+    "traWebsiteCode": "3420",
+    "站名": "田中",
+    "eng站名": "Tianzhong",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1207,
+    "traWebsiteCode": "3430",
+    "站名": "二水",
+    "eng站名": "Ershui",
+    "routeCode": [
+      6,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1208,
+    "traWebsiteCode": "3450",
+    "站名": "林內",
+    "eng站名": "Linnei",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1209,
+    "traWebsiteCode": "3460",
+    "站名": "石榴",
+    "eng站名": "Shiliu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1210,
+    "traWebsiteCode": "3470",
+    "站名": "斗六",
+    "eng站名": "Douliu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1211,
+    "traWebsiteCode": "3480",
+    "站名": "斗南",
+    "eng站名": "Dounan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1212,
+    "traWebsiteCode": "3490",
+    "站名": "石龜",
+    "eng站名": "Shigui",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1213,
+    "traWebsiteCode": "4050",
+    "站名": "大林",
+    "eng站名": "Dalin",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1214,
+    "traWebsiteCode": "4060",
+    "站名": "民雄",
+    "eng站名": "Minxiong",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1241,
+    "traWebsiteCode": "4070",
+    "站名": "嘉北",
+    "eng站名": "Jiabei",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1215,
+    "traWebsiteCode": "4080",
+    "站名": "嘉義",
+    "eng站名": "Chiayi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1217,
+    "traWebsiteCode": "4090",
+    "站名": "水上",
+    "eng站名": "Shuishang",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1218,
+    "traWebsiteCode": "4100",
+    "站名": "南靖",
+    "eng站名": "Nanjing",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1219,
+    "traWebsiteCode": "4110",
+    "站名": "後壁",
+    "eng站名": "Houbi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1220,
+    "traWebsiteCode": "4120",
+    "站名": "新營",
+    "eng站名": "Xinying",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1221,
+    "traWebsiteCode": "4130",
+    "站名": "柳營",
+    "eng站名": "Liuying",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1222,
+    "traWebsiteCode": "4140",
+    "站名": "林鳳營",
+    "eng站名": "Linfengying",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1223,
+    "traWebsiteCode": "4150",
+    "站名": "隆田",
+    "eng站名": "Longtian",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1224,
+    "traWebsiteCode": "4160",
+    "站名": "拔林",
+    "eng站名": "Balin",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1225,
+    "traWebsiteCode": "4170",
+    "站名": "善化",
+    "eng站名": "Shanhua",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1244,
+    "traWebsiteCode": "4180",
+    "站名": "南科",
+    "eng站名": "Nanke",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1226,
+    "traWebsiteCode": "4190",
+    "站名": "新市",
+    "eng站名": "Xinshi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1227,
+    "traWebsiteCode": "4200",
+    "站名": "永康",
+    "eng站名": "Yongkang",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1239,
+    "traWebsiteCode": "4210",
+    "站名": "大橋",
+    "eng站名": "Daqiao",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1228,
+    "traWebsiteCode": "4220",
+    "站名": "臺南",
+    "eng站名": "Tainan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1229,
+    "traWebsiteCode": "4250",
+    "站名": "保安",
+    "eng站名": "Bao'an",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1243,
+    "traWebsiteCode": "4260",
+    "站名": "仁德",
+    "eng站名": "Rende",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1230,
+    "traWebsiteCode": "4270",
+    "站名": "中洲",
+    "eng站名": "Zhongzhou",
+    "routeCode": [
+      7,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1231,
+    "traWebsiteCode": "4290",
+    "站名": "大湖",
+    "eng站名": "Dahu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1232,
+    "traWebsiteCode": "4300",
+    "站名": "路竹",
+    "eng站名": "Luzhu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1233,
+    "traWebsiteCode": "4310",
+    "站名": "岡山",
+    "eng站名": "Gangshan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1234,
+    "traWebsiteCode": "4320",
+    "站名": "橋頭",
+    "eng站名": "Qiaotou",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1235,
+    "traWebsiteCode": "4330",
+    "站名": "楠梓",
+    "eng站名": "Nanzi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1242,
+    "traWebsiteCode": "4340",
+    "站名": "新左營",
+    "eng站名": "Xinzuoying",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1236,
+    "traWebsiteCode": "4350",
+    "站名": "左營",
+    "eng站名": "Zuoying",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1238,
+    "traWebsiteCode": "4400",
+    "站名": "高雄",
+    "eng站名": "Kaohsiung",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1402,
+    "traWebsiteCode": "4440",
+    "站名": "鳳山",
+    "eng站名": "Fengshan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1403,
+    "traWebsiteCode": "4450",
+    "站名": "後庄",
+    "eng站名": "Houzhuang",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1404,
+    "traWebsiteCode": "4460",
+    "站名": "九曲堂",
+    "eng站名": "Jiuqutang",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1405,
+    "traWebsiteCode": "4470",
+    "站名": "六塊厝",
+    "eng站名": "Liukuaicuo",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1406,
+    "traWebsiteCode": "5000",
+    "站名": "屏東",
+    "eng站名": "Pingtung",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1802,
+    "traWebsiteCode": "7390",
+    "站名": "暖暖",
+    "eng站名": "Nuannuan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1803,
+    "traWebsiteCode": "7380",
+    "站名": "四腳亭",
+    "eng站名": "Sijiaoting",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1804,
+    "traWebsiteCode": "7360",
+    "站名": "瑞芳",
+    "eng站名": "Ruifang",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1805,
+    "traWebsiteCode": "7350",
+    "站名": "猴硐",
+    "eng站名": "Houtong",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1806,
+    "traWebsiteCode": "7330",
+    "站名": "三貂嶺",
+    "eng站名": "Sandiaoling",
+    "routeCode": [
+      3,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1807,
+    "traWebsiteCode": "7320",
+    "站名": "牡丹",
+    "eng站名": "Mudan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1808,
+    "traWebsiteCode": "7310",
+    "站名": "雙溪",
+    "eng站名": "Shuangxi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1809,
+    "traWebsiteCode": "7300",
+    "站名": "貢寮",
+    "eng站名": "Gongliao",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1810,
+    "traWebsiteCode": "7290",
+    "站名": "福隆",
+    "eng站名": "Fulong",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1811,
+    "traWebsiteCode": "7280",
+    "站名": "石城",
+    "eng站名": "Shicheng",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1812,
+    "traWebsiteCode": "7270",
+    "站名": "大里",
+    "eng站名": "Dali",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1813,
+    "traWebsiteCode": "7260",
+    "站名": "大溪",
+    "eng站名": "Daxi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1814,
+    "traWebsiteCode": "7250",
+    "站名": "龜山",
+    "eng站名": "Guishan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1815,
+    "traWebsiteCode": "7240",
+    "站名": "外澳",
+    "eng站名": "Wai'ao",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1816,
+    "traWebsiteCode": "7230",
+    "站名": "頭城",
+    "eng站名": "Toucheng",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1817,
+    "traWebsiteCode": "7220",
+    "站名": "頂埔",
+    "eng站名": "Dingpu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1818,
+    "traWebsiteCode": "7210",
+    "站名": "礁溪",
+    "eng站名": "Jiaoxi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1819,
+    "traWebsiteCode": "7200",
+    "站名": "四城",
+    "eng站名": "Sicheng",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1820,
+    "traWebsiteCode": "7190",
+    "站名": "宜蘭",
+    "eng站名": "Yilan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1821,
+    "traWebsiteCode": "7180",
+    "站名": "二結",
+    "eng站名": "Erjie",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1822,
+    "traWebsiteCode": "7170",
+    "站名": "中里",
+    "eng站名": "Zhongli",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1823,
+    "traWebsiteCode": "7160",
+    "站名": "羅東",
+    "eng站名": "Luodong",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1824,
+    "traWebsiteCode": "7150",
+    "站名": "冬山",
+    "eng站名": "Dongshan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1825,
+    "traWebsiteCode": "7140",
+    "站名": "新馬",
+    "eng站名": "Xinma",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1826,
+    "traWebsiteCode": "7130",
+    "站名": "蘇澳新",
+    "eng站名": "Su'aoxin",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1827,
+    "traWebsiteCode": "7120",
+    "站名": "蘇澳",
+    "eng站名": "Su'ao",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1703,
+    "traWebsiteCode": "7110",
+    "站名": "永樂",
+    "eng站名": "Yongle",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1704,
+    "traWebsiteCode": "7100",
+    "站名": "東澳",
+    "eng站名": "Dong'ao",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1705,
+    "traWebsiteCode": "7090",
+    "站名": "南澳",
+    "eng站名": "Nan'ao",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1706,
+    "traWebsiteCode": "7080",
+    "站名": "武塔",
+    "eng站名": "Wuta",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1708,
+    "traWebsiteCode": "7070",
+    "站名": "漢本",
+    "eng站名": "Hanben",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1709,
+    "traWebsiteCode": "7060",
+    "站名": "和平",
+    "eng站名": "Heping",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1710,
+    "traWebsiteCode": "7050",
+    "站名": "和仁",
+    "eng站名": "Heren",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1711,
+    "traWebsiteCode": "7040",
+    "站名": "崇德",
+    "eng站名": "Chongde",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1712,
+    "traWebsiteCode": "7030",
+    "站名": "新城",
+    "eng站名": "Xincheng",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1713,
+    "traWebsiteCode": "7020",
+    "站名": "景美",
+    "eng站名": "Jingmei",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1714,
+    "traWebsiteCode": "7010",
+    "站名": "北埔",
+    "eng站名": "Beipu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1715,
+    "traWebsiteCode": "7000",
+    "站名": "花蓮",
+    "eng站名": "Hualien",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1602,
+    "traWebsiteCode": "6250",
+    "站名": "吉安",
+    "eng站名": "Ji'an",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1604,
+    "traWebsiteCode": "6240",
+    "站名": "志學",
+    "eng站名": "Zhixue",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1605,
+    "traWebsiteCode": "6230",
+    "站名": "平和",
+    "eng站名": "Pinghe",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1606,
+    "traWebsiteCode": "6220",
+    "站名": "壽豐",
+    "eng站名": "Shoufeng",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1607,
+    "traWebsiteCode": "6210",
+    "站名": "豐田",
+    "eng站名": "Fengtian",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1609,
+    "traWebsiteCode": "6190",
+    "站名": "南平",
+    "eng站名": "Nanping",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1610,
+    "traWebsiteCode": "6180",
+    "站名": "鳳林",
+    "eng站名": "Fenglin",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1611,
+    "traWebsiteCode": "6170",
+    "站名": "萬榮",
+    "eng站名": "Wanrong",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1612,
+    "traWebsiteCode": "6160",
+    "站名": "光復",
+    "eng站名": "Guangfu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1613,
+    "traWebsiteCode": "6150",
+    "站名": "大富",
+    "eng站名": "Dafu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1614,
+    "traWebsiteCode": "6140",
+    "站名": "富源",
+    "eng站名": "Fuyuan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1616,
+    "traWebsiteCode": "6130",
+    "站名": "瑞穗",
+    "eng站名": "Ruisui",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1617,
+    "traWebsiteCode": "6120",
+    "站名": "三民",
+    "eng站名": "Sanmin",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1619,
+    "traWebsiteCode": "6110",
+    "站名": "玉里",
+    "eng站名": "Yuli",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1621,
+    "traWebsiteCode": "6100",
+    "站名": "東里",
+    "eng站名": "Dongli",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1622,
+    "traWebsiteCode": "6090",
+    "站名": "東竹",
+    "eng站名": "Dongzhu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1623,
+    "traWebsiteCode": "6080",
+    "站名": "富里",
+    "eng站名": "Fuli",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1624,
+    "traWebsiteCode": "6070",
+    "站名": "池上",
+    "eng站名": "Chishang",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1625,
+    "traWebsiteCode": "6060",
+    "站名": "海端",
+    "eng站名": "Haiduan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1626,
+    "traWebsiteCode": "6050",
+    "站名": "關山",
+    "eng站名": "Guanshan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1628,
+    "traWebsiteCode": "6040",
+    "站名": "瑞和",
+    "eng站名": "Ruihe",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1629,
+    "traWebsiteCode": "6030",
+    "站名": "瑞源",
+    "eng站名": "Ruiyuan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1630,
+    "traWebsiteCode": "6020",
+    "站名": "鹿野",
+    "eng站名": "Luye",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1631,
+    "traWebsiteCode": "6010",
+    "站名": "山里",
+    "eng站名": "Shanli",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1632,
+    "traWebsiteCode": "6000",
+    "站名": "臺東",
+    "eng站名": "Taitung",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1407,
+    "traWebsiteCode": "5010",
+    "站名": "歸來",
+    "eng站名": "Guilai",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1408,
+    "traWebsiteCode": "5020",
+    "站名": "麟洛",
+    "eng站名": "Linluo",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1409,
+    "traWebsiteCode": "5030",
+    "站名": "西勢",
+    "eng站名": "Xishi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1410,
+    "traWebsiteCode": "5040",
+    "站名": "竹田",
+    "eng站名": "Zhutian",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1411,
+    "traWebsiteCode": "5050",
+    "站名": "潮州",
+    "eng站名": "Chaozhou",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1412,
+    "traWebsiteCode": "5060",
+    "站名": "崁頂",
+    "eng站名": "Kanding",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1413,
+    "traWebsiteCode": "5070",
+    "站名": "南州",
+    "eng站名": "Nanzhou",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1414,
+    "traWebsiteCode": "5080",
+    "站名": "鎮安",
+    "eng站名": "Zhen'an",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1415,
+    "traWebsiteCode": "5090",
+    "站名": "林邊",
+    "eng站名": "Linbian",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1416,
+    "traWebsiteCode": "5100",
+    "站名": "佳冬",
+    "eng站名": "Jiadong",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1417,
+    "traWebsiteCode": "5110",
+    "站名": "東海",
+    "eng站名": "Donghai",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1418,
+    "traWebsiteCode": "5120",
+    "站名": "枋寮",
+    "eng站名": "Fangliao",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1502,
+    "traWebsiteCode": "5130",
+    "站名": "加祿",
+    "eng站名": "Jialu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1503,
+    "traWebsiteCode": "5140",
+    "站名": "內獅",
+    "eng站名": "Neishi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1504,
+    "traWebsiteCode": "5160",
+    "站名": "枋山",
+    "eng站名": "Fangshan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1508,
+    "traWebsiteCode": "5190",
+    "站名": "大武",
+    "eng站名": "Dawu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1510,
+    "traWebsiteCode": "5200",
+    "站名": "瀧溪",
+    "eng站名": "Longxi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1512,
+    "traWebsiteCode": "5210",
+    "站名": "金崙",
+    "eng站名": "Jinlun",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1514,
+    "traWebsiteCode": "5220",
+    "站名": "太麻里",
+    "eng站名": "Taimali",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1516,
+    "traWebsiteCode": "5230",
+    "站名": "知本",
+    "eng站名": "Zhiben",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1517,
+    "traWebsiteCode": "5240",
+    "站名": "康樂",
+    "eng站名": "Kangle",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 2003,
+    "traWebsiteCode": "7362",
+    "站名": "八斗子",
+    "eng站名": "Badouzi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 6103,
+    "traWebsiteCode": "7361",
+    "站名": "海科館",
+    "eng站名": "Haikeguan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1908,
+    "traWebsiteCode": "7336",
+    "站名": "菁桐",
+    "eng站名": "Jingtong",
+    "routeCode": [
+      3,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 5102,
+    "traWebsiteCode": "4272",
+    "站名": "沙崙",
+    "eng站名": "Shalun",
+    "routeCode": [
+      7,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1325,
+    "traWebsiteCode": "3240",
+    "站名": "栗林",
+    "eng站名": "Lilin",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1326,
+    "traWebsiteCode": "3260",
+    "站名": "頭家厝",
+    "eng站名": "Toujiacuo",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1327,
+    "traWebsiteCode": "3270",
+    "站名": "松竹",
+    "eng站名": "Songzhu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1328,
+    "traWebsiteCode": "3290",
+    "站名": "精武",
+    "eng站名": "Jingwu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1329,
+    "traWebsiteCode": "3310",
+    "站名": "五權",
+    "eng站名": "Wuquan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1245,
+    "traWebsiteCode": "4360",
+    "站名": "內惟",
+    "eng站名": "Neiwei",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1246,
+    "traWebsiteCode": "4370",
+    "站名": "美術館",
+    "eng站名": "Museum of Fine Arts",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1237,
+    "traWebsiteCode": "4380",
+    "站名": "鼓山",
+    "eng站名": "Gushan",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1247,
+    "traWebsiteCode": "4390",
+    "站名": "三塊厝",
+    "eng站名": "Sankuaicuo",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1419,
+    "traWebsiteCode": "4410",
+    "站名": "民族",
+    "eng站名": "Minzu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1420,
+    "traWebsiteCode": "4420",
+    "站名": "科工館",
+    "eng站名": "Science And Technology Museum",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1421,
+    "traWebsiteCode": "4430",
+    "站名": "正義",
+    "eng站名": "Zhengyi",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1036,
+    "traWebsiteCode": "1140",
+    "站名": "新富",
+    "eng站名": "Xinfu",
+    "routeCode": [
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1608,
+    "traWebsiteCode": "6200",
+    "站名": "林榮新光",
+    "eng站名": "Linrong Shin Kong",
+    "routeCode": [
+      1
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "時刻表編號": 2203,
+    "traWebsiteCode": "1193",
+    "站名": "竹中",
+    "eng站名": "Zhuzhong",
+    "routeCode": [
+      4,
+      5
+    ]
+  },
+  {
+    "時刻表編號": 2204,
+    "traWebsiteCode": "1201",
+    "站名": "上員",
+    "eng站名": "Shangyuan",
+    "routeCode": [
+      4,
+      5
+    ]
+  },
+  {
+    "時刻表編號": 2211,
+    "traWebsiteCode": "1202",
+    "站名": "榮華",
+    "eng站名": "Ronghua",
+    "routeCode": [
+      4,
+      5
+    ]
+  },
+  {
+    "時刻表編號": 2205,
+    "traWebsiteCode": "1203",
+    "站名": "竹東",
+    "eng站名": "Zhudong",
+    "routeCode": [
+      4,
+      5
+    ]
+  },
+  {
+    "時刻表編號": 2206,
+    "traWebsiteCode": "1204",
+    "站名": "橫山",
+    "eng站名": "Hengshan",
+    "routeCode": [
+      4,
+      5
+    ]
+  },
+  {
+    "時刻表編號": 2207,
+    "traWebsiteCode": "1205",
+    "站名": "九讚頭",
+    "eng站名": "Jiuzantou",
+    "routeCode": [
+      4,
+      5
+    ]
+  },
+  {
+    "時刻表編號": 2208,
+    "traWebsiteCode": "1206",
+    "站名": "合興",
+    "eng站名": "Hexing",
+    "routeCode": [
+      4,
+      5
+    ]
+  },
+  {
+    "時刻表編號": 2209,
+    "traWebsiteCode": "1207",
+    "站名": "富貴",
+    "eng站名": "Fugui",
+    "routeCode": [
+      4,
+      5
+    ]
+  },
+  {
+    "時刻表編號": 2210,
+    "traWebsiteCode": "1208",
+    "站名": "內灣",
+    "eng站名": "Neiwan",
+    "routeCode": [
+      4,
+      5
+    ]
+  }
+]

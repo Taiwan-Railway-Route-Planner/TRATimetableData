@@ -1,0 +1,66 @@
+[
+  {
+    "時刻表編號": 1207,
+    "traWebsiteCode": "3430",
+    "站名": "二水",
+    "eng站名": "Ershui",
+    "routeCode": [
+      6,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 2702,
+    "traWebsiteCode": "3431",
+    "站名": "源泉",
+    "eng站名": "Yuanquan",
+    "routeCode": [
+      6
+    ]
+  },
+  {
+    "時刻表編號": 2703,
+    "traWebsiteCode": "3432",
+    "站名": "濁水",
+    "eng站名": "Zhuoshui",
+    "routeCode": [
+      6
+    ]
+  },
+  {
+    "時刻表編號": 2704,
+    "traWebsiteCode": "3433",
+    "站名": "龍泉",
+    "eng站名": "Longquan",
+    "routeCode": [
+      6
+    ]
+  },
+  {
+    "時刻表編號": 2705,
+    "traWebsiteCode": "3434",
+    "站名": "集集",
+    "eng站名": "Jiji",
+    "routeCode": [
+      6
+    ]
+  },
+  {
+    "時刻表編號": 2706,
+    "traWebsiteCode": "3435",
+    "站名": "水里",
+    "eng站名": "Shuili",
+    "routeCode": [
+      6
+    ]
+  },
+  {
+    "時刻表編號": 2707,
+    "traWebsiteCode": "3436",
+    "站名": "車埕",
+    "eng站名": "Checheng",
+    "routeCode": [
+      6
+    ]
+  }
+]

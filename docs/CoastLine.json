@@ -1,0 +1,158 @@
+[
+  {
+    "時刻表編號": 1028,
+    "traWebsiteCode": "1250",
+    "站名": "竹南",
+    "eng站名": "Zhunan",
+    "routeCode": [
+      2,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1102,
+    "traWebsiteCode": "2110",
+    "站名": "談文",
+    "eng站名": "Tanwen",
+    "routeCode": [
+      2,
+      1
+    ]
+  },
+  {
+    "時刻表編號": 1104,
+    "traWebsiteCode": "2120",
+    "站名": "大山",
+    "eng站名": "Dashan",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1105,
+    "traWebsiteCode": "2130",
+    "站名": "後龍",
+    "eng站名": "Houlong",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1106,
+    "traWebsiteCode": "2140",
+    "站名": "龍港",
+    "eng站名": "Longgang",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1107,
+    "traWebsiteCode": "2150",
+    "站名": "白沙屯",
+    "eng站名": "Baishatun",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1108,
+    "traWebsiteCode": "2160",
+    "站名": "新埔",
+    "eng站名": "Xinpu",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1109,
+    "traWebsiteCode": "2170",
+    "站名": "通霄",
+    "eng站名": "Tongxiao",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1110,
+    "traWebsiteCode": "2180",
+    "站名": "苑裡",
+    "eng站名": "Yuanli",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1111,
+    "traWebsiteCode": "2190",
+    "站名": "日南",
+    "eng站名": "Rinan",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1112,
+    "traWebsiteCode": "2200",
+    "站名": "大甲",
+    "eng站名": "Dajia",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1113,
+    "traWebsiteCode": "2210",
+    "站名": "臺中港",
+    "eng站名": "Taichung Port",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1114,
+    "traWebsiteCode": "2220",
+    "站名": "清水",
+    "eng站名": "Qingshui",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1115,
+    "traWebsiteCode": "2230",
+    "站名": "沙鹿",
+    "eng站名": "Shalu",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1116,
+    "traWebsiteCode": "2240",
+    "站名": "龍井",
+    "eng站名": "Longjing",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1117,
+    "traWebsiteCode": "2250",
+    "站名": "大肚",
+    "eng站名": "Dadu",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1118,
+    "traWebsiteCode": "2260",
+    "站名": "追分",
+    "eng站名": "Zhuifen",
+    "routeCode": [
+      2,
+      1
+    ]
+  }
+]
