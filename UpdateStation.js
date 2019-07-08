@@ -13,7 +13,7 @@ function exportNewData(fileName, newData) {
     })
 }
 
-removeTheWordStationFromTheTitle();
+// removeTheWordStationFromTheTitle();
 
 function removeTheWordStationFromTheTitle() {
 
@@ -31,7 +31,7 @@ function removeTheWordStationFromTheTitle() {
     });
 }
 
-mergeTRAStationCodesAndStationJson();
+// mergeTRAStationCodesAndStationJson();
 
 function mergeTRAStationCodesAndStationJson() {
 
@@ -62,7 +62,7 @@ function mergeTRAStationCodesAndStationJson() {
     });
 }
 
-createStationData();
+// createStationData();
 
 function createStationData() {
 
@@ -153,8 +153,8 @@ function createStationData() {
     }
 }
 
-checkTRAStationcodesForMissingEnglishNames();
-checkStationWithEnglishNamesForMissingTraWebsiteCode();
+// checkTRAStationcodesForMissingEnglishNames();
+// checkStationWithEnglishNamesForMissingTraWebsiteCode();
 
 function checkTRAStationcodesForMissingEnglishNames() {
 
@@ -239,5 +239,22 @@ function CreateDifferentJsonLineFiles() {
         exportNewData('./docs/NiewanLine.json', NiewanLine);
         exportNewData('./docs/JijiLine.json', JijiLine);
         exportNewData('./docs/ShalunLine.json', ShalunLine);
+    });
+}
+
+sortRoundLine();
+
+function sortRoundLine() {
+
+    async function readRoundLine() {
+        return await readFile('./docs/RoundLine.json');
+    }
+
+    readRoundLine().then(data => {
+        data = JSON.parse(data);
+        data.sort(function(a, b) {
+            return parseInt(a.traWebsiteCode) - parseInt(b.traWebsiteCode);
+        });
+        exportNewData('./docs/RoundLine.json', data);
     });
 }
