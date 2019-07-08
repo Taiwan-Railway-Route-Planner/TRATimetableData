@@ -17,12 +17,16 @@
       "code": 4
     },
     {
-      "name": "JijiLine",
+      "name": "NiewanLine",
       "code": 5
     },
     {
-      "name": "ShalunLine",
+      "name": "JijiLine",
       "code": 6
+    },
+    {
+      "name": "ShalunLine",
+      "code": 7
     }
   ],
   "stations": [
@@ -694,7 +698,7 @@
       "站名": "二水",
       "eng站名": "Ershui",
       "routeCode": [
-        5,
+        6,
         1
       ]
     },
@@ -929,7 +933,7 @@
       "站名": "中洲",
       "eng站名": "Zhongzhou",
       "routeCode": [
-        6,
+        7,
         1
       ]
     },
@@ -1904,7 +1908,8 @@
       "站名": "竹中",
       "eng站名": "Zhuzhong",
       "routeCode": [
-        4
+        4,
+        5
       ]
     },
     {
@@ -1913,7 +1918,8 @@
       "站名": "上員",
       "eng站名": "Shangyuan",
       "routeCode": [
-        4
+        4,
+        5
       ]
     },
     {
@@ -1922,7 +1928,8 @@
       "站名": "榮華",
       "eng站名": "Ronghua",
       "routeCode": [
-        4
+        4,
+        5
       ]
     },
     {
@@ -1931,7 +1938,8 @@
       "站名": "竹東",
       "eng站名": "Zhudong",
       "routeCode": [
-        4
+        4,
+        5
       ]
     },
     {
@@ -1940,7 +1948,8 @@
       "站名": "橫山",
       "eng站名": "Hengshan",
       "routeCode": [
-        4
+        4,
+        5
       ]
     },
     {
@@ -1949,7 +1958,8 @@
       "站名": "九讚頭",
       "eng站名": "Jiuzantou",
       "routeCode": [
-        4
+        4,
+        5
       ]
     },
     {
@@ -1958,7 +1968,8 @@
       "站名": "合興",
       "eng站名": "Hexing",
       "routeCode": [
-        4
+        4,
+        5
       ]
     },
     {
@@ -1967,7 +1978,8 @@
       "站名": "富貴",
       "eng站名": "Fugui",
       "routeCode": [
-        4
+        4,
+        5
       ]
     },
     {
@@ -1976,7 +1988,8 @@
       "站名": "內灣",
       "eng站名": "Neiwan",
       "routeCode": [
-        4
+        4,
+        5
       ]
     },
     {
@@ -1994,7 +2007,7 @@
       "站名": "源泉",
       "eng站名": "Yuanquan",
       "routeCode": [
-        5
+        6
       ]
     },
     {
@@ -2003,7 +2016,7 @@
       "站名": "濁水",
       "eng站名": "Zhuoshui",
       "routeCode": [
-        5
+        6
       ]
     },
     {
@@ -2012,7 +2025,7 @@
       "站名": "龍泉",
       "eng站名": "Longquan",
       "routeCode": [
-        5
+        6
       ]
     },
     {
@@ -2021,7 +2034,7 @@
       "站名": "集集",
       "eng站名": "Jiji",
       "routeCode": [
-        5
+        6
       ]
     },
     {
@@ -2030,7 +2043,7 @@
       "站名": "水里",
       "eng站名": "Shuili",
       "routeCode": [
-        5
+        6
       ]
     },
     {
@@ -2039,7 +2052,7 @@
       "站名": "車埕",
       "eng站名": "Checheng",
       "routeCode": [
-        5
+        6
       ]
     },
     {
@@ -2048,7 +2061,7 @@
       "站名": "長榮大學",
       "eng站名": "Chang Jung Christian University",
       "routeCode": [
-        6
+        7
       ]
     },
     {
@@ -2057,7 +2070,7 @@
       "站名": "沙崙",
       "eng站名": "Shalun",
       "routeCode": [
-        6,
+        7,
         1
       ]
     },
