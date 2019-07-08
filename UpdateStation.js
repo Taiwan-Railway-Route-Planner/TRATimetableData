@@ -62,7 +62,7 @@ function mergeTRAStationCodesAndStationJson() {
     });
 }
 
-// createStationData();
+createStationData();
 
 function createStationData() {
 
@@ -121,6 +121,21 @@ function createStationData() {
     
     function getTheRightTrainLine(traWebsiteCode) {
         let trainRouteCode = [];
+        if (traWebsiteCode <= 9999 && traWebsiteCode >= 0
+            && !(traWebsiteCode < 1210 && traWebsiteCode > 1190)
+            && !(traWebsiteCode < 3446 && traWebsiteCode > 3430)
+            && !(traWebsiteCode < 4272 && traWebsiteCode > 4270)
+            && !(traWebsiteCode < 7336 && traWebsiteCode > 7330)
+            && !(traWebsiteCode < 2260 && traWebsiteCode > 2110)
+        ){
+            trainRouteCode.push(1);
+        }
+        if (traWebsiteCode <= 2260 && traWebsiteCode >= 2110 || traWebsiteCode === 1250){
+            trainRouteCode.push(2);
+        }
+        if (traWebsiteCode <= 7336 && traWebsiteCode >= 7330){
+            trainRouteCode.push(3);
+        }
         if (traWebsiteCode <= 1210 && traWebsiteCode >= 1190){
             trainRouteCode.push(4);
         }
@@ -133,22 +148,6 @@ function createStationData() {
         if (traWebsiteCode <= 4272 && traWebsiteCode >= 4270){
             trainRouteCode.push(7);
         }
-        if (traWebsiteCode <= 7336 && traWebsiteCode >= 7330){
-            trainRouteCode.push(3);
-        }
-        if (traWebsiteCode <= 2260 && traWebsiteCode >= 2110 || traWebsiteCode === 1250){
-            trainRouteCode.push(2);
-        }
-        if (traWebsiteCode <= 9999 && traWebsiteCode >= 0
-            && !(traWebsiteCode < 1210 && traWebsiteCode > 1190)
-            && !(traWebsiteCode < 3446 && traWebsiteCode > 3430)
-            && !(traWebsiteCode < 4272 && traWebsiteCode > 4270)
-            && !(traWebsiteCode < 7336 && traWebsiteCode > 7330)
-            && !(traWebsiteCode < 2260 && traWebsiteCode > 2110)
-        ){
-            trainRouteCode.push(1);
-        }
-
         return trainRouteCode;
     }
 }
@@ -232,13 +231,13 @@ function CreateDifferentJsonLineFiles() {
                 ShalunLine.push(el);
             }
         });
-        exportNewData('./docs/Line/RoundLine.json', RoundLine);
-        exportNewData('./docs/Line/CoastLine.json', CoastLine);
-        exportNewData('./docs/Line/PingxiLine.json', PingxiLine);
-        exportNewData('./docs/Line/NiewanLiujaLine.json', NiewanLiujaLine);
-        exportNewData('./docs/Line/NiewanLine.json', NiewanLine);
-        exportNewData('./docs/Line/JijiLine.json', JijiLine);
-        exportNewData('./docs/Line/ShalunLine.json', ShalunLine);
+        exportNewData('./docs/Lines/RoundLine.json', RoundLine);
+        exportNewData('./docs/Lines/CoastLine.json', CoastLine);
+        exportNewData('./docs/Lines/PingxiLine.json', PingxiLine);
+        exportNewData('./docs/Lines/NiewanLiujaLine.json', NiewanLiujaLine);
+        exportNewData('./docs/Lines/NiewanLine.json', NiewanLine);
+        exportNewData('./docs/Lines/JijiLine.json', JijiLine);
+        exportNewData('./docs/Lines/ShalunLine.json', ShalunLine);
     });
 }
 
@@ -247,7 +246,7 @@ sortRoundLine();
 function sortRoundLine() {
 
     async function readRoundLine() {
-        return await readFile('./docs/Line/RoundLine.json');
+        return await readFile('./docs/Lines/RoundLine.json');
     }
 
     readRoundLine().then(data => {
@@ -255,6 +254,6 @@ function sortRoundLine() {
         data.sort(function(a, b) {
             return parseInt(a.traWebsiteCode) - parseInt(b.traWebsiteCode);
         });
-        exportNewData('./docs/Line/RoundLine.json', data);
+        exportNewData('./docs/Lines/RoundLine.json', data);
     });
 }
