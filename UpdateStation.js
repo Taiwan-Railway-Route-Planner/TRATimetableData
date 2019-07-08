@@ -13,9 +13,10 @@ function exportNewData(fileName, newData) {
     })
 }
 
-// removeTheWordStationFromTheTitle();
+removeTheWordStationFromTheTitle();
 
 function removeTheWordStationFromTheTitle() {
+
     async function getStuff() {
         return await readFile('station.json');
     }
@@ -30,7 +31,7 @@ function removeTheWordStationFromTheTitle() {
     });
 }
 
-// mergeTRAStationCodesAndStationJson();
+mergeTRAStationCodesAndStationJson();
 
 function mergeTRAStationCodesAndStationJson() {
 
@@ -61,7 +62,7 @@ function mergeTRAStationCodesAndStationJson() {
     });
 }
 
-// createStationData();
+createStationData();
 
 function createStationData() {
 
@@ -119,16 +120,19 @@ function createStationData() {
         if (traWebsiteCode <= 1210 && traWebsiteCode >= 1190){
             trainRouteCode.push(4);
         }
-        if (traWebsiteCode <= 3446 && traWebsiteCode >= 3430){
+        if (traWebsiteCode <= 1208 && traWebsiteCode >= 1201 || traWebsiteCode === 1193){
             trainRouteCode.push(5);
         }
-        if (traWebsiteCode <= 4272 && traWebsiteCode >= 4270){
+        if (traWebsiteCode <= 3446 && traWebsiteCode >= 3430){
             trainRouteCode.push(6);
+        }
+        if (traWebsiteCode <= 4272 && traWebsiteCode >= 4270){
+            trainRouteCode.push(7);
         }
         if (traWebsiteCode <= 7336 && traWebsiteCode >= 7330){
             trainRouteCode.push(3);
         }
-        if (traWebsiteCode <= 2260 && traWebsiteCode >= 2110){
+        if (traWebsiteCode <= 2260 && traWebsiteCode >= 2110 || traWebsiteCode === 1250){
             trainRouteCode.push(2);
         }
         if (traWebsiteCode <= 9999 && traWebsiteCode >= 0
@@ -145,8 +149,8 @@ function createStationData() {
     }
 }
 
-// checkTRAStationcodesForMissingEnglishNames();
-// checkStationWithEnglishNamesForMissingTraWebsiteCode();
+checkTRAStationcodesForMissingEnglishNames();
+checkStationWithEnglishNamesForMissingTraWebsiteCode();
 
 function checkTRAStationcodesForMissingEnglishNames() {
 
@@ -181,5 +185,55 @@ function checkStationWithEnglishNamesForMissingTraWebsiteCode() {
             }
         });
         exportNewData('stationsWithEnglishNamesFalse.json', newObject);
+    });
+}
+
+functionCreateDifferentJsonLineFiles();
+
+function functionCreateDifferentJsonLineFiles() {
+
+    async function getUpdatedStationInfo() {
+        return await readFile('./docs/stationInfo.json');
+    }
+
+    getUpdatedStationInfo().then(data => {
+        data = JSON.parse(data);
+        let RoundLine = [];
+        let CoastLine = [];
+        let PingxiLine = [];
+        let NiewanLiujaLine = [];
+        let NiewanLine = [];
+        let JijiLine = [];
+        let ShalunLine = [];
+        data.stations.forEach(function (el) {
+            if (el.routeCode.includes(1)){
+                RoundLine.push(el);
+            }
+            if (el.routeCode.includes(2)){
+                CoastLine.push(el);
+            }
+            if (el.routeCode.includes(3)){
+                PingxiLine.push(el);
+            }
+            if (el.routeCode.includes(4)){
+                NiewanLiujaLine.push(el);
+            }
+            if (el.routeCode.includes(5)){
+                NiewanLine.push(el);
+            }
+            if (el.routeCode.includes(6)){
+                JijiLine.push(el);
+            }
+            if (el.routeCode.includes(7)){
+                ShalunLine.push(el);
+            }
+        });
+        exportNewData('./docs/RoundLine.json', RoundLine);
+        exportNewData('./docs/CoastLine.json', CoastLine);
+        exportNewData('./docs/PingxiLine.json', PingxiLine);
+        exportNewData('./docs/NiewanLiujaLine.json', NiewanLiujaLine);
+        exportNewData('./docs/NiewanLine.json', NiewanLine);
+        exportNewData('./docs/JijiLine.json', JijiLine);
+        exportNewData('./docs/ShalunLine.json', ShalunLine);
     });
 }
