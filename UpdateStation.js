@@ -90,12 +90,16 @@ function createStationData() {
                         "code": 4,
                     },
                     {
-                        "name": "JijiLine",
+                        "name": "NiewanLine",
                         "code": 5,
                     },
                     {
-                        "name": "ShalunLine",
+                        "name": "JijiLine",
                         "code": 6,
+                    },
+                    {
+                        "name": "ShalunLine",
+                        "code": 7,
                     }
 
                 ],
@@ -188,7 +192,7 @@ function checkStationWithEnglishNamesForMissingTraWebsiteCode() {
     });
 }
 
-functionCreateDifferentJsonLineFiles();
+// functionCreateDifferentJsonLineFiles();
 
 function functionCreateDifferentJsonLineFiles() {
 
