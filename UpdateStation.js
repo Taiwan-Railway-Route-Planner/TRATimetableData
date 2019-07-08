@@ -232,13 +232,13 @@ function CreateDifferentJsonLineFiles() {
                 ShalunLine.push(el);
             }
         });
-        exportNewData('./docs/RoundLine.json', RoundLine);
-        exportNewData('./docs/CoastLine.json', CoastLine);
-        exportNewData('./docs/PingxiLine.json', PingxiLine);
-        exportNewData('./docs/NiewanLiujaLine.json', NiewanLiujaLine);
-        exportNewData('./docs/NiewanLine.json', NiewanLine);
-        exportNewData('./docs/JijiLine.json', JijiLine);
-        exportNewData('./docs/ShalunLine.json', ShalunLine);
+        exportNewData('./docs/Line/RoundLine.json', RoundLine);
+        exportNewData('./docs/Line/CoastLine.json', CoastLine);
+        exportNewData('./docs/Line/PingxiLine.json', PingxiLine);
+        exportNewData('./docs/Line/NiewanLiujaLine.json', NiewanLiujaLine);
+        exportNewData('./docs/Line/NiewanLine.json', NiewanLine);
+        exportNewData('./docs/Line/JijiLine.json', JijiLine);
+        exportNewData('./docs/Line/ShalunLine.json', ShalunLine);
     });
 }
 
@@ -247,7 +247,7 @@ sortRoundLine();
 function sortRoundLine() {
 
     async function readRoundLine() {
-        return await readFile('./docs/RoundLine.json');
+        return await readFile('./docs/Line/RoundLine.json');
     }
 
     readRoundLine().then(data => {
@@ -255,6 +255,6 @@ function sortRoundLine() {
         data.sort(function(a, b) {
             return parseInt(a.traWebsiteCode) - parseInt(b.traWebsiteCode);
         });
-        exportNewData('./docs/RoundLine.json', data);
+        exportNewData('./docs/Line/RoundLine.json', data);
     });
 }
