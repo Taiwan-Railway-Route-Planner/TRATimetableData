@@ -62,7 +62,7 @@ function mergeTRAStationCodesAndStationJson() {
     });
 }
 
-createStationData();
+// createStationData();
 
 function createStationData() {
 
@@ -123,10 +123,10 @@ function createStationData() {
         let trainRouteCode = [];
         if (traWebsiteCode <= 9999 && traWebsiteCode >= 0
             && !(traWebsiteCode < 1210 && traWebsiteCode > 1190)
-            && !(traWebsiteCode < 3446 && traWebsiteCode > 3430)
-            && !(traWebsiteCode < 4272 && traWebsiteCode > 4270)
-            && !(traWebsiteCode < 7336 && traWebsiteCode > 7330)
-            && !(traWebsiteCode < 2260 && traWebsiteCode > 2110)
+            && !(traWebsiteCode <= 3436 && traWebsiteCode > 3430)
+            && !(traWebsiteCode <= 4272 && traWebsiteCode > 4270)
+            && !(traWebsiteCode <= 7336 && traWebsiteCode > 7330)
+            && !(traWebsiteCode <= 2260 && traWebsiteCode >= 2110)
         ){
             trainRouteCode.push(1);
         }
@@ -142,7 +142,7 @@ function createStationData() {
         if (traWebsiteCode <= 1208 && traWebsiteCode >= 1201 || traWebsiteCode === 1193){
             trainRouteCode.push(5);
         }
-        if (traWebsiteCode <= 3446 && traWebsiteCode >= 3430){
+        if (traWebsiteCode <= 3436 && traWebsiteCode >= 3420){
             trainRouteCode.push(6);
         }
         if (traWebsiteCode <= 4272 && traWebsiteCode >= 4270){
@@ -241,7 +241,7 @@ function CreateDifferentJsonLineFiles() {
     });
 }
 
-sortRoundLine();
+// sortRoundLine();
 
 function sortRoundLine() {
 
