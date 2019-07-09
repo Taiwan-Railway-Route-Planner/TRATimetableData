@@ -39,7 +39,7 @@ function saveLineInfoInArray(fileName) {
     getJsonFile().then(jsonData => {
         save(JSON.parse(jsonData), fileName);
     });
-    
+
     function save(jsonData, fileName) {
         fileName = fileName.replace('.json', '');
         switch (fileName) {
@@ -183,6 +183,7 @@ function readJsonFile(fileName, stationInfo) {
                     if (startNumbers.length === 1 && endNumbers.length === 2) {
                         return "-" + endNumbers[0];
                     } else {
+                        Specials++;
                         special.push({
                             startStation: startStation,
                             endStation: endStation,
@@ -196,7 +197,6 @@ function readJsonFile(fileName, stationInfo) {
                         } else {
                             return "-" + startNumbers[0];
                         }
-                        // Specials++;
                         // console.log("startNumbers", startNumbers, startNumbers.length, startStation);
                         // console.log("endNumbers", endNumbers, endNumbers.length, endStation);
                         // console.log("Specials");
