@@ -39,8 +39,7 @@ function saveLineInfoInArray(fileName) {
     getJsonFile().then(jsonData => {
         save(JSON.parse(jsonData), fileName);
     });
-
-
+    
     function save(jsonData, fileName) {
         fileName = fileName.replace('.json', '');
         switch (fileName) {
@@ -135,6 +134,17 @@ function readJsonFile(fileName, stationInfo) {
             return el;
         });
         exportNewData(JSON.stringify(fileData));
+        exportSpecialLines();
+    }
+
+    function exportNewData(newData) {
+        fs.writeFile(destPath + fileName, newData, err => {
+            if (err) {
+                console.log('Error writing file', err)
+            } else {
+                console.log('Successfully wrote file')
+            }
+        })
     }
 
     let Specials = 0;
@@ -173,19 +183,20 @@ function readJsonFile(fileName, stationInfo) {
                     if (startNumbers.length === 1 && endNumbers.length === 2) {
                         return "-" + endNumbers[0];
                     } else {
+                        special.push({
+                            startStation: startStation,
+                            endStation: endStation,
+                            startNumbers: startNumbers,
+                            endNumbers: endNumbers,
+                            route: ObjectLength(el.TimeInfos),
+                            details: el
+                        });
                         if (startNumbers[0] === 1) {
                             return endNumbers[0];
                         } else {
                             return "-" + startNumbers[0];
                         }
                         // Specials++;
-                        // special.push({
-                        //     startStation: startStation,
-                        //     endStation: endStation,
-                        //     startNumbers: startNumbers,
-                        //     endNumbers: endNumbers,
-                        //     route: ObjectLength(el.TimeInfos)
-                        // });
                         // console.log("startNumbers", startNumbers, startNumbers.length, startStation);
                         // console.log("endNumbers", endNumbers, endNumbers.length, endStation);
                         // console.log("Specials");
@@ -219,17 +230,15 @@ function readJsonFile(fileName, stationInfo) {
         return stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(station)))
     }
 
-    function exportNewData(newData) {
-        // console.log("!!!!!!!!!!!!!!!!!!!!Specials!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-        // console.log("Specials", Specials);
-        // // special = special.filter( (hash => obj => !(hash.has(obj.endStation) || hash.add(obj.endStation) && false))(new Set));
-        // special = unique(special, ['endStation', 'startStation', 'route']);
-        // let object = {
-        //     lenght: ObjectLength(special),
-        //     special: special
-        // } ;
-        // fs.writeFile(linePath + Specials + ".json", JSON.stringify(object), err => {
-        fs.writeFile(destPath + fileName, newData, err => {
+    function exportSpecialLines() {
+        console.log("!!!!!!!!!!!!!!!!!!!!Specials!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        console.log("Specials", Specials);
+        special = unique(special, ['endStation', 'startStation', 'route']);
+        let object = {
+            lenght: ObjectLength(special),
+            special: special
+        } ;
+        fs.writeFile(linePath + Specials + ".json", JSON.stringify(object), err => {
             if (err) {
                 console.log('Error writing file', err)
             } else {
@@ -237,7 +246,6 @@ function readJsonFile(fileName, stationInfo) {
             }
         })
     }
-
 
     function unique(arr, keyProps) {
         const kvArray = arr.map(entry => {
