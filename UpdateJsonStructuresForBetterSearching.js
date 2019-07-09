@@ -76,7 +76,7 @@ function readStationInfoFile() {
 
     getJsonFile().then(stationInfo => {
         readDir(JSON.parse(stationInfo));
-    })
+    });
 }
 
 function readDir(stationInfo) {
@@ -86,6 +86,8 @@ function readDir(stationInfo) {
         for (let i = 0; i < items.length; i++) {
             readJsonFile(items[i], stationInfo);
         }
+
+        setTimeout(addRoutesToStationFromSpecialRoutes, 8000);
     });
 }
 
@@ -183,19 +185,27 @@ function readJsonFile(fileName, stationInfo) {
                     if (startNumbers.length === 1 && endNumbers.length === 2) {
                         return "-" + endNumbers[0];
                     } else {
-                        Specials++;
-                        special.push({
-                            startStation: startStation,
-                            endStation: endStation,
-                            startNumbers: startNumbers,
-                            endNumbers: endNumbers,
-                            route: ObjectLength(el.TimeInfos),
-                            details: el
-                        });
-                        if (startNumbers[0] === 1) {
-                            return endNumbers[0];
+                        if (startNumbers.length === 3 || endNumbers.length === 3) {
+                            if (startNumbers.length === 2) {
+                                return endNumbers[0];
+                            } else {
+                                return "-" + startNumbers[0];
+                            }
                         } else {
-                            return "-" + startNumbers[0];
+                            Specials++;
+                            special.push({
+                                startStation: startStation,
+                                endStation: endStation,
+                                startNumbers: startNumbers,
+                                endNumbers: endNumbers,
+                                route: ObjectLength(el.TimeInfos),
+                                details: el
+                            });
+                            if (startNumbers[0] === 1) {
+                                return endNumbers[0];
+                            } else {
+                                return startNumbers[0];
+                            }
                         }
                         // console.log("startNumbers", startNumbers, startNumbers.length, startStation);
                         // console.log("endNumbers", endNumbers, endNumbers.length, endStation);
@@ -237,8 +247,8 @@ function readJsonFile(fileName, stationInfo) {
         let object = {
             lenght: ObjectLength(special),
             special: special
-        } ;
-        fs.writeFile(linePath + Specials + ".json", JSON.stringify(object), err => {
+        };
+        fs.writeFile(linePath + "specials.json", JSON.stringify(object), err => {
             if (err) {
                 console.log('Error writing file', err)
             } else {
@@ -254,5 +264,64 @@ function readJsonFile(fileName, stationInfo) {
         });
         const map = new Map(kvArray);
         return Array.from(map.values());
+    }
+}
+
+function addRoutesToStationFromSpecialRoutes() {
+
+    console.log("Read to do special line");
+    readSpecialRoute();
+
+    function readSpecialRoute() {
+
+        async function getJsonFile() {
+            return await readFile("./docs/Lines/specials.json");
+        }
+
+        getJsonFile().then(specialInfo => {
+            updateRouteList(JSON.parse(specialInfo));
+        })
+    }
+
+    function updateRouteList(specialInfo) {
+        if (specialInfo.lenght === 0) {
+            console.log("We're done")
+        } else {
+            readStationInfoFile(specialInfo);
+        }
+    }
+
+    function readStationInfoFile(specialInfo) {
+
+        async function getJsonFile() {
+            return await readFile("./docs/stationInfo.json");
+        }
+
+        getJsonFile().then(stationInfo => {
+            changeStationInfo(JSON.parse(stationInfo), specialInfo);
+        })
+    }
+
+    function changeStationInfo(stationInfo, specialInfo) {
+        specialInfo.special.forEach(function (el) {
+            Object.keys(el.details.TimeInfos).forEach(function (key) {
+                let station = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(key))).routeCode;
+                if (!(station.includes(el.details.mainRoute))) {
+                    station.push(el.details.mainRoute);
+                }
+            })
+        });
+        exportChangedStationInfo(JSON.stringify(stationInfo));
+    }
+
+    function exportChangedStationInfo(newData) {
+        fs.writeFile("./docs/stationInfo.json", newData, err => {
+            if (err) {
+                console.log('Error writing file', err)
+            } else {
+                console.log('Successfully wrote file')
+            }
+        });
+        readDirOfLines();
     }
 }
