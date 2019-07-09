@@ -87,7 +87,7 @@ function readDir(stationInfo) {
             readJsonFile(items[i], stationInfo);
         }
 
-        setTimeout(addRoutesToStationFromSpecialRoutes, 8000);
+        setTimeout(addRoutesToStationFromSpecialRoutes, 15000);
     });
 }
 
