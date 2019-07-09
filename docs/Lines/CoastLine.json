@@ -10,12 +10,151 @@
     ]
   },
   {
+    "時刻表編號": 1305,
+    "traWebsiteCode": "3160",
+    "站名": "苗栗",
+    "eng站名": "Miaoli",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1307,
+    "traWebsiteCode": "3170",
+    "站名": "南勢",
+    "eng站名": "Nanshi",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1308,
+    "traWebsiteCode": "3180",
+    "站名": "銅鑼",
+    "eng站名": "Tongluo",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1310,
+    "traWebsiteCode": "3190",
+    "站名": "三義",
+    "eng站名": "Sanyi",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1314,
+    "traWebsiteCode": "3210",
+    "站名": "泰安",
+    "eng站名": "Tai'an",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1315,
+    "traWebsiteCode": "3220",
+    "站名": "后里",
+    "eng站名": "Houli",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1317,
+    "traWebsiteCode": "3230",
+    "站名": "豐原",
+    "eng站名": "Fengyuan",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1318,
+    "traWebsiteCode": "3250",
+    "站名": "潭子",
+    "eng站名": "Tanzi",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1323,
+    "traWebsiteCode": "3280",
+    "站名": "太原",
+    "eng站名": "Taiyuan",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1319,
+    "traWebsiteCode": "3300",
+    "站名": "臺中",
+    "eng站名": "Taichung",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1322,
+    "traWebsiteCode": "3320",
+    "站名": "大慶",
+    "eng站名": "Daqing",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1320,
+    "traWebsiteCode": "3330",
+    "站名": "烏日",
+    "eng站名": "Wuri",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1324,
+    "traWebsiteCode": "3340",
+    "站名": "新烏日",
+    "eng站名": "Xinwuri",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1321,
+    "traWebsiteCode": "3350",
+    "站名": "成功",
+    "eng站名": "Chenggong",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
     "時刻表編號": 1102,
     "traWebsiteCode": "2110",
     "站名": "談文",
     "eng站名": "Tanwen",
     "routeCode": [
-      1,
       2
     ]
   },
@@ -150,6 +289,66 @@
     "traWebsiteCode": "2260",
     "站名": "追分",
     "eng站名": "Zhuifen",
+    "routeCode": [
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1120,
+    "traWebsiteCode": "3360",
+    "站名": "彰化",
+    "eng站名": "Changhua",
+    "routeCode": [
+      1,
+      6,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1325,
+    "traWebsiteCode": "3240",
+    "站名": "栗林",
+    "eng站名": "Lilin",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1326,
+    "traWebsiteCode": "3260",
+    "站名": "頭家厝",
+    "eng站名": "Toujiacuo",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1327,
+    "traWebsiteCode": "3270",
+    "站名": "松竹",
+    "eng站名": "Songzhu",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1328,
+    "traWebsiteCode": "3290",
+    "站名": "精武",
+    "eng站名": "Jingwu",
+    "routeCode": [
+      1,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1329,
+    "traWebsiteCode": "3310",
+    "站名": "五權",
+    "eng站名": "Wuquan",
     "routeCode": [
       1,
       2

@@ -1,5 +1,36 @@
 [
   {
+    "時刻表編號": 1120,
+    "traWebsiteCode": "3360",
+    "站名": "彰化",
+    "eng站名": "Changhua",
+    "routeCode": [
+      1,
+      6,
+      2
+    ]
+  },
+  {
+    "時刻表編號": 1203,
+    "traWebsiteCode": "3390",
+    "站名": "員林",
+    "eng站名": "Yuanlin",
+    "routeCode": [
+      1,
+      6
+    ]
+  },
+  {
+    "時刻表編號": 1205,
+    "traWebsiteCode": "3410",
+    "站名": "社頭",
+    "eng站名": "Shetou",
+    "routeCode": [
+      1,
+      6
+    ]
+  },
+  {
     "時刻表編號": 1206,
     "traWebsiteCode": "3420",
     "站名": "田中",
