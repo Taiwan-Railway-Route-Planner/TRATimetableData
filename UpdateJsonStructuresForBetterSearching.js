@@ -135,10 +135,31 @@ function readJsonFile(fileName, stationInfo) {
             el.Routes = el.Routes.filter(onlyUnique);
             el.mainRoute = getMainRoute(el.StartStation, el.EndStation, el, MiddleStation);
             el.MultiRoute = el.Routes.length !== 1;
+            el.trainType = getTrainType(el);
             return el;
         });
         exportNewData(JSON.stringify(fileData));
         exportSpecialLines();
+    }
+
+    function getTrainType(el) {
+        if (el.Note.includes('莒光')){
+            return "Chu-kuang";
+        } else {
+            if (el.Note.includes('自強')){
+                return "Tze-chiang";
+            } else {
+                if (el.NoteEng.includes('Taroko')){
+                    return "Taroko";
+                } else {
+                    if (el.NoteEng.includes('Puyuma')){
+                        return "Puyuma";
+                    } else {
+                        return "Local";
+                    }
+                }
+            }
+        }
     }
 
     function exportNewData(newData) {
