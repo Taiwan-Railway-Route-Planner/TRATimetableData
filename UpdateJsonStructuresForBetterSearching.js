@@ -160,8 +160,7 @@ function readJsonFile(fileName, stationInfo) {
             let startStationCode = getTraWebsiteCode(startStation);
             let endStationCode = getTraWebsiteCode(endStation);
             let middleStationCode = getTraWebsiteCode(MiddleStation);
-
-            if (startStationCode < endStationCode && startStationCode > middleStationCode) {
+            if (startStationCode < endStationCode && startStationCode < middleStationCode) {
                 if (startNumbers[0] === 4 && endNumbers[0] === 4) {
                     return startNumbers[1];
                 } else {
