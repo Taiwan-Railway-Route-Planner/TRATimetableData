@@ -113,6 +113,7 @@ function readJsonFile(fileName, stationInfo) {
             el.EndTime = el.TimeInfos[el.TimeInfos.length - 1].DepTime;
             el.Stations = {};
             el.Routes = [];
+            let MiddleStation = el.TimeInfos[Math.round((el.TimeInfos.length - 1) / 2)].Station;
             let newTimeInfo = {};
             el.TimeInfos.forEach(function (tel, index) {
                 let routes = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(tel.Station))).routeCode;
@@ -131,7 +132,7 @@ function readJsonFile(fileName, stationInfo) {
             });
             el.TimeInfos = newTimeInfo;
             el.Routes = el.Routes.filter(onlyUnique);
-            el.mainRoute = getMainRoute(el.StartStation, el.EndStation, el);
+            el.mainRoute = getMainRoute(el.StartStation, el.EndStation, el, MiddleStation);
             el.MultiRoute = el.Routes.length !== 1;
             return el;
         });
@@ -152,13 +153,15 @@ function readJsonFile(fileName, stationInfo) {
     let Specials = 0;
     let special = [];
 
-    function getMainRoute(startStation, endStation, el) {
+    function getMainRoute(startStation, endStation, el, MiddleStation) {
         let startNumbers = getRouteNumbers(startStation);
         let endNumbers = getRouteNumbers(endStation);
         if (startNumbers[0] === endNumbers[0]) {
             let startStationCode = getTraWebsiteCode(startStation);
             let endStationCode = getTraWebsiteCode(endStation);
-            if (startStationCode < endStationCode) {
+            let middleStationCode = getTraWebsiteCode(MiddleStation);
+
+            if (startStationCode < endStationCode && startStationCode > middleStationCode) {
                 if (startNumbers[0] === 4 && endNumbers[0] === 4) {
                     return startNumbers[1];
                 } else {
