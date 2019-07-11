@@ -1,5 +1,6 @@
 const fs = require('fs');
 const util = require('util');
+const moment = require('moment');
 
 const readFile = util.promisify(fs.readFile);
 
@@ -108,9 +109,9 @@ function readJsonFile(fileName, stationInfo) {
     function alternateData(fileData) {
         fileData.TrainInfos.map(function (el) {
             el.StartStation = parseInt(el.TimeInfos[0].Station);
-            el.StartTime = el.TimeInfos[0].DepTime;
+            el.StartTime = moment(el.TimeInfos[0].DepTime, 'HH:mm:ss').format('HH:mm');
             el.EndStation = parseInt(el.TimeInfos[el.TimeInfos.length - 1].Station);
-            el.EndTime = el.TimeInfos[el.TimeInfos.length - 1].DepTime;
+            el.EndTime = moment(el.TimeInfos[el.TimeInfos.length - 1].DepTime, 'HH:mm:ss').format('HH:mm');
             el.Stations = {};
             el.Routes = [];
             let MiddleStation = el.TimeInfos[Math.round((el.TimeInfos.length - 1) / 2)].Station;
@@ -121,8 +122,8 @@ function readJsonFile(fileName, stationInfo) {
                 newTimeInfo[tel.Station] = {
                     "Station": tel.Station,
                     "Order": tel.Order,
-                    "DepTime": tel.DepTime,
-                    "ArrTime": tel.ArrTime,
+                    "DepTime": moment(tel.DepTime, 'HH:mm:ss').format('HH:mm'),
+                    "ArrTime": moment(tel.ArrTime, 'HH:mm:ss').format('HH:mm'),
                     "Routes": routes
                 };
                 // el.Stations[parseInt(tel.Station)] = {
