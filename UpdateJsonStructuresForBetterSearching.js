@@ -142,23 +142,37 @@ function readJsonFile(fileName, stationInfo) {
         exportSpecialLines();
     }
 
+    let types = [];
+
     function getTrainType(el) {
-        if (el.Note.includes('莒光')){
-            return "Chu-kuang";
-        } else {
-            if (el.Note.includes('自強')){
+        switch (el.CarClass) {
+            case "1132":
+                return "Fast Local";
+            case "1131":
+            case "1140":
+                return "Local";
+            case "1102":
+                return "Taroko";
+            case "1107":
+                return "Puyuma";
+            case "1108":
+            case "1109":
+            case "110B":
+            case "110C":
+            case "110D":
+            case "110E":
+            case "110F":
                 return "Tze-chiang";
-            } else {
-                if (el.NoteEng.includes('Taroko')){
-                    return "Taroko";
-                } else {
-                    if (el.NoteEng.includes('Puyuma')){
-                        return "Puyuma";
-                    } else {
-                        return "Local";
-                    }
-                }
-            }
+            case "1110":
+            case "1111":
+            case "1114":
+            case "1115":
+                return "Chu-kuang";
+            case "1120":
+                return "Fu-Hsing";
+            default:
+                types.push({CarClass: el.CarClass, Train: el.Train});
+                return "Special";
         }
     }
 
@@ -272,6 +286,9 @@ function readJsonFile(fileName, stationInfo) {
             lenght: ObjectLength(special),
             special: special
         };
+        types = unique(types, ['CarClass']);
+        types = sort(types);
+        console.log("differnt train types", types);
         fs.writeFile(linePath + "specials.json", JSON.stringify(object), err => {
             if (err) {
                 console.log('Error writing file', err)
@@ -288,6 +305,12 @@ function readJsonFile(fileName, stationInfo) {
         });
         const map = new Map(kvArray);
         return Array.from(map.values());
+    }
+
+    function sort(list) {
+        return list.sort(function (a, b) {
+            return ('' + a.CarClass).localeCompare(b.CarClass);
+        })
     }
 }
 
