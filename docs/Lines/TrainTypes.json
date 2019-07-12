@@ -1,0 +1,77 @@
+[
+  {
+    "CarClass": "1102",
+    "Train": "219",
+    "Type": "Taroko"
+  },
+  {
+    "CarClass": "1107",
+    "Train": "218",
+    "Type": " Puyuma"
+  },
+  {
+    "CarClass": "1108",
+    "Train": "115",
+    "Type": "Tze-Chiang"
+  },
+  {
+    "CarClass": "1109",
+    "Train": "146",
+    "Type": "Tze-Chiang"
+  },
+  {
+    "CarClass": "110B",
+    "Train": "168",
+    "Type": "Tze-Chiang"
+  },
+  {
+    "CarClass": "110C",
+    "Train": "130",
+    "Type": "Tze-Chiang"
+  },
+  {
+    "CarClass": "110D",
+    "Train": "420",
+    "Type": "Tze-Chiang"
+  },
+  {
+    "CarClass": "110E",
+    "Train": "321",
+    "Type": "Tze-Chiang"
+  },
+  {
+    "CarClass": "110F",
+    "Train": "324",
+    "Type": "Tze-Chiang"
+  },
+  {
+    "CarClass": "1110",
+    "Train": "612",
+    "Type": "Chu-Kuang"
+  },
+  {
+    "CarClass": "1111",
+    "Train": "501",
+    "Type": "Chu-Kuang"
+  },
+  {
+    "CarClass": "1114",
+    "Train": "701",
+    "Type": "Chu-Kuang"
+  },
+  {
+    "CarClass": "1115",
+    "Train": "754",
+    "Type": "Chu-Kuang"
+  },
+  {
+    "CarClass": "1120",
+    "Train": "683",
+    "Type": "Fu-Hsing"
+  },
+  {
+    "CarClass": "1140",
+    "Train": "3672",
+    "Type": "Local"
+  }
+]
