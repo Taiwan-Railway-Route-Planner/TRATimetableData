@@ -149,8 +149,9 @@ function readJsonFile(fileName, stationInfo) {
             case "1132":
                 return "Fast Local";
             case "1131":
-            case "1140":
                 return "Local";
+            case "1140":
+                return "Ordinary";
             case "1102":
                 return "Taroko";
             case "1107":
