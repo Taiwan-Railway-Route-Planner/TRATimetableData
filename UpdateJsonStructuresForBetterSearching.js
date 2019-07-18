@@ -19,6 +19,7 @@ let Line = {
 };
 
 readDirOfLines();
+readDirOfLines();
 
 function readDirOfLines() {
 
