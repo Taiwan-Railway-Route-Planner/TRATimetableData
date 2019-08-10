@@ -120,10 +120,12 @@ function readJsonFile(fileName, stationInfo) {
             let beforeMiddleStation = el.TimeInfos[Math.round(((el.TimeInfos.length - 1) / 2) / 2)].Station;
             let afterMiddleStation = el.TimeInfos[Math.round(((el.TimeInfos.length - 1) / 2) + ((el.TimeInfos.length - 1) / 2) / 2)].Station;
             let newTimeInfo = {};
+            let arrayOfStations = [];
             el.TimeInfos.forEach(function (tel, index) {
                 let routes = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(tel.Station))).routeCode;
                 el.Routes = el.Routes.concat(routes);
                 if (el.Train === "1" || el.Train === "2"){
+                    arrayOfStations.push(tel.Station);
                     newTimeInfo[index] = {
                         "Station": tel.Station,
                         "Order": tel.Order,
@@ -145,6 +147,9 @@ function readJsonFile(fileName, stationInfo) {
                 //     "index": index
                 // };
             });
+            if (el.Train === "1" || el.Train === "2"){
+                el.StationList = arrayOfStations;
+            }
             el.TimeInfos = newTimeInfo;
             el.Routes = el.Routes.filter(onlyUnique);
             el.mainRoute = getMainRoute(el.StartStation, el.EndStation, el, MiddleStation, beforeMiddleStation, afterMiddleStation);
