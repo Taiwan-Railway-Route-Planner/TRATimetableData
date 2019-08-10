@@ -18,7 +18,7 @@ let Line = {
     7: null
 };
 
-readDirOfLines();
+// readDirOfLines();
 
 function readDirOfLines() {
 
@@ -210,17 +210,21 @@ function readJsonFile(fileName, stationInfo) {
                     return startNumbers[0]
                 }
             } else {
-                if (startStationCode < endStationCode && startStationCode < middleStationCode) {
-                    if (startNumbers[0] === 4 && endNumbers[0] === 4) {
-                        return startNumbers[1];
-                    } else {
-                        return startNumbers[0];
-                    }
+                if ((startStationCode < beforeMiddleStationCode && middleStationCode < afterMiddleStationCode && afterMiddleStationCode < endStationCode) || (beforeMiddleStationCode < startStationCode && middleStationCode < afterMiddleStationCode && afterMiddleStationCode < endStationCode)){
+                    return startNumbers[0];
                 } else {
-                    if (startNumbers[0] === 4 && endNumbers[0] === 4) {
-                        return "-" + startNumbers[1];
+                    if (startStationCode < endStationCode && startStationCode < middleStationCode) {
+                        if (startNumbers[0] === 4 && endNumbers[0] === 4) {
+                            return startNumbers[1];
+                        } else {
+                            return startNumbers[0];
+                        }
                     } else {
-                        return "-" + startNumbers[0];
+                        if (startNumbers[0] === 4 && endNumbers[0] === 4) {
+                            return "-" + startNumbers[1];
+                        } else {
+                            return "-" + startNumbers[0];
+                        }
                     }
                 }
             }
