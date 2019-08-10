@@ -120,18 +120,28 @@ function readJsonFile(fileName, stationInfo) {
             let beforeMiddleStation = el.TimeInfos[Math.round(((el.TimeInfos.length - 1) / 2) / 2)].Station;
             let afterMiddleStation = el.TimeInfos[Math.round(((el.TimeInfos.length - 1) / 2) + ((el.TimeInfos.length - 1) / 2) / 2)].Station;
             let newTimeInfo = {};
-            let arrayOfStations = [];
+            let isTaipeiAlreadyAdded = false;
             el.TimeInfos.forEach(function (tel, index) {
                 let routes = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(tel.Station))).routeCode;
                 el.Routes = el.Routes.concat(routes);
                 if (el.Train === "1" || el.Train === "2"){
-                    arrayOfStations.push(tel.Station);
-                    newTimeInfo[index] = {
-                        "Station": tel.Station,
-                        "Order": tel.Order,
-                        "DepTime": moment(tel.DepTime, 'HH:mm:ss').format('HH:mm'),
-                        "ArrTime": moment(tel.ArrTime, 'HH:mm:ss').format('HH:mm'),
-                        "Routes": routes
+                    if (tel.Station === "1008" && isTaipeiAlreadyAdded){
+                        newTimeInfo["_" + tel.Station] = {
+                            "Station": tel.Station,
+                            "Order": tel.Order,
+                            "DepTime": moment(tel.DepTime, 'HH:mm:ss').format('HH:mm'),
+                            "ArrTime": moment(tel.ArrTime, 'HH:mm:ss').format('HH:mm'),
+                            "Routes": routes
+                        }
+                    } else {
+                        newTimeInfo[tel.Station] = {
+                            "Station": tel.Station,
+                            "Order": tel.Order,
+                            "DepTime": moment(tel.DepTime, 'HH:mm:ss').format('HH:mm'),
+                            "ArrTime": moment(tel.ArrTime, 'HH:mm:ss').format('HH:mm'),
+                            "Routes": routes
+                        };
+                        isTaipeiAlreadyAdded = true;
                     }
                 } else {
                     newTimeInfo[tel.Station] = {
@@ -147,9 +157,6 @@ function readJsonFile(fileName, stationInfo) {
                 //     "index": index
                 // };
             });
-            if (el.Train === "1" || el.Train === "2"){
-                el.StationList = arrayOfStations;
-            }
             el.TimeInfos = newTimeInfo;
             el.Routes = el.Routes.filter(onlyUnique);
             el.mainRoute = getMainRoute(el.StartStation, el.EndStation, el, MiddleStation, beforeMiddleStation, afterMiddleStation);
