@@ -69,6 +69,8 @@ function saveLineInfoInArray(fileName) {
     }
 }
 
+readStationInfoFile();
+
 function readStationInfoFile() {
 
     async function getJsonFile() {
@@ -115,6 +117,8 @@ function readJsonFile(fileName, stationInfo) {
             el.Stations = {};
             el.Routes = [];
             let MiddleStation = el.TimeInfos[Math.round((el.TimeInfos.length - 1) / 2)].Station;
+            let beforeMiddleStation = el.TimeInfos[Math.round(((el.TimeInfos.length - 1) / 2) / 2)].Station;
+            let afterMiddleStation = el.TimeInfos[Math.round(((el.TimeInfos.length - 1) / 2) + ((el.TimeInfos.length - 1) / 2) / 2)].Station;
             let newTimeInfo = {};
             el.TimeInfos.forEach(function (tel, index) {
                 let routes = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(tel.Station))).routeCode;
@@ -133,7 +137,7 @@ function readJsonFile(fileName, stationInfo) {
             });
             el.TimeInfos = newTimeInfo;
             el.Routes = el.Routes.filter(onlyUnique);
-            el.mainRoute = getMainRoute(el.StartStation, el.EndStation, el, MiddleStation);
+            el.mainRoute = getMainRoute(el.StartStation, el.EndStation, el, MiddleStation, beforeMiddleStation, afterMiddleStation);
             el.MultiRoute = el.Routes.length !== 1;
             el.trainType = getTrainType(el);
             return el;
@@ -190,24 +194,34 @@ function readJsonFile(fileName, stationInfo) {
     let Specials = 0;
     let special = [];
 
-    function getMainRoute(startStation, endStation, el, MiddleStation) {
+    function getMainRoute(startStation, endStation, el, MiddleStation, beforeMiddleStation, afterMiddleStation) {
         let startNumbers = getRouteNumbers(startStation);
         let endNumbers = getRouteNumbers(endStation);
         if (startNumbers[0] === endNumbers[0]) {
             let startStationCode = getTraWebsiteCode(startStation);
             let endStationCode = getTraWebsiteCode(endStation);
             let middleStationCode = getTraWebsiteCode(MiddleStation);
-            if (startStationCode < endStationCode && startStationCode < middleStationCode) {
-                if (startNumbers[0] === 4 && endNumbers[0] === 4) {
-                    return startNumbers[1];
+            let beforeMiddleStationCode = getTraWebsiteCode(beforeMiddleStation);
+            let afterMiddleStationCode = getTraWebsiteCode(afterMiddleStation);
+            if (middleStationCode > startStationCode && middleStationCode > endStationCode) {
+                if (startStationCode > beforeMiddleStationCode && ( middleStationCode > afterMiddleStationCode && afterMiddleStationCode > endStationCode)) {
+                    return "-" + startNumbers[0]
                 } else {
-                    return startNumbers[0];
+                    return startNumbers[0]
                 }
             } else {
-                if (startNumbers[0] === 4 && endNumbers[0] === 4) {
-                    return "-" + startNumbers[1];
+                if (startStationCode < endStationCode && startStationCode < middleStationCode) {
+                    if (startNumbers[0] === 4 && endNumbers[0] === 4) {
+                        return startNumbers[1];
+                    } else {
+                        return startNumbers[0];
+                    }
                 } else {
-                    return "-" + startNumbers[0];
+                    if (startNumbers[0] === 4 && endNumbers[0] === 4) {
+                        return "-" + startNumbers[1];
+                    } else {
+                        return "-" + startNumbers[0];
+                    }
                 }
             }
         } else {
@@ -289,7 +303,7 @@ function readJsonFile(fileName, stationInfo) {
         };
         types = unique(types, ['CarClass']);
         types = sort(types);
-        console.log("differnt train types", types);
+        console.log("Different train types", types);
         fs.writeFile(linePath + "specials.json", JSON.stringify(object), err => {
             if (err) {
                 console.log('Error writing file', err)
