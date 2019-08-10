@@ -123,13 +123,23 @@ function readJsonFile(fileName, stationInfo) {
             el.TimeInfos.forEach(function (tel, index) {
                 let routes = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(tel.Station))).routeCode;
                 el.Routes = el.Routes.concat(routes);
-                newTimeInfo[tel.Station] = {
-                    "Station": tel.Station,
-                    "Order": tel.Order,
-                    "DepTime": moment(tel.DepTime, 'HH:mm:ss').format('HH:mm'),
-                    "ArrTime": moment(tel.ArrTime, 'HH:mm:ss').format('HH:mm'),
-                    "Routes": routes
-                };
+                if (el.Train === "1" || el.Train === "2"){
+                    newTimeInfo[index] = {
+                        "Station": tel.Station,
+                        "Order": tel.Order,
+                        "DepTime": moment(tel.DepTime, 'HH:mm:ss').format('HH:mm'),
+                        "ArrTime": moment(tel.ArrTime, 'HH:mm:ss').format('HH:mm'),
+                        "Routes": routes
+                    }
+                } else {
+                    newTimeInfo[tel.Station] = {
+                        "Station": tel.Station,
+                        "Order": tel.Order,
+                        "DepTime": moment(tel.DepTime, 'HH:mm:ss').format('HH:mm'),
+                        "ArrTime": moment(tel.ArrTime, 'HH:mm:ss').format('HH:mm'),
+                        "Routes": routes
+                    };
+                }
                 // el.Stations[parseInt(tel.Station)] = {
                 //     "routeCode": routes,
                 //     "index": index
