@@ -116,10 +116,9 @@ function createStationData() {
                 "站名": el.properties.站名,
                 "eng站名": el.properties.eng站名,
                 "routeCode": getTheRightTrainLine(parseInt(el.properties.traWebsiteCode)),
-                "gradestation": getGradeStationInformation(parseInt(el.properties.traWebsiteCode))
+                "gradeStation": getGradeStationInformation(parseInt(el.properties.traWebsiteCode))
             })
         });
-        console.log("Waiting until saving of the stationInfo file is done");
         loadAllTheNeededFiles(newStationData);
     });
     
@@ -399,8 +398,40 @@ function checkTheData(lengthOfItems) {
     }
 }
 
+const linePath = './docs/Lines/';
+const differentLines = [
+    'RoundLine',
+    'CoastLine',
+    'PingxiLine',
+    'NeiwanLiujaLine',
+    'NeiwanLine',
+    'JijiLine',
+    'ShalunLine'
+];
+
+let counter = 0;
+
 function updateDifferentLineData(stationInfo) {
 
+    async function getJsonFile() {
+        console.log("Reading file: ", differentLines[counter]+".json");
+        return await readFile(linePath + differentLines[counter] + ".json");
+    }
 
+    getJsonFile().then(lineData => {
+        addStopsAndGradeStationCodeTo(JSON.parse(lineData));
+    });
 
+    function addStopsAndGradeStationCodeTo(lineData) {
+        lineData = lineData.map(function (el) {
+            let stationInfoMatch = stationInfo.stations.find((element => element.時刻表編號 === parseInt(el.時刻表編號)));
+            el.stops = stationInfoMatch.stops;
+            el.gradeStation = stationInfoMatch.gradeStation;
+            return el;
+        });
+        console.log("Saving file: ", differentLines[counter]+".json");
+        exportNewData(linePath + differentLines[counter] + ".json", lineData);
+        counter++;
+        updateDifferentLineData(stationInfo);
+    }
 }
