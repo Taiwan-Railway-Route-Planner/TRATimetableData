@@ -192,6 +192,7 @@ function createStationData() {
             case 900:
             case 980:
             case 990:
+            case 920:
                 return {
                     "status": true,
                     "value": 1
