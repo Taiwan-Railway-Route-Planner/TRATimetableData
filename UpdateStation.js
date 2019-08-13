@@ -62,7 +62,7 @@ function mergeTRAStationCodesAndStationJson() {
     });
 }
 
-// createStationData();
+createStationData();
 
 function createStationData() {
 
@@ -112,12 +112,12 @@ function createStationData() {
                 "traWebsiteCode": el.properties.traWebsiteCode,
                 "站名": el.properties.站名,
                 "eng站名": el.properties.eng站名,
-                "routeCode": getTheRightTrainLine(parseInt(el.properties.traWebsiteCode))
+                "routeCode": getTheRightTrainLine(parseInt(el.properties.traWebsiteCode)),
+                "gradestation": getGradeStationInformation(parseInt(el.properties.traWebsiteCode))
             })
         });
         exportNewData('./docs/stationInfo.json', newStationData);
     });
-    
     
     function getTheRightTrainLine(traWebsiteCode) {
         let trainRouteCode = [];
@@ -149,6 +149,83 @@ function createStationData() {
             trainRouteCode.push(7);
         }
         return trainRouteCode;
+    }
+
+    function getGradeStationInformation(traWebsiteCode) {
+        switch (traWebsiteCode) {
+            case 1000:
+            case 3300:
+            case 4400:
+            case 7000:
+                return {
+                    "status": true,
+                    "value": 0
+                };
+            case 1010:
+            case 1020:
+            case 1040:
+            case 1080:
+            case 1100:
+            case 1210:
+            case 1250:
+            case 3160:
+            case 3230:
+            case 3360:
+            case 3390:
+            case 3470:
+            case 4080:
+            case 4120:
+            case 4420:
+            case 4310:
+            case 4340:
+            case 5000:
+            case 5050:
+            case 6000:
+            case 6110:
+            case 7130:
+            case 7190:
+            case 7360:
+            case 930:
+            case 900:
+            case 980:
+            case 990:
+                return {
+                    "status": true,
+                    "value": 1
+                };
+            case 1070:
+            case 1203:
+            case 2200:
+            case 2230:
+            case 2240:
+            case 3420:
+            case 3430:
+            case 3480:
+            case 4150:
+            case 4170:
+            case 4200:
+            case 4270:
+            case 4330:
+            case 4440:
+            case 7030:
+            case 7060:
+            case 7100:
+            case 7120:
+            case 7150:
+            case 7160:
+            case 7310:
+            case 910:
+            case 960:
+                return {
+                    "status": true,
+                    "value": 1
+                };
+            default:
+                return {
+                    "status": false,
+                    "value": null
+                };
+        }
     }
 }
 
