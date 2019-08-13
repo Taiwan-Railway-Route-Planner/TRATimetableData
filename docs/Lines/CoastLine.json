@@ -361,7 +361,7 @@
     "stops": 84,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -403,7 +403,7 @@
     "stops": 83,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -417,7 +417,7 @@
     "stops": 59,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {

@@ -24,7 +24,7 @@
     "stops": 111,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -95,7 +95,7 @@
     "stops": 225,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -249,7 +249,7 @@
     "stops": 144,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -906,7 +906,7 @@
     "stops": 124,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -921,7 +921,7 @@
     "stops": 122,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -977,7 +977,7 @@
     "stops": 108,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -1153,7 +1153,7 @@
     "stops": 86,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -1183,7 +1183,7 @@
     "stops": 121,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -1228,7 +1228,7 @@
     "stops": 127,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -1303,7 +1303,7 @@
     "stops": 144,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -1373,7 +1373,7 @@
     "stops": 86,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -1527,7 +1527,7 @@
     "stops": 179,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -2297,7 +2297,7 @@
     "stops": 52,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -2339,7 +2339,7 @@
     "stops": 34,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -2395,7 +2395,7 @@
     "stops": 32,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -2423,7 +2423,7 @@
     "stops": 41,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -2465,7 +2465,7 @@
     "stops": 68,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -2479,7 +2479,7 @@
     "stops": 138,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
@@ -2689,7 +2689,7 @@
     "stops": 67,
     "gradeStation": {
       "status": true,
-      "value": 1
+      "value": 2
     }
   },
   {
