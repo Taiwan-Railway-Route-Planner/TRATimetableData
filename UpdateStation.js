@@ -199,6 +199,7 @@ function createStationData() {
             case 1070:
             case 1203:
             case 2200:
+            case 2210:
             case 2230:
             case 2240:
             case 3420:
