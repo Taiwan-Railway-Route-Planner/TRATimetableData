@@ -119,9 +119,8 @@ function createStationData() {
                 "gradestation": getGradeStationInformation(parseInt(el.properties.traWebsiteCode))
             })
         });
-        exportNewData('./docs/stationInfo.json', newStationData);
         console.log("Waiting until saving of the stationInfo file is done");
-        setTimeout(loadAllTheNeededFiles, 5000, items.length);
+        loadAllTheNeededFiles(newStationData);
     });
     
     function getTheRightTrainLine(traWebsiteCode) {
@@ -340,18 +339,12 @@ function sortRoundLine() {
     });
 }
 
-function loadAllTheNeededFiles() {
+function loadAllTheNeededFiles(newStationData) {
 
-    async function getStationInfo() {
-        return await readFile('./docs/stationInfo.json');
-    }
+    readDir();
 
-    getStationInfo().then(data => {
-        readDir(JSON.parse(data));
-    });
-
-    function readDir(infoAboutStations) {
-        stationInfo = infoAboutStations;
+    function readDir() {
+        stationInfo = newStationData;
         stationInfo.stations = resetStationInfo(stationInfo);
 
         fs.readdir(path, function (err, items) {
