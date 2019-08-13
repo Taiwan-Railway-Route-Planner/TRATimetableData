@@ -221,7 +221,7 @@ function createStationData() {
             case 960:
                 return {
                     "status": true,
-                    "value": 1
+                    "value": 2
                 };
             default:
                 return {
