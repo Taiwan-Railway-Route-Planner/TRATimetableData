@@ -6,7 +6,12 @@
     "eng站名": "Keelung",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 125,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1029,
@@ -15,7 +20,12 @@
     "eng站名": "Sankeng",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 111,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1002,
@@ -25,7 +35,12 @@
     "routeCode": [
       1,
       3
-    ]
+    ],
+    "stops": 220,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1003,
@@ -34,7 +49,12 @@
     "eng站名": "Qidu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 257,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1030,
@@ -43,7 +63,12 @@
     "eng站名": "Baifu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 163,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1004,
@@ -52,7 +77,12 @@
     "eng站名": "Wudu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 163,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1005,
@@ -61,7 +91,12 @@
     "eng站名": "Xizhi",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 225,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1031,
@@ -70,7 +105,12 @@
     "eng站名": "Xike",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 164,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1006,
@@ -79,7 +119,12 @@
     "eng站名": "Nangang",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 221,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1007,
@@ -88,7 +133,12 @@
     "eng站名": "Songshan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 301,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1008,
@@ -97,7 +147,12 @@
     "eng站名": "Taipei",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 310,
+    "gradeStation": {
+      "status": true,
+      "value": 0
+    }
   },
   {
     "時刻表編號": 1009,
@@ -106,7 +161,12 @@
     "eng站名": "Wanhua",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 169,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1011,
@@ -115,7 +175,12 @@
     "eng站名": "Banqiao",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 307,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1032,
@@ -124,7 +189,12 @@
     "eng站名": "Fuzhou",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 164,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1012,
@@ -133,7 +203,12 @@
     "eng站名": "Shulin",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 262,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1034,
@@ -142,7 +217,12 @@
     "eng站名": "South Shulin",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 126,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1013,
@@ -151,7 +231,12 @@
     "eng站名": "Shanjia",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 126,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1014,
@@ -160,7 +245,12 @@
     "eng站名": "Yingge",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 144,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1015,
@@ -169,7 +259,12 @@
     "eng站名": "Taoyuan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 194,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1016,
@@ -178,7 +273,12 @@
     "eng站名": "Neili",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 131,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1017,
@@ -187,7 +287,12 @@
     "eng站名": "Zhongli",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 189,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1018,
@@ -196,7 +301,12 @@
     "eng站名": "Puxin",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 127,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1019,
@@ -205,7 +315,12 @@
     "eng站名": "Yangmei",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 138,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1020,
@@ -214,7 +329,12 @@
     "eng站名": "Fugang",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 120,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1036,
@@ -223,7 +343,12 @@
     "eng站名": "Xinfu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 120,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1033,
@@ -232,7 +357,12 @@
     "eng站名": "Beihu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 133,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1021,
@@ -241,7 +371,12 @@
     "eng站名": "Hukou",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 134,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1022,
@@ -250,7 +385,12 @@
     "eng站名": "Xinfeng",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 118,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1023,
@@ -259,7 +399,12 @@
     "eng站名": "Zhubei",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 127,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1024,
@@ -269,7 +414,12 @@
     "routeCode": [
       1,
       4
-    ]
+    ],
+    "stops": 200,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1025,
@@ -279,7 +429,12 @@
     "routeCode": [
       1,
       4
-    ]
+    ],
+    "stops": 295,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1035,
@@ -288,7 +443,12 @@
     "eng站名": "Sanxingqiao",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 106,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1026,
@@ -297,7 +457,12 @@
     "eng站名": "Xiangshan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 106,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1027,
@@ -306,7 +471,12 @@
     "eng站名": "Qiding",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 106,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1028,
@@ -316,7 +486,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 171,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1302,
@@ -325,7 +500,12 @@
     "eng站名": "Zaoqiao",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 78,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1304,
@@ -334,7 +514,12 @@
     "eng站名": "Fengfu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 78,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1305,
@@ -344,7 +529,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 121,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1307,
@@ -354,7 +544,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 46,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1308,
@@ -364,7 +559,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 50,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1310,
@@ -374,7 +574,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 50,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1314,
@@ -384,7 +589,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 46,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1315,
@@ -394,7 +604,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 85,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1317,
@@ -404,7 +619,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 143,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1325,
@@ -414,7 +634,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 99,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1318,
@@ -424,7 +649,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 103,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1326,
@@ -434,7 +664,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 99,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1327,
@@ -444,7 +679,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 99,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1323,
@@ -454,7 +694,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 100,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1328,
@@ -464,7 +709,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 99,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1319,
@@ -474,7 +724,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 163,
+    "gradeStation": {
+      "status": true,
+      "value": 0
+    }
   },
   {
     "時刻表編號": 1329,
@@ -484,7 +739,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 107,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1322,
@@ -494,7 +754,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 113,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1320,
@@ -504,7 +769,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 107,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1324,
@@ -514,7 +784,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 115,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1321,
@@ -524,7 +799,12 @@
     "routeCode": [
       1,
       2
-    ]
+    ],
+    "stops": 105,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1120,
@@ -535,7 +815,12 @@
       1,
       6,
       2
-    ]
+    ],
+    "stops": 214,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1202,
@@ -544,7 +829,12 @@
     "eng站名": "Huatan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 78,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1240,
@@ -553,7 +843,12 @@
     "eng站名": "Dacun",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 78,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1203,
@@ -563,7 +858,12 @@
     "routeCode": [
       1,
       6
-    ]
+    ],
+    "stops": 148,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1204,
@@ -572,7 +872,12 @@
     "eng站名": "Yongjing",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 77,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1205,
@@ -582,7 +887,12 @@
     "routeCode": [
       1,
       6
-    ]
+    ],
+    "stops": 86,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1206,
@@ -592,7 +902,12 @@
     "routeCode": [
       1,
       6
-    ]
+    ],
+    "stops": 124,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1207,
@@ -602,7 +917,12 @@
     "routeCode": [
       1,
       6
-    ]
+    ],
+    "stops": 122,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1208,
@@ -611,7 +931,12 @@
     "eng站名": "Linnei",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 82,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1209,
@@ -620,7 +945,12 @@
     "eng站名": "Shiliu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 75,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1210,
@@ -629,7 +959,12 @@
     "eng站名": "Douliu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 140,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1211,
@@ -638,7 +973,12 @@
     "eng站名": "Dounan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 108,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1212,
@@ -647,7 +987,12 @@
     "eng站名": "Shigui",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 77,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1213,
@@ -656,7 +1001,12 @@
     "eng站名": "Dalin",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 90,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1214,
@@ -665,7 +1015,12 @@
     "eng站名": "Minxiong",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 97,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1241,
@@ -674,7 +1029,12 @@
     "eng站名": "Jiabei",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 82,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1215,
@@ -684,7 +1044,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 175,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1217,
@@ -694,7 +1059,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 77,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1218,
@@ -704,7 +1074,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 77,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1219,
@@ -714,7 +1089,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 77,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1220,
@@ -724,7 +1104,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 134,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1221,
@@ -734,7 +1119,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 75,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1222,
@@ -744,7 +1134,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 75,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1223,
@@ -754,7 +1149,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 86,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1224,
@@ -764,7 +1164,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 75,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1225,
@@ -774,7 +1179,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 121,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1244,
@@ -784,7 +1194,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 97,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1226,
@@ -794,7 +1209,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 101,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1227,
@@ -804,7 +1224,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 127,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1239,
@@ -814,7 +1239,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 110,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1228,
@@ -824,7 +1254,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 210,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1229,
@@ -834,7 +1269,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 144,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1243,
@@ -844,7 +1284,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 144,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1230,
@@ -854,7 +1299,12 @@
     "routeCode": [
       1,
       7
-    ]
+    ],
+    "stops": 144,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1231,
@@ -863,7 +1313,12 @@
     "eng站名": "Dahu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 76,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1232,
@@ -872,7 +1327,12 @@
     "eng站名": "Luzhu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 76,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1233,
@@ -881,7 +1341,12 @@
     "eng站名": "Gangshan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 103,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1234,
@@ -890,7 +1355,12 @@
     "eng站名": "Qiaotou",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 74,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1235,
@@ -899,7 +1369,12 @@
     "eng站名": "Nanzi",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 86,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1242,
@@ -908,7 +1383,12 @@
     "eng站名": "Xinzuoying",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 185,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1236,
@@ -917,7 +1397,12 @@
     "eng站名": "Zuoying",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1245,
@@ -926,7 +1411,12 @@
     "eng站名": "Neiwei",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1246,
@@ -935,7 +1425,12 @@
     "eng站名": "Museum of Fine Arts",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1237,
@@ -944,7 +1439,12 @@
     "eng站名": "Gushan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1247,
@@ -953,7 +1453,12 @@
     "eng站名": "Sankuaicuo",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1238,
@@ -962,7 +1467,12 @@
     "eng站名": "Kaohsiung",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 186,
+    "gradeStation": {
+      "status": true,
+      "value": 0
+    }
   },
   {
     "時刻表編號": 1419,
@@ -971,7 +1481,12 @@
     "eng站名": "Minzu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1420,
@@ -980,7 +1495,12 @@
     "eng站名": "Science And Technology Museum",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1421,
@@ -989,7 +1509,12 @@
     "eng站名": "Zhengyi",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1402,
@@ -998,7 +1523,12 @@
     "eng站名": "Fengshan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 179,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1403,
@@ -1007,7 +1537,12 @@
     "eng站名": "Houzhuang",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1404,
@@ -1016,7 +1551,12 @@
     "eng站名": "Jiuqutang",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 148,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1405,
@@ -1025,7 +1565,12 @@
     "eng站名": "Liukuaicuo",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1406,
@@ -1034,7 +1579,12 @@
     "eng站名": "Pingtung",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 185,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1407,
@@ -1043,7 +1593,12 @@
     "eng站名": "Guilai",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 79,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1408,
@@ -1052,7 +1607,12 @@
     "eng站名": "Linluo",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 79,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1409,
@@ -1061,7 +1621,12 @@
     "eng站名": "Xishi",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 82,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1410,
@@ -1070,7 +1635,12 @@
     "eng站名": "Zhutian",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 79,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1411,
@@ -1079,7 +1649,12 @@
     "eng站名": "Chaozhou",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 171,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1412,
@@ -1088,7 +1663,12 @@
     "eng站名": "Kanding",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 30,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1413,
@@ -1097,7 +1677,12 @@
     "eng站名": "Nanzhou",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 48,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1414,
@@ -1106,7 +1691,12 @@
     "eng站名": "Zhen'an",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 30,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1415,
@@ -1115,7 +1705,12 @@
     "eng站名": "Linbian",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 48,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1416,
@@ -1124,7 +1719,12 @@
     "eng站名": "Jiadong",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 30,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1417,
@@ -1133,7 +1733,12 @@
     "eng站名": "Donghai",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 30,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1418,
@@ -1142,7 +1747,12 @@
     "eng站名": "Fangliao",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 61,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1502,
@@ -1151,7 +1761,12 @@
     "eng站名": "Jialu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 4,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1503,
@@ -1160,7 +1775,12 @@
     "eng站名": "Neishi",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 4,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1504,
@@ -1169,7 +1789,12 @@
     "eng站名": "Fangshan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 4,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1508,
@@ -1178,7 +1803,12 @@
     "eng站名": "Dawu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 29,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1510,
@@ -1187,7 +1817,12 @@
     "eng站名": "Longxi",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 12,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1512,
@@ -1196,7 +1831,12 @@
     "eng站名": "Jinlun",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 23,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1514,
@@ -1205,7 +1845,12 @@
     "eng站名": "Taimali",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 29,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1516,
@@ -1214,7 +1859,12 @@
     "eng站名": "Zhiben",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 40,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1517,
@@ -1223,7 +1873,12 @@
     "eng站名": "Kangle",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 11,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1632,
@@ -1232,7 +1887,12 @@
     "eng站名": "Taitung",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 80,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1631,
@@ -1241,7 +1901,12 @@
     "eng站名": "Shanli",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 15,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1630,
@@ -1250,7 +1915,12 @@
     "eng站名": "Luye",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 38,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1629,
@@ -1259,7 +1929,12 @@
     "eng站名": "Ruiyuan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 19,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1628,
@@ -1268,7 +1943,12 @@
     "eng站名": "Ruihe",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 15,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1626,
@@ -1277,7 +1957,12 @@
     "eng站名": "Guanshan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 50,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1625,
@@ -1286,7 +1971,12 @@
     "eng站名": "Haiduan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 13,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1624,
@@ -1295,7 +1985,12 @@
     "eng站名": "Chishang",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 44,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1623,
@@ -1304,7 +1999,12 @@
     "eng站名": "Fuli",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 33,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1622,
@@ -1313,7 +2013,12 @@
     "eng站名": "Dongzhu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 15,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1621,
@@ -1322,7 +2027,12 @@
     "eng站名": "Dongli",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 15,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1619,
@@ -1331,7 +2041,12 @@
     "eng站名": "Yuli",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 60,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1617,
@@ -1340,7 +2055,12 @@
     "eng站名": "Sanmin",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 12,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1616,
@@ -1349,7 +2069,12 @@
     "eng站名": "Ruisui",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 47,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1614,
@@ -1358,7 +2083,12 @@
     "eng站名": "Fuyuan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 18,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1613,
@@ -1367,7 +2097,12 @@
     "eng站名": "Dafu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 12,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1612,
@@ -1376,7 +2111,12 @@
     "eng站名": "Guangfu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 39,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1611,
@@ -1385,7 +2125,12 @@
     "eng站名": "Wanrong",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 16,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1610,
@@ -1394,7 +2139,12 @@
     "eng站名": "Fenglin",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 40,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1609,
@@ -1403,7 +2153,12 @@
     "eng站名": "Nanping",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 13,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1608,
@@ -1412,7 +2167,12 @@
     "eng站名": "Linrong Shin Kong",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 12,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1607,
@@ -1421,7 +2181,12 @@
     "eng站名": "Fengtian",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 17,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1606,
@@ -1430,7 +2195,12 @@
     "eng站名": "Shoufeng",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 40,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1605,
@@ -1439,7 +2209,12 @@
     "eng站名": "Pinghe",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 13,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1604,
@@ -1448,7 +2223,12 @@
     "eng站名": "Zhixue",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 34,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1602,
@@ -1457,7 +2237,12 @@
     "eng站名": "Ji'an",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 40,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1715,
@@ -1466,7 +2251,12 @@
     "eng站名": "Hualien",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 131,
+    "gradeStation": {
+      "status": true,
+      "value": 0
+    }
   },
   {
     "時刻表編號": 1714,
@@ -1475,7 +2265,12 @@
     "eng站名": "Beipu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 25,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1713,
@@ -1484,7 +2279,12 @@
     "eng站名": "Jingmei",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 19,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1712,
@@ -1493,7 +2293,12 @@
     "eng站名": "Xincheng",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 52,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1711,
@@ -1502,7 +2307,12 @@
     "eng站名": "Chongde",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 20,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1710,
@@ -1511,7 +2321,12 @@
     "eng站名": "Heren",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 22,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1709,
@@ -1520,7 +2335,12 @@
     "eng站名": "Heping",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 34,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1708,
@@ -1529,7 +2349,12 @@
     "eng站名": "Hanben",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 16,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1706,
@@ -1538,7 +2363,12 @@
     "eng站名": "Wuta",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 16,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1705,
@@ -1547,7 +2377,12 @@
     "eng站名": "Nan'ao",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 46,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1704,
@@ -1556,7 +2391,12 @@
     "eng站名": "Dong'ao",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 32,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1703,
@@ -1565,7 +2405,12 @@
     "eng站名": "Yongle",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 20,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1827,
@@ -1574,7 +2419,12 @@
     "eng站名": "Su'ao",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 41,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1826,
@@ -1583,7 +2433,12 @@
     "eng站名": "Su'aoxin",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 92,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1825,
@@ -1592,7 +2447,12 @@
     "eng站名": "Xinma",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 59,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1824,
@@ -1601,7 +2461,12 @@
     "eng站名": "Dongshan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 68,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1823,
@@ -1610,7 +2475,12 @@
     "eng站名": "Luodong",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 138,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1822,
@@ -1619,7 +2489,12 @@
     "eng站名": "Zhongli",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 60,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1821,
@@ -1628,7 +2503,12 @@
     "eng站名": "Erjie",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 60,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1820,
@@ -1637,7 +2517,12 @@
     "eng站名": "Yilan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 145,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1819,
@@ -1646,7 +2531,12 @@
     "eng站名": "Sicheng",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 51,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1818,
@@ -1655,7 +2545,12 @@
     "eng站名": "Jiaoxi",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 86,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1817,
@@ -1664,7 +2559,12 @@
     "eng站名": "Dingpu",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 51,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1816,
@@ -1673,7 +2573,12 @@
     "eng站名": "Toucheng",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 81,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1815,
@@ -1682,7 +2587,12 @@
     "eng站名": "Wai'ao",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 40,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1814,
@@ -1691,7 +2601,12 @@
     "eng站名": "Guishan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 40,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1813,
@@ -1700,7 +2615,12 @@
     "eng站名": "Daxi",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 40,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1812,
@@ -1709,7 +2629,12 @@
     "eng站名": "Dali",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 40,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1811,
@@ -1718,7 +2643,12 @@
     "eng站名": "Shicheng",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 40,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1810,
@@ -1727,7 +2657,12 @@
     "eng站名": "Fulong",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 69,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1809,
@@ -1736,7 +2671,12 @@
     "eng站名": "Gongliao",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 52,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1808,
@@ -1745,7 +2685,12 @@
     "eng站名": "Shuangxi",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 67,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1807,
@@ -1754,7 +2699,12 @@
     "eng站名": "Mudan",
     "routeCode": [
       1
-    ]
+    ],
+    "stops": 46,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1806,
@@ -1764,7 +2714,12 @@
     "routeCode": [
       1,
       3
-    ]
+    ],
+    "stops": 79,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1805,
@@ -1774,7 +2729,12 @@
     "routeCode": [
       1,
       3
-    ]
+    ],
+    "stops": 86,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1804,
@@ -1784,7 +2744,12 @@
     "routeCode": [
       1,
       3
-    ]
+    ],
+    "stops": 131,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 6103,
@@ -1794,7 +2759,12 @@
     "routeCode": [
       1,
       3
-    ]
+    ],
+    "stops": 17,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2003,
@@ -1804,7 +2774,12 @@
     "routeCode": [
       1,
       3
-    ]
+    ],
+    "stops": 17,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1803,
@@ -1814,7 +2789,12 @@
     "routeCode": [
       1,
       3
-    ]
+    ],
+    "stops": 77,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1802,
@@ -1824,6 +2804,11 @@
     "routeCode": [
       1,
       3
-    ]
+    ],
+    "stops": 74,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   }
 ]

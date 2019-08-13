@@ -8,7 +8,12 @@
       1,
       6,
       2
-    ]
+    ],
+    "stops": 214,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1203,
@@ -18,7 +23,12 @@
     "routeCode": [
       1,
       6
-    ]
+    ],
+    "stops": 148,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1205,
@@ -28,7 +38,12 @@
     "routeCode": [
       1,
       6
-    ]
+    ],
+    "stops": 86,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 1206,
@@ -38,7 +53,12 @@
     "routeCode": [
       1,
       6
-    ]
+    ],
+    "stops": 124,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1207,
@@ -48,7 +68,12 @@
     "routeCode": [
       1,
       6
-    ]
+    ],
+    "stops": 122,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 2702,
@@ -57,7 +82,12 @@
     "eng站名": "Yuanquan",
     "routeCode": [
       6
-    ]
+    ],
+    "stops": 24,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2703,
@@ -66,7 +96,12 @@
     "eng站名": "Zhuoshui",
     "routeCode": [
       6
-    ]
+    ],
+    "stops": 24,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2704,
@@ -75,7 +110,12 @@
     "eng站名": "Longquan",
     "routeCode": [
       6
-    ]
+    ],
+    "stops": 24,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2705,
@@ -84,7 +124,12 @@
     "eng站名": "Jiji",
     "routeCode": [
       6
-    ]
+    ],
+    "stops": 24,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2706,
@@ -93,7 +138,12 @@
     "eng站名": "Shuili",
     "routeCode": [
       6
-    ]
+    ],
+    "stops": 24,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2707,
@@ -102,6 +152,11 @@
     "eng站名": "Checheng",
     "routeCode": [
       6
-    ]
+    ],
+    "stops": 23,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   }
 ]

@@ -7,7 +7,12 @@
     "routeCode": [
       1,
       4
-    ]
+    ],
+    "stops": 295,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 1024,
@@ -17,7 +22,12 @@
     "routeCode": [
       1,
       4
-    ]
+    ],
+    "stops": 200,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2212,
@@ -26,7 +36,12 @@
     "eng站名": "Qianjia",
     "routeCode": [
       4
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2213,
@@ -35,7 +50,12 @@
     "eng站名": "Xinzhuang",
     "routeCode": [
       4
-    ]
+    ],
+    "stops": 84,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2203,
@@ -45,7 +65,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 107,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2214,
@@ -54,7 +79,12 @@
     "eng站名": "Liujia",
     "routeCode": [
       4
-    ]
+    ],
+    "stops": 70,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2204,
@@ -64,7 +94,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 37,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2211,
@@ -74,7 +109,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 37,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2205,
@@ -84,7 +124,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 37,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 2206,
@@ -94,7 +139,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 36,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2207,
@@ -104,7 +154,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 36,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2208,
@@ -114,7 +169,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 36,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2209,
@@ -124,7 +184,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 36,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2210,
@@ -134,6 +199,11 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 36,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   }
 ]

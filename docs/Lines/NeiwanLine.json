@@ -7,7 +7,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 107,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2204,
@@ -17,7 +22,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 37,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2211,
@@ -27,7 +37,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 37,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2205,
@@ -37,7 +52,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 37,
+    "gradeStation": {
+      "status": true,
+      "value": 1
+    }
   },
   {
     "時刻表編號": 2206,
@@ -47,7 +67,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 36,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2207,
@@ -57,7 +82,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 36,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2208,
@@ -67,7 +97,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 36,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2209,
@@ -77,7 +112,12 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 36,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   },
   {
     "時刻表編號": 2210,
@@ -87,6 +127,11 @@
     "routeCode": [
       4,
       5
-    ]
+    ],
+    "stops": 36,
+    "gradeStation": {
+      "status": false,
+      "value": null
+    }
   }
 ]
