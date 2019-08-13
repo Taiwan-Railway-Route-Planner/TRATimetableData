@@ -394,20 +394,13 @@ function checkTheData(lengthOfItems) {
             el.stops = Math.round(parseInt(el.stops) / lengthOfItems);
             return el;
         });
-        exportChangedStationInfo(stationInfo);
-    }
-
-    function exportChangedStationInfo(newData) {
-        fs.writeFile("./docs/stationInfo.json", JSON.stringify(newData), err => {
-            if (err) {
-                console.log('Error writing file', err)
-            } else {
-                console.log('Successfully wrote file')
-            }
-        });
+        exportNewData("./docs/stationInfo.json", stationInfo);
+        updateDifferentLineData(stationInfo);
     }
 }
 
-function updateDifferentLineData() {
+function updateDifferentLineData(stationInfo) {
+
+
 
 }
