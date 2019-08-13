@@ -34,11 +34,7 @@ function loadAllTheNeededFiles() {
 
     function resetStationInfo(infoAboutStations) {
         return infoAboutStations.stations.map(function (el) {
-            // if (el.stops  === undefined){
-                el.stops = 0;
-            // } else {
-            //     el.stops = 0;
-            // }
+            el.stops = 0;
             return el;
         })
     }
@@ -58,12 +54,7 @@ function countTheNumberOfStopsPerStation(fileName) {
         trainStopRoute.TrainInfos.forEach(function (el) {
             el.TimeInfos.forEach(function (element) {
                 let index = stationInfo.stations.findIndex((sel => sel.時刻表編號 === parseInt(element.Station)));
-                // console.log("index", index);
-                // if (stationInfo.stations[index].stops  === undefined){
-                //     stationInfo.stations[index].stops = 0;
-                // } else {
-                    stationInfo.stations[index].stops++;
-                // }
+                stationInfo.stations[index].stops++;
             })
         });
     }
