@@ -432,6 +432,12 @@ function updateDifferentLineData(stationInfo) {
         console.log("Saving file: ", differentLines[counter]+".json");
         exportNewData(linePath + differentLines[counter] + ".json", lineData);
         counter++;
-        updateDifferentLineData(stationInfo);
+        if (counter < differentLines.length){
+            updateDifferentLineData(stationInfo);
+        } else {
+            console.log("Done with everything!!");
+            console.log("*****************************************");
+        }
+
     }
 }
