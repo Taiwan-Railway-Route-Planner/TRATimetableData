@@ -38,6 +38,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 125
     },
     {
@@ -48,6 +52,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 111
     },
     {
@@ -56,9 +64,12 @@
       "站名": "八堵",
       "eng站名": "Badu",
       "routeCode": [
-        1,
-        3
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 220
     },
     {
@@ -69,6 +80,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 257
     },
     {
@@ -79,6 +94,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 163
     },
     {
@@ -89,6 +108,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 163
     },
     {
@@ -99,6 +122,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 225
     },
     {
@@ -109,6 +136,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 164
     },
     {
@@ -119,6 +150,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 221
     },
     {
@@ -129,6 +164,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 301
     },
     {
@@ -139,6 +178,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 0
+      },
       "stops": 310
     },
     {
@@ -149,6 +192,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 169
     },
     {
@@ -159,6 +206,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 307
     },
     {
@@ -169,6 +220,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 164
     },
     {
@@ -179,6 +234,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 262
     },
     {
@@ -189,6 +248,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 126
     },
     {
@@ -199,6 +262,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 126
     },
     {
@@ -209,6 +276,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 144
     },
     {
@@ -219,6 +290,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 194
     },
     {
@@ -229,6 +304,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 131
     },
     {
@@ -239,6 +318,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 189
     },
     {
@@ -249,6 +332,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 127
     },
     {
@@ -259,6 +346,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 138
     },
     {
@@ -269,6 +360,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 120
     },
     {
@@ -279,6 +374,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 133
     },
     {
@@ -289,6 +388,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 134
     },
     {
@@ -299,6 +402,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 118
     },
     {
@@ -309,6 +416,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 127
     },
     {
@@ -320,6 +431,10 @@
         1,
         4
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 200
     },
     {
@@ -331,6 +446,10 @@
         1,
         4
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 295
     },
     {
@@ -341,6 +460,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 106
     },
     {
@@ -351,6 +474,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 106
     },
     {
@@ -361,6 +488,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 106
     },
     {
@@ -372,6 +503,10 @@
         1,
         2
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 171
     },
     {
@@ -382,6 +517,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 78
     },
     {
@@ -392,6 +531,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 78
     },
     {
@@ -400,9 +543,12 @@
       "站名": "苗栗",
       "eng站名": "Miaoli",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 121
     },
     {
@@ -411,9 +557,12 @@
       "站名": "南勢",
       "eng站名": "Nanshi",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 46
     },
     {
@@ -422,9 +571,12 @@
       "站名": "銅鑼",
       "eng站名": "Tongluo",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 50
     },
     {
@@ -433,9 +585,12 @@
       "站名": "三義",
       "eng站名": "Sanyi",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 50
     },
     {
@@ -444,9 +599,12 @@
       "站名": "泰安",
       "eng站名": "Tai'an",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 46
     },
     {
@@ -455,9 +613,12 @@
       "站名": "后里",
       "eng站名": "Houli",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 85
     },
     {
@@ -466,9 +627,12 @@
       "站名": "豐原",
       "eng站名": "Fengyuan",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 143
     },
     {
@@ -477,9 +641,12 @@
       "站名": "潭子",
       "eng站名": "Tanzi",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 103
     },
     {
@@ -488,9 +655,12 @@
       "站名": "太原",
       "eng站名": "Taiyuan",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 100
     },
     {
@@ -499,9 +669,12 @@
       "站名": "臺中",
       "eng站名": "Taichung",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 0
+      },
       "stops": 163
     },
     {
@@ -510,9 +683,12 @@
       "站名": "大慶",
       "eng站名": "Daqing",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 113
     },
     {
@@ -521,9 +697,12 @@
       "站名": "烏日",
       "eng站名": "Wuri",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 107
     },
     {
@@ -532,9 +711,12 @@
       "站名": "新烏日",
       "eng站名": "Xinwuri",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 115
     },
     {
@@ -543,9 +725,12 @@
       "站名": "成功",
       "eng站名": "Chenggong",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 105
     },
     {
@@ -556,6 +741,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 38
     },
     {
@@ -566,6 +755,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 38
     },
     {
@@ -576,6 +769,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 61
     },
     {
@@ -586,6 +783,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 38
     },
     {
@@ -596,6 +797,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 44
     },
     {
@@ -606,6 +811,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 38
     },
     {
@@ -616,6 +825,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 71
     },
     {
@@ -626,6 +839,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 71
     },
     {
@@ -636,6 +853,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 48
     },
     {
@@ -646,6 +867,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 84
     },
     {
@@ -656,6 +881,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 58
     },
     {
@@ -666,6 +895,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 81
     },
     {
@@ -676,6 +909,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 83
     },
     {
@@ -686,6 +923,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 59
     },
     {
@@ -696,6 +937,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 63
     },
     {
@@ -706,6 +951,10 @@
       "routeCode": [
         2
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 59
     },
     {
@@ -714,10 +963,12 @@
       "站名": "彰化",
       "eng站名": "Changhua",
       "routeCode": [
-        1,
-        6,
-        2
+        1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 214
     },
     {
@@ -728,6 +979,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 78
     },
     {
@@ -738,6 +993,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 78
     },
     {
@@ -746,9 +1005,12 @@
       "站名": "員林",
       "eng站名": "Yuanlin",
       "routeCode": [
-        1,
-        6
+        1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 148
     },
     {
@@ -759,6 +1021,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 77
     },
     {
@@ -767,9 +1033,12 @@
       "站名": "社頭",
       "eng站名": "Shetou",
       "routeCode": [
-        1,
-        6
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 86
     },
     {
@@ -781,6 +1050,10 @@
         1,
         6
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 124
     },
     {
@@ -792,6 +1065,10 @@
         1,
         6
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 122
     },
     {
@@ -802,6 +1079,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 82
     },
     {
@@ -812,6 +1093,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 75
     },
     {
@@ -822,6 +1107,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 140
     },
     {
@@ -832,6 +1121,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 108
     },
     {
@@ -842,6 +1135,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 77
     },
     {
@@ -852,6 +1149,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 90
     },
     {
@@ -862,6 +1163,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 97
     },
     {
@@ -872,6 +1177,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 82
     },
     {
@@ -880,9 +1189,12 @@
       "站名": "嘉義",
       "eng站名": "Chiayi",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 175
     },
     {
@@ -891,9 +1203,12 @@
       "站名": "水上",
       "eng站名": "Shuishang",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 77
     },
     {
@@ -902,9 +1217,12 @@
       "站名": "南靖",
       "eng站名": "Nanjing",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 77
     },
     {
@@ -913,9 +1231,12 @@
       "站名": "後壁",
       "eng站名": "Houbi",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 77
     },
     {
@@ -924,9 +1245,12 @@
       "站名": "新營",
       "eng站名": "Xinying",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 134
     },
     {
@@ -935,9 +1259,12 @@
       "站名": "柳營",
       "eng站名": "Liuying",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 75
     },
     {
@@ -946,9 +1273,12 @@
       "站名": "林鳳營",
       "eng站名": "Linfengying",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 75
     },
     {
@@ -957,9 +1287,12 @@
       "站名": "隆田",
       "eng站名": "Longtian",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 86
     },
     {
@@ -968,9 +1301,12 @@
       "站名": "拔林",
       "eng站名": "Balin",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 75
     },
     {
@@ -979,9 +1315,12 @@
       "站名": "善化",
       "eng站名": "Shanhua",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 121
     },
     {
@@ -990,9 +1329,12 @@
       "站名": "南科",
       "eng站名": "Nanke",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 97
     },
     {
@@ -1001,9 +1343,12 @@
       "站名": "新市",
       "eng站名": "Xinshi",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 101
     },
     {
@@ -1012,9 +1357,12 @@
       "站名": "永康",
       "eng站名": "Yongkang",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 127
     },
     {
@@ -1023,9 +1371,12 @@
       "站名": "大橋",
       "eng站名": "Daqiao",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 110
     },
     {
@@ -1034,9 +1385,12 @@
       "站名": "臺南",
       "eng站名": "Tainan",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 210
     },
     {
@@ -1045,9 +1399,12 @@
       "站名": "保安",
       "eng站名": "Bao'an",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 144
     },
     {
@@ -1056,9 +1413,12 @@
       "站名": "仁德",
       "eng站名": "Rende",
       "routeCode": [
-        1,
-        7
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 144
     },
     {
@@ -1070,6 +1430,10 @@
         1,
         7
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 144
     },
     {
@@ -1080,6 +1444,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 76
     },
     {
@@ -1090,6 +1458,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 76
     },
     {
@@ -1100,6 +1472,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 103
     },
     {
@@ -1110,6 +1486,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 74
     },
     {
@@ -1120,6 +1500,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 86
     },
     {
@@ -1130,6 +1514,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 185
     },
     {
@@ -1140,6 +1528,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 84
     },
     {
@@ -1150,6 +1542,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 0
+      },
       "stops": 186
     },
     {
@@ -1160,6 +1556,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 179
     },
     {
@@ -1170,6 +1570,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 84
     },
     {
@@ -1180,6 +1584,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 148
     },
     {
@@ -1190,6 +1598,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 84
     },
     {
@@ -1200,6 +1612,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 185
     },
     {
@@ -1208,9 +1624,12 @@
       "站名": "暖暖",
       "eng站名": "Nuannuan",
       "routeCode": [
-        1,
-        3
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 74
     },
     {
@@ -1219,9 +1638,12 @@
       "站名": "四腳亭",
       "eng站名": "Sijiaoting",
       "routeCode": [
-        1,
-        3
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 77
     },
     {
@@ -1230,9 +1652,12 @@
       "站名": "瑞芳",
       "eng站名": "Ruifang",
       "routeCode": [
-        1,
-        3
+        1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 131
     },
     {
@@ -1241,9 +1666,12 @@
       "站名": "猴硐",
       "eng站名": "Houtong",
       "routeCode": [
-        1,
-        3
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 86
     },
     {
@@ -1255,6 +1683,10 @@
         1,
         3
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 79
     },
     {
@@ -1265,6 +1697,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 46
     },
     {
@@ -1275,6 +1711,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 67
     },
     {
@@ -1285,6 +1725,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 52
     },
     {
@@ -1295,6 +1739,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 69
     },
     {
@@ -1305,6 +1753,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 40
     },
     {
@@ -1315,6 +1767,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 40
     },
     {
@@ -1325,6 +1781,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 40
     },
     {
@@ -1335,6 +1795,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 40
     },
     {
@@ -1345,6 +1809,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 40
     },
     {
@@ -1355,6 +1823,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 81
     },
     {
@@ -1365,6 +1837,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 51
     },
     {
@@ -1375,6 +1851,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 86
     },
     {
@@ -1385,6 +1865,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 51
     },
     {
@@ -1395,6 +1879,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 145
     },
     {
@@ -1405,6 +1893,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 60
     },
     {
@@ -1415,6 +1907,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 60
     },
     {
@@ -1425,6 +1921,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 138
     },
     {
@@ -1435,6 +1935,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 68
     },
     {
@@ -1445,6 +1949,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 59
     },
     {
@@ -1455,6 +1963,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 92
     },
     {
@@ -1465,6 +1977,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 41
     },
     {
@@ -1475,6 +1991,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 20
     },
     {
@@ -1485,6 +2005,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 32
     },
     {
@@ -1495,6 +2019,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 46
     },
     {
@@ -1505,6 +2033,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 16
     },
     {
@@ -1515,6 +2047,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 16
     },
     {
@@ -1525,6 +2061,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 34
     },
     {
@@ -1535,6 +2075,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 22
     },
     {
@@ -1545,6 +2089,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 20
     },
     {
@@ -1555,6 +2103,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 52
     },
     {
@@ -1565,6 +2117,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 19
     },
     {
@@ -1575,6 +2131,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 25
     },
     {
@@ -1585,6 +2145,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 0
+      },
       "stops": 131
     },
     {
@@ -1595,6 +2159,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 40
     },
     {
@@ -1605,6 +2173,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 34
     },
     {
@@ -1615,6 +2187,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 13
     },
     {
@@ -1625,6 +2201,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 40
     },
     {
@@ -1635,6 +2215,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 17
     },
     {
@@ -1645,6 +2229,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 13
     },
     {
@@ -1655,6 +2243,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 40
     },
     {
@@ -1665,6 +2257,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 16
     },
     {
@@ -1675,6 +2271,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 39
     },
     {
@@ -1685,6 +2285,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 12
     },
     {
@@ -1695,6 +2299,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 18
     },
     {
@@ -1705,6 +2313,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 47
     },
     {
@@ -1715,6 +2327,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 12
     },
     {
@@ -1725,6 +2341,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 60
     },
     {
@@ -1735,6 +2355,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 15
     },
     {
@@ -1745,6 +2369,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 15
     },
     {
@@ -1755,6 +2383,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 33
     },
     {
@@ -1765,6 +2397,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 44
     },
     {
@@ -1775,6 +2411,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 13
     },
     {
@@ -1785,6 +2425,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 50
     },
     {
@@ -1795,6 +2439,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 15
     },
     {
@@ -1805,6 +2453,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 19
     },
     {
@@ -1815,6 +2467,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 38
     },
     {
@@ -1825,6 +2481,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 15
     },
     {
@@ -1835,6 +2495,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 80
     },
     {
@@ -1845,6 +2509,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 79
     },
     {
@@ -1855,6 +2523,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 79
     },
     {
@@ -1865,6 +2537,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 82
     },
     {
@@ -1875,6 +2551,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 79
     },
     {
@@ -1885,6 +2565,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 171
     },
     {
@@ -1895,6 +2579,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 30
     },
     {
@@ -1905,6 +2593,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 48
     },
     {
@@ -1915,6 +2607,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 30
     },
     {
@@ -1925,6 +2621,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 48
     },
     {
@@ -1935,6 +2635,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 30
     },
     {
@@ -1945,6 +2649,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 30
     },
     {
@@ -1955,6 +2663,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 61
     },
     {
@@ -1965,6 +2677,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 4
     },
     {
@@ -1975,6 +2691,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 4
     },
     {
@@ -1985,6 +2705,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 4
     },
     {
@@ -1995,6 +2719,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 29
     },
     {
@@ -2005,6 +2733,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 12
     },
     {
@@ -2015,6 +2747,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 23
     },
     {
@@ -2025,6 +2761,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 29
     },
     {
@@ -2035,6 +2775,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 40
     },
     {
@@ -2045,6 +2789,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 11
     },
     {
@@ -2053,9 +2801,12 @@
       "站名": "八斗子",
       "eng站名": "Badouzi",
       "routeCode": [
-        1,
-        3
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 17
     },
     {
@@ -2064,9 +2815,12 @@
       "站名": "海科館",
       "eng站名": "Haikeguan",
       "routeCode": [
-        1,
-        3
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 17
     },
     {
@@ -2077,6 +2831,10 @@
       "routeCode": [
         3
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 33
     },
     {
@@ -2087,6 +2845,10 @@
       "routeCode": [
         3
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 33
     },
     {
@@ -2097,6 +2859,10 @@
       "routeCode": [
         3
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 32
     },
     {
@@ -2107,6 +2873,10 @@
       "routeCode": [
         3
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 32
     },
     {
@@ -2117,6 +2887,10 @@
       "routeCode": [
         3
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 32
     },
     {
@@ -2127,6 +2901,10 @@
       "routeCode": [
         3
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 32
     },
     {
@@ -2137,6 +2915,10 @@
       "routeCode": [
         4
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 84
     },
     {
@@ -2147,6 +2929,10 @@
       "routeCode": [
         4
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 84
     },
     {
@@ -2158,6 +2944,10 @@
         4,
         5
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 107
     },
     {
@@ -2169,6 +2959,10 @@
         4,
         5
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 37
     },
     {
@@ -2180,6 +2974,10 @@
         4,
         5
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 37
     },
     {
@@ -2191,6 +2989,10 @@
         4,
         5
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 37
     },
     {
@@ -2202,6 +3004,10 @@
         4,
         5
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 36
     },
     {
@@ -2213,6 +3019,10 @@
         4,
         5
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 36
     },
     {
@@ -2224,6 +3034,10 @@
         4,
         5
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 36
     },
     {
@@ -2235,6 +3049,10 @@
         4,
         5
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 36
     },
     {
@@ -2246,6 +3064,10 @@
         4,
         5
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 36
     },
     {
@@ -2256,6 +3078,10 @@
       "routeCode": [
         4
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 70
     },
     {
@@ -2266,6 +3092,10 @@
       "routeCode": [
         6
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 24
     },
     {
@@ -2276,6 +3106,10 @@
       "routeCode": [
         6
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 24
     },
     {
@@ -2286,6 +3120,10 @@
       "routeCode": [
         6
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 24
     },
     {
@@ -2296,6 +3134,10 @@
       "routeCode": [
         6
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 24
     },
     {
@@ -2306,6 +3148,10 @@
       "routeCode": [
         6
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 24
     },
     {
@@ -2316,6 +3162,10 @@
       "routeCode": [
         6
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 23
     },
     {
@@ -2326,6 +3176,10 @@
       "routeCode": [
         7
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 70
     },
     {
@@ -2336,6 +3190,10 @@
       "routeCode": [
         7
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 70
     },
     {
@@ -2344,9 +3202,12 @@
       "站名": "栗林",
       "eng站名": "Lilin",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 99
     },
     {
@@ -2355,9 +3216,12 @@
       "站名": "頭家厝",
       "eng站名": "Toujiacuo",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 99
     },
     {
@@ -2366,9 +3230,12 @@
       "站名": "松竹",
       "eng站名": "Songzhu",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 99
     },
     {
@@ -2377,9 +3244,12 @@
       "站名": "精武",
       "eng站名": "Jingwu",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 99
     },
     {
@@ -2388,9 +3258,12 @@
       "站名": "五權",
       "eng站名": "Wuquan",
       "routeCode": [
-        1,
-        2
+        1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 107
     },
     {
@@ -2401,6 +3274,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 84
     },
     {
@@ -2411,6 +3288,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 84
     },
     {
@@ -2421,6 +3302,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 84
     },
     {
@@ -2431,6 +3316,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 84
     },
     {
@@ -2441,6 +3330,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 84
     },
     {
@@ -2451,6 +3344,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": true,
+        "value": 1
+      },
       "stops": 84
     },
     {
@@ -2461,6 +3358,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 84
     },
     {
@@ -2471,6 +3372,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 120
     },
     {
@@ -2481,6 +3386,10 @@
       "routeCode": [
         1
       ],
+      "gradestation": {
+        "status": false,
+        "value": null
+      },
       "stops": 12
     }
   ]
