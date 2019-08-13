@@ -53,10 +53,10 @@ function saveLineInfoInArray(fileName) {
             case "PingxiLine":
                 Line["3"] = jsonData;
                 break;
-            case "NiewanLiujaLine":
+            case "NeiwanLiujaLine":
                 Line["4"] = jsonData;
                 break;
-            case "NiewanLine":
+            case "NeiwanLine":
                 Line["5"] = jsonData;
                 break;
             case "JijiLine":

@@ -86,11 +86,11 @@ function createStationData() {
                         "code": 3,
                     },
                     {
-                        "name": "NiewanLiujaLine",
+                        "name": "NeiwanLiujaLine",
                         "code": 4,
                     },
                     {
-                        "name": "NiewanLine",
+                        "name": "NeiwanLine",
                         "code": 5,
                     },
                     {
