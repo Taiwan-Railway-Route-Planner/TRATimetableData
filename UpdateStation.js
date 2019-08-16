@@ -395,6 +395,7 @@ function checkTheData(lengthOfItems) {
             el.stops = Math.round(parseInt(el.stops) / lengthOfItems);
             return el;
         });
+        createEasyToSearchStationsBasedOn時刻表編號(stationInfo);
         exportNewData("./docs/stationInfo.json", stationInfo);
         updateDifferentLineData(stationInfo);
     }
@@ -440,6 +441,16 @@ function updateDifferentLineData(stationInfo) {
             console.log("Done with everything!!");
             console.log("*****************************************");
         }
-
     }
+}
+
+
+function createEasyToSearchStationsBasedOn時刻表編號(stationInfo) {
+
+    let newStationInfo = {};
+    stationInfo.stations.forEach(function (el) {
+        newStationInfo[el.時刻表編號] = el;
+
+    });
+    exportNewData("./docs/easyToSearchStationInfo.json", newStationInfo);
 }
