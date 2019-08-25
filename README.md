@@ -20,6 +20,10 @@ type: csv (offices.csv)
 [http://163.29.3.98/xml/](http://163.29.3.98/xml/)\
 [http://163.29.3.98/json/](http://163.29.3.98/json/)
 
+#### Original files from the json website
+
+Can be found here: [TRAOriginalTimeTable]{https://github.com/DepickereSven/TRAOriginalTimeTable
+
 
 [StationInfo with names in English](https://depickeresven.github.io/TRATimetableData/stationInfo.json)
 
