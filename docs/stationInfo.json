@@ -882,8 +882,8 @@
         2
       ],
       "gradeStation": {
-        "status": false,
-        "value": null
+        "status": true,
+        "value": 2
       },
       "stops": 58
     },
@@ -3065,8 +3065,8 @@
         5
       ],
       "gradeStation": {
-        "status": true,
-        "value": 2
+        "status": false,
+        "value": null
       },
       "stops": 36
     },
@@ -3345,8 +3345,8 @@
         1
       ],
       "gradeStation": {
-        "status": true,
-        "value": 1
+        "status": false,
+        "value": null
       },
       "stops": 84
     },
