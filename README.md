@@ -22,7 +22,7 @@ type: csv (offices.csv)
 
 #### Original files from the json website
 
-Can be found here: [TRAOriginalTimeTable]({)https://github.com/DepickereSven/TRAOriginalTimeTable)
+Can be found here: [TRAOriginalTimeTable](https://github.com/Taiwan-Railway-Route-Planner/TRAOriginalTimeTable)
 
 
 [StationInfo with names in English](https://taiwan-railway-route-planner.github.io/TRATimetableData/stationInfo.json)
