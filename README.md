@@ -22,14 +22,14 @@ type: csv (offices.csv)
 
 #### Original files from the json website
 
-Can be found here: [TRAOriginalTimeTable]{https://github.com/DepickereSven/TRAOriginalTimeTable
+Can be found here: [TRAOriginalTimeTable]({)https://github.com/DepickereSven/TRAOriginalTimeTable)
 
 
-[StationInfo with names in English](https://depickeresven.github.io/TRATimetableData/stationInfo.json)
+[StationInfo with names in English](https://taiwan-railway-route-planner.github.io/TRATimetableData/stationInfo.json)
 
 ## Schedules in JSON 
 
-By example https://depickeresven.github.io/TRATimetableData/Schedules/20190615.json
+By example https://taiwan-railway-route-planner.github.io/TRATimetableData/Schedules/20190615.json
 
 
 ## Train Types
