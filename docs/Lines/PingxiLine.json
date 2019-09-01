@@ -10,8 +10,8 @@
     ],
     "stops": 220,
     "gradeStation": {
-      "status": true,
-      "value": 1
+      "status": false,
+      "value": null
     }
   },
   {
