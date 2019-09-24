@@ -12,27 +12,44 @@ function changeFareDetails (){
         return await readFile("WK-fare.json");
     }
 
-    getJsonFile().then(jsonData => {
-        handleData(JSON.parse(jsonData));
+
+
+    async function getStationInfo() {
+        return await readFile("./docs/stationInfo.json");
+    }
+
+    getJsonFile().then(fareDetails => {
+        getStationInfo().then(StationDetails => {
+            handleData(JSON.parse(StationDetails), JSON.parse(fareDetails))
+        });
     });
 
-    function handleData(data){
+    function handleData(StationDetails, fareDetails){
         let newData = {};
-        let currentStartCode = null;
-        for (let i = 0; i < data.length; i++){
-            if (currentStartCode === null || currentStartCode !== data[i].startStaCode){
-                currentStartCode = data[i].startStaCode;
-                newData[currentStartCode] = [];
+        let mandarinCode = null;
+        let currentNode = null;
+        for (let i = 0; i < fareDetails.length; i++){
+            if (currentNode === null || currentNode !== fareDetails[i].startStaCode){
+                if (fareDetails[i].startStaCode !== "1001"){
+                    currentNode = fareDetails[i].startStaCode;
+                    mandarinCode = findRightCodeForTRaWebsiteCode(StationDetails, currentNode);
+                    newData[mandarinCode] = [];
+                }
             }
-            newData[currentStartCode].push({
-                endStaCode: data[i].endStaCode,
-                mileage: data[i].mileage
-            })
+            let endCode = fareDetails[i].endStaCode;
+            if (endCode !== "1001"){
+                newData[mandarinCode].push({
+                    endStaCode: findRightCodeForTRaWebsiteCode(StationDetails, fareDetails[i].endStaCode),
+                    mileage: fareDetails[i].mileage
+                })
+            }
         }
         exportNewData(JSON.stringify(newData));
     }
 
-
+    function findRightCodeForTRaWebsiteCode(StationDetails, traWebsiteCode) {
+        return StationDetails.stations.find((el => el.traWebsiteCode === traWebsiteCode)).時刻表編號;
+    }
 }
 
 
