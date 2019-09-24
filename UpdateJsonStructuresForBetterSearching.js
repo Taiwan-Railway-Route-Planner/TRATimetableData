@@ -152,14 +152,9 @@ function readJsonFile(fileName, stationInfo) {
                         "Routes": routes
                     };
                 }
-                // el.Stations[parseInt(tel.Station)] = {
-                //     "routeCode": routes,
-                //     "index": index
-                // };
             });
             el.TimeInfos = newTimeInfo;
             el.Routes = el.Routes.filter(onlyUnique);
-            //el.mainRoute = getMainRoute(el.StartStation, el.EndStation, el, MiddleStation, beforeMiddleStation, afterMiddleStation);
             el.MultiRoute = el.Routes.length !== 1;
             el.trainType = getTrainType(el);
             return el;
@@ -215,87 +210,6 @@ function readJsonFile(fileName, stationInfo) {
 
     let Specials = 0;
     let special = [];
-
-    // function getMainRoute(startStation, endStation, el, MiddleStation, beforeMiddleStation, afterMiddleStation) {
-    //     let startNumbers = getRouteNumbers(startStation);
-    //     let endNumbers = getRouteNumbers(endStation);
-    //     if (startNumbers[0] === endNumbers[0]) {
-    //         let startStationCode = getTraWebsiteCode(startStation);
-    //         let endStationCode = getTraWebsiteCode(endStation);
-    //         let middleStationCode = getTraWebsiteCode(MiddleStation);
-    //         let beforeMiddleStationCode = getTraWebsiteCode(beforeMiddleStation);
-    //         let afterMiddleStationCode = getTraWebsiteCode(afterMiddleStation);
-    //         if (middleStationCode > startStationCode && middleStationCode > endStationCode) {
-    //             if (startStationCode > beforeMiddleStationCode && ( middleStationCode > afterMiddleStationCode && afterMiddleStationCode > endStationCode)) {
-    //                 return "-" + startNumbers[0]
-    //             } else {
-    //                 return startNumbers[0]
-    //             }
-    //         } else {
-    //             if ((startStationCode < beforeMiddleStationCode && middleStationCode < afterMiddleStationCode && afterMiddleStationCode < endStationCode) || (beforeMiddleStationCode < startStationCode && middleStationCode < afterMiddleStationCode && afterMiddleStationCode < endStationCode)){
-    //                 return startNumbers[0];
-    //             } else {
-    //                 if (startStationCode < endStationCode && startStationCode < middleStationCode) {
-    //                     if (startNumbers[0] === 4 && endNumbers[0] === 4) {
-    //                         return startNumbers[1];
-    //                     } else {
-    //                         return startNumbers[0];
-    //                     }
-    //                 } else {
-    //                     if (startNumbers[0] === 4 && endNumbers[0] === 4) {
-    //                         return "-" + startNumbers[1];
-    //                     } else {
-    //                         return "-" + startNumbers[0];
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     } else {
-    //         if (startNumbers.length === 2 && endNumbers.length === 2) {
-    //             if (startNumbers[1] === endNumbers[0]) {
-    //                 return endNumbers[1];
-    //             } else {
-    //                 return "-" + endNumbers[0];
-    //             }
-    //         } else {
-    //             if (startNumbers.length === 2 && endNumbers.length === 1) {
-    //                 return endNumbers[0];
-    //             } else {
-    //                 if (startNumbers.length === 1 && endNumbers.length === 2) {
-    //                     return "-" + endNumbers[0];
-    //                 } else {
-    //                     if (startNumbers.length === 3 || endNumbers.length === 3) {
-    //                         if (startNumbers.length === 2) {
-    //                             return endNumbers[0];
-    //                         } else {
-    //                             return "-" + startNumbers[0];
-    //                         }
-    //                     } else {
-    //                         Specials++;
-    //                         special.push({
-    //                             startStation: startStation,
-    //                             endStation: endStation,
-    //                             startNumbers: startNumbers,
-    //                             endNumbers: endNumbers,
-    //                             route: ObjectLength(el.TimeInfos),
-    //                             details: el
-    //                         });
-    //                         if (startNumbers[0] === 1) {
-    //                             return endNumbers[0];
-    //                         } else {
-    //                             return startNumbers[0];
-    //                         }
-    //                     }
-    //                     // console.log("startNumbers", startNumbers, startNumbers.length, startStation);
-    //                     // console.log("endNumbers", endNumbers, endNumbers.length, endStation);
-    //                     // console.log("Specials");
-    //                     // console.log("startNumbers", startNumbers, startNumbers.length, startStation);
-    //                     // console.log("endNumbers", endNumbers, endNumbers.length, endStation);
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
 
     function ObjectLength(object) {
         let length = 0;
