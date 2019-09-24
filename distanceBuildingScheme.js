@@ -14,19 +14,19 @@ function changeFareDetails (){
 
     getJsonFile().then(jsonData => {
         handleData(JSON.parse(jsonData));
-    })
+    });
 
     function handleData(data){
         let newData = {};
         let currentStartCode = null;
         for (let i = 0; i < data.length; i++){
-            if (currentStartCode === null || currentStartCode != data[i].startStaCode){
+            if (currentStartCode === null || currentStartCode !== data[i].startStaCode){
                 currentStartCode = data[i].startStaCode;
                 newData[currentStartCode] = [];
             }
             newData[currentStartCode].push({
                 endStaCode: data[i].endStaCode,
-                milage: data[i].mileage
+                mileage: data[i].mileage
             })
         }
         exportNewData(JSON.stringify(newData));
