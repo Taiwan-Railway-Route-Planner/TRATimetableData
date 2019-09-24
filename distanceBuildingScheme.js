@@ -44,7 +44,19 @@ function changeFareDetails (){
                 })
             }
         }
-        exportNewData(JSON.stringify(newData));
+
+        exportNewData(JSON.stringify(makeUnique(newData)));
+    }
+
+    function makeUnique(newData) {
+        Object.keys(newData).forEach(function ($el){
+            newData[$el] = (Object.values(newData[$el].reduce((unique, o) => {
+                if(!unique[o.endStaCode] || +o.mileage < +unique[o.endStaCode].mileage) unique[o.endStaCode] = o;
+
+                return unique;
+            }, {})));
+        });
+        return newData;
     }
 
     function findRightCodeForTRaWebsiteCode(StationDetails, traWebsiteCode) {
