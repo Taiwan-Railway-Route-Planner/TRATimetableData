@@ -53,3 +53,30 @@ CarClass    |Type ENG    | Type TW   | Example train number |
 1140        |Ordinary    |普快        |3672                  | 
 1131        |Local       |區間        |1148                  | 
 1132        |Fast Local  |區間快      |2008                  | 
+
+
+## Fare Types
+
+E-ticket: 
+
+| Train name   | Fare per milage  | Discount notice |
+| ------------- | ------------- | ------------- |
+| Ordinary  | 1.46 TWD  | 10 % on the entire travel  |
+| Local   | 1.46 TWD  | 10 % on the entire travel  |
+| Fast-Local   | 1.46 TWD  | 10 % on the entire travel  |
+| Fu-Hsing  | 1.46 TWD  | 10 % on the entire travel  |
+| Chu-Kang  | 1.46 TWD  | 10 % on the entire travel  |
+| Tze-Chiang  | 2.27 TWD  | The first 70 km are at a fare of 1.46 TWD with a 10% discount there after the fare is 2.27 TWD  |
+
+Single Ticket
+
+| Train name   | Fare per milage  | 
+| ------------- | ------------- | 
+| Ordinary  | 1.06TWD  | 
+| Local   | 1.46 TWD  | 
+| Fu-Hsing  | 1.46 TWD  | 
+| Fast Local  | 1.46 TWD  |
+| Chu-Kang  | 1.46 TWD  |
+| Tze-Chiang  | 2.27 TWD  |
+| Puyama  | 2.27 TWD  |
+| Taroko  | 2.27 TWD  |
