@@ -57,10 +57,27 @@ function updateStationInfoWithCounty() {
                 }
                 return el;
             });
-            exportNewData('./docs/stationInfo.json', stationData);
+            getUniqueList(stationData);
         });
     });
 }
 
+function getUniqueList(stationData) {
+    let counties = [];
+    const newPlaces = stationData.stations.filter((thing, index, self) =>
+        index === self.findIndex((t) => (
+            t.縣市 === thing.縣市 && t.eng縣市 === thing.eng縣市
+        ))
+    );
+    counties = newPlaces.map(function (el) {
+        return {
+            縣市: el.縣市,
+            eng縣市: el.eng縣市
+        }
+    });
+    stationData.counties = counties;
+    exportNewData('./docs/stationInfo.json', stationData);
+}
+
 // alternateDataSoWeHaveCounties();
-// updateStationInfoWithCounty();
+updateStationInfoWithCounty();
