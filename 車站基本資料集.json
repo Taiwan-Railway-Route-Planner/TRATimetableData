@@ -8,7 +8,8 @@
     "stationAddrTw": "臺東縣 臺東市 岩灣里岩灣路 101 巷 598 號",
     "stationAddrEn": "No. 598, Ln. 101, Yanwan Rd. Taidong City  Taitung County",
     "stationTel": "089-229687",
-    "gps": "22.79375 121.12326"
+    "gps": "22.79375 121.12326",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "6010",
@@ -19,7 +20,8 @@
     "stationAddrTw": "臺東縣 卑南鄉 嘉豐村山里路 108 號",
     "stationAddrEn": "No. 108, Shanli Rd. Beinan Township   Taitung County",
     "stationTel": "089-572370",
-    "gps": "22.86194 121.13778"
+    "gps": "22.86194 121.13778",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "6020",
@@ -30,7 +32,8 @@
     "stationAddrTw": "臺東縣 鹿野鄉 鹿野村中正路 38 號",
     "stationAddrEn": "No. 38, Zhongzheng Rd. Luye Township   Taitung County",
     "stationTel": "089-550217",
-    "gps": "22.91251 121.13696"
+    "gps": "22.91251 121.13696",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "6030",
@@ -41,7 +44,8 @@
     "stationAddrTw": "臺東縣 鹿野鄉 瑞源村瑞景路一段 336 巷 8 號 之 1",
     "stationAddrEn": "No. 8-1, Ln. 336, Sec. 1, Ruijing Rd. Luye Township   Taitung County",
     "stationTel": "089-580159",
-    "gps": "22.95613 121.15902"
+    "gps": "22.95613 121.15902",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "6040",
@@ -52,7 +56,8 @@
     "stationAddrTw": "臺東縣 鹿野鄉 瑞和村瑞景路三段 1 之 1 號",
     "stationAddrEn": "No. 1-1, Sec. 3, Ruijing Rd. Luye Township   Taitung County",
     "stationTel": "089-580159",
-    "gps": "22.98001 121.15573"
+    "gps": "22.98001 121.15573",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "6050",
@@ -63,7 +68,8 @@
     "stationAddrTw": "臺東縣 關山鎮 里壠里博愛路 2 號",
     "stationAddrEn": "No. 2, Bo’ai Rd. Guanshan Township  Taitung County",
     "stationTel": "089-811033",
-    "gps": "23.04564 121.16441"
+    "gps": "23.04564 121.16441",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "6060",
@@ -74,7 +80,8 @@
     "stationAddrTw": "臺東縣 關山鎮 德高里西莊 49 號",
     "stationAddrEn": "No. 49, Xizhuang Guanshan Township  Taitung County",
     "stationTel": "089-811033",
-    "gps": "23.10257 121.17695"
+    "gps": "23.10257 121.17695",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "6070",
@@ -85,7 +92,8 @@
     "stationAddrTw": "臺東縣 池上鄉 福文村鐵花路 30 號",
     "stationAddrEn": "No. 30, Tiehua Rd. Chishang Township  Taitung County",
     "stationTel": "089-862097",
-    "gps": "23.12628 121.21945"
+    "gps": "23.12628 121.21945",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "6080",
@@ -96,7 +104,8 @@
     "stationAddrTw": "花蓮縣 富里鄉 富里村車站街 56 號",
     "stationAddrEn": "No. 56, Chezhan St. Fuli Township  Hualien County",
     "stationTel": "03-8831771",
-    "gps": "23.17935 121.24864"
+    "gps": "23.17935 121.24864",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6100",
@@ -107,7 +116,8 @@
     "stationAddrTw": "花蓮縣 富里鄉 東里村大莊路 15 之 6 號",
     "stationAddrEn": "No. 15-6, Dazhuang Rd. Fuli Township  Hualien County",
     "stationTel": "03-8861005",
-    "gps": "23.27127 121.30575"
+    "gps": "23.27127 121.30575",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6110",
@@ -118,7 +128,8 @@
     "stationAddrTw": "花蓮縣 玉里鎮 中城里康樂街 39 號",
     "stationAddrEn": "No. 39, Kangle St. Yuli Township  Hualien County",
     "stationTel": "03-8882020",
-    "gps": "23.33161 121.31181"
+    "gps": "23.33161 121.31181",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6120",
@@ -129,7 +140,8 @@
     "stationAddrTw": "花蓮縣 玉里鎮 三民里三民 10 號",
     "stationAddrEn": "No. 10, Sanmin Yuli Township  Hualien County",
     "stationTel": "03-8841847",
-    "gps": "23.42463 121.34561"
+    "gps": "23.42463 121.34561",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6130",
@@ -140,7 +152,8 @@
     "stationAddrTw": "花蓮縣 瑞穗鄉 瑞穗村四維街 13 號",
     "stationAddrEn": "No. 13, Siwei St. Ruisui Township  Hualien County",
     "stationTel": "03-8875039",
-    "gps": "23.49739 121.37689"
+    "gps": "23.49739 121.37689",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6140",
@@ -151,7 +164,8 @@
     "stationAddrTw": "花蓮縣 瑞穗鄉 富源村富源路 2 號",
     "stationAddrEn": "No. 2, Fuyuan Rd. Ruisui Township  Hualien County",
     "stationTel": "03-8811824",
-    "gps": "23.58028 121.38003"
+    "gps": "23.58028 121.38003",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6160",
@@ -162,7 +176,8 @@
     "stationAddrTw": "花蓮縣 光復鄉 大安村中正路一段 2 之 1 號",
     "stationAddrEn": "No. 2-1, Sec. 1, Zhongzheng Rd. Guangfu Township   Hualien County",
     "stationTel": "03-8704143",
-    "gps": "23.66633 121.42125"
+    "gps": "23.66633 121.42125",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6170",
@@ -173,7 +188,8 @@
     "stationAddrTw": "花蓮縣 鳳林鎮 長橋里長德街 17 號",
     "stationAddrEn": "No. 17, Changde St. Fenglin Township  Hualien County",
     "stationTel": "03-8752175",
-    "gps": "23.71199 121.41907"
+    "gps": "23.71199 121.41907",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6180",
@@ -184,7 +200,8 @@
     "stationAddrTw": "花蓮縣 鳳林鎮 鳳智里中山路 43 號",
     "stationAddrEn": "No. 43, Zhongshan Rd. Fenglin Township  Hualien County",
     "stationTel": "03-8762004",
-    "gps": "23.74625 121.44708"
+    "gps": "23.74625 121.44708",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6190",
@@ -195,7 +212,8 @@
     "stationAddrTw": "花蓮縣 鳳林鎮 南平里自強路 233 號",
     "stationAddrEn": "No. 233, Ziqiang Rd. Fenglin Township  Hualien County",
     "stationTel": "03-8771597",
-    "gps": "23.78228 121.45833"
+    "gps": "23.78228 121.45833",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6200",
@@ -206,7 +224,8 @@
     "stationAddrTw": "花蓮縣 鳳林鎮 兆豐路800號",
     "stationAddrEn": "No. 800, Chaofeng Rd. Fenglin Township  Hualien County",
     "stationTel": "03-8772677",
-    "gps": "23.80167 121.46166"
+    "gps": "23.80167 121.46166",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6210",
@@ -217,7 +236,8 @@
     "stationAddrTw": "花蓮縣 壽豐鄉 豐山村站前街 36 號",
     "stationAddrEn": "No. 36, Zhanqian St. Shoufeng Township  Hualien County",
     "stationTel": "03-8654251",
-    "gps": "23.84836 121.49619"
+    "gps": "23.84836 121.49619",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6230",
@@ -228,7 +248,8 @@
     "stationAddrTw": "花蓮縣 壽豐鄉 平和村平和路 1 號",
     "stationAddrEn": "No. 1, Pinghe Rd. Shoufeng Township  Hualien County",
     "stationTel": "03-8653706",
-    "gps": "23.88275 121.52036"
+    "gps": "23.88275 121.52036",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6240",
@@ -239,7 +260,8 @@
     "stationAddrTw": "花蓮縣 壽豐鄉 志學村中正路 1 號",
     "stationAddrEn": "No. 1, Zhongzheng Rd. Shoufeng Township  Hualien County",
     "stationTel": "03-8662966",
-    "gps": "23.90751 121.52947"
+    "gps": "23.90751 121.52947",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6250",
@@ -250,7 +272,8 @@
     "stationAddrTw": "花蓮縣 吉安鄉 南昌村南昌路 200 號",
     "stationAddrEn": "No. 200, Nanchang Rd. Ji’an Township  Hualien County",
     "stationTel": "03-8539423",
-    "gps": "23.96825 121.58261"
+    "gps": "23.96825 121.58261",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "7000",
@@ -261,7 +284,8 @@
     "stationAddrTw": "花蓮縣 花蓮市 國聯里國聯一路 100 號",
     "stationAddrEn": "No. 100, Guolian 1st Rd. Hualian City  Hualien County",
     "stationTel": "03-8355941",
-    "gps": "23.99264 121.60158"
+    "gps": "23.99264 121.60158",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "7010",
@@ -272,7 +296,8 @@
     "stationAddrTw": "花蓮縣 新城鄉 北埔村自強街 113 號",
     "stationAddrEn": "No. 113, Ziqiang St. Xincheng Township  Hualien County",
     "stationTel": "03-8263809",
-    "gps": "24.03251 121.60189"
+    "gps": "24.03251 121.60189",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "7020",
@@ -283,7 +308,8 @@
     "stationAddrTw": "花蓮縣 秀林鄉 景美村加灣 178 之 1 號",
     "stationAddrEn": "No. 178-1, Jiawan Xiulin Township  Hualien County",
     "stationTel": "03-8611237",
-    "gps": "24.09039 121.61103"
+    "gps": "24.09039 121.61103",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "7030",
@@ -294,7 +320,8 @@
     "stationAddrTw": "花蓮縣 新城鄉 新城村新興一路 73 號",
     "stationAddrEn": "No. 73, Xinxing 1st Rd. Xincheng Township  Hualien County",
     "stationTel": "03-8611237",
-    "gps": "24.12761 121.64103"
+    "gps": "24.12761 121.64103",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "7040",
@@ -305,7 +332,8 @@
     "stationAddrTw": "花蓮縣 秀林鄉 崇德村海濱路 96 號",
     "stationAddrEn": "No. 96, Haibin Rd. Xiulin Township  Hualien County",
     "stationTel": "03-8621365",
-    "gps": "24.17111 121.65555"
+    "gps": "24.17111 121.65555",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "7050",
@@ -316,7 +344,8 @@
     "stationAddrTw": "花蓮縣 秀林鄉 和平村和仁 71 號",
     "stationAddrEn": "No. 71, Heren Xiulin Township  Hualien County",
     "stationTel": "03-8681221",
-    "gps": "24.24219 121.71192"
+    "gps": "24.24219 121.71192",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "7060",
@@ -327,7 +356,8 @@
     "stationAddrTw": "花蓮縣 秀林鄉 和平村和平 276 號",
     "stationAddrEn": "No. 276, Heping Xiulin Township  Hualien County",
     "stationTel": "03-8681009",
-    "gps": "24.29825 121.75322"
+    "gps": "24.29825 121.75322",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "7070",
@@ -338,7 +368,8 @@
     "stationAddrTw": "宜蘭縣 南澳鄉 澳花村蘇花路一段 56 號",
     "stationAddrEn": "No. 56, Sec. 1, Suhua Rd. Nan’ao Township  Yilan County",
     "stationTel": "03-9985238",
-    "gps": "24.33541 121.76827"
+    "gps": "24.33541 121.76827",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7080",
@@ -349,7 +380,8 @@
     "stationAddrTw": "宜蘭縣 南澳鄉 武塔村新溪路 18 號",
     "stationAddrEn": "No. 18, Xinxi Rd. Nan’ao Township  Yilan County",
     "stationTel": "03-9981971",
-    "gps": "24.44879 121.77601"
+    "gps": "24.44879 121.77601",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7090",
@@ -360,7 +392,8 @@
     "stationAddrTw": "宜蘭縣 蘇澳鎮 南強里大通路 22 號",
     "stationAddrEn": "No. 22, Datong Rd. Su’ao Township  Yilan County",
     "stationTel": "03-9981971",
-    "gps": "24.46342 121.80103"
+    "gps": "24.46342 121.80103",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7100",
@@ -371,7 +404,8 @@
     "stationAddrTw": "宜蘭縣 南澳鄉 東岳村東岳路 1 號",
     "stationAddrEn": "No. 1, Dongyue Rd. Nan’ao Township  Yilan County",
     "stationTel": "03-9986053",
-    "gps": "24.51828 121.83071"
+    "gps": "24.51828 121.83071",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7110",
@@ -382,7 +416,8 @@
     "stationAddrTw": "宜蘭縣 蘇澳鎮 永樂里圳頭路 60 號",
     "stationAddrEn": "No. 60, Zuntou Rd. Su’ao Township  Yilan County",
     "stationTel": "03-9961889",
-    "gps": "24.56843 121.84458"
+    "gps": "24.56843 121.84458",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7130",
@@ -393,7 +428,8 @@
     "stationAddrTw": "宜蘭縣 蘇澳鎮 聖愛里中山路二段 238 之 1 號 ",
     "stationAddrEn": "No. 238-1, Sec. 2, Zhongshan Rd. Su’ao Township  Yilan County",
     "stationTel": "03-9961004",
-    "gps": "24.60852 121.82719"
+    "gps": "24.60852 121.82719",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7140",
@@ -404,7 +440,8 @@
     "stationAddrTw": "宜蘭縣 蘇澳鎮 新城里中山路二段 322 號",
     "stationAddrEn": "No. 322, Sec. 2, Zhongshan Rd. Su’ao Township  Yilan County",
     "stationTel": "03-9961004",
-    "gps": "24.61535 121.82292"
+    "gps": "24.61535 121.82292",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7160",
@@ -415,7 +452,8 @@
     "stationAddrTw": "宜蘭縣 羅東鎮 大新里公正路 2 號",
     "stationAddrEn": "No. 2, Gongzheng Rd. Luodong Township  Yilan County",
     "stationTel": "03-9542117",
-    "gps": "24.67795 121.77424"
+    "gps": "24.67795 121.77424",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7170",
@@ -426,7 +464,8 @@
     "stationAddrTw": "宜蘭縣 五結鄉 中興村台興路 10 號",
     "stationAddrEn": "No. 10, Taixing Rd. Wujie Township  Yilan County",
     "stationTel": "03-9542117",
-    "gps": "24.69415 121.77526"
+    "gps": "24.69415 121.77526",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7180",
@@ -437,7 +476,8 @@
     "stationAddrTw": "宜蘭縣 五結鄉 五結中路三段658巷8號",
     "stationAddrEn": "No. 8,Lane 658,WuJie Central Rd. Sec.3 Wujie Township  Yilan County",
     "stationTel": "03-9650304",
-    "gps": "24.70529 121.77411"
+    "gps": "24.70529 121.77411",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7190",
@@ -448,7 +488,8 @@
     "stationAddrTw": "宜蘭縣 宜蘭市 和睦里光復路 1 號",
     "stationAddrEn": "No. 1, Guangfu Rd. Yilan City  Yilan County",
     "stationTel": "03-9323801",
-    "gps": "24.75462 121.75791"
+    "gps": "24.75462 121.75791",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7200",
@@ -459,7 +500,8 @@
     "stationAddrTw": "宜蘭縣 礁溪鄉 吳沙村站前路 24 號",
     "stationAddrEn": "No. 24, Zhanqian Rd. Jiaoxi Township  Yilan County",
     "stationTel": "03-9282449",
-    "gps": "24.78684 121.76268"
+    "gps": "24.78684 121.76268",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7210",
@@ -470,7 +512,8 @@
     "stationAddrTw": "宜蘭縣 礁溪鄉 德陽村溫泉路 1 號",
     "stationAddrEn": "No. 1, Wenquan Rd. Jiaoxi Township  Yilan County",
     "stationTel": "03-9886940",
-    "gps": "24.82705 121.77523"
+    "gps": "24.82705 121.77523",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7220",
@@ -481,7 +524,8 @@
     "stationAddrTw": "宜蘭縣 頭城鎮 下埔里下埔路 4 之 8 號",
     "stationAddrEn": "No. 4-8, Xiapu Rd. Toucheng Township  Yilan County",
     "stationTel": "03-9886940",
-    "gps": "24.84383 121.80918"
+    "gps": "24.84383 121.80918",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7230",
@@ -492,7 +536,8 @@
     "stationAddrTw": "宜蘭縣 頭城鎮 城北里纘祥路 59 號",
     "stationAddrEn": "No. 59, Zuanxiang Rd. Toucheng Township  Yilan County",
     "stationTel": "03-9771429",
-    "gps": "24.85903 121.82251"
+    "gps": "24.85903 121.82251",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7240",
@@ -503,7 +548,8 @@
     "stationAddrTw": "宜蘭縣 頭城鎮 外澳里濱海路二段 217 號",
     "stationAddrEn": "No. 217, Sec. 2, Binhai Rd. Toucheng Township  Yilan County",
     "stationTel": "03-9771429",
-    "gps": "24.88371 121.84575"
+    "gps": "24.88371 121.84575",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7250",
@@ -514,7 +560,8 @@
     "stationAddrTw": "宜蘭縣 頭城鎮 更新里濱海路三段 261 號",
     "stationAddrEn": "No. 261, Sec. 3, Binhai Rd. Toucheng Township  Yilan County",
     "stationTel": "03-9770351",
-    "gps": "24.90481 121.86886"
+    "gps": "24.90481 121.86886",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7260",
@@ -525,7 +572,8 @@
     "stationAddrTw": "宜蘭縣 頭城鎮 大溪里濱海路五段 63 號",
     "stationAddrEn": "No. 63, Sec. 5, Binhai Rd. Toucheng Township  Yilan County",
     "stationTel": "03-9771429",
-    "gps": "24.93834 121.88987"
+    "gps": "24.93834 121.88987",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7270",
@@ -536,7 +584,8 @@
     "stationAddrTw": "宜蘭縣 頭城鎮 大里里濱海路六段 326 號",
     "stationAddrEn": "No. 326, Sec. 6, Binhai Rd. Toucheng Township  Yilan County",
     "stationTel": "03-9781171",
-    "gps": "24.96682 121.92251"
+    "gps": "24.96682 121.92251",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7280",
@@ -547,7 +596,8 @@
     "stationAddrTw": "宜蘭縣 頭城鎮 石城里濱海路七段 230 號",
     "stationAddrEn": "No. 230, Sec. 7, Binhai Rd. Toucheng Township  Yilan County",
     "stationTel": "03-9771429",
-    "gps": "24.97842 121.94524"
+    "gps": "24.97842 121.94524",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "7290",
@@ -558,7 +608,8 @@
     "stationAddrTw": "新北市 貢寮區 福隆里福隆街 2 號",
     "stationAddrEn": "No. 2, Fulong St. Gongliao Dist.  New Taipei City",
     "stationTel": "02-24991800",
-    "gps": "25.01598 121.94471"
+    "gps": "25.01598 121.94471",
+    "縣市": "新北市"
   },
   {
     "stationCode": "7300",
@@ -569,7 +620,8 @@
     "stationAddrTw": "新北市 貢寮區 貢寮里朝陽街 33 號",
     "stationAddrEn": "No. 33, Chaoyang St. Gongliao Dist.  New Taipei City",
     "stationTel": "02-24941500",
-    "gps": "25.02209 121.90867"
+    "gps": "25.02209 121.90867",
+    "縣市": "新北市"
   },
   {
     "stationCode": "7310",
@@ -580,7 +632,8 @@
     "stationAddrTw": "新北市 雙溪區 新基里朝陽街 1 號",
     "stationAddrEn": "No. 1, Chaoyang St. Shuangxi Dist.  New Taipei City",
     "stationTel": "02-24932980",
-    "gps": "25.03858 121.86645"
+    "gps": "25.03858 121.86645",
+    "縣市": "新北市"
   },
   {
     "stationCode": "0910",
@@ -591,7 +644,8 @@
     "stationAddrTw": "基隆市 仁愛區 德厚里龍安街 206 號",
     "stationAddrEn": "No. 206, Long’an St. Ren’ai Dist.   Keelung City",
     "stationTel": "02-24230289",
-    "gps": "25.12305 121.74202"
+    "gps": "25.12305 121.74202",
+    "縣市": "基隆市"
   },
   {
     "stationCode": "0920",
@@ -602,7 +656,8 @@
     "stationAddrTw": "基隆市 暖暖區 八南里八堵路 142 號",
     "stationAddrEn": "No. 142, Badu Rd. Nuannuan Dist.  Keelung City",
     "stationTel": "02-24560841",
-    "gps": "25.10843 121.72898"
+    "gps": "25.10843 121.72898",
+    "縣市": "基隆市"
   },
   {
     "stationCode": "0930",
@@ -613,7 +668,8 @@
     "stationAddrTw": "基隆市 七堵區 長興里東新街 2 號",
     "stationAddrEn": "No. 2, Dongxin St. Qidu Dist.  Keelung City",
     "stationTel": "02-24553426",
-    "gps": "25.09294 121.71415"
+    "gps": "25.09294 121.71415",
+    "縣市": "基隆市"
   },
   {
     "stationCode": "0950",
@@ -624,7 +680,8 @@
     "stationAddrTw": "新北市 汐止區 長安里長安路 17 號",
     "stationAddrEn": "No. 17, Chang’an Rd. Xizhi Dist.  New Taipei City",
     "stationTel": "02-86476200",
-    "gps": "25.07784 121.66764"
+    "gps": "25.07784 121.66764",
+    "縣市": "新北市"
   },
   {
     "stationCode": "0960",
@@ -635,7 +692,8 @@
     "stationAddrTw": "新北市 汐止區 信望里信義路 1 號",
     "stationAddrEn": "No. 1, Xinyi Rd. Xizhi Dist.  New Taipei City",
     "stationTel": "02-26415096",
-    "gps": "25.06894 121.66244"
+    "gps": "25.06894 121.66244",
+    "縣市": "新北市"
   },
   {
     "stationCode": "0970",
@@ -646,7 +704,8 @@
     "stationAddrTw": "新北市 汐止區 大同里大同路二段 182 號",
     "stationAddrEn": "No. 182, Sec. 2, Datong Rd. Xizhi Dist.  New Taipei City",
     "stationTel": "02-23815226#8730",
-    "gps": "25.06241 121.64669"
+    "gps": "25.06241 121.64669",
+    "縣市": "新北市"
   },
   {
     "stationCode": "0980",
@@ -657,7 +716,8 @@
     "stationAddrTw": "臺北市 南港區 南港里南港路一段 313 號",
     "stationAddrEn": "No. 313, Sec. 1, Nangang Rd. Nangang Dist.   Taipei City",
     "stationTel": "02-27838645",
-    "gps": "25.05348 121.60706"
+    "gps": "25.05348 121.60706",
+    "縣市": "臺北市"
   },
   {
     "stationCode": "0990",
@@ -668,7 +728,8 @@
     "stationAddrTw": "臺北市 信義區 永吉里松山路 11 號",
     "stationAddrEn": "No. 11, Songshan Rd. Xinyi Dist.  Taipei City",
     "stationTel": "02-27673819",
-    "gps": "25.04936 121.57807"
+    "gps": "25.04936 121.57807",
+    "縣市": "臺北市"
   },
   {
     "stationCode": "1000",
@@ -679,7 +740,8 @@
     "stationAddrTw": "臺北市 中正區 黎明里北平西路 3 號",
     "stationAddrEn": "No. 3, Beiping W. Rd. Zhongzheng Dist.  Taipei City",
     "stationTel": "02-23713558",
-    "gps": "25.04771 121.51784"
+    "gps": "25.04771 121.51784",
+    "縣市": "臺北市"
   },
   {
     "stationCode": "1001",
@@ -690,7 +752,8 @@
     "stationAddrTw": "  ",
     "stationAddrEn": "  ",
     "stationTel": "",
-    "gps": "25.04811 121.51793"
+    "gps": "25.04811 121.51793",
+    "縣市": ""
   },
   {
     "stationCode": "1010",
@@ -701,7 +764,8 @@
     "stationAddrTw": "臺北市 萬華區 富福里康定路 382 號",
     "stationAddrEn": "No. 382, Kangding Rd. Wanhua Dist.   Taipei City",
     "stationTel": "02-23020481",
-    "gps": "25.03352 121.49991"
+    "gps": "25.03352 121.49991",
+    "縣市": "臺北市"
   },
   {
     "stationCode": "1020",
@@ -712,7 +776,8 @@
     "stationAddrTw": "新北市 板橋區 新民里縣民大道二段 7 號　",
     "stationAddrEn": "No. 7, Sec. 2, Xianmin Blvd. Banqiao Dist.  New Taipei City",
     "stationTel": "02-89691036",
-    "gps": "25.01423 121.46377"
+    "gps": "25.01423 121.46377",
+    "縣市": "新北市"
   },
   {
     "stationCode": "1030",
@@ -723,7 +788,8 @@
     "stationAddrTw": "新北市 板橋區 僑中里僑中二街 156 號",
     "stationAddrEn": "No. 156, Qiaozhong 2nd St. Banqiao Dist.  New Taipei City",
     "stationTel": "02-23815226#4665",
-    "gps": "25.00419 121.44477"
+    "gps": "25.00419 121.44477",
+    "縣市": "新北市"
   },
   {
     "stationCode": "1040",
@@ -734,7 +800,8 @@
     "stationAddrTw": "新北市 樹林區 樹北里鎮前街 112 號",
     "stationAddrEn": "No. 112, Zhenqian St. Shulin Dist.  New Taipei City",
     "stationTel": "02-26812052",
-    "gps": "24.99121 121.42481"
+    "gps": "24.99121 121.42481",
+    "縣市": "新北市"
   },
   {
     "stationCode": "1050",
@@ -745,7 +812,8 @@
     "stationAddrTw": "新北市 樹林區 東山里中山路二段 230 號",
     "stationAddrEn": "No. 230, Sec. 2, Zhongshan Rd. Shulin Dist.  New Taipei City",
     "stationTel": "02-26812052",
-    "gps": "24.98034 121.40891"
+    "gps": "24.98034 121.40891",
+    "縣市": "新北市"
   },
   {
     "stationCode": "1070",
@@ -756,7 +824,8 @@
     "stationAddrTw": "新北市 鶯歌區 東鶯里文化路 68 號",
     "stationAddrEn": "No. 68, Wenhua Rd. Yingge Dist.  New Taipei City",
     "stationTel": "02-26792004",
-    "gps": "24.95481 121.35494"
+    "gps": "24.95481 121.35494",
+    "縣市": "新北市"
   },
   {
     "stationCode": "1080",
@@ -767,7 +836,8 @@
     "stationAddrTw": "桃園市 桃園區 武陵里中正路 1 號",
     "stationAddrEn": "No. 1, Zhongzheng Rd. Taoyuan Dist.  Taoyuan City",
     "stationTel": "03-3767050",
-    "gps": "24.98935 121.31445"
+    "gps": "24.98935 121.31445",
+    "縣市": "桃園市"
   },
   {
     "stationCode": "1090",
@@ -778,7 +848,8 @@
     "stationAddrTw": "桃園市 中壢區 中原里中華路一段 267 號",
     "stationAddrEn": "No. 267, Sec. 1, Zhonghua Rd. Zhongli Dist.  Taoyuan City",
     "stationTel": "03-4559725",
-    "gps": "24.97287 121.25814"
+    "gps": "24.97287 121.25814",
+    "縣市": "桃園市"
   },
   {
     "stationCode": "1100",
@@ -789,7 +860,8 @@
     "stationAddrTw": "桃園市 中壢區 石頭里中和路 139 號",
     "stationAddrEn": "No. 139, Zhonghe Rd. Zhongli Dist.  Taoyuan City",
     "stationTel": "03-4223235",
-    "gps": "24.95382 121.22571"
+    "gps": "24.95382 121.22571",
+    "縣市": "桃園市"
   },
   {
     "stationCode": "1110",
@@ -800,7 +872,8 @@
     "stationAddrTw": "桃園市 楊梅區 埔心里永美路 208 號",
     "stationAddrEn": "No. 208, Yongmei Rd. Yangmei Dist.  Taoyuan City",
     "stationTel": "03-4827100",
-    "gps": "24.91945 121.18366"
+    "gps": "24.91945 121.18366",
+    "縣市": "桃園市"
   },
   {
     "stationCode": "1120",
@@ -811,7 +884,8 @@
     "stationAddrTw": "桃園市 楊梅區 楊梅里大成路 256 號",
     "stationAddrEn": "No. 256, Dacheng Rd. Yangmei Dist.  Taoyuan City",
     "stationTel": "03-4782893",
-    "gps": "24.91391 121.14634"
+    "gps": "24.91391 121.14634",
+    "縣市": "桃園市"
   },
   {
     "stationCode": "1130",
@@ -822,7 +896,8 @@
     "stationAddrTw": "桃園市 楊梅區 富岡里成功路 37 號",
     "stationAddrEn": "No. 37, Chenggong Rd. Yangmei Dist.  Taoyuan City",
     "stationTel": "03-4723754",
-    "gps": "24.93462 121.08313"
+    "gps": "24.93462 121.08313",
+    "縣市": "桃園市"
   },
   {
     "stationCode": "1140",
@@ -833,7 +908,8 @@
     "stationAddrTw": "桃園市 楊梅區 富豐里富全街 1 號",
     "stationAddrEn": "No. 1, Fuquan St. Yangmei Dist.  Taoyuan City",
     "stationTel": "03-4723754",
-    "gps": "24.93107 121.06759"
+    "gps": "24.93107 121.06759",
+    "縣市": "桃園市"
   },
   {
     "stationCode": "1150",
@@ -844,7 +920,8 @@
     "stationAddrTw": "新竹縣 湖口鄉 東興村北湖路 1 號",
     "stationAddrEn": "No. 1, Beihu Rd. Hukou Township  Hsinchu County",
     "stationTel": "03-5993850",
-    "gps": "24.92191 121.05586"
+    "gps": "24.92191 121.05586",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1160",
@@ -855,7 +932,8 @@
     "stationAddrTw": "新竹縣 湖口鄉 仁勢村中山路二段 121 號",
     "stationAddrEn": "No. 121, Sec. 2, Zhongshan Rd. Hukou Township  Hsinchu County",
     "stationTel": "03-5992192",
-    "gps": "24.90292 121.04412"
+    "gps": "24.90292 121.04412",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1170",
@@ -866,7 +944,8 @@
     "stationAddrTw": "新竹縣 新豐鄉 山崎村新興路 202 號",
     "stationAddrEn": "No. 202, Xinxing Rd. Xinfeng Township  Hsinchu County",
     "stationTel": "03-5596314",
-    "gps": "24.86961 120.99654"
+    "gps": "24.86961 120.99654",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1180",
@@ -877,7 +956,8 @@
     "stationAddrTw": "新竹縣 竹北市 竹義里和平街 59 號",
     "stationAddrEn": "No. 59, Heping St. Zhubei City  Hsinchu County",
     "stationTel": "03-5552024",
-    "gps": "24.83892 121.00936"
+    "gps": "24.83892 121.00936",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1190",
@@ -888,7 +968,8 @@
     "stationAddrTw": "新竹市   東區東園里中華路一段 291 之 2 號",
     "stationAddrEn": "No. 291-2, Sec. 1, Zhonghua Rd.   Hsinchu City",
     "stationTel": "03-5237441",
-    "gps": "24.80876 120.98385"
+    "gps": "24.80876 120.98385",
+    "縣市": "新竹市"
   },
   {
     "stationCode": "1191",
@@ -899,7 +980,8 @@
     "stationAddrTw": "新竹市   東區水源里千甲路 142 號",
     "stationAddrEn": "No. 142, Qianjia Rd.   Hsinchu City",
     "stationTel": "03-5237441",
-    "gps": "24.80669 121.00301"
+    "gps": "24.80669 121.00301",
+    "縣市": "新竹市"
   },
   {
     "stationCode": "1193",
@@ -910,7 +992,8 @@
     "stationAddrTw": "新竹縣 竹東鎮 頭重里竹中路 145 號",
     "stationAddrEn": "No. 145, Zhuzhong Rd. Zhudong Township  Hsinchu County",
     "stationTel": "03-5962042",
-    "gps": "24.78125 121.03117"
+    "gps": "24.78125 121.03117",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1201",
@@ -921,7 +1004,8 @@
     "stationAddrTw": "新竹縣 竹東鎮 上員里光明路 (無站房)",
     "stationAddrEn": "Guangming Rd. (No Station Building) Zhudong Township  Hsinchu County",
     "stationTel": "03-5962042",
-    "gps": "24.77797 121.05554"
+    "gps": "24.77797 121.05554",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1202",
@@ -932,7 +1016,8 @@
     "stationAddrTw": "新竹縣 竹東鎮 仁愛里北興路 (無站房)",
     "stationAddrEn": "Beixing Rd. (No Station Building) Zhudong Township  Hsinchu County",
     "stationTel": "03-5962042",
-    "gps": "24.74851 121.08296"
+    "gps": "24.74851 121.08296",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1203",
@@ -943,7 +1028,8 @@
     "stationAddrTw": "新竹縣 竹東鎮 雞林里東林路 196 號",
     "stationAddrEn": "No. 196, Donglin Rd. Zhudong Township  Hsinchu County",
     "stationTel": "03-5962042",
-    "gps": "24.73811 121.09465"
+    "gps": "24.73811 121.09465",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1204",
@@ -954,7 +1040,8 @@
     "stationAddrTw": "新竹縣 橫山鄉 橫山村橫山路 97 號 (無站房)",
     "stationAddrEn": "No. 97, Hengshan Rd. (No Station Building) Hengshan Township  Hsinchu County",
     "stationTel": "03-5962042",
-    "gps": "24.72051 121.11657"
+    "gps": "24.72051 121.11657",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1206",
@@ -965,7 +1052,8 @@
     "stationAddrTw": "新竹縣 橫山鄉 力行村中山街一段 17 號",
     "stationAddrEn": "No. 17, Sec. 1, Zhongshan St. Hengshan Township  Hsinchu County",
     "stationTel": "03-5962042",
-    "gps": "24.71649 121.15434"
+    "gps": "24.71649 121.15434",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1207",
@@ -976,7 +1064,8 @@
     "stationAddrTw": "新竹縣 橫山鄉 豐田村中山街一段 (無站房)",
     "stationAddrEn": "Sec. 1, Zhongshan St. (No Station Building) Hengshan Township  Hsinchu County",
     "stationTel": "03-5962042",
-    "gps": "24.71553 121.16729"
+    "gps": "24.71553 121.16729",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1208",
@@ -987,7 +1076,8 @@
     "stationAddrTw": "新竹縣 橫山鄉 內灣村中正路 6 號",
     "stationAddrEn": "No. 6, Zhongzheng Rd. Hengshan Township  Hsinchu County",
     "stationTel": "03-5962042",
-    "gps": "24.70526 121.18247"
+    "gps": "24.70526 121.18247",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "1210",
@@ -998,7 +1088,8 @@
     "stationAddrTw": "新竹市   東區榮光里中華路二段 445 號",
     "stationAddrEn": "No. 445, Sec. 2, Zhonghua Rd.   Hsinchu City",
     "stationTel": "03-5237441",
-    "gps": "24.80169 120.97156"
+    "gps": "24.80169 120.97156",
+    "縣市": "新竹市"
   },
   {
     "stationCode": "1220",
@@ -1009,7 +1100,8 @@
     "stationAddrTw": "新竹市   香山區香山里元培街 32 巷 30 號",
     "stationAddrEn": "No. 30, Ln. 32, Yuanpei St.   Hsinchu City",
     "stationTel": "03-5237441",
-    "gps": "24.78723 120.92838"
+    "gps": "24.78723 120.92838",
+    "縣市": "新竹市"
   },
   {
     "stationCode": "1230",
@@ -1020,7 +1112,8 @@
     "stationAddrTw": "新竹市   香山區朝山里中華路五段 347 巷 2 弄 27 號",
     "stationAddrEn": "No. 27, Aly. 2, Ln. 347, Sec. 5, Zhonghua Rd.   Hsinchu City",
     "stationTel": "03-5237441",
-    "gps": "24.76321 120.91391"
+    "gps": "24.76321 120.91391",
+    "縣市": "新竹市"
   },
   {
     "stationCode": "1250",
@@ -1031,7 +1124,8 @@
     "stationAddrTw": "苗栗縣 竹南鎮 竹南里中山路 166 號",
     "stationAddrEn": "No. 166, Zhongshan Rd. Zhunan Township  Miaoli County",
     "stationTel": "037-472030",
-    "gps": "24.68663 120.88041"
+    "gps": "24.68663 120.88041",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "2110",
@@ -1042,7 +1136,8 @@
     "stationAddrTw": "苗栗縣 造橋鄉 談文村仁愛路 29 號",
     "stationAddrEn": "No. 29, Ren’ai Rd. Zaoqiao Township  Miaoli County",
     "stationTel": "037-472030",
-    "gps": "24.65641 120.85825"
+    "gps": "24.65641 120.85825",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "2120",
@@ -1053,7 +1148,8 @@
     "stationAddrTw": "苗栗縣 後龍鎮 大山里明山路 180 號",
     "stationAddrEn": "No. 180, Mingshan Rd. Houlong Township   Miaoli County",
     "stationTel": "037-728616",
-    "gps": "24.64565 120.80376"
+    "gps": "24.64565 120.80376",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "2130",
@@ -1064,7 +1160,8 @@
     "stationAddrTw": "苗栗縣 後龍鎮 北龍里車站街 127-2 號",
     "stationAddrEn": "No. 127, Chezhan St. Houlong Township   Miaoli County",
     "stationTel": "037-728616",
-    "gps": "24.61621 120.78731"
+    "gps": "24.61621 120.78731",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "2140",
@@ -1075,7 +1172,8 @@
     "stationAddrTw": "苗栗縣 後龍鎮 龍京里公司寮 85 號",
     "stationAddrEn": "No. 85, Gongsiliao Houlong Township   Miaoli County",
     "stationTel": "037-728616",
-    "gps": "24.61169 120.75812"
+    "gps": "24.61169 120.75812",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "2150",
@@ -1086,7 +1184,8 @@
     "stationAddrTw": "苗栗縣 通霄鎮 白西里白西 131 號",
     "stationAddrEn": "No. 131, Baixi Tongxiao Township  Miaoli County",
     "stationTel": "037-793066",
-    "gps": "24.56481 120.70824"
+    "gps": "24.56481 120.70824",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "2160",
@@ -1097,7 +1196,8 @@
     "stationAddrTw": "苗栗縣 通霄鎮 新埔里新埔 57 號",
     "stationAddrEn": "No. 57, Xinpu Tongxiao Township  Miaoli County",
     "stationTel": "037-793066",
-    "gps": "24.54018 120.69518"
+    "gps": "24.54018 120.69518",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "2180",
@@ -1108,7 +1208,8 @@
     "stationAddrTw": "苗栗縣 苑裡鎮 苑北里中山路 165 號",
     "stationAddrEn": "No. 165, Zhongshan Rd. Yuanli Township   Miaoli County",
     "stationTel": "037-851013",
-    "gps": "24.44344 120.65146"
+    "gps": "24.44344 120.65146",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "2190",
@@ -1119,7 +1220,8 @@
     "stationAddrTw": "臺中市 大甲區 孟春里中山路二段 140 巷 8 號",
     "stationAddrEn": "No. 8, Ln. 140, Sec. 2, Zhongshan Rd. Dajia Dist.  Taichung City",
     "stationTel": "04-26816113",
-    "gps": "24.37805 120.65412"
+    "gps": "24.37805 120.65412",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "2200",
@@ -1130,7 +1232,8 @@
     "stationAddrTw": "臺中市 大甲區 大甲里中山路一段 828 號",
     "stationAddrEn": "No. 828, Sec. 1, Zhongshan Rd. Dajia Dist.  Taichung City",
     "stationTel": "04-26872022",
-    "gps": "24.34455 120.62703"
+    "gps": "24.34455 120.62703",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "2210",
@@ -1141,7 +1244,8 @@
     "stationAddrTw": "臺中市 清水區 頂湳里甲南路 2 號",
     "stationAddrEn": "No. 2, Jianan Rd. Qingshui Dist.  Taichung City",
     "stationTel": "04-26225374",
-    "gps": "24.30441 120.60231"
+    "gps": "24.30441 120.60231",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "2220",
@@ -1152,7 +1256,8 @@
     "stationAddrTw": "臺中市 清水區 南社里中正街 115 號",
     "stationAddrEn": "No. 115, Zhongzheng St. Qingshui Dist.  Taichung City",
     "stationTel": "04-26222021",
-    "gps": "24.26364 120.56918"
+    "gps": "24.26364 120.56918",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "2230",
@@ -1163,7 +1268,8 @@
     "stationAddrTw": "臺中市 沙鹿區 沙鹿里中正街 94 號",
     "stationAddrEn": "No. 94, Zhongzheng St. Shalu Dist.  Taichung City",
     "stationTel": "04-26625057",
-    "gps": "24.23702 120.55752"
+    "gps": "24.23702 120.55752",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "2240",
@@ -1174,7 +1280,8 @@
     "stationAddrTw": "臺中市 龍井區 龍泉里龍新路 1 號",
     "stationAddrEn": "No. 1, Longxin Rd. Longjing Dist.  Taichung City",
     "stationTel": "04-26355578",
-    "gps": "24.19745 120.54336"
+    "gps": "24.19745 120.54336",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "2250",
@@ -1185,7 +1292,8 @@
     "stationAddrTw": "臺中市 大肚區 頂街里平和街 121 號",
     "stationAddrEn": "No. 121, Pinghe St. Dadu Dist.  Taichung City",
     "stationTel": "04-26992523",
-    "gps": "24.15401 120.54255"
+    "gps": "24.15401 120.54255",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "2260",
@@ -1196,7 +1304,8 @@
     "stationAddrTw": "臺中市 大肚區 王田里追分街 13 號",
     "stationAddrEn": "No. 13, Zhuifen St. Dadu Dist.  Taichung City",
     "stationTel": "04-26933106",
-    "gps": "24.12061 120.57014"
+    "gps": "24.12061 120.57014",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3150",
@@ -1207,7 +1316,8 @@
     "stationAddrTw": "苗栗縣 後龍鎮 校椅里高鐵一路 66 號",
     "stationAddrEn": "No. 66, Gaotie 1st Rd. Houlong Township   Miaoli County",
     "stationTel": "037-726700",
-    "gps": "24.60131 120.82357"
+    "gps": "24.60131 120.82357",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "3160",
@@ -1218,7 +1328,8 @@
     "stationAddrTw": "苗栗縣 苗栗市 上苗里為公路 1 號",
     "stationAddrEn": "No. 1, Weigong Rd. Miaoli City  Miaoli County",
     "stationTel": "037-260031",
-    "gps": "24.57011 120.82148"
+    "gps": "24.57011 120.82148",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "3170",
@@ -1229,7 +1340,8 @@
     "stationAddrTw": "苗栗縣 苗栗市 新英里南勢 39 號",
     "stationAddrEn": "No. 39, Nanshi Miaoli City  Miaoli County",
     "stationTel": "037-260031",
-    "gps": "24.52234 120.79157"
+    "gps": "24.52234 120.79157",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "3180",
@@ -1240,7 +1352,8 @@
     "stationAddrTw": "苗栗縣 銅鑼鄉 銅鑼村大同路 13 號",
     "stationAddrEn": "No. 13, Datong Rd. Tongluo Township   Miaoli County",
     "stationTel": "037-983838",
-    "gps": "24.48648 120.78616"
+    "gps": "24.48648 120.78616",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "3190",
@@ -1251,7 +1364,8 @@
     "stationAddrTw": "苗栗縣 三義鄉 雙湖村雙湖 90 號",
     "stationAddrEn": "No. 90, Shuanghu Sanyi Township   Miaoli County",
     "stationTel": "037-874763",
-    "gps": "24.42066 120.77393"
+    "gps": "24.42066 120.77393",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "3220",
@@ -1262,7 +1376,8 @@
     "stationAddrTw": "臺中市 后里區 義里里甲后路一段 1 號",
     "stationAddrEn": "No. 1, Jiahou Rd. Houli Dist.  Taichung City",
     "stationTel": "04-25562038",
-    "gps": "24.30933 120.73288"
+    "gps": "24.30933 120.73288",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3230",
@@ -1273,7 +1388,8 @@
     "stationAddrTw": "臺中市 豐原區 豐原里中正路 1 號",
     "stationAddrEn": "No. 1, Zhongzheng Rd. Fengyuan Dist.  Taichung City",
     "stationTel": "04-25207950#32",
-    "gps": "24.25413 120.72291"
+    "gps": "24.25413 120.72291",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3240",
@@ -1284,7 +1400,8 @@
     "stationAddrTw": "臺中市 潭子區 潭豐路二段747號",
     "stationAddrEn": "No. 747, Section 2, Tanfeng Road Tanzi Dist.  Taichung City",
     "stationTel": "04-25391401",
-    "gps": "24.23481 120.71069"
+    "gps": "24.23481 120.71069",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3250",
@@ -1295,7 +1412,8 @@
     "stationAddrTw": "臺中市 潭子區 中山路二段352-1號",
     "stationAddrEn": "No. 352-1, Sec. 2, Zhongshan Rd. Tanzi Dist.  Taichung City",
     "stationTel": "04-25363852",
-    "gps": "24.21283 120.70557"
+    "gps": "24.21283 120.70557",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3260",
@@ -1306,7 +1424,8 @@
     "stationAddrTw": "臺中市 潭子區 頭張東路43巷8號",
     "stationAddrEn": "No. 8, Ln. 43, Touzhang E. Rd. Tanzi Dist.  Taichung City",
     "stationTel": "04-25391426",
-    "gps": "24.19572 120.70398"
+    "gps": "24.19572 120.70398",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3290",
@@ -1317,7 +1436,8 @@
     "stationAddrTw": "臺中市 東區 東南里東光路 161號",
     "stationAddrEn": "No. 161, Dongguang Rd., Taiwan (R.O.C.)No. 194, Dongguang Rd. East Dist.   Taichung City",
     "stationTel": "04-23606501",
-    "gps": "24.14917 120.69773"
+    "gps": "24.14917 120.69773",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3300",
@@ -1328,7 +1448,8 @@
     "stationAddrTw": "臺中市 中區 綠川里臺灣大道一段 1 號",
     "stationAddrEn": "No. 1, Sec. 1, Taiwan Blvd. Central Dist.   Taichung City",
     "stationTel": "04-22216492",
-    "gps": "24.13661 120.68527"
+    "gps": "24.13661 120.68527",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3310",
@@ -1339,7 +1460,8 @@
     "stationAddrTw": "臺中市 南區 建國南路二段201號\t\t",
     "stationAddrEn": "No. 201, Sec. 2, Jianguo S. Rd., Taiwan (R.O.C.) South Dist.   Taichung City",
     "stationTel": "04-22601636",
-    "gps": "24.12877 120.66644"
+    "gps": "24.12877 120.66644",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3320",
@@ -1350,7 +1472,8 @@
     "stationAddrTw": "臺中市 南區 樹德里7鄰大慶街2段130號\t",
     "stationAddrEn": "No. 130, Sec. 2, Daqing St., Taiwan (R.O.C.) South Dist.   Taichung City",
     "stationTel": "04-22637940",
-    "gps": "24.11891 120.64791"
+    "gps": "24.11891 120.64791",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3330",
@@ -1361,7 +1484,8 @@
     "stationAddrTw": "臺中市 烏日區 烏日里三民街 258 號",
     "stationAddrEn": "No. 258, Sanmin St. Wuri Dist.  Taichung City",
     "stationTel": "04-23381071",
-    "gps": "24.10867 120.62244"
+    "gps": "24.10867 120.62244",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3340",
@@ -1372,7 +1496,8 @@
     "stationAddrTw": "臺中市 烏日區 三和里高鐵東一路 26 號",
     "stationAddrEn": "No. 26, Gaotie E. 1st Rd. Wuri Dist.  Taichung City",
     "stationTel": "04-23376883",
-    "gps": "24.10976 120.61429"
+    "gps": "24.10976 120.61429",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3350",
@@ -1383,7 +1508,8 @@
     "stationAddrTw": "臺中市 烏日區 榮泉里中山路三段 550 號",
     "stationAddrEn": "No. 550, Sec. 3, Zhongshan Rd. Wuri Dist.  Taichung City",
     "stationTel": "04-23371986",
-    "gps": "24.11424 120.59021"
+    "gps": "24.11424 120.59021",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3360",
@@ -1394,7 +1520,8 @@
     "stationAddrTw": "彰化縣 彰化市 長樂里三民路 1 號",
     "stationAddrEn": "No. 1, Sanmin Rd. Zhanghua City  Changhua County",
     "stationTel": "04-7274218#11",
-    "gps": "24.08142 120.53835"
+    "gps": "24.08142 120.53835",
+    "縣市": "彰化縣"
   },
   {
     "stationCode": "3390",
@@ -1405,7 +1532,8 @@
     "stationAddrTw": "彰化縣 員林市 和平里民權街 55 號",
     "stationAddrEn": "No. 55, Minquan St. Yuanlin City Changhua County",
     "stationTel": "04-8320544",
-    "gps": "23.95933 120.56995"
+    "gps": "23.95933 120.56995",
+    "縣市": "彰化縣"
   },
   {
     "stationCode": "3400",
@@ -1416,7 +1544,8 @@
     "stationAddrTw": "彰化縣 永靖鄉 崙子村永崙路 25 號",
     "stationAddrEn": "No. 25, Yonglun Rd. Yongjing Township  Changhua County",
     "stationTel": "04-8320544",
-    "gps": "23.92811 120.57165"
+    "gps": "23.92811 120.57165",
+    "縣市": "彰化縣"
   },
   {
     "stationCode": "3410",
@@ -1427,7 +1556,8 @@
     "stationAddrTw": "彰化縣 社頭鄉 廣興村社站路 10 號",
     "stationAddrEn": "No. 10, Shezhan Rd. Shetou Township  Changhua County",
     "stationTel": "04-8711646",
-    "gps": "23.89571 120.58082"
+    "gps": "23.89571 120.58082",
+    "縣市": "彰化縣"
   },
   {
     "stationCode": "3420",
@@ -1438,7 +1568,8 @@
     "stationAddrTw": "彰化縣 田中鎮 中路里中州路一段 1 號",
     "stationAddrEn": "No. 1, Sec. 1, Zhongzhou Rd. Tianzhong Township  Changhua County",
     "stationTel": "04-8742142",
-    "gps": "23.85827 120.59121"
+    "gps": "23.85827 120.59121",
+    "縣市": "彰化縣"
   },
   {
     "stationCode": "3430",
@@ -1449,7 +1580,8 @@
     "stationAddrTw": "彰化縣 二水鄉 光化村光文路 1 號",
     "stationAddrEn": "No. 1, Guangwen Rd. Ershui Township  Changhua County",
     "stationTel": "04-8792027",
-    "gps": "23.81321 120.61805"
+    "gps": "23.81321 120.61805",
+    "縣市": "彰化縣"
   },
   {
     "stationCode": "3431",
@@ -1460,7 +1592,8 @@
     "stationAddrTw": "彰化縣 二水鄉 合興村英義路 (無站房)",
     "stationAddrEn": "Yingyi Rd. (No Station Building) Ershui Township  Changhua County",
     "stationTel": "04-8792027",
-    "gps": "23.79846 120.64208"
+    "gps": "23.79846 120.64208",
+    "縣市": "彰化縣"
   },
   {
     "stationCode": "3432",
@@ -1471,7 +1604,8 @@
     "stationAddrTw": "南投縣 名間鄉 濁水村車站路 15 號",
     "stationAddrEn": "No. 15, Chezhan Rd. Mingjian Township  Nantou County",
     "stationTel": "049-2735850",
-    "gps": "23.83467 120.70467"
+    "gps": "23.83467 120.70467",
+    "縣市": "南投縣"
   },
   {
     "stationCode": "3270",
@@ -1482,7 +1616,8 @@
     "stationAddrTw": "臺中市 北屯區 舊社里松竹路一段1473巷100號",
     "stationAddrEn": "No. 100, Ln. 1473, Sec. 1, Songzhu Rd., Taiwan (R.O.C.) Beitun Dist.   Taichung City",
     "stationTel": "04-22473033",
-    "gps": "24.17983 120.70197"
+    "gps": "24.17983 120.70197",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "3433",
@@ -1493,7 +1628,8 @@
     "stationAddrTw": "南投縣 集集鎮 隘寮村龍泉巷 (無站房)",
     "stationAddrEn": "Longquan Ln. (No Station Building) Jiji Township  Nantou County",
     "stationTel": "04-8792027",
-    "gps": "23.83521 120.74996"
+    "gps": "23.83521 120.74996",
+    "縣市": "南投縣"
   },
   {
     "stationCode": "3434",
@@ -1504,7 +1640,8 @@
     "stationAddrTw": "南投縣 集集鎮 吳厝里民生路 75 號",
     "stationAddrEn": "No. 75, Minsheng Rd. Jiji Township  Nantou County",
     "stationTel": "049-2762546",
-    "gps": "23.82653 120.78491"
+    "gps": "23.82653 120.78491",
+    "縣市": "南投縣"
   },
   {
     "stationCode": "3435",
@@ -1515,7 +1652,8 @@
     "stationAddrTw": "南投縣 水里鄉 水里村民生路 440 號",
     "stationAddrEn": "No. 440, Minsheng Rd. Shuili Township  Nantou County",
     "stationTel": "049-2770015",
-    "gps": "23.81844 120.85333"
+    "gps": "23.81844 120.85333",
+    "縣市": "南投縣"
   },
   {
     "stationCode": "3436",
@@ -1526,7 +1664,8 @@
     "stationAddrTw": "南投縣 水里鄉 車埕村民權巷 2 號",
     "stationAddrEn": "No. 2, Minquan Ln. Shuili Township  Nantou County",
     "stationTel": "049-2774749",
-    "gps": "23.83263 120.86572"
+    "gps": "23.83263 120.86572",
+    "縣市": "南投縣"
   },
   {
     "stationCode": "3450",
@@ -1537,7 +1676,8 @@
     "stationAddrTw": "雲林縣 林內鄉 林中村中山路 42 號",
     "stationAddrEn": "No. 42, Zhongshan Rd. Linnei Township  Yunlin County",
     "stationTel": "05-5892040",
-    "gps": "23.75967 120.61499"
+    "gps": "23.75967 120.61499",
+    "縣市": "雲林縣"
   },
   {
     "stationCode": "3460",
@@ -1548,7 +1688,8 @@
     "stationAddrTw": "雲林縣 斗六市 榴北里文明路 31 號",
     "stationAddrEn": "No. 31, Wenming Rd. Douliu City  Yunlin County",
     "stationTel": "05-5332900",
-    "gps": "23.73167 120.57998"
+    "gps": "23.73167 120.57998",
+    "縣市": "雲林縣"
   },
   {
     "stationCode": "3470",
@@ -1559,7 +1700,8 @@
     "stationAddrTw": "雲林縣 斗六市 信義里民生路 187 號",
     "stationAddrEn": "No. 187, Minsheng Rd. Douliu City  Yunlin County",
     "stationTel": "05-5332900",
-    "gps": "23.71157 120.54117"
+    "gps": "23.71157 120.54117",
+    "縣市": "雲林縣"
   },
   {
     "stationCode": "3480",
@@ -1570,7 +1712,8 @@
     "stationAddrTw": "雲林縣 斗南鎮 南昌里中山路 2 號",
     "stationAddrEn": "No. 2, Zhongshan Rd. Dounan Township   Yunlin County",
     "stationTel": "05-5972039",
-    "gps": "23.67302 120.48082"
+    "gps": "23.67302 120.48082",
+    "縣市": "雲林縣"
   },
   {
     "stationCode": "3490",
@@ -1581,7 +1724,8 @@
     "stationAddrTw": "雲林縣 斗南鎮 石龜里",
     "stationAddrEn": "Shigui Vil. Dounan Township   Yunlin County",
     "stationTel": "05-5972039",
-    "gps": "23.63951 120.47106"
+    "gps": "23.63951 120.47106",
+    "縣市": "雲林縣"
   },
   {
     "stationCode": "4050",
@@ -1592,7 +1736,8 @@
     "stationAddrTw": "嘉義縣 大林鎮 吉林里中山路 2 號",
     "stationAddrEn": "No. 2, Zhongshan Rd. Dalin Township  Chiayi County",
     "stationTel": "05-2654804",
-    "gps": "23.60112 120.45585"
+    "gps": "23.60112 120.45585",
+    "縣市": "嘉義縣"
   },
   {
     "stationCode": "4060",
@@ -1603,7 +1748,8 @@
     "stationAddrTw": "嘉義縣 民雄鄉 東榮村和平路 2 號",
     "stationAddrEn": "No. 2, Heping Rd. Minxiong Township  Chiayi County",
     "stationTel": "05-2264272",
-    "gps": "23.55502 120.43136"
+    "gps": "23.55502 120.43136",
+    "縣市": "嘉義縣"
   },
   {
     "stationCode": "4070",
@@ -1614,7 +1760,8 @@
     "stationAddrTw": "嘉義市   東區後湖里保建街 110 號",
     "stationAddrEn": "No. 110, Baojian St.   Chiayi City",
     "stationTel": "05-2334584",
-    "gps": "23.49985 120.44852"
+    "gps": "23.49985 120.44852",
+    "縣市": "嘉義市"
   },
   {
     "stationCode": "4080",
@@ -1625,7 +1772,8 @@
     "stationAddrTw": "嘉義市   西區番社里中山路 528 號",
     "stationAddrEn": "No. 528, Zhongshan Rd.   Chiayi City",
     "stationTel": "05-2228904",
-    "gps": "23.47902 120.44124"
+    "gps": "23.47902 120.44124",
+    "縣市": "嘉義市"
   },
   {
     "stationCode": "4090",
@@ -1636,7 +1784,8 @@
     "stationAddrTw": "嘉義縣 水上鄉 下寮村鴿溪寮 49 號",
     "stationAddrEn": "No. 49, Gexiliao Shuishang Township  Chiayi County",
     "stationTel": "05-2228904",
-    "gps": "23.43389 120.39961"
+    "gps": "23.43389 120.39961",
+    "縣市": "嘉義縣"
   },
   {
     "stationCode": "4100",
@@ -1647,7 +1796,8 @@
     "stationAddrTw": "嘉義縣 水上鄉 三鎮村三鎮路 26 號",
     "stationAddrEn": "No. 26, Sanzhen Rd. Shuishang Township  Chiayi County",
     "stationTel": "05-2601232",
-    "gps": "23.41346 120.38647"
+    "gps": "23.41346 120.38647",
+    "縣市": "嘉義縣"
   },
   {
     "stationCode": "4110",
@@ -1658,7 +1808,8 @@
     "stationAddrTw": "臺南市 後壁區 後壁里後壁 77 號",
     "stationAddrEn": "No. 77, Houbi Houbi Dist.  Tainan City",
     "stationTel": "06-6872055",
-    "gps": "23.36626 120.36058"
+    "gps": "23.36626 120.36058",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4120",
@@ -1669,7 +1820,8 @@
     "stationAddrTw": "臺南市 新營區 中營里中山路 1 號",
     "stationAddrEn": "No. 1, Zhongshan Rd. Xinying Dist.  Tainan City",
     "stationTel": "06-6322104",
-    "gps": "23.30672 120.32304"
+    "gps": "23.30672 120.32304",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4130",
@@ -1680,7 +1832,8 @@
     "stationAddrTw": "臺南市 柳營區 東昇里建國路 1 號",
     "stationAddrEn": "No. 1, Jianguo Rd. Liuying Dist.  Tainan City",
     "stationTel": "06-6226450",
-    "gps": "23.27762 120.32252"
+    "gps": "23.27762 120.32252",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4150",
@@ -1691,7 +1844,8 @@
     "stationAddrTw": "臺南市 官田區 隆田里中山路一段 1 號",
     "stationAddrEn": "No. 1, Sec. 1, Zhongshan Rd. Guantian Dist.  Tainan City",
     "stationTel": "06-5791664",
-    "gps": "23.19271 120.31917"
+    "gps": "23.19271 120.31917",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4160",
@@ -1702,7 +1856,8 @@
     "stationAddrTw": "臺南市 官田區 拔林里拔子林 83 之 1 號",
     "stationAddrEn": "No. 83-1, Bazilin Guantian Dist.  Tainan City",
     "stationTel": "06-5791664",
-    "gps": "23.17287 120.32117"
+    "gps": "23.17287 120.32117",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4180",
@@ -1713,7 +1868,8 @@
     "stationAddrTw": "臺南市 新市區 大營里大營 287-300 號",
     "stationAddrEn": "No. 287-300, Daying Xinshi Dist.  Tainan City",
     "stationTel": "06-5896356",
-    "gps": "23.10714 120.30175"
+    "gps": "23.10714 120.30175",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4190",
@@ -1724,7 +1880,8 @@
     "stationAddrTw": "臺南市 新市區 新和里中華路 1 號",
     "stationAddrEn": "No. 1, Zhonghua Rd. Xinshi Dist.  Tainan City",
     "stationTel": "06-5996911",
-    "gps": "23.06816 120.29004"
+    "gps": "23.06816 120.29004",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4200",
@@ -1735,7 +1892,8 @@
     "stationAddrTw": "臺南市 永康區 埔園里中山路 459 號",
     "stationAddrEn": "No. 459, Zhongshan Rd. Yongkang Dist.  Tainan City",
     "stationTel": "06-2323305",
-    "gps": "23.03832 120.25354"
+    "gps": "23.03832 120.25354",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4210",
@@ -1746,7 +1904,8 @@
     "stationAddrTw": "臺南市 永康區 西橋里中華路 835 號",
     "stationAddrEn": "No. 835, Zhonghua Rd. Yongkang Dist.  Tainan City",
     "stationTel": "06-3021755",
-    "gps": "23.01951 120.22449"
+    "gps": "23.01951 120.22449",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4220",
@@ -1757,7 +1916,8 @@
     "stationAddrTw": "臺南市 東區 成大里北門路二段 4 號",
     "stationAddrEn": "No. 4, Sec. 2, Beimen Rd. East Dist.   Tainan City",
     "stationTel": "06-2261314",
-    "gps": "22.99719 120.21231"
+    "gps": "22.99719 120.21231",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4250",
@@ -1768,7 +1928,8 @@
     "stationAddrTw": "臺南市 仁德區 保安里文賢路一段 529 巷 10 號",
     "stationAddrEn": "No. 10, Ln. 529, Sec. 1, Wenxian Rd. Rende Dist.  Tainan City",
     "stationTel": "06-2665988",
-    "gps": "22.93289 120.23143"
+    "gps": "22.93289 120.23143",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4260",
@@ -1779,7 +1940,8 @@
     "stationAddrTw": "臺南市 仁德區 保安里永德路 10 號",
     "stationAddrEn": "No. 10, Yongde Rd. Rende Dist.  Tainan City",
     "stationTel": "06-2669383",
-    "gps": "22.92364 120.24061"
+    "gps": "22.92364 120.24061",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4270",
@@ -1790,7 +1952,8 @@
     "stationAddrTw": "臺南市 仁德區 中洲五街236號",
     "stationAddrEn": "No. 236, Zhongzhou 5th St. Rende Dist.  Tainan City",
     "stationTel": "06-2667191",
-    "gps": "22.90466 120.25286"
+    "gps": "22.90466 120.25286",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4272",
@@ -1801,7 +1964,8 @@
     "stationAddrTw": "臺南市 歸仁區 沙崙里歸仁大道 102 號",
     "stationAddrEn": "No. 102, Guiren Blvd. Guiren Dist.  Tainan City",
     "stationTel": "06-3032686",
-    "gps": "22.92419 120.28635"
+    "gps": "22.92419 120.28635",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "4290",
@@ -1812,7 +1976,8 @@
     "stationAddrTw": "高雄市 路竹區 甲南里天祐路 24 號",
     "stationAddrEn": "No. 24, Tianyou Rd. Luzhu Dist.  Kaohsiung City",
     "stationTel": "07-6932127",
-    "gps": "22.87821 120.25384"
+    "gps": "22.87821 120.25384",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4300",
@@ -1823,7 +1988,8 @@
     "stationAddrTw": "高雄市 路竹區 竹南里中正路 288 號",
     "stationAddrEn": "No. 288, Zhongzheng Rd. Luzhu Dist.  Kaohsiung City",
     "stationTel": "07-6072723",
-    "gps": "22.85404 120.26619"
+    "gps": "22.85404 120.26619",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4310",
@@ -1834,7 +2000,8 @@
     "stationAddrTw": "高雄市 岡山區 碧紅里岡燕路 111 號",
     "stationAddrEn": "No. 111, Gangyan Rd. Gangshan Dist.  Kaohsiung City",
     "stationTel": "07-6212074",
-    "gps": "22.79225 120.29981"
+    "gps": "22.79225 120.29981",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4320",
@@ -1845,7 +2012,8 @@
     "stationAddrTw": "高雄市 橋頭區 橋頭里站前街 14 號",
     "stationAddrEn": "No. 14, Zhanqian St. Qiaotou Dist.  Kaohsiung City",
     "stationTel": "07-6115424",
-    "gps": "22.76081 120.31017"
+    "gps": "22.76081 120.31017",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4330",
@@ -1856,7 +2024,8 @@
     "stationAddrTw": "高雄市 楠梓區 惠楠里建楠路 229 號",
     "stationAddrEn": "No. 229, Jiannan Rd. Nanzi Dist.  Kaohsiung City",
     "stationTel": "07-3510175",
-    "gps": "22.72717 120.32453"
+    "gps": "22.72717 120.32453",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4340",
@@ -1867,7 +2036,8 @@
     "stationAddrTw": "高雄市 左營區 尾北里站前北路 1 號",
     "stationAddrEn": "No. 1, Zhanqian N. Rd. Zuoying Dist.   Kaohsiung City",
     "stationTel": "07-5887825",
-    "gps": "22.68721 120.30721"
+    "gps": "22.68721 120.30721",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4350",
@@ -1878,7 +2048,8 @@
     "stationAddrTw": "高雄市 左營區 翠華路1050號地下1層",
     "stationAddrEn": "B1F., No. 1050, Cuihua Rd Zuoying Dist.   Kaohsiung City",
     "stationTel": "07-5887835",
-    "gps": "22.67441 120.29441"
+    "gps": "22.67441 120.29441",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4360",
@@ -1889,7 +2060,8 @@
     "stationAddrTw": "高雄市 鼓山區 翠華路500號地下1層",
     "stationAddrEn": "B1F., No. 500, Cuihua Rd. Gushan Dist.   Kaohsiung City",
     "stationTel": "07-5886119",
-    "gps": "22.66611 120.28691"
+    "gps": "22.66611 120.28691",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4370",
@@ -1900,7 +2072,8 @@
     "stationAddrTw": "高雄市 鼓山區 翠華路246號",
     "stationAddrEn": "No.246, Cuihua Rd. Gushan Dist.   Kaohsiung City",
     "stationTel": "07-5215147",
-    "gps": "22.65298 120.28163"
+    "gps": "22.65298 120.28163",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4380",
@@ -1911,7 +2084,8 @@
     "stationAddrTw": "高雄市 鼓山區 鐵路街20巷6號",
     "stationAddrEn": "No.6, Ln. 20, Railway St. Gushan Dist.   Kaohsiung City",
     "stationTel": "07-5217014",
-    "gps": "22.64169 120.28071"
+    "gps": "22.64169 120.28071",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4390",
@@ -1922,7 +2096,8 @@
     "stationAddrTw": "高雄市 三民區 德北里6鄰康平街1號",
     "stationAddrEn": "No.1, Kangping St. Sanmin Dist.   Kaohsiung City",
     "stationTel": "07-2856234",
-    "gps": "22.63901 120.29381"
+    "gps": "22.63901 120.29381",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4400",
@@ -1933,7 +2108,8 @@
     "stationAddrTw": "高雄市 三民區 港西里建國二路 318 號",
     "stationAddrEn": "No. 318, Jianguo 2nd Rd. Sanmin Dist.   Kaohsiung City",
     "stationTel": "07-2352376",
-    "gps": "22.63801 120.30313"
+    "gps": "22.63801 120.30313",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4410",
@@ -1944,7 +2120,8 @@
     "stationAddrTw": "高雄市 三民區 博惠里14鄰凱旋一路260號",
     "stationAddrEn": "No.260, Kaisyuan 1st Rd. Sanmin Dist.   Kaohsiung City",
     "stationTel": "07-2231492",
-    "gps": "22.63881 120.31479"
+    "gps": "22.63881 120.31479",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4430",
@@ -1955,7 +2132,8 @@
     "stationAddrTw": "高雄市 三民區 建軍里正義路 308 巷",
     "stationAddrEn": "Ln. 308, Zhengyi Rd. Sanmin Dist.   Kaohsiung City",
     "stationTel": "",
-    "gps": "22.63425 120.34245"
+    "gps": "22.63425 120.34245",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4440",
@@ -1966,7 +2144,8 @@
     "stationAddrTw": "高雄市 鳳山區 曹公里曹公路 137 號",
     "stationAddrEn": "No. 137, Caogong Rd. Fengshan Dist.  Kaohsiung City",
     "stationTel": "07-7460423",
-    "gps": "22.63131 120.35746"
+    "gps": "22.63131 120.35746",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4450",
@@ -1977,7 +2156,8 @@
     "stationAddrTw": "高雄市 大寮區 後庄里民慶街 9 號",
     "stationAddrEn": "No. 9, Minqing St. Daliao Dist.  Kaohsiung City",
     "stationTel": "07-7020149",
-    "gps": "22.64013 120.39132"
+    "gps": "22.64013 120.39132",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4460",
@@ -1988,7 +2168,8 @@
     "stationAddrTw": "高雄市 大樹區 久堂里久堂路鐵路巷 15 號",
     "stationAddrEn": "No. 15, Railway Ln., Jiutang Rd. Dashu Dist.  Kaohsiung City",
     "stationTel": "07-6512020",
-    "gps": "22.65658 120.42072"
+    "gps": "22.65658 120.42072",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "4470",
@@ -1999,7 +2180,8 @@
     "stationAddrTw": "屏東縣 屏東市 長安里光復路 392 號",
     "stationAddrEn": "No. 392, Guangfu Rd. Pingdong City  Pingtung County",
     "stationTel": "08-7515140",
-    "gps": "22.66619 120.46491"
+    "gps": "22.66619 120.46491",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5010",
@@ -2010,7 +2192,8 @@
     "stationAddrTw": "屏東縣 屏東市 歸來里歸仁路 5 之 4 號",
     "stationAddrEn": "No. 5-4, Guiren Rd. Pingdong City  Pingtung County",
     "stationTel": "08-7515140",
-    "gps": "22.65214 120.50294"
+    "gps": "22.65214 120.50294",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5020",
@@ -2021,7 +2204,8 @@
     "stationAddrTw": "屏東縣 麟洛鄉 田道村中華路站前巷 15 號",
     "stationAddrEn": "No. 15, Zhanqian Ln., Zhonghua Rd. Linluo Township  Pingtung County",
     "stationTel": "08-7515140",
-    "gps": "22.63478 120.51446"
+    "gps": "22.63478 120.51446",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5040",
@@ -2032,7 +2216,8 @@
     "stationAddrTw": "屏東縣 竹田鄉 履豐村豐明路 27 之 1 號",
     "stationAddrEn": "No. 27-1, Fengming Rd. Zhutian Township  Pingtung County",
     "stationTel": "08-7711002",
-    "gps": "22.58648 120.54009"
+    "gps": "22.58648 120.54009",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5050",
@@ -2043,7 +2228,8 @@
     "stationAddrTw": "屏東縣 潮州鎮 新榮里信義路 111 號",
     "stationAddrEn": "No. 111, Xinyi Rd. Chaozhou Township  Pingtung County",
     "stationTel": "08-7882739",
-    "gps": "22.55007 120.53662"
+    "gps": "22.55007 120.53662",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5060",
@@ -2054,7 +2240,8 @@
     "stationAddrTw": "屏東縣 崁頂鄉 崁頂村中正路 122 號",
     "stationAddrEn": "No. 122, Zhongzheng Rd. Kanding Township  Pingtung County",
     "stationTel": "08-7882739",
-    "gps": "22.51311 120.51481"
+    "gps": "22.51311 120.51481",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5070",
@@ -2065,7 +2252,8 @@
     "stationAddrTw": "屏東縣 南州鄉 仁里村仁里路 86 號",
     "stationAddrEn": "No. 86, Renli Rd. Nanzhou Township  Pingtung County",
     "stationTel": "08-8642942",
-    "gps": "22.49203 120.51159"
+    "gps": "22.49203 120.51159",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5080",
@@ -2076,7 +2264,8 @@
     "stationAddrTw": "屏東縣 林邊鄉 鎮安村永和路 4 號",
     "stationAddrEn": "No. 4, Yonghe Rd. Linbian Township  Pingtung County",
     "stationTel": "08-8642942",
-    "gps": "22.45794 120.51151"
+    "gps": "22.45794 120.51151",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5090",
@@ -2087,7 +2276,8 @@
     "stationAddrTw": "屏東縣 林邊鄉 仁和村仁愛路 33 號",
     "stationAddrEn": "No. 33, Ren’ai Rd. Linbian Township  Pingtung County",
     "stationTel": "08-8751475",
-    "gps": "22.43141 120.51538"
+    "gps": "22.43141 120.51538",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5100",
@@ -2098,7 +2288,8 @@
     "stationAddrTw": "屏東縣 佳冬鄉 六根村復興路21號",
     "stationAddrEn": "No. 21, Fuxing Rd. Jiadong Township   Pingtung County",
     "stationTel": "08-8662939",
-    "gps": "22.41416 120.54782"
+    "gps": "22.41416 120.54782",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5110",
@@ -2109,7 +2300,8 @@
     "stationAddrTw": "屏東縣 枋寮鄉 東海村西安路 92 號",
     "stationAddrEn": "No. 92, Xi’an Rd. Fangliao Township  Pingtung County",
     "stationTel": "08-8782041",
-    "gps": "22.39903 120.57252"
+    "gps": "22.39903 120.57252",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5120",
@@ -2120,7 +2312,8 @@
     "stationAddrTw": "屏東縣 枋寮鄉 枋寮村儲運路 18 號",
     "stationAddrEn": "No. 18, Chuyun Rd. Fangliao Township  Pingtung County",
     "stationTel": "08-8782041",
-    "gps": "22.36786 120.59501"
+    "gps": "22.36786 120.59501",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5130",
@@ -2131,7 +2324,8 @@
     "stationAddrTw": "屏東縣 枋山鄉 加祿村會社 53 號",
     "stationAddrEn": "No. 53, Huishe Fangshan Township  Pingtung County",
     "stationTel": "08-8720791",
-    "gps": "22.33085 120.62445"
+    "gps": "22.33085 120.62445",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5140",
@@ -2142,7 +2336,8 @@
     "stationAddrTw": "屏東縣 枋山鄉 加祿村南和 43 號",
     "stationAddrEn": "No. 43, Nanhe Fangshan Township  Pingtung County",
     "stationTel": "08-8720791",
-    "gps": "22.30615 120.64322"
+    "gps": "22.30615 120.64322",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5160",
@@ -2153,7 +2348,8 @@
     "stationAddrTw": "屏東縣 獅子鄉 內獅村內獅巷 84 號",
     "stationAddrEn": "No. 84, Neishi Ln. Shizi Township  Pingtung County",
     "stationTel": "08-8720791",
-    "gps": "22.26677 120.65968"
+    "gps": "22.26677 120.65968",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "5190",
@@ -2164,7 +2360,8 @@
     "stationAddrTw": "臺東縣 大武鄉 大鳥村和平部落 33 號",
     "stationAddrEn": "No. 33, Ku Shu Shu Dawu Township  Taitung County",
     "stationTel": "089-792056",
-    "gps": "22.36537 120.90091"
+    "gps": "22.36537 120.90091",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "5200",
@@ -2175,7 +2372,8 @@
     "stationAddrTw": "臺東縣 太麻里鄉 多良村大溪 37 號",
     "stationAddrEn": "No. 37, Daxi Taimali Township  Taitung County",
     "stationTel": "089-761482",
-    "gps": "22.46072 120.94188"
+    "gps": "22.46072 120.94188",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "5210",
@@ -2186,7 +2384,8 @@
     "stationAddrTw": "臺東縣 太麻里鄉 金崙村金崙 47 之 17 號",
     "stationAddrEn": "No. 47-17, Jinlun Taimali Township  Taitung County",
     "stationTel": "089-771068",
-    "gps": "22.53161 120.96721"
+    "gps": "22.53161 120.96721",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "5220",
@@ -2197,7 +2396,8 @@
     "stationAddrTw": "臺東縣 太麻里鄉 大王村站前路 2 號",
     "stationAddrEn": "No. 2, Zhanqian Rd. Taimali Township  Taitung County",
     "stationTel": "089-781544",
-    "gps": "22.61879 121.00505"
+    "gps": "22.61879 121.00505",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "5230",
@@ -2208,7 +2408,8 @@
     "stationAddrTw": "臺東縣 臺東市 知本里知本路二段 900 巷 85 號",
     "stationAddrEn": "No. 85, Ln. 900, Sec. 2, Zhiben Rd. Taidong City  Taitung County",
     "stationTel": "089-514482",
-    "gps": "22.71008 121.06128"
+    "gps": "22.71008 121.06128",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "5240",
@@ -2219,7 +2420,8 @@
     "stationAddrTw": "臺東縣 臺東市 康樂里博物館路 51 巷 131 號",
     "stationAddrEn": "No. 131, Ln. 51, Museum Rd. Taidong City  Taitung County",
     "stationTel": "089-383107",
-    "gps": "22.76406 121.09338"
+    "gps": "22.76406 121.09338",
+    "縣市": "臺東縣"
   },
   {
     "stationCode": "7330",
@@ -2230,7 +2432,8 @@
     "stationAddrTw": "新北市 瑞芳區 碩仁里魚寮路 1 號",
     "stationAddrEn": "No. 1, Yuliao Rd. Ruifang Dist.  New Taipei City",
     "stationTel": "02-24977896",
-    "gps": "25.06555 121.82259"
+    "gps": "25.06555 121.82259",
+    "縣市": "新北市"
   },
   {
     "stationCode": "7331",
@@ -2241,7 +2444,8 @@
     "stationAddrTw": "新北市 平溪區 南山里六分 12 之 1 號",
     "stationAddrEn": "No. 12-1, Liufen Pingxi Dist.  New Taipei City",
     "stationTel": "02-24972033",
-    "gps": "25.04993 121.79751"
+    "gps": "25.04993 121.79751",
+    "縣市": "新北市"
   },
   {
     "stationCode": "7332",
@@ -2252,7 +2456,8 @@
     "stationAddrTw": "新北市 平溪區 十分里十分街 51 號",
     "stationAddrEn": "No. 51, Shifen St. Pingxi Dist.  New Taipei City",
     "stationTel": "02-24958307",
-    "gps": "25.04111 121.77514"
+    "gps": "25.04111 121.77514",
+    "縣市": "新北市"
   },
   {
     "stationCode": "7333",
@@ -2263,7 +2468,8 @@
     "stationAddrTw": "新北市 平溪區 望古里 (無站房)",
     "stationAddrEn": "Wanggu Vil. (No Station Building) Pingxi Dist.  New Taipei City",
     "stationTel": "02-24972033",
-    "gps": "25.03445 121.76349"
+    "gps": "25.03445 121.76349",
+    "縣市": "新北市"
   },
   {
     "stationCode": "7334",
@@ -2274,7 +2480,8 @@
     "stationAddrTw": "新北市 平溪區 嶺腳里嶺腳寮 22 號",
     "stationAddrEn": "No. 22, Lingjiaoliao Pingxi Dist.  New Taipei City",
     "stationTel": "02-24972033",
-    "gps": "25.03021 121.74784"
+    "gps": "25.03021 121.74784",
+    "縣市": "新北市"
   },
   {
     "stationCode": "7335",
@@ -2285,7 +2492,8 @@
     "stationAddrTw": "新北市 平溪區 平溪里中華街 12 號",
     "stationAddrEn": "No. 12, Zhonghua St. Pingxi Dist.  New Taipei City",
     "stationTel": "02-24972033",
-    "gps": "25.02552 121.73994"
+    "gps": "25.02552 121.73994",
+    "縣市": "新北市"
   },
   {
     "stationCode": "7336",
@@ -2296,7 +2504,8 @@
     "stationAddrTw": "新北市 平溪區 菁桐里菁桐街 52 號",
     "stationAddrEn": "No. 52, Jingtong St. Pingxi Dist.  New Taipei City",
     "stationTel": "02-24972033",
-    "gps": "25.02384 121.72394"
+    "gps": "25.02384 121.72394",
+    "縣市": "新北市"
   },
   {
     "stationCode": "7350",
@@ -2307,7 +2516,8 @@
     "stationAddrTw": "新北市 瑞芳區 光復里柴寮路 70 號",
     "stationAddrEn": "No. 70, Chailiao Rd. Ruifang Dist.  New Taipei City",
     "stationTel": "02-24977747",
-    "gps": "25.08697 121.82749"
+    "gps": "25.08697 121.82749",
+    "縣市": "新北市"
   },
   {
     "stationCode": "7360",
@@ -2318,7 +2528,8 @@
     "stationAddrTw": "新北市 瑞芳區 龍潭里明燈路三段 82 號",
     "stationAddrEn": "No. 82, Sec. 3, Mingdeng Rd. Ruifang Dist.  New Taipei City",
     "stationTel": "02-24972033",
-    "gps": "25.10861 121.80596"
+    "gps": "25.10861 121.80596",
+    "縣市": "新北市"
   },
   {
     "stationCode": "7361",
@@ -2329,7 +2540,8 @@
     "stationAddrTw": "基隆市 中正區 長潭里",
     "stationAddrEn": "Changtan Vil. Zhongzheng Dist.  Keelung City",
     "stationTel": "02-24972033",
-    "gps": "25.13768 121.80003"
+    "gps": "25.13768 121.80003",
+    "縣市": "基隆市"
   },
   {
     "stationCode": "7362",
@@ -2340,7 +2552,8 @@
     "stationAddrTw": "基隆市 中正區 砂子里省道臺 2 線 (與新北市瑞芳區交界處、無站房)",
     "stationAddrEn": "Provincial Highway 2 (Junction of Ruifang Dist., New Taipei City, No Station Building) Zhongzheng Dist.  Keelung City",
     "stationTel": "02-24972033",
-    "gps": "25.13534 121.80285"
+    "gps": "25.13534 121.80285",
+    "縣市": "基隆市"
   },
   {
     "stationCode": "7380",
@@ -2351,7 +2564,8 @@
     "stationAddrTw": "新北市 瑞芳區 吉慶里中央路 65 號",
     "stationAddrEn": "No. 65, Zhongyang Rd. Ruifang Dist.  New Taipei City",
     "stationTel": "02-24579346",
-    "gps": "25.10281 121.76192"
+    "gps": "25.10281 121.76192",
+    "縣市": "新北市"
   },
   {
     "stationCode": "6220",
@@ -2362,7 +2576,8 @@
     "stationAddrTw": "花蓮縣 壽豐鄉 壽豐村壽山路 1 號",
     "stationAddrEn": "No. 1, Shoushan Rd. Shoufeng Township  Hualien County",
     "stationTel": "03-8653706",
-    "gps": "23.86901 121.51064"
+    "gps": "23.86901 121.51064",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "6090",
@@ -2373,7 +2588,8 @@
     "stationAddrTw": "花蓮縣 富里鄉 新興村新興 26 號",
     "stationAddrEn": "No. 26, Xinxing Fuli Township  Hualien County",
     "stationTel": "03-8821504",
-    "gps": "23.22612 121.27844"
+    "gps": "23.22612 121.27844",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "7320",
@@ -2384,7 +2600,8 @@
     "stationAddrTw": "新北市 雙溪區 牡丹里51號",
     "stationAddrEn": "No. 159, Mudan Rd. Shuangxi Dist.  New Taipei City",
     "stationTel": "02-24932980",
-    "gps": "25.05877 121.85194"
+    "gps": "25.05877 121.85194",
+    "縣市": "新北市"
   },
   {
     "stationCode": "4271",
@@ -2395,7 +2612,8 @@
     "stationAddrTw": "臺南市 歸仁區 大潭里長大路15 號",
     "stationAddrEn": "No. 15, Changda Rd. Guiren Dist.  Tainan City",
     "stationTel": "06-2782615",
-    "gps": "22.90735 120.27274"
+    "gps": "22.90735 120.27274",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "3210",
@@ -2406,7 +2624,8 @@
     "stationAddrTw": "臺中市 后里區 泰安里安眉路 37 之 12 號",
     "stationAddrEn": "No. 37-12, Anmei Rd. Houli Dist.  Taichung City",
     "stationTel": "04-25586540",
-    "gps": "24.33146 120.74181"
+    "gps": "24.33146 120.74181",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "4420",
@@ -2417,7 +2636,8 @@
     "stationAddrTw": "高雄市 三民區 寶盛里15鄰大順三路307號",
     "stationAddrEn": "No. 307, Dashun 3rd Rd. Sanmin Dist.   Kaohsiung City",
     "stationTel": "07-2234778",
-    "gps": "22.63702 120.32663"
+    "gps": "22.63702 120.32663",
+    "縣市": "高雄市"
   },
   {
     "stationCode": "7120",
@@ -2428,7 +2648,8 @@
     "stationAddrTw": "宜蘭縣 蘇澳鎮 蘇南里太平路 1 號",
     "stationAddrEn": "No. 1, Taiping Rd. Su’ao Township  Yilan County",
     "stationTel": "03-9962028",
-    "gps": "24.59521 121.85144"
+    "gps": "24.59521 121.85144",
+    "縣市": "宜蘭縣"
   },
   {
     "stationCode": "6150",
@@ -2439,7 +2660,8 @@
     "stationAddrTw": "花蓮縣 光復鄉 大富村明德路 1 號",
     "stationAddrEn": "No. 1, Mingde Rd. Guangfu Township   Hualien County",
     "stationTel": "03-8811824",
-    "gps": "23.60572 121.38969"
+    "gps": "23.60572 121.38969",
+    "縣市": "花蓮縣"
   },
   {
     "stationCode": "5000",
@@ -2450,7 +2672,8 @@
     "stationAddrTw": "屏東縣 屏東市 擇仁里公勇路 62 號",
     "stationAddrEn": "No. 62, Gongyong Rd. Pingdong City  Pingtung County",
     "stationTel": "08-7515140",
-    "gps": "22.66961 120.48627"
+    "gps": "22.66961 120.48627",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "3140",
@@ -2461,7 +2684,8 @@
     "stationAddrTw": "苗栗縣 造橋鄉 造橋村平仁路 54 號",
     "stationAddrEn": "No. 54, Pingren Rd. Zaoqiao Township  Miaoli County",
     "stationTel": "037-472030",
-    "gps": "24.64206 120.86719"
+    "gps": "24.64206 120.86719",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "1060",
@@ -2472,7 +2696,8 @@
     "stationAddrTw": "新北市 樹林區 中山里山佳街 28 號",
     "stationAddrEn": "No. 28, Shanjia St. Shulin Dist.  New Taipei City",
     "stationTel": "02-26808874",
-    "gps": "24.97233 121.39273"
+    "gps": "24.97233 121.39273",
+    "縣市": "新北市"
   },
   {
     "stationCode": "1205",
@@ -2483,7 +2708,8 @@
     "stationAddrTw": "新竹縣 橫山鄉 大肚村中豐路二段 286 巷 29 號",
     "stationAddrEn": "No. 29, Ln. 286, Sec. 2, Zhongfeng Rd. Hengshan Township  Hsinchu County",
     "stationTel": "03-5962042",
-    "gps": "24.72068 121.13621"
+    "gps": "24.72068 121.13621",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "5030",
@@ -2494,7 +2720,8 @@
     "stationAddrTw": "屏東縣 竹田鄉 西勢村西豐路 2 號",
     "stationAddrEn": "No. 2, Xifeng Rd. Zhutian Township  Pingtung County",
     "stationTel": "08-7784521",
-    "gps": "22.61661 120.52677"
+    "gps": "22.61661 120.52677",
+    "縣市": "屏東縣"
   },
   {
     "stationCode": "3280",
@@ -2505,7 +2732,8 @@
     "stationAddrTw": "臺中市 北屯區 北興里東光路 665 號",
     "stationAddrEn": "No. 665, Dongguang Rd. Beitun Dist.   Taichung City",
     "stationTel": "04-22313926",
-    "gps": "24.16413 120.69981"
+    "gps": "24.16413 120.69981",
+    "縣市": "臺中市"
   },
   {
     "stationCode": "4170",
@@ -2516,7 +2744,8 @@
     "stationAddrTw": "臺南市 善化區 光文里中山路 1 號",
     "stationAddrEn": "No. 1, Zhongshan Rd. Shanhua Dist.  Tainan City",
     "stationTel": "06-5837301",
-    "gps": "23.13333 120.30653"
+    "gps": "23.13333 120.30653",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "3370",
@@ -2527,7 +2756,8 @@
     "stationAddrTw": "彰化縣 花壇鄉 花壇村中正路 370 號",
     "stationAddrEn": "No. 370, Zhongzheng Rd. Huatan Township  Changhua County",
     "stationTel": "04-7881418",
-    "gps": "24.02501 120.53738"
+    "gps": "24.02501 120.53738",
+    "縣市": "彰化縣"
   },
   {
     "stationCode": "2170",
@@ -2538,7 +2768,8 @@
     "stationAddrTw": "苗栗縣 通霄鎮 通西里中山路 109 號",
     "stationAddrEn": "No. 109, Zhongshan Rd. Tongxiao Township  Miaoli County",
     "stationTel": "037-758300",
-    "gps": "24.49141 120.67843"
+    "gps": "24.49141 120.67843",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "1240",
@@ -2549,7 +2780,8 @@
     "stationAddrTw": "苗栗縣 竹南鎮 崎頂里北戶 55 號",
     "stationAddrEn": "No. 55, Beihu Zhunan Township  Miaoli County",
     "stationTel": "037-472030",
-    "gps": "24.72281 120.87213"
+    "gps": "24.72281 120.87213",
+    "縣市": "苗栗縣"
   },
   {
     "stationCode": "3380",
@@ -2560,7 +2792,8 @@
     "stationAddrTw": "彰化縣 大村鄉 過溝村福進路 100 號",
     "stationAddrEn": "No. 100, Fujin Rd. Dacun Township  Changhua County",
     "stationTel": "04-8525148",
-    "gps": "23.99003 120.56068"
+    "gps": "23.99003 120.56068",
+    "縣市": "彰化縣"
   },
   {
     "stationCode": "1192",
@@ -2571,7 +2804,8 @@
     "stationAddrTw": "新竹市   東區新莊里關東路 310 號",
     "stationAddrEn": "No. 310, Guandong Rd.   Hsinchu City",
     "stationTel": "03-5237441",
-    "gps": "24.78819 121.02182"
+    "gps": "24.78819 121.02182",
+    "縣市": "新竹市"
   },
   {
     "stationCode": "0940",
@@ -2582,7 +2816,8 @@
     "stationAddrTw": "基隆市 七堵區 堵南里明德三路 1 之 1 號",
     "stationAddrEn": "No. 1-1, Mingde 3rd Rd. Qidu Dist.  Keelung City",
     "stationTel": "02-24528372",
-    "gps": "25.07803 121.69373"
+    "gps": "25.07803 121.69373",
+    "縣市": "基隆市"
   },
   {
     "stationCode": "1194",
@@ -2593,7 +2828,8 @@
     "stationAddrTw": "新竹縣 竹北市 隘口里復興三路二段 229 號",
     "stationAddrEn": "No. 229, Sec. 2, Fuxing 3rd Rd. Zhubei City  Hsinchu County",
     "stationTel": "03-5962042",
-    "gps": "24.80751 121.03921"
+    "gps": "24.80751 121.03921",
+    "縣市": "新竹縣"
   },
   {
     "stationCode": "4140",
@@ -2604,7 +2840,8 @@
     "stationAddrTw": "臺南市 六甲區 中社里林鳳營 16 號",
     "stationAddrEn": "No. 16, Linfengying Liujia Dist.  Tainan City",
     "stationTel": "06-6986086",
-    "gps": "23.24259 120.32107"
+    "gps": "23.24259 120.32107",
+    "縣市": "臺南市"
   },
   {
     "stationCode": "0900",
@@ -2615,7 +2852,8 @@
     "stationAddrTw": "基隆市 中山區 民治里1鄰中山一路16之 1號",
     "stationAddrEn": "No. 16-1, Zhongshan 1st Rd Zhongshan Dist.  Keelung City",
     "stationTel": "02-24263743",
-    "gps": "25.13401 121.74013"
+    "gps": "25.13401 121.74013",
+    "縣市": "基隆市"
   },
   {
     "stationCode": "7150",
@@ -2626,6 +2864,7 @@
     "stationAddrTw": "宜蘭縣 冬山鄉 冬山村中正路 1 號",
     "stationAddrEn": "No. 1, Zhongzheng Rd. Dongshan Township  Yilan County",
     "stationTel": "03-9594221",
-    "gps": "24.63627 121.79212"
+    "gps": "24.63627 121.79212",
+    "縣市": "宜蘭縣"
   }
 ]
