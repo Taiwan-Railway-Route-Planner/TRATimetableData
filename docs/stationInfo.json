@@ -29,6 +29,84 @@
       "code": 7
     }
   ],
+  "counties": [
+    {
+      "縣市": "基隆市",
+      "eng縣市": "Keelung City"
+    },
+    {
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
+    },
+    {
+      "縣市": "臺北市",
+      "eng縣市": "Taipei City"
+    },
+    {
+      "縣市": "桃園市",
+      "eng縣市": "Taoyuan City"
+    },
+    {
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
+    },
+    {
+      "縣市": "新竹市",
+      "eng縣市": "Hsinchu City"
+    },
+    {
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
+    },
+    {
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
+    },
+    {
+      "縣市": "彰化縣",
+      "eng縣市": "Changhua County"
+    },
+    {
+      "縣市": "雲林縣",
+      "eng縣市": "Yunlin County"
+    },
+    {
+      "縣市": "嘉義縣",
+      "eng縣市": "Chiayi County"
+    },
+    {
+      "縣市": "嘉義市",
+      "eng縣市": "Chiayi City"
+    },
+    {
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
+    },
+    {
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
+    },
+    {
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
+    },
+    {
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
+    },
+    {
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
+    },
+    {
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
+    },
+    {
+      "縣市": "南投縣",
+      "eng縣市": "Nantou County"
+    }
+  ],
   "stations": [
     {
       "時刻表編號": 1001,
