@@ -14,7 +14,7 @@ function exportNewData(fileName, newData) {
     })
 }
 
-alternateDataSoWeHaveCounties();
+// alternateDataSoWeHaveCounties();
 
 function alternateDataSoWeHaveCounties() {
 
@@ -30,5 +30,38 @@ function alternateDataSoWeHaveCounties() {
             return el;
         });
         exportNewData('車站基本資料集.json', data);
+    });
+}
+
+updateStationInfoWithCounty();
+
+function updateStationInfoWithCounty() {
+
+    async function getStationInfoInDocsDir() {
+        return await readFile('./docs/stationInfo.json');
+    }
+
+    async function getStationInformation() {
+        return await readFile('車站基本資料集.json');
+    }
+
+    getStationInfoInDocsDir().then(stationData => {
+        getStationInformation().then(stationInformation => {
+            stationData = JSON.parse(stationData);
+            stationInformation = JSON.parse(stationInformation);
+            stationData.stations = stationData.stations.map(function (el) {
+                let index = stationInformation.findIndex(function (traEl) {
+                    return traEl.stationCode === el.traWebsiteCode
+                });
+                if (index !== -1) {
+                    el.縣市 = stationInformation[index].縣市;
+                    el.eng縣市 = stationInformation[index].eng縣市;
+                } else {
+                    console.log(el.traWebsiteCode);
+                }
+                return el;
+            });
+            exportNewData('./docs/stationInfo.json', stationData);
+        });
     });
 }
