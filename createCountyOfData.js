@@ -14,8 +14,6 @@ function exportNewData(fileName, newData) {
     })
 }
 
-// alternateDataSoWeHaveCounties();
-
 function alternateDataSoWeHaveCounties() {
 
     async function getStuff() {
@@ -32,8 +30,6 @@ function alternateDataSoWeHaveCounties() {
         exportNewData('車站基本資料集.json', data);
     });
 }
-
-updateStationInfoWithCounty();
 
 function updateStationInfoWithCounty() {
 
@@ -65,3 +61,6 @@ function updateStationInfoWithCounty() {
         });
     });
 }
+
+// alternateDataSoWeHaveCounties();
+// updateStationInfoWithCounty();
