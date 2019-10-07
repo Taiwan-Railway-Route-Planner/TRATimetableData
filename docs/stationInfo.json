@@ -42,7 +42,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 125
+      "stops": 125,
+      "縣市": "基隆市",
+      "eng縣市": "Keelung City"
     },
     {
       "時刻表編號": 1029,
@@ -56,7 +58,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 111
+      "stops": 111,
+      "縣市": "基隆市",
+      "eng縣市": "Keelung City"
     },
     {
       "時刻表編號": 1002,
@@ -70,7 +74,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 220
+      "stops": 220,
+      "縣市": "基隆市",
+      "eng縣市": "Keelung City"
     },
     {
       "時刻表編號": 1003,
@@ -84,7 +90,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 257
+      "stops": 257,
+      "縣市": "基隆市",
+      "eng縣市": "Keelung City"
     },
     {
       "時刻表編號": 1030,
@@ -98,7 +106,9 @@
         "status": false,
         "value": null
       },
-      "stops": 163
+      "stops": 163,
+      "縣市": "基隆市",
+      "eng縣市": "Keelung City"
     },
     {
       "時刻表編號": 1004,
@@ -112,7 +122,9 @@
         "status": false,
         "value": null
       },
-      "stops": 163
+      "stops": 163,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1005,
@@ -126,7 +138,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 225
+      "stops": 225,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1031,
@@ -140,7 +154,9 @@
         "status": false,
         "value": null
       },
-      "stops": 164
+      "stops": 164,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1006,
@@ -154,7 +170,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 221
+      "stops": 221,
+      "縣市": "臺北市",
+      "eng縣市": "Taipei City"
     },
     {
       "時刻表編號": 1007,
@@ -168,7 +186,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 301
+      "stops": 301,
+      "縣市": "臺北市",
+      "eng縣市": "Taipei City"
     },
     {
       "時刻表編號": 1008,
@@ -182,7 +202,9 @@
         "status": true,
         "value": 0
       },
-      "stops": 310
+      "stops": 310,
+      "縣市": "臺北市",
+      "eng縣市": "Taipei City"
     },
     {
       "時刻表編號": 1009,
@@ -196,7 +218,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 169
+      "stops": 169,
+      "縣市": "臺北市",
+      "eng縣市": "Taipei City"
     },
     {
       "時刻表編號": 1011,
@@ -210,7 +234,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 307
+      "stops": 307,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1032,
@@ -224,7 +250,9 @@
         "status": false,
         "value": null
       },
-      "stops": 164
+      "stops": 164,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1012,
@@ -238,7 +266,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 262
+      "stops": 262,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1034,
@@ -252,7 +282,9 @@
         "status": false,
         "value": null
       },
-      "stops": 126
+      "stops": 126,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1013,
@@ -266,7 +298,9 @@
         "status": false,
         "value": null
       },
-      "stops": 126
+      "stops": 126,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1014,
@@ -280,7 +314,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 144
+      "stops": 144,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1015,
@@ -294,7 +330,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 194
+      "stops": 194,
+      "縣市": "桃園市",
+      "eng縣市": "Taoyuan City"
     },
     {
       "時刻表編號": 1016,
@@ -308,7 +346,9 @@
         "status": false,
         "value": null
       },
-      "stops": 131
+      "stops": 131,
+      "縣市": "桃園市",
+      "eng縣市": "Taoyuan City"
     },
     {
       "時刻表編號": 1017,
@@ -322,7 +362,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 189
+      "stops": 189,
+      "縣市": "桃園市",
+      "eng縣市": "Taoyuan City"
     },
     {
       "時刻表編號": 1018,
@@ -336,7 +378,9 @@
         "status": false,
         "value": null
       },
-      "stops": 127
+      "stops": 127,
+      "縣市": "桃園市",
+      "eng縣市": "Taoyuan City"
     },
     {
       "時刻表編號": 1019,
@@ -350,7 +394,9 @@
         "status": false,
         "value": null
       },
-      "stops": 138
+      "stops": 138,
+      "縣市": "桃園市",
+      "eng縣市": "Taoyuan City"
     },
     {
       "時刻表編號": 1020,
@@ -364,7 +410,9 @@
         "status": false,
         "value": null
       },
-      "stops": 120
+      "stops": 120,
+      "縣市": "桃園市",
+      "eng縣市": "Taoyuan City"
     },
     {
       "時刻表編號": 1033,
@@ -378,7 +426,9 @@
         "status": false,
         "value": null
       },
-      "stops": 133
+      "stops": 133,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 1021,
@@ -392,7 +442,9 @@
         "status": false,
         "value": null
       },
-      "stops": 134
+      "stops": 134,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 1022,
@@ -406,7 +458,9 @@
         "status": false,
         "value": null
       },
-      "stops": 118
+      "stops": 118,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 1023,
@@ -420,7 +474,9 @@
         "status": false,
         "value": null
       },
-      "stops": 127
+      "stops": 127,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 1024,
@@ -435,7 +491,9 @@
         "status": false,
         "value": null
       },
-      "stops": 200
+      "stops": 200,
+      "縣市": "新竹市",
+      "eng縣市": "Hsinchu City"
     },
     {
       "時刻表編號": 1025,
@@ -450,7 +508,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 295
+      "stops": 295,
+      "縣市": "新竹市",
+      "eng縣市": "Hsinchu City"
     },
     {
       "時刻表編號": 1035,
@@ -464,7 +524,9 @@
         "status": false,
         "value": null
       },
-      "stops": 106
+      "stops": 106,
+      "縣市": "新竹市",
+      "eng縣市": "Hsinchu City"
     },
     {
       "時刻表編號": 1026,
@@ -478,7 +540,9 @@
         "status": false,
         "value": null
       },
-      "stops": 106
+      "stops": 106,
+      "縣市": "新竹市",
+      "eng縣市": "Hsinchu City"
     },
     {
       "時刻表編號": 1027,
@@ -492,7 +556,9 @@
         "status": false,
         "value": null
       },
-      "stops": 106
+      "stops": 106,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1028,
@@ -507,7 +573,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 171
+      "stops": 171,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1302,
@@ -521,7 +589,9 @@
         "status": false,
         "value": null
       },
-      "stops": 78
+      "stops": 78,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1304,
@@ -535,7 +605,9 @@
         "status": false,
         "value": null
       },
-      "stops": 78
+      "stops": 78,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1305,
@@ -549,7 +621,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 121
+      "stops": 121,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1307,
@@ -563,7 +637,9 @@
         "status": false,
         "value": null
       },
-      "stops": 46
+      "stops": 46,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1308,
@@ -577,7 +653,9 @@
         "status": false,
         "value": null
       },
-      "stops": 50
+      "stops": 50,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1310,
@@ -591,7 +669,9 @@
         "status": false,
         "value": null
       },
-      "stops": 50
+      "stops": 50,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1314,
@@ -605,7 +685,9 @@
         "status": false,
         "value": null
       },
-      "stops": 46
+      "stops": 46,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1315,
@@ -619,7 +701,9 @@
         "status": false,
         "value": null
       },
-      "stops": 85
+      "stops": 85,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1317,
@@ -633,7 +717,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 143
+      "stops": 143,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1318,
@@ -647,7 +733,9 @@
         "status": false,
         "value": null
       },
-      "stops": 103
+      "stops": 103,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1323,
@@ -661,7 +749,9 @@
         "status": false,
         "value": null
       },
-      "stops": 100
+      "stops": 100,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1319,
@@ -675,7 +765,9 @@
         "status": true,
         "value": 0
       },
-      "stops": 163
+      "stops": 163,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1322,
@@ -689,7 +781,9 @@
         "status": false,
         "value": null
       },
-      "stops": 113
+      "stops": 113,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1320,
@@ -703,7 +797,9 @@
         "status": false,
         "value": null
       },
-      "stops": 107
+      "stops": 107,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1324,
@@ -717,7 +813,9 @@
         "status": false,
         "value": null
       },
-      "stops": 115
+      "stops": 115,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1321,
@@ -731,7 +829,9 @@
         "status": false,
         "value": null
       },
-      "stops": 105
+      "stops": 105,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1102,
@@ -745,7 +845,9 @@
         "status": false,
         "value": null
       },
-      "stops": 38
+      "stops": 38,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1104,
@@ -759,7 +861,9 @@
         "status": false,
         "value": null
       },
-      "stops": 38
+      "stops": 38,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1105,
@@ -773,7 +877,9 @@
         "status": false,
         "value": null
       },
-      "stops": 61
+      "stops": 61,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1106,
@@ -787,7 +893,9 @@
         "status": false,
         "value": null
       },
-      "stops": 38
+      "stops": 38,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1107,
@@ -801,7 +909,9 @@
         "status": false,
         "value": null
       },
-      "stops": 44
+      "stops": 44,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1108,
@@ -815,7 +925,9 @@
         "status": false,
         "value": null
       },
-      "stops": 38
+      "stops": 38,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1109,
@@ -829,7 +941,9 @@
         "status": false,
         "value": null
       },
-      "stops": 71
+      "stops": 71,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1110,
@@ -843,7 +957,9 @@
         "status": false,
         "value": null
       },
-      "stops": 71
+      "stops": 71,
+      "縣市": "苗栗縣",
+      "eng縣市": "Miaoli County"
     },
     {
       "時刻表編號": 1111,
@@ -857,7 +973,9 @@
         "status": false,
         "value": null
       },
-      "stops": 48
+      "stops": 48,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1112,
@@ -871,7 +989,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1113,
@@ -885,7 +1005,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 58
+      "stops": 58,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1114,
@@ -899,7 +1021,9 @@
         "status": false,
         "value": null
       },
-      "stops": 81
+      "stops": 81,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1115,
@@ -913,7 +1037,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 83
+      "stops": 83,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1116,
@@ -927,7 +1053,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 59
+      "stops": 59,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1117,
@@ -941,7 +1069,9 @@
         "status": false,
         "value": null
       },
-      "stops": 63
+      "stops": 63,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1118,
@@ -955,7 +1085,9 @@
         "status": false,
         "value": null
       },
-      "stops": 59
+      "stops": 59,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1120,
@@ -969,7 +1101,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 214
+      "stops": 214,
+      "縣市": "彰化縣",
+      "eng縣市": "Changhua County"
     },
     {
       "時刻表編號": 1202,
@@ -983,7 +1117,9 @@
         "status": false,
         "value": null
       },
-      "stops": 78
+      "stops": 78,
+      "縣市": "彰化縣",
+      "eng縣市": "Changhua County"
     },
     {
       "時刻表編號": 1240,
@@ -997,7 +1133,9 @@
         "status": false,
         "value": null
       },
-      "stops": 78
+      "stops": 78,
+      "縣市": "彰化縣",
+      "eng縣市": "Changhua County"
     },
     {
       "時刻表編號": 1203,
@@ -1011,7 +1149,8 @@
         "status": true,
         "value": 1
       },
-      "stops": 148
+      "stops": 148,
+      "縣市": "彰化縣"
     },
     {
       "時刻表編號": 1204,
@@ -1025,7 +1164,9 @@
         "status": false,
         "value": null
       },
-      "stops": 77
+      "stops": 77,
+      "縣市": "彰化縣",
+      "eng縣市": "Changhua County"
     },
     {
       "時刻表編號": 1205,
@@ -1039,7 +1180,9 @@
         "status": false,
         "value": null
       },
-      "stops": 86
+      "stops": 86,
+      "縣市": "彰化縣",
+      "eng縣市": "Changhua County"
     },
     {
       "時刻表編號": 1206,
@@ -1054,7 +1197,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 124
+      "stops": 124,
+      "縣市": "彰化縣",
+      "eng縣市": "Changhua County"
     },
     {
       "時刻表編號": 1207,
@@ -1069,7 +1214,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 122
+      "stops": 122,
+      "縣市": "彰化縣",
+      "eng縣市": "Changhua County"
     },
     {
       "時刻表編號": 1208,
@@ -1083,7 +1230,9 @@
         "status": false,
         "value": null
       },
-      "stops": 82
+      "stops": 82,
+      "縣市": "雲林縣",
+      "eng縣市": "Yunlin County"
     },
     {
       "時刻表編號": 1209,
@@ -1097,7 +1246,9 @@
         "status": false,
         "value": null
       },
-      "stops": 75
+      "stops": 75,
+      "縣市": "雲林縣",
+      "eng縣市": "Yunlin County"
     },
     {
       "時刻表編號": 1210,
@@ -1111,7 +1262,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 140
+      "stops": 140,
+      "縣市": "雲林縣",
+      "eng縣市": "Yunlin County"
     },
     {
       "時刻表編號": 1211,
@@ -1125,7 +1278,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 108
+      "stops": 108,
+      "縣市": "雲林縣",
+      "eng縣市": "Yunlin County"
     },
     {
       "時刻表編號": 1212,
@@ -1139,7 +1294,9 @@
         "status": false,
         "value": null
       },
-      "stops": 77
+      "stops": 77,
+      "縣市": "雲林縣",
+      "eng縣市": "Yunlin County"
     },
     {
       "時刻表編號": 1213,
@@ -1153,7 +1310,9 @@
         "status": false,
         "value": null
       },
-      "stops": 90
+      "stops": 90,
+      "縣市": "嘉義縣",
+      "eng縣市": "Chiayi County"
     },
     {
       "時刻表編號": 1214,
@@ -1167,7 +1326,9 @@
         "status": false,
         "value": null
       },
-      "stops": 97
+      "stops": 97,
+      "縣市": "嘉義縣",
+      "eng縣市": "Chiayi County"
     },
     {
       "時刻表編號": 1241,
@@ -1181,7 +1342,9 @@
         "status": false,
         "value": null
       },
-      "stops": 82
+      "stops": 82,
+      "縣市": "嘉義市",
+      "eng縣市": "Chiayi City"
     },
     {
       "時刻表編號": 1215,
@@ -1195,7 +1358,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 175
+      "stops": 175,
+      "縣市": "嘉義市",
+      "eng縣市": "Chiayi City"
     },
     {
       "時刻表編號": 1217,
@@ -1209,7 +1374,9 @@
         "status": false,
         "value": null
       },
-      "stops": 77
+      "stops": 77,
+      "縣市": "嘉義縣",
+      "eng縣市": "Chiayi County"
     },
     {
       "時刻表編號": 1218,
@@ -1223,7 +1390,9 @@
         "status": false,
         "value": null
       },
-      "stops": 77
+      "stops": 77,
+      "縣市": "嘉義縣",
+      "eng縣市": "Chiayi County"
     },
     {
       "時刻表編號": 1219,
@@ -1237,7 +1406,9 @@
         "status": false,
         "value": null
       },
-      "stops": 77
+      "stops": 77,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1220,
@@ -1251,7 +1422,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 134
+      "stops": 134,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1221,
@@ -1265,7 +1438,9 @@
         "status": false,
         "value": null
       },
-      "stops": 75
+      "stops": 75,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1222,
@@ -1279,7 +1454,9 @@
         "status": false,
         "value": null
       },
-      "stops": 75
+      "stops": 75,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1223,
@@ -1293,7 +1470,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 86
+      "stops": 86,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1224,
@@ -1307,7 +1486,9 @@
         "status": false,
         "value": null
       },
-      "stops": 75
+      "stops": 75,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1225,
@@ -1321,7 +1502,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 121
+      "stops": 121,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1244,
@@ -1335,7 +1518,9 @@
         "status": false,
         "value": null
       },
-      "stops": 97
+      "stops": 97,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1226,
@@ -1349,7 +1534,9 @@
         "status": false,
         "value": null
       },
-      "stops": 101
+      "stops": 101,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1227,
@@ -1363,7 +1550,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 127
+      "stops": 127,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1239,
@@ -1377,7 +1566,9 @@
         "status": false,
         "value": null
       },
-      "stops": 110
+      "stops": 110,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1228,
@@ -1391,7 +1582,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 210
+      "stops": 210,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1229,
@@ -1405,7 +1598,9 @@
         "status": false,
         "value": null
       },
-      "stops": 144
+      "stops": 144,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1243,
@@ -1419,7 +1614,9 @@
         "status": false,
         "value": null
       },
-      "stops": 144
+      "stops": 144,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1230,
@@ -1434,7 +1631,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 144
+      "stops": 144,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1231,
@@ -1448,7 +1647,9 @@
         "status": false,
         "value": null
       },
-      "stops": 76
+      "stops": 76,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1232,
@@ -1462,7 +1663,9 @@
         "status": false,
         "value": null
       },
-      "stops": 76
+      "stops": 76,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1233,
@@ -1476,7 +1679,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 103
+      "stops": 103,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1234,
@@ -1490,7 +1695,9 @@
         "status": false,
         "value": null
       },
-      "stops": 74
+      "stops": 74,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1235,
@@ -1504,7 +1711,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 86
+      "stops": 86,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1242,
@@ -1518,7 +1727,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 185
+      "stops": 185,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1236,
@@ -1532,7 +1743,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1238,
@@ -1546,7 +1759,9 @@
         "status": true,
         "value": 0
       },
-      "stops": 186
+      "stops": 186,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1402,
@@ -1560,7 +1775,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 179
+      "stops": 179,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1403,
@@ -1574,7 +1791,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1404,
@@ -1588,7 +1807,9 @@
         "status": false,
         "value": null
       },
-      "stops": 148
+      "stops": 148,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1405,
@@ -1602,7 +1823,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1406,
@@ -1616,7 +1839,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 185
+      "stops": 185,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1802,
@@ -1630,7 +1855,9 @@
         "status": false,
         "value": null
       },
-      "stops": 74
+      "stops": 74,
+      "縣市": "基隆市",
+      "eng縣市": "Keelung City"
     },
     {
       "時刻表編號": 1803,
@@ -1644,7 +1871,9 @@
         "status": false,
         "value": null
       },
-      "stops": 77
+      "stops": 77,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1804,
@@ -1658,7 +1887,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 131
+      "stops": 131,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1805,
@@ -1672,7 +1903,9 @@
         "status": false,
         "value": null
       },
-      "stops": 86
+      "stops": 86,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1806,
@@ -1687,7 +1920,9 @@
         "status": false,
         "value": null
       },
-      "stops": 79
+      "stops": 79,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1807,
@@ -1701,7 +1936,9 @@
         "status": false,
         "value": null
       },
-      "stops": 46
+      "stops": 46,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1808,
@@ -1715,7 +1952,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 67
+      "stops": 67,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1809,
@@ -1729,7 +1968,9 @@
         "status": false,
         "value": null
       },
-      "stops": 52
+      "stops": 52,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1810,
@@ -1743,7 +1984,9 @@
         "status": false,
         "value": null
       },
-      "stops": 69
+      "stops": 69,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1811,
@@ -1757,7 +2000,9 @@
         "status": false,
         "value": null
       },
-      "stops": 40
+      "stops": 40,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1812,
@@ -1771,7 +2016,9 @@
         "status": false,
         "value": null
       },
-      "stops": 40
+      "stops": 40,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1813,
@@ -1785,7 +2032,9 @@
         "status": false,
         "value": null
       },
-      "stops": 40
+      "stops": 40,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1814,
@@ -1799,7 +2048,9 @@
         "status": false,
         "value": null
       },
-      "stops": 40
+      "stops": 40,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1815,
@@ -1813,7 +2064,9 @@
         "status": false,
         "value": null
       },
-      "stops": 40
+      "stops": 40,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1816,
@@ -1827,7 +2080,9 @@
         "status": false,
         "value": null
       },
-      "stops": 81
+      "stops": 81,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1817,
@@ -1841,7 +2096,9 @@
         "status": false,
         "value": null
       },
-      "stops": 51
+      "stops": 51,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1818,
@@ -1855,7 +2112,9 @@
         "status": false,
         "value": null
       },
-      "stops": 86
+      "stops": 86,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1819,
@@ -1869,7 +2128,9 @@
         "status": false,
         "value": null
       },
-      "stops": 51
+      "stops": 51,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1820,
@@ -1883,7 +2144,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 145
+      "stops": 145,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1821,
@@ -1897,7 +2160,9 @@
         "status": false,
         "value": null
       },
-      "stops": 60
+      "stops": 60,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1822,
@@ -1911,7 +2176,9 @@
         "status": false,
         "value": null
       },
-      "stops": 60
+      "stops": 60,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1823,
@@ -1925,7 +2192,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 138
+      "stops": 138,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1824,
@@ -1939,7 +2208,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 68
+      "stops": 68,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1825,
@@ -1953,7 +2224,9 @@
         "status": false,
         "value": null
       },
-      "stops": 59
+      "stops": 59,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1826,
@@ -1967,7 +2240,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 92
+      "stops": 92,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1827,
@@ -1981,7 +2256,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 41
+      "stops": 41,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1703,
@@ -1995,7 +2272,9 @@
         "status": false,
         "value": null
       },
-      "stops": 20
+      "stops": 20,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1704,
@@ -2009,7 +2288,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 32
+      "stops": 32,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1705,
@@ -2023,7 +2304,9 @@
         "status": false,
         "value": null
       },
-      "stops": 46
+      "stops": 46,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1706,
@@ -2037,7 +2320,9 @@
         "status": false,
         "value": null
       },
-      "stops": 16
+      "stops": 16,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1708,
@@ -2051,7 +2336,9 @@
         "status": false,
         "value": null
       },
-      "stops": 16
+      "stops": 16,
+      "縣市": "宜蘭縣",
+      "eng縣市": "Yilan County"
     },
     {
       "時刻表編號": 1709,
@@ -2065,7 +2352,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 34
+      "stops": 34,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1710,
@@ -2079,7 +2368,9 @@
         "status": false,
         "value": null
       },
-      "stops": 22
+      "stops": 22,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1711,
@@ -2093,7 +2384,9 @@
         "status": false,
         "value": null
       },
-      "stops": 20
+      "stops": 20,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1712,
@@ -2107,7 +2400,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 52
+      "stops": 52,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1713,
@@ -2121,7 +2416,9 @@
         "status": false,
         "value": null
       },
-      "stops": 19
+      "stops": 19,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1714,
@@ -2135,7 +2432,9 @@
         "status": false,
         "value": null
       },
-      "stops": 25
+      "stops": 25,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1715,
@@ -2149,7 +2448,9 @@
         "status": true,
         "value": 0
       },
-      "stops": 131
+      "stops": 131,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1602,
@@ -2163,7 +2464,9 @@
         "status": false,
         "value": null
       },
-      "stops": 40
+      "stops": 40,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1604,
@@ -2177,7 +2480,9 @@
         "status": false,
         "value": null
       },
-      "stops": 34
+      "stops": 34,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1605,
@@ -2191,7 +2496,9 @@
         "status": false,
         "value": null
       },
-      "stops": 13
+      "stops": 13,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1606,
@@ -2205,7 +2512,9 @@
         "status": false,
         "value": null
       },
-      "stops": 40
+      "stops": 40,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1607,
@@ -2219,7 +2528,9 @@
         "status": false,
         "value": null
       },
-      "stops": 17
+      "stops": 17,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1609,
@@ -2233,7 +2544,9 @@
         "status": false,
         "value": null
       },
-      "stops": 13
+      "stops": 13,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1610,
@@ -2247,7 +2560,9 @@
         "status": false,
         "value": null
       },
-      "stops": 40
+      "stops": 40,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1611,
@@ -2261,7 +2576,9 @@
         "status": false,
         "value": null
       },
-      "stops": 16
+      "stops": 16,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1612,
@@ -2275,7 +2592,9 @@
         "status": false,
         "value": null
       },
-      "stops": 39
+      "stops": 39,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1613,
@@ -2289,7 +2608,9 @@
         "status": false,
         "value": null
       },
-      "stops": 12
+      "stops": 12,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1614,
@@ -2303,7 +2624,9 @@
         "status": false,
         "value": null
       },
-      "stops": 18
+      "stops": 18,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1616,
@@ -2317,7 +2640,9 @@
         "status": false,
         "value": null
       },
-      "stops": 47
+      "stops": 47,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1617,
@@ -2331,7 +2656,9 @@
         "status": false,
         "value": null
       },
-      "stops": 12
+      "stops": 12,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1619,
@@ -2345,7 +2672,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 60
+      "stops": 60,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1621,
@@ -2359,7 +2688,9 @@
         "status": false,
         "value": null
       },
-      "stops": 15
+      "stops": 15,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1622,
@@ -2373,7 +2704,9 @@
         "status": false,
         "value": null
       },
-      "stops": 15
+      "stops": 15,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1623,
@@ -2387,7 +2720,9 @@
         "status": false,
         "value": null
       },
-      "stops": 33
+      "stops": 33,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     },
     {
       "時刻表編號": 1624,
@@ -2401,7 +2736,9 @@
         "status": false,
         "value": null
       },
-      "stops": 44
+      "stops": 44,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1625,
@@ -2415,7 +2752,9 @@
         "status": false,
         "value": null
       },
-      "stops": 13
+      "stops": 13,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1626,
@@ -2429,7 +2768,9 @@
         "status": false,
         "value": null
       },
-      "stops": 50
+      "stops": 50,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1628,
@@ -2443,7 +2784,9 @@
         "status": false,
         "value": null
       },
-      "stops": 15
+      "stops": 15,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1629,
@@ -2457,7 +2800,9 @@
         "status": false,
         "value": null
       },
-      "stops": 19
+      "stops": 19,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1630,
@@ -2471,7 +2816,9 @@
         "status": false,
         "value": null
       },
-      "stops": 38
+      "stops": 38,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1631,
@@ -2485,7 +2832,9 @@
         "status": false,
         "value": null
       },
-      "stops": 15
+      "stops": 15,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1632,
@@ -2499,7 +2848,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 80
+      "stops": 80,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1407,
@@ -2513,7 +2864,9 @@
         "status": false,
         "value": null
       },
-      "stops": 79
+      "stops": 79,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1408,
@@ -2527,7 +2880,9 @@
         "status": false,
         "value": null
       },
-      "stops": 79
+      "stops": 79,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1409,
@@ -2541,7 +2896,9 @@
         "status": false,
         "value": null
       },
-      "stops": 82
+      "stops": 82,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1410,
@@ -2555,7 +2912,9 @@
         "status": false,
         "value": null
       },
-      "stops": 79
+      "stops": 79,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1411,
@@ -2569,7 +2928,9 @@
         "status": true,
         "value": 1
       },
-      "stops": 171
+      "stops": 171,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1412,
@@ -2583,7 +2944,9 @@
         "status": false,
         "value": null
       },
-      "stops": 30
+      "stops": 30,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1413,
@@ -2597,7 +2960,9 @@
         "status": false,
         "value": null
       },
-      "stops": 48
+      "stops": 48,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1414,
@@ -2611,7 +2976,9 @@
         "status": false,
         "value": null
       },
-      "stops": 30
+      "stops": 30,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1415,
@@ -2625,7 +2992,9 @@
         "status": false,
         "value": null
       },
-      "stops": 48
+      "stops": 48,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1416,
@@ -2639,7 +3008,9 @@
         "status": false,
         "value": null
       },
-      "stops": 30
+      "stops": 30,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1417,
@@ -2653,7 +3024,9 @@
         "status": false,
         "value": null
       },
-      "stops": 30
+      "stops": 30,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1418,
@@ -2667,7 +3040,9 @@
         "status": false,
         "value": null
       },
-      "stops": 61
+      "stops": 61,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1502,
@@ -2681,7 +3056,9 @@
         "status": false,
         "value": null
       },
-      "stops": 4
+      "stops": 4,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1503,
@@ -2695,7 +3072,9 @@
         "status": false,
         "value": null
       },
-      "stops": 4
+      "stops": 4,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1504,
@@ -2709,7 +3088,9 @@
         "status": false,
         "value": null
       },
-      "stops": 4
+      "stops": 4,
+      "縣市": "屏東縣",
+      "eng縣市": "Pingtung County"
     },
     {
       "時刻表編號": 1508,
@@ -2723,7 +3104,9 @@
         "status": false,
         "value": null
       },
-      "stops": 29
+      "stops": 29,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1510,
@@ -2737,7 +3120,9 @@
         "status": false,
         "value": null
       },
-      "stops": 12
+      "stops": 12,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1512,
@@ -2751,7 +3136,9 @@
         "status": false,
         "value": null
       },
-      "stops": 23
+      "stops": 23,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1514,
@@ -2765,7 +3152,9 @@
         "status": false,
         "value": null
       },
-      "stops": 29
+      "stops": 29,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1516,
@@ -2779,7 +3168,9 @@
         "status": false,
         "value": null
       },
-      "stops": 40
+      "stops": 40,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 1517,
@@ -2793,7 +3184,9 @@
         "status": false,
         "value": null
       },
-      "stops": 11
+      "stops": 11,
+      "縣市": "臺東縣",
+      "eng縣市": "Taitung County"
     },
     {
       "時刻表編號": 2003,
@@ -2807,7 +3200,9 @@
         "status": false,
         "value": null
       },
-      "stops": 17
+      "stops": 17,
+      "縣市": "基隆市",
+      "eng縣市": "Keelung City"
     },
     {
       "時刻表編號": 6103,
@@ -2821,7 +3216,9 @@
         "status": false,
         "value": null
       },
-      "stops": 17
+      "stops": 17,
+      "縣市": "基隆市",
+      "eng縣市": "Keelung City"
     },
     {
       "時刻表編號": 1903,
@@ -2835,7 +3232,9 @@
         "status": false,
         "value": null
       },
-      "stops": 33
+      "stops": 33,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1904,
@@ -2849,7 +3248,9 @@
         "status": false,
         "value": null
       },
-      "stops": 33
+      "stops": 33,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1905,
@@ -2863,7 +3264,9 @@
         "status": false,
         "value": null
       },
-      "stops": 32
+      "stops": 32,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1906,
@@ -2877,7 +3280,9 @@
         "status": false,
         "value": null
       },
-      "stops": 32
+      "stops": 32,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1907,
@@ -2891,7 +3296,9 @@
         "status": false,
         "value": null
       },
-      "stops": 32
+      "stops": 32,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 1908,
@@ -2905,7 +3312,9 @@
         "status": false,
         "value": null
       },
-      "stops": 32
+      "stops": 32,
+      "縣市": "新北市",
+      "eng縣市": "New Taipei City"
     },
     {
       "時刻表編號": 2212,
@@ -2919,7 +3328,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "新竹市",
+      "eng縣市": "Hsinchu City"
     },
     {
       "時刻表編號": 2213,
@@ -2933,7 +3344,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "新竹市",
+      "eng縣市": "Hsinchu City"
     },
     {
       "時刻表編號": 2203,
@@ -2948,7 +3361,9 @@
         "status": false,
         "value": null
       },
-      "stops": 107
+      "stops": 107,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 2204,
@@ -2963,7 +3378,9 @@
         "status": false,
         "value": null
       },
-      "stops": 37
+      "stops": 37,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 2211,
@@ -2978,7 +3395,9 @@
         "status": false,
         "value": null
       },
-      "stops": 37
+      "stops": 37,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 2205,
@@ -2993,7 +3412,9 @@
         "status": true,
         "value": 2
       },
-      "stops": 37
+      "stops": 37,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 2206,
@@ -3008,7 +3429,9 @@
         "status": false,
         "value": null
       },
-      "stops": 36
+      "stops": 36,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 2207,
@@ -3023,7 +3446,9 @@
         "status": false,
         "value": null
       },
-      "stops": 36
+      "stops": 36,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 2208,
@@ -3038,7 +3463,9 @@
         "status": false,
         "value": null
       },
-      "stops": 36
+      "stops": 36,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 2209,
@@ -3053,7 +3480,9 @@
         "status": false,
         "value": null
       },
-      "stops": 36
+      "stops": 36,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 2210,
@@ -3068,7 +3497,9 @@
         "status": false,
         "value": null
       },
-      "stops": 36
+      "stops": 36,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 2214,
@@ -3082,7 +3513,9 @@
         "status": false,
         "value": null
       },
-      "stops": 70
+      "stops": 70,
+      "縣市": "新竹縣",
+      "eng縣市": "Hsinchu County"
     },
     {
       "時刻表編號": 2702,
@@ -3096,7 +3529,9 @@
         "status": false,
         "value": null
       },
-      "stops": 24
+      "stops": 24,
+      "縣市": "彰化縣",
+      "eng縣市": "Changhua County"
     },
     {
       "時刻表編號": 2703,
@@ -3110,7 +3545,9 @@
         "status": false,
         "value": null
       },
-      "stops": 24
+      "stops": 24,
+      "縣市": "南投縣",
+      "eng縣市": "Nantou County"
     },
     {
       "時刻表編號": 2704,
@@ -3124,7 +3561,9 @@
         "status": false,
         "value": null
       },
-      "stops": 24
+      "stops": 24,
+      "縣市": "南投縣",
+      "eng縣市": "Nantou County"
     },
     {
       "時刻表編號": 2705,
@@ -3138,7 +3577,9 @@
         "status": false,
         "value": null
       },
-      "stops": 24
+      "stops": 24,
+      "縣市": "南投縣",
+      "eng縣市": "Nantou County"
     },
     {
       "時刻表編號": 2706,
@@ -3152,7 +3593,9 @@
         "status": false,
         "value": null
       },
-      "stops": 24
+      "stops": 24,
+      "縣市": "南投縣",
+      "eng縣市": "Nantou County"
     },
     {
       "時刻表編號": 2707,
@@ -3166,7 +3609,9 @@
         "status": false,
         "value": null
       },
-      "stops": 23
+      "stops": 23,
+      "縣市": "南投縣",
+      "eng縣市": "Nantou County"
     },
     {
       "時刻表編號": 5101,
@@ -3180,7 +3625,9 @@
         "status": false,
         "value": null
       },
-      "stops": 70
+      "stops": 70,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 5102,
@@ -3194,7 +3641,9 @@
         "status": false,
         "value": null
       },
-      "stops": 70
+      "stops": 70,
+      "縣市": "臺南市",
+      "eng縣市": "Tainan City"
     },
     {
       "時刻表編號": 1325,
@@ -3208,7 +3657,9 @@
         "status": false,
         "value": null
       },
-      "stops": 99
+      "stops": 99,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1326,
@@ -3222,7 +3673,9 @@
         "status": false,
         "value": null
       },
-      "stops": 99
+      "stops": 99,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1327,
@@ -3236,7 +3689,9 @@
         "status": false,
         "value": null
       },
-      "stops": 99
+      "stops": 99,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1328,
@@ -3250,7 +3705,9 @@
         "status": false,
         "value": null
       },
-      "stops": 99
+      "stops": 99,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1329,
@@ -3264,7 +3721,9 @@
         "status": false,
         "value": null
       },
-      "stops": 107
+      "stops": 107,
+      "縣市": "臺中市",
+      "eng縣市": "Taichung City"
     },
     {
       "時刻表編號": 1245,
@@ -3278,7 +3737,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1246,
@@ -3292,7 +3753,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1237,
@@ -3306,7 +3769,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1247,
@@ -3320,7 +3785,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1419,
@@ -3334,7 +3801,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1420,
@@ -3348,7 +3817,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1421,
@@ -3362,7 +3833,9 @@
         "status": false,
         "value": null
       },
-      "stops": 84
+      "stops": 84,
+      "縣市": "高雄市",
+      "eng縣市": "Kaohsiung City"
     },
     {
       "時刻表編號": 1036,
@@ -3376,7 +3849,9 @@
         "status": false,
         "value": null
       },
-      "stops": 120
+      "stops": 120,
+      "縣市": "桃園市",
+      "eng縣市": "Taoyuan City"
     },
     {
       "時刻表編號": 1608,
@@ -3390,7 +3865,9 @@
         "status": false,
         "value": null
       },
-      "stops": 12
+      "stops": 12,
+      "縣市": "花蓮縣",
+      "eng縣市": "Hualien County"
     }
   ]
 }
