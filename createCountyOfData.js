@@ -26,6 +26,7 @@ function alternateDataSoWeHaveCounties() {
         data = JSON.parse(data);
         data.features = data.map(function (el) {
             el.縣市 = el.stationAddrTw.split(' ')[0];
+            el.eng縣市 = el.stationAddrEn.split(/\s\s\s|\s\s/)[1];
             return el;
         });
         exportNewData('車站基本資料集.json', data);
