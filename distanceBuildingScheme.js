@@ -67,7 +67,11 @@ function changeFareDetails (){
            });
             return {[el]: newObject};
         });
-        return fareData;
+        let newFareDetails = {};
+        Object.keys(fareData).forEach(function (el) {
+           newFareDetails[Object.keys(fareData[el])[0]] = fareData[el][Object.keys(fareData[el])[0]];
+        });
+        return newFareDetails;
     }
 
     function findRightCodeForTRaWebsiteCode(StationDetails, traWebsiteCode) {
