@@ -80,7 +80,7 @@ function changeFareDetails() {
 
 
 function exportNewData(newData) {
-    fs.writeFile(('fare.json'), newData, err => {
+    fs.writeFile(('distance.json'), newData, err => {
         if (err) {
             console.log('Error writing file', err)
         } else {
