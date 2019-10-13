@@ -56,7 +56,18 @@ function changeFareDetails (){
                 return unique;
             }, {})));
         });
-        return newData;
+        return modifyFareList(newData);
+    }
+
+    function modifyFareList(fareData) {
+        fareData = Object.keys(fareData).map(function (el) {
+           let newObject = {};
+           fareData[el].forEach(function (element) {
+               newObject[element.endStaCode] = {mileage: element.mileage};
+           });
+            return {[el]: newObject};
+        });
+        return fareData;
     }
 
     function findRightCodeForTRaWebsiteCode(StationDetails, traWebsiteCode) {
