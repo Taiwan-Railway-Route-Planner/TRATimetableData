@@ -101,7 +101,7 @@ function createNewDistanceFiles() {
         Object.keys(distanceDetails).forEach(function (el) {
             let distanceDetail = distanceDetails[el];
             Object.keys(distanceDetail).map(function (element) {
-                let travelElement = StationDetails.stations.find((value => parseInt(value.時刻表編號) === parseInt(el)));
+                let travelElement = StationDetails.stations.find((value => parseInt(value.時刻表編號) === parseInt(element)));
                 distanceDetail[element].gradeStation = {
                     status: travelElement.gradeStation.status,
                     value: travelElement.gradeStation.value
