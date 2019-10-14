@@ -4,7 +4,7 @@ const moment = require('moment');
 
 const readFile = util.promisify(fs.readFile);
 
-changeFareDetails();
+// changeFareDetails();
 
 function changeFareDetails() {
 
@@ -44,7 +44,7 @@ function changeFareDetails() {
             }
         }
 
-        exportNewData(JSON.stringify(makeUnique(newData)));
+        exportNewData('distance.json', JSON.stringify(makeUnique(newData)));
     }
 
     function makeUnique(newData) {
@@ -78,9 +78,46 @@ function changeFareDetails() {
     }
 }
 
+createNewDistanceFiles();
 
-function exportNewData(newData) {
-    fs.writeFile(('distance.json'), newData, err => {
+function createNewDistanceFiles() {
+
+    async function getJsonFile() {
+        return await readFile("distance.json");
+    }
+
+
+    async function getStationInfo() {
+        return await readFile("./docs/stationInfo.json");
+    }
+
+    getJsonFile().then(distanceDetails => {
+        getStationInfo().then(StationDetails => {
+            handleData(JSON.parse(StationDetails), JSON.parse(distanceDetails))
+        });
+    });
+
+    function handleData(StationDetails, distanceDetails) {
+        Object.keys(distanceDetails).forEach(function (el) {
+            let distanceDetail = distanceDetails[el];
+            Object.keys(distanceDetail).map(function (element) {
+                let travelElement = StationDetails.stations.find((value => parseInt(value.時刻表編號) === parseInt(el)));
+                distanceDetail[element].gradeStation = {
+                    status: travelElement.gradeStation.status,
+                    value: travelElement.gradeStation.value
+                };
+                distanceDetail[element].stops = travelElement.stops;
+                return distanceDetail;
+            });
+            exportNewData('distance/'+ el +'.json', JSON.stringify(distanceDetails[el]));
+        });
+    }
+
+}
+
+
+function exportNewData(path, newData) {
+    fs.writeFile((path), newData, err => {
         if (err) {
             console.log('Error writing file', err)
         } else {
