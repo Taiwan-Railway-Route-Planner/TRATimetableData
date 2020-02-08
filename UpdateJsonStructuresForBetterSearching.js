@@ -111,9 +111,9 @@ function readJsonFile(fileName, stationInfo) {
     function alternateData(fileData) {
         fileData.TrainInfos.map(function (el) {
             el.StartStation = parseInt(el.TimeInfos[0].Station);
-            el.StartTime = moment(el.TimeInfos[0].DepTime, 'HH:mm:ss').format('HH:mm');
+            el.StartTime = moment(el.TimeInfos[0].DEPTime, 'HH:mm:ss').format('HH:mm');
             el.EndStation = parseInt(el.TimeInfos[el.TimeInfos.length - 1].Station);
-            el.EndTime = moment(el.TimeInfos[el.TimeInfos.length - 1].DepTime, 'HH:mm:ss').format('HH:mm');
+            el.EndTime = moment(el.TimeInfos[el.TimeInfos.length - 1].DEPTime, 'HH:mm:ss').format('HH:mm');
             el.Stations = {};
             el.Routes = [];
             let MiddleStation = el.TimeInfos[Math.round((el.TimeInfos.length - 1) / 2)].Station;
@@ -122,6 +122,11 @@ function readJsonFile(fileName, stationInfo) {
             let newTimeInfo = {};
             let isTaipeiAlreadyAdded = false;
             el.TimeInfos.forEach(function (tel, index) {
+                if (parseInt(tel.Station) === 1001) {
+                    tel.Station = '1008'
+                } else {
+                    tel.Station = stationInfo.stations.find((sel => parseInt(sel.traWebsiteCode) === parseInt(tel.Station))).時刻表編號;
+                }
                 let routes = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(tel.Station))).routeCode;
                 el.Routes = el.Routes.concat(routes);
                 if (el.Train === "1" || el.Train === "2"){
@@ -129,16 +134,16 @@ function readJsonFile(fileName, stationInfo) {
                         newTimeInfo["_" + tel.Station] = {
                             "Station": tel.Station,
                             "Order": tel.Order,
-                            "DepTime": moment(tel.DepTime, 'HH:mm:ss').format('HH:mm'),
-                            "ArrTime": moment(tel.ArrTime, 'HH:mm:ss').format('HH:mm'),
+                            "DepTime": moment(tel.DEPTime, 'HH:mm:ss').format('HH:mm'),
+                            "ArrTime": moment(tel.ARRTime, 'HH:mm:ss').format('HH:mm'),
                             "Routes": routes
                         }
                     } else {
                         newTimeInfo[tel.Station] = {
                             "Station": tel.Station,
                             "Order": tel.Order,
-                            "DepTime": moment(tel.DepTime, 'HH:mm:ss').format('HH:mm'),
-                            "ArrTime": moment(tel.ArrTime, 'HH:mm:ss').format('HH:mm'),
+                            "DepTime": moment(tel.DEPTime, 'HH:mm:ss').format('HH:mm'),
+                            "ArrTime": moment(tel.ARRTime, 'HH:mm:ss').format('HH:mm'),
                             "Routes": routes
                         };
                         isTaipeiAlreadyAdded = true;
@@ -170,15 +175,20 @@ function readJsonFile(fileName, stationInfo) {
             case "1132":
                 return "Fast Local";
             case "1131":
+            case '1112':
                 return "Local";
             case "1140":
                 return "Ordinary";
             case "1102":
+            case "1101":
                 return "Taroko";
             case "1107":
                 return "Puyuma";
+            case '1105':
             case "1108":
             case "1109":
+            case '1100':
+            case '110A':
             case "110B":
             case "110C":
             case "110D":
@@ -187,13 +197,15 @@ function readJsonFile(fileName, stationInfo) {
                 return "Tze-chiang";
             case "1110":
             case "1111":
+            case '1113':
             case "1114":
             case "1115":
                 return "Chu-kuang";
             case "1120":
+            case "1121":
                 return "Fu-Hsing";
             default:
-                types.push({CarClass: el.CarClass, Train: el.Train});
+                types.push({CarClass: el.CarClass, Train: el.Train, Note: el.Note});
                 return "Special";
         }
     }

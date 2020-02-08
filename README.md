@@ -16,9 +16,10 @@ type: csv (offices.csv)
 
 ## RailInformation
 
-
-[http://163.29.3.98/xml/](http://163.29.3.98/xml/)\
-[http://163.29.3.98/json/](http://163.29.3.98/json/)
+[Data.gov.tw website for the data subset](https://data.gov.tw/dataset/6138#r1)
+ 
+[XML-downloads](https://ods.railway.gov.tw/tra-ods-web/ods/download/dataResource/railway_schedule/XML/list)\
+[JSON-downloads](https://ods.railway.gov.tw/tra-ods-web/ods/download/dataResource/railway_schedule/JSON/list)
 
 #### Original files from the json website
 
