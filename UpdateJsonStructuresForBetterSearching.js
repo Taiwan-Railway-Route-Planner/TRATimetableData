@@ -152,8 +152,8 @@ function readJsonFile(fileName, stationInfo) {
                     newTimeInfo[tel.Station] = {
                         "Station": tel.Station,
                         "Order": tel.Order,
-                        "DepTime": moment(tel.DepTime, 'HH:mm:ss').format('HH:mm'),
-                        "ArrTime": moment(tel.ArrTime, 'HH:mm:ss').format('HH:mm'),
+                        "DepTime": moment(tel.DEPTime, 'HH:mm:ss').format('HH:mm'),
+                        "ArrTime": moment(tel.ARRTime, 'HH:mm:ss').format('HH:mm'),
                         "Routes": routes
                     };
                 }
