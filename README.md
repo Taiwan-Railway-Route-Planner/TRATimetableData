@@ -21,7 +21,7 @@ type: csv (offices.csv)
 [XML-downloads](https://ods.railway.gov.tw/tra-ods-web/ods/download/dataResource/railway_schedule/XML/list)\
 [JSON-downloads](https://ods.railway.gov.tw/tra-ods-web/ods/download/dataResource/railway_schedule/JSON/list)
 
-#### Original files from the json website
+#### Original json files from the website
 
 Can be found here: [TRAOriginalTimeTable](https://github.com/Taiwan-Railway-Route-Planner/TRAOriginalTimeTable)
 
