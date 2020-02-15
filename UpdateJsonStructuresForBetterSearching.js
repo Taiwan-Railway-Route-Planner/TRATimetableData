@@ -105,7 +105,11 @@ function readJsonFile(fileName, stationInfo) {
     }
 
     getJsonFile().then(jsonData => {
-        alternateData(JSON.parse(jsonData));
+        try {
+            alternateData(JSON.parse(jsonData));
+        } catch (e) {
+            console.log(e, fileName)
+        }
     });
 
     function alternateData(fileData) {
@@ -164,8 +168,13 @@ function readJsonFile(fileName, stationInfo) {
             el.trainType = getTrainType(el);
             return el;
         });
-        exportNewData(JSON.stringify(fileData));
-        exportSpecialLines();
+        try {
+            let JsonExport = JSON.stringify(fileData, null, 4);
+            exportNewData(JsonExport);
+            exportSpecialLines();
+        } catch (e) {
+            console.log(e.error, fileName)
+        }
     }
 
     let types = [];
@@ -325,7 +334,7 @@ function addRoutesToStationFromSpecialRoutes() {
                 }
             })
         });
-        exportChangedStationInfo(JSON.stringify(stationInfo));
+        exportChangedStationInfo(JSON.stringify(stationInfo, null, 4));
     }
 
     function exportChangedStationInfo(newData) {
