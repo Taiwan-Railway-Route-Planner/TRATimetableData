@@ -169,7 +169,7 @@ function readJsonFile(fileName, stationInfo) {
             return el;
         });
         try {
-            let JsonExport = JSON.stringify(fileData, null, 4);
+            let JsonExport = JSON.stringify({'TrainInfos': fileData.TrainInfos}, null, 4);
             exportNewData(JsonExport);
             exportSpecialLines();
         } catch (e) {
