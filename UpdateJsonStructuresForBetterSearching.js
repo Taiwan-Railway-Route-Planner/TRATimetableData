@@ -195,6 +195,7 @@ function readJsonFile(fileName, stationInfo) {
                 return "Puyuma";
             case '1104':
             case '1105':
+            case '1106':
             case "1108":
             case "1109":
             case '1100':

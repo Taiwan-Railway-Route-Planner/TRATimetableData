@@ -40,6 +40,7 @@ CarClass    |Type ENG    | Type TW   | Example train number |
 1102        |Taroko      |太魯閣      |219                   | 
 1107        |Puyuma      |普悠瑪      |218                   | 
 1104        |Tze-Chiang  |自強        |6170                  | 
+1106        |Tze-Chiang  |自強        |6092                  | 
 1108        |Tze-Chiang  |自強        |115                   | 
 1109        |Tze-Chiang  |自強        |146                   | 
 110B        |Tze-Chiang  |自強        |168                   | 
