@@ -183,6 +183,7 @@ function readJsonFile(fileName, stationInfo) {
         switch (el.CarClass) {
             case "1132":
                 return "Fast Local";
+            case "1130":
             case "1131":
             case '1112':
                 return "Local";
