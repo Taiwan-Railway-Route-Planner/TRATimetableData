@@ -187,6 +187,7 @@ function readJsonFile(fileName, stationInfo) {
             case '1112':
                 return "Local";
             case "1140":
+            case "1150":
                 return "Ordinary";
             case "1102":
             case "1101":
