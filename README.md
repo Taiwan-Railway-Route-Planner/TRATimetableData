@@ -57,6 +57,7 @@ CarClass    |Type ENG    | Type TW   | Example train number |
 1150        |Ordinary    |普快        |6731                  | 
 1130        |Local       |區間        |6757                  | 
 1131        |Local       |區間        |1148                  | 
+1154        |Local       |區間        |6779                  |
 1132        |Fast Local  |區間快      |2008                  | 
 
 
