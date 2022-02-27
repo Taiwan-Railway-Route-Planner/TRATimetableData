@@ -209,6 +209,7 @@ function readJsonFile(fileName, stationInfo) {
             case "110D":
             case "110E":
             case "110F":
+            case "110G":
                 return "Tze-chiang";
             case "1110":
             case "1111":
