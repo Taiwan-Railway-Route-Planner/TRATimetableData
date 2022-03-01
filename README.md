@@ -49,6 +49,7 @@ By example https://taiwan-railway-route-planner.github.io/TRATimetableData/Sched
 | 110E     | Tze-Chiang | 自強      | 321                  | 
 | 110F     | Tze-Chiang | 自強      | 324                  | 
 | 110G     | Tze-Chiang | 自強      | 441                  | 
+| 110H     | Tze-Chiang | 自強      | 439                  | 
 | 1110     | Chu-Kuang  | 莒光      | 612                  | 
 | 1111     | Chu-Kuang  | 莒光      | 501                  | 
 | 1114     | Chu-Kuang  | 莒光      | 701                  | 
