@@ -125,11 +125,20 @@ function readJsonFile(fileName, stationInfo) {
             let afterMiddleStation = el.TimeInfos[Math.round(((el.TimeInfos.length - 1) / 2) + ((el.TimeInfos.length - 1) / 2) / 2)].Station;
             let newTimeInfo = {};
             let isTaipeiAlreadyAdded = false;
+
+            // TODO remove the station 5170 from the list because it's not yet in use
+            el.TimeInfos = el.TimeInfos.filter(tel => tel.Station !== "5170");
+
             el.TimeInfos.forEach(function (tel, index) {
                 if (parseInt(tel.Station) === 1001) {
                     tel.Station = '1008'
                 } else {
-                    tel.Station = stationInfo.stations.find((sel => parseInt(sel.traWebsiteCode) === parseInt(tel.Station))).時刻表編號;
+                    const result = stationInfo.stations.find((sel => parseInt(sel.traWebsiteCode) === parseInt(tel.Station)));
+                    if (result == null) {
+                        console.error(JSON.stringify(tel.Station))
+                    } else {
+                        tel.Station = result.時刻表編號;
+                    }
                 }
                 let routes = stationInfo.stations.find((sel => sel.時刻表編號 === parseInt(tel.Station))).routeCode;
                 el.Routes = el.Routes.concat(routes);
