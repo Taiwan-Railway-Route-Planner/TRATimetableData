@@ -1,6 +1,9 @@
 {
   "name": "TRATimetableData",
   "version": "1.0.0",
+  "scripts": {
+    "run": "node UpdateJsonStructuresForBetterSearching.js"
+  },
   "dependencies": {
     "moment": "^2.27.0"
   }
