@@ -4,7 +4,7 @@ const moment = require('moment');
 
 const readFile = util.promisify(fs.readFile);
 
-const PATH = "./docs/routes/";
+const ROUTES_THAT_NEED_UPDATES_DIR = "./docs/routes/";
 const DEST_PATH = "./docs/Schedules/";
 const LINE_PATH = "./docs/Lines/";
 
@@ -84,7 +84,7 @@ function readStationInfoFile() {
 
 function readDir(stationInfo) {
 
-    fs.readdir(PATH, function (err, items) {
+    fs.readdir(ROUTES_THAT_NEED_UPDATES_DIR, function (err, items) {
 
         for (let i = 0; i < items.length; i++) {
             readJsonFile(items[i], stationInfo);
@@ -101,7 +101,7 @@ function readJsonFile(fileName, stationInfo) {
     }
 
     async function getJsonFile() {
-        return await readFile(PATH + fileName);
+        return await readFile(ROUTES_THAT_NEED_UPDATES_DIR + fileName);
     }
 
     getJsonFile().then(jsonData => {
