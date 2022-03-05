@@ -3,7 +3,7 @@ import moment from 'moment';
 import { StationDetails, StationInfo } from './types/station-info.type';
 import { EnrichedTaiwanRailwaySchedule, TaiwanRailwaySchedule } from './types/taiwan-railway-schedule.type';
 import { EnrichedTimeInfo, TimeInfo } from './types/time-info.type';
-import { EnrichedTrainInfo, TrainInfo } from './types/train-info.type';
+import { BaseTrainInfo, EnrichedTrainInfo, TrainInfo } from './types/train-info.type';
 
 const ROUTES_THAT_NEED_UPDATES_DIR = './docs/routes/';
 const DEST_PATH = './docs/Schedules/';
@@ -67,22 +67,27 @@ class EnrichJsonSchedules {
   private enrichScheduleInformation(scheduleNeedsUpdate: TaiwanRailwaySchedule, trainInformation: StationInfo): void {
 
     const updateSchedule: EnrichedTaiwanRailwaySchedule = scheduleNeedsUpdate.TrainInfos.map((trainInfo: TrainInfo) => {
-      let updateTrainInfo: EnrichedTrainInfo = {};
+      // @ts-ignore
+      let enrichedTrainInfo: EnrichedTrainInfo = {};
 
-      updateTrainInfo.StartStation = parseInt(trainInfo.TimeInfos[0].Station);
-      updateTrainInfo.StartTime = moment(trainInfo.TimeInfos[0].DEPTime, 'HH:mm:ss').format('HH:mm');
-      updateTrainInfo.EndStation = parseInt(trainInfo.TimeInfos[trainInfo.TimeInfos.length - 1].Station);
-      updateTrainInfo.EndTime = moment(trainInfo.TimeInfos[trainInfo.TimeInfos.length - 1].DEPTime, 'HH:mm:ss').format('HH:mm');
-      updateTrainInfo.Stations = {};
-      updateTrainInfo.Routes = [];
+      enrichedTrainInfo.StartStation = parseInt(trainInfo.TimeInfos[0].Station);
+      enrichedTrainInfo.StartTime = moment(trainInfo.TimeInfos[0].DEPTime, 'HH:mm:ss').format('HH:mm');
+      enrichedTrainInfo.EndStation = parseInt(trainInfo.TimeInfos[trainInfo.TimeInfos.length - 1].Station);
+      enrichedTrainInfo.EndTime = moment(trainInfo.TimeInfos[trainInfo.TimeInfos.length - 1].DEPTime, 'HH:mm:ss').format('HH:mm');
+      enrichedTrainInfo.Stations = {};
+      enrichedTrainInfo.Routes = [];
       // let MiddleStation = trainInfo.TimeInfos[Math.round((trainInfo.TimeInfos.length - 1) / 2)].Station;
       // let beforeMiddleStation = trainInfo.TimeInfos[Math.round(((trainInfo.TimeInfos.length - 1) / 2) / 2)].Station;
       // let afterMiddleStation = trainInfo.TimeInfos[Math.round(((trainInfo.TimeInfos.length - 1) / 2) + ((trainInfo.TimeInfos.length - 1) / 2) / 2)].Station;
 
-      updateTrainInfo.TimeInfos = this.enrichTimeInfoOfSchedules(trainInfo, trainInformation, updateTrainInfo);
-      updateTrainInfo.Routes = updateTrainInfo.Routes.filter(this.utils.onlyUnique);
+      enrichedTrainInfo.TimeInfos = this.enrichTimeInfoOfSchedules(trainInfo, trainInformation, enrichedTrainInfo);
+      enrichedTrainInfo.Routes = enrichedTrainInfo.Routes.filter(this.utils.onlyUnique);
+      enrichedTrainInfo.MultiRoute = enrichedTrainInfo.Routes.length !== 1;
+      enrichedTrainInfo.trainType = this.utils.getTrainType(enrichedTrainInfo);
 
-      return updateTrainInfo;
+      enrichedTrainInfo = this.enrichBaseTrainInfoToEnrichedTrainInfo(trainInfo, enrichedTrainInfo);
+
+      return enrichedTrainInfo;
     });
 
   }
@@ -90,9 +95,9 @@ class EnrichJsonSchedules {
   /**
    * Update the timeInfo of a train travel to {@link EnrichedTimeInfo}
    *
-   * @param trainInfo
+   * @param trainInfo the unriched information about the train ride
    * @param trainInformation the information of stations
-   * @param updateTrainInfo
+   * @param updateTrainInfo the enriched information about the train ride
    */
   private enrichTimeInfoOfSchedules(trainInfo: TrainInfo, trainInformation: StationInfo, updateTrainInfo: EnrichedTrainInfo): EnrichedTimeInfo {
     const enrichedTrainInfo: EnrichedTimeInfo = {};
@@ -155,6 +160,16 @@ class EnrichJsonSchedules {
     return enrichedTrainInfo;
   }
 
+  private enrichBaseTrainInfoToEnrichedTrainInfo(trainInfo: TrainInfo, enrichedTrainInfo: EnrichedTrainInfo): EnrichedTrainInfo {
+    const cloneTrainInfo: TrainInfo = Object.assign(trainInfo);
+    delete cloneTrainInfo.TimeInfos;
+
+    return {
+      ...cloneTrainInfo as BaseTrainInfo,
+      ...enrichedTrainInfo
+    }
+  }
+
 }
 
 
@@ -186,13 +201,67 @@ export class UtilFunctions {
   }
 
   /**
-   * 
-   * @param value
-   * @param index
-   * @param self
+   *
+   * @param value number you want to compare with
+   * @param index the number you want to check
+   * @param self the array of numbers
    */
   public onlyUnique(value: number, index: number, self: number[]): boolean {
     return self.indexOf(value) === index;
+  }
+
+  /**
+   * Determine what kind of carClass the train is, if the carClass is new
+   * it will default to type 'Special' and will log a warning
+   * @param enrichedTrainInfo the enriched information for train ride
+   */
+  public getTrainType(enrichedTrainInfo: EnrichedTrainInfo): string {
+    switch (enrichedTrainInfo.CarClass) {
+      case '1132':
+        return 'Fast Local';
+      case '1130':
+      case '1131':
+      case '1112':
+      case '1134':
+      case '1154':
+        return 'Local';
+      case '1140':
+      case '1150':
+        return 'Ordinary';
+      case '1102':
+      case '1101':
+        return 'Taroko';
+      case '1107':
+        return 'Puyuma';
+      case '1104':
+      case '1105':
+      case '1106':
+      case '1108':
+      case '1109':
+      case '1100':
+      case '110A':
+      case '110B':
+      case '110C':
+      case '110D':
+      case '110E':
+      case '110F':
+      case '110G':
+        return 'Tze-chiang';
+      case '1110':
+      case '1111':
+      case '1113':
+      case '1114':
+      case '1115':
+        return 'Chu-kuang';
+      case '1120':
+      case '1121':
+        return 'Fu-Hsing';
+      default:
+        console.warn(JSON.stringify(
+          { CarClass: enrichedTrainInfo.CarClass, Train: enrichedTrainInfo.Train, Note: enrichedTrainInfo.Note },
+        ));
+        return 'Special';
+    }
   }
 
 }
