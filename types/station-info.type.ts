@@ -20,5 +20,5 @@ export type StationInfo = Readonly<{
     stops: number;
     縣市: string;
     eng縣市: string
-  }
+  }[]
 }>
