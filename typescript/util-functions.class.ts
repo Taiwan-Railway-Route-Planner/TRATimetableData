@@ -1,6 +1,6 @@
 import { readdirSync, readFileSync, writeFile } from 'fs';
 import moment from 'moment';
-import { EnrichedTrainInfo } from '../types/train-info.type';
+import { EnrichedTrainInfo } from './types/train-info.type';
 import { DEST_PATH } from './main';
 import ErrnoException = NodeJS.ErrnoException;
 

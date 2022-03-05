@@ -1,8 +1,8 @@
 import moment from 'moment';
-import { StationDetails, StationInfo } from '../types/station-info.type';
-import { EnrichedTaiwanRailwaySchedule, TaiwanRailwaySchedule } from '../types/taiwan-railway-schedule.type';
-import { EnrichedTimeInfo, TimeInfo } from '../types/time-info.type';
-import { BaseTrainInfo, EnrichedTrainInfo, TrainInfo } from '../types/train-info.type';
+import { StationDetails, StationInfo } from './types/station-info.type';
+import { EnrichedTaiwanRailwaySchedule, TaiwanRailwaySchedule } from './types/taiwan-railway-schedule.type';
+import { EnrichedTimeInfo, TimeInfo } from './types/time-info.type';
+import { BaseTrainInfo, EnrichedTrainInfo, TrainInfo } from './types/train-info.type';
 import { DEST_PATH, ROUTES_THAT_NEED_UPDATES_DIR } from './main';
 import { StationInformation } from './station-information.class';
 import { UtilFunctions } from './util-functions.class';

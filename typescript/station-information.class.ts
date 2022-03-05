@@ -1,5 +1,5 @@
 import { readFileSync } from 'fs';
-import { StationInfo } from '../types/station-info.type';
+import { StationInfo } from './types/station-info.type';
 
 export class StationInformation {
 
