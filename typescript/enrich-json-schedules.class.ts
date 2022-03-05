@@ -118,7 +118,7 @@ export class EnrichJsonSchedules {
         // This is because this TRAIN can do a round trip from Taipei to Taipei
         if (timeInfo.Station === '1008' && isTaipeiAlreadyAdded) {
           enrichedTrainInfo['_' + timeInfo.Station] = {
-            Station: timeInfo.Station,
+            Station: parseInt(timeInfo.Station),
             Order: timeInfo.Order,
             DepTime: this.utils.formatStringToTimestamp(timeInfo.DEPTime),
             ArrTime: this.utils.formatStringToTimestamp(timeInfo.ARRTime),
@@ -126,7 +126,7 @@ export class EnrichJsonSchedules {
           };
         } else {
           enrichedTrainInfo[timeInfo.Station] = {
-            Station: timeInfo.Station,
+            Station: parseInt(timeInfo.Station),
             Order: timeInfo.Order,
             DepTime: this.utils.formatStringToTimestamp(timeInfo.DEPTime),
             ArrTime: this.utils.formatStringToTimestamp(timeInfo.ARRTime),
@@ -136,7 +136,7 @@ export class EnrichJsonSchedules {
         }
       } else {
         enrichedTrainInfo[timeInfo.Station] = {
-          Station: timeInfo.Station,
+          Station: parseInt(timeInfo.Station),
           Order: timeInfo.Order,
           DepTime: this.utils.formatStringToTimestamp(timeInfo.DEPTime),
           ArrTime: this.utils.formatStringToTimestamp(timeInfo.ARRTime),

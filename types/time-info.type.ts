@@ -9,7 +9,7 @@ export type TimeInfo = {
 
 export type EnrichedTimeInfo = {
   [key: string]: {
-    Station: string;
+    Station: number;
     Order: string;
     DepTime: string;
     ArrTime: string;
