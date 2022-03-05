@@ -19,7 +19,7 @@ let Line = {
 };
 
 // readDirOfLines();
-
+// TODO This hasn't been changed to Typescript yet
 function readDirOfLines() {
 
     fs.readdir(LINE_PATH, function (err, items) {
