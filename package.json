@@ -1,10 +1,27 @@
 {
   "name": "TRATimetableData",
   "version": "1.0.0",
+  "main": "dist/typescript/main.js",
   "scripts": {
-    "run": "node UpdateJsonStructuresForBetterSearching.js"
+    "start": "tsc && node dist/typescript/main.js",
+    "lint": "eslint *.ts",
+    "format": "eslint *.ts --fix"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.10.0",
     "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "husky": "^7.0.4",
+    "prettier": "^2.3.1",
+    "typescript": "^4.6.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
   }
 }

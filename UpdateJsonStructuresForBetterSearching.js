@@ -4,9 +4,9 @@ const moment = require('moment');
 
 const readFile = util.promisify(fs.readFile);
 
-const path = "./docs/routes/";
-const destPath = "./docs/Schedules/";
-const linePath = "./docs/Lines/";
+const ROUTES_THAT_NEED_UPDATES_DIR = "./docs/routes/";
+const DEST_PATH = "./docs/Schedules/";
+const LINE_PATH = "./docs/Lines/";
 
 let Line = {
     1: null,
@@ -19,10 +19,10 @@ let Line = {
 };
 
 // readDirOfLines();
-
+// TODO This hasn't been changed to Typescript yet
 function readDirOfLines() {
 
-    fs.readdir(linePath, function (err, items) {
+    fs.readdir(LINE_PATH, function (err, items) {
 
         for (let i = 0; i < items.length; i++) {
             saveLineInfoInArray(items[i]);
@@ -34,7 +34,7 @@ function readDirOfLines() {
 function saveLineInfoInArray(fileName) {
 
     async function getJsonFile() {
-        return await readFile(linePath + fileName);
+        return await readFile(LINE_PATH + fileName);
     }
 
     getJsonFile().then(jsonData => {
@@ -84,7 +84,7 @@ function readStationInfoFile() {
 
 function readDir(stationInfo) {
 
-    fs.readdir(path, function (err, items) {
+    fs.readdir(ROUTES_THAT_NEED_UPDATES_DIR, function (err, items) {
 
         for (let i = 0; i < items.length; i++) {
             readJsonFile(items[i], stationInfo);
@@ -101,7 +101,7 @@ function readJsonFile(fileName, stationInfo) {
     }
 
     async function getJsonFile() {
-        return await readFile(path + fileName);
+        return await readFile(ROUTES_THAT_NEED_UPDATES_DIR + fileName);
     }
 
     getJsonFile().then(jsonData => {
@@ -236,7 +236,7 @@ function readJsonFile(fileName, stationInfo) {
     }
 
     function exportNewData(newData) {
-        fs.writeFile(destPath + fileName, newData, err => {
+        fs.writeFile(DEST_PATH + fileName, newData, err => {
             if (err) {
                 console.log('Error writing file', err)
             } else {
@@ -281,7 +281,7 @@ function readJsonFile(fileName, stationInfo) {
         types = unique(types, ['CarClass']);
         types = sort(types);
         console.log("Different train types", types);
-        fs.writeFile(linePath + "specials.json", JSON.stringify(object), err => {
+        fs.writeFile(LINE_PATH + "specials.json", JSON.stringify(object), err => {
             if (err) {
                 console.log('Error writing file', err)
             } else {
