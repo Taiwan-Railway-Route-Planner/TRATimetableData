@@ -1,7 +1,9 @@
 import { readFileSync, readdirSync } from 'fs';
+import moment from 'moment';
 import { StationInfo } from './types/station-info.type';
-import { TaiwanRailwaySchedule } from './types/taiwan-railway-schedule.type';
-import { TrainInfo } from './types/train-info.type';
+import { EnrichedTaiwanRailwaySchedule, TaiwanRailwaySchedule } from './types/taiwan-railway-schedule.type';
+import { EnrichedTimeInfo, TimeInfo } from './types/time-info.type';
+import { EnrichedTrainInfo, TrainInfo } from './types/train-info.type';
 
 const ROUTES_THAT_NEED_UPDATES_DIR = './docs/routes/';
 const DEST_PATH = './docs/Schedules/';
@@ -64,10 +66,55 @@ class EnrichJsonSchedules {
    */
   private enrichScheduleInformation(scheduleNeedsUpdate: TaiwanRailwaySchedule, trainInformation: StationInfo): void {
 
-    scheduleNeedsUpdate.TrainInfos.map((trainInfo: TrainInfo) => {
+    const updateSchedule: EnrichedTaiwanRailwaySchedule = scheduleNeedsUpdate.TrainInfos.map((trainInfo: TrainInfo) => {
+      let updateTrainInfo: EnrichedTrainInfo = {};
 
-    })
+      updateTrainInfo.StartStation = parseInt(trainInfo.TimeInfos[0].Station);
+      updateTrainInfo.StartTime = moment(trainInfo.TimeInfos[0].DEPTime, 'HH:mm:ss').format('HH:mm');
+      updateTrainInfo.EndStation = parseInt(trainInfo.TimeInfos[trainInfo.TimeInfos.length - 1].Station);
+      updateTrainInfo.EndTime = moment(trainInfo.TimeInfos[trainInfo.TimeInfos.length - 1].DEPTime, 'HH:mm:ss').format('HH:mm');
+      updateTrainInfo.Stations = {};
+      updateTrainInfo.Routes = [];
+      // let MiddleStation = trainInfo.TimeInfos[Math.round((trainInfo.TimeInfos.length - 1) / 2)].Station;
+      // let beforeMiddleStation = trainInfo.TimeInfos[Math.round(((trainInfo.TimeInfos.length - 1) / 2) / 2)].Station;
+      // let afterMiddleStation = trainInfo.TimeInfos[Math.round(((trainInfo.TimeInfos.length - 1) / 2) + ((trainInfo.TimeInfos.length - 1) / 2) / 2)].Station;
 
+      updateTrainInfo.TimeInfos = this.enrichTimeInfoOfSchedules(trainInfo.TimeInfos, trainInformation);
+
+
+      return updateTrainInfo;
+    });
+
+  }
+
+  /**
+   * Update the timeInfo of a train travel to {@link EnrichedTimeInfo}
+   *
+   * @param timeInfos the unaltered timeInfo of a certain train travel
+   */
+  private enrichTimeInfoOfSchedules(timeInfos: TimeInfo[], trainInformation: StationInfo): EnrichedTimeInfo {
+    let enrichedTrainInfo: EnrichedTrainInfo = {};
+    let isTaipeiAlreadyAdded = false;
+
+    // TODO remove the station 5170 from the list because it's not yet in use
+    timeInfos = timeInfos.filter((timeInfo: TimeInfo) => timeInfo.Station !== '5170');
+
+    timeInfos.forEach((timeInfo: TimeInfo) => {
+
+      if (timeInfo.Station === '1001') {
+        timeInfo.Station = '1008';
+      } else {
+        const result = trainInformation.stations.find((sel => parseInt(sel.traWebsiteCode) === parseInt(tel.Station)));
+        if (result == null) {
+          console.error(JSON.stringify(tel.Station));
+        } else {
+          tel.Station = result.時刻表編號;
+        }
+      }
+
+    });
+
+    return null;
   }
 
 }
