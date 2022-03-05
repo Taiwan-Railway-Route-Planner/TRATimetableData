@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "main": "dist/UpdateJsonStructuresForBetterSearching.js",
   "scripts": {
-    "start": "tsc && node dist/UpdateJsonStructuresForBetterSearching.js"
+    "start": "tsc && node dist/UpdateJsonStructuresForBetterSearching.js",
+    "lint": "eslint *.ts",
+    "format": "eslint *.ts --fix"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.10.0",
     "moment": "^2.27.0"
   },
   "devDependencies": {
