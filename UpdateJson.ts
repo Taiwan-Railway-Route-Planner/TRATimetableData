@@ -1,5 +1,7 @@
 import { readFileSync, readdirSync } from 'fs';
 import { StationInfo } from './types/station-info.type';
+import { TaiwanRailwaySchedule } from './types/taiwan-railway-schedule.type';
+import { TrainInfo } from './types/train-info.type';
 
 const ROUTES_THAT_NEED_UPDATES_DIR = './docs/routes/';
 const DEST_PATH = './docs/Schedules/';
@@ -28,12 +30,13 @@ class EnrichJsonSchedules {
 
   constructor(
     private utils: UtilFunctions,
-    private stationInformation: StationInformation
-  ) {}
+    private stationInformation: StationInformation,
+  ) {
+  }
 
   public setup(): void {
     this.getAllFileNamesThatNeedToBeUpdated();
-    this.enrichScheduleInformation();
+    this.enrichAllSchedules();
   }
 
   /**
@@ -43,7 +46,27 @@ class EnrichJsonSchedules {
     this.SCHEDULES_NEED_UPDATE = this.utils.readDirectory(ROUTES_THAT_NEED_UPDATES_DIR);
   }
 
-  private enrichScheduleInformation(): void {
+  /**
+   * Enrich all the schedules by going over the directory
+   * of schedules that need updates + save those changes
+   */
+  private enrichAllSchedules(): void {
+
+    this.SCHEDULES_NEED_UPDATE.forEach((scheduleName: string) => {
+      const scheduleNeedsUpdate: TaiwanRailwaySchedule = this.utils.readFileSync<TaiwanRailwaySchedule>(scheduleName, ROUTES_THAT_NEED_UPDATES_DIR);
+      this.enrichScheduleInformation(scheduleNeedsUpdate, this.stationInformation.getStationInformation());
+    });
+
+  }
+
+  /**
+   * Enrich the schedules with more information
+   */
+  private enrichScheduleInformation(scheduleNeedsUpdate: TaiwanRailwaySchedule, trainInformation: StationInfo): void {
+
+    scheduleNeedsUpdate.TrainInfos.map((trainInfo: TrainInfo) => {
+
+    })
 
   }
 
@@ -65,7 +88,7 @@ export class UtilFunctions {
    * @param fileName the file you want to read
    * @param path the path you want to read the file from
    */
-  public readFileSync(fileName: string, path: string): object {
+  public readFileSync<T>(fileName: string, path: string): T {
     return JSON.parse(readFileSync(path + fileName, 'utf-8'));
   }
 }
