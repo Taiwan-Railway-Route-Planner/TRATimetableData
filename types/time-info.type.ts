@@ -1,16 +1,18 @@
 export type TimeInfo = Readonly<{
-  Route:   string;
+  Route: string;
   Station: string;
-  Order:   string;
+  Order: string;
   DEPTime: string;
   ARRTime: string;
 }>
 
 
-export type EnrichedTimeInfo = Readonly<{
-  Station: string;
-  Order:   string;
-  DepTime: string;
-  ArrTime: string;
-  Routes:  number[];
-}>
+export type EnrichedTimeInfo = {
+  [key: string]: {
+    Station: string;
+    Order: string;
+    DepTime: string;
+    ArrTime: string;
+    Routes: number[];
+  }
+}

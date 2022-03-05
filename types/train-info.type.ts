@@ -23,7 +23,7 @@ export type TrainInfo = Readonly<{
 }>
 
 
-export type EnrichedTrainInfo = Readonly<{
+export type EnrichedTrainInfo = {
   Type:         string;
   Train:        string;
   BreastFeed:   string;
@@ -38,7 +38,7 @@ export type EnrichedTrainInfo = Readonly<{
   Bike:         string;
   Note:         string;
   NoteEng:      string;
-  TimeInfos:    { [key: string]: EnrichedTimeInfo };
+  TimeInfos:    EnrichedTimeInfo;
   StartStation: number;
   StartTime:    string;
   EndStation:   number;
@@ -47,4 +47,4 @@ export type EnrichedTrainInfo = Readonly<{
   Routes:       number[];
   MultiRoute:   boolean;
   trainType:    string;
-}>
+}
