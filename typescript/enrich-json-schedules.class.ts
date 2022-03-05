@@ -7,7 +7,7 @@ import { DEST_PATH, ROUTES_THAT_NEED_UPDATES_DIR } from './main';
 import { StationInformation } from './station-information.class';
 import { UtilFunctions } from './util-functions.class';
 
-class EnrichJsonSchedules {
+export class EnrichJsonSchedules {
 
   private SCHEDULES_NEED_UPDATE: string[];
 
@@ -17,7 +17,7 @@ class EnrichJsonSchedules {
   ) {
   }
 
-  public setup(): void {
+  public run(): void {
     this.getAllFileNamesThatNeedToBeUpdated();
     this.enrichAllSchedules();
   }
