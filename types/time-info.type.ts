@@ -1,10 +1,10 @@
-export type TimeInfo = Readonly<{
+export type TimeInfo = {
   Route: string;
   Station: string;
   Order: string;
   DEPTime: string;
   ARRTime: string;
-}>
+}
 
 
 export type EnrichedTimeInfo = {
