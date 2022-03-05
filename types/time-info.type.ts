@@ -5,3 +5,13 @@ export type TimeInfo = Readonly<{
   DEPTime: string;
   ARRTime: string;
 }>
+
+export type EnrichedTimeInfo = Readonly<{
+  Station: string;
+  Order:   string;
+  DepTime: string;
+  ArrTime: string;
+  Routes:  number[];
+}>
+
+
