@@ -1,10 +1,14 @@
 {
   "name": "TRATimetableData",
   "version": "1.0.0",
+  "main": "dist/UpdateJsonStructuresForBetterSearching.js",
   "scripts": {
-    "run": "node UpdateJsonStructuresForBetterSearching.js"
+    "start": "tsc && node dist/UpdateJsonStructuresForBetterSearching.js"
   },
   "dependencies": {
     "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
   }
 }
