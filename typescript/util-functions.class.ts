@@ -90,6 +90,7 @@ export class UtilFunctions {
       case '110E':
       case '110F':
       case '110G':
+      case '110H':
         return 'Tze-chiang';
       case '1110':
       case '1111':
