@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync } from 'fs';
 import moment from 'moment';
-import { StationInfo } from './types/station-info.type';
+import { StationDetails, StationInfo } from './types/station-info.type';
 import { EnrichedTaiwanRailwaySchedule, TaiwanRailwaySchedule } from './types/taiwan-railway-schedule.type';
 import { EnrichedTimeInfo, TimeInfo } from './types/time-info.type';
 import { EnrichedTrainInfo, TrainInfo } from './types/train-info.type';
@@ -79,8 +79,8 @@ class EnrichJsonSchedules {
       // let beforeMiddleStation = trainInfo.TimeInfos[Math.round(((trainInfo.TimeInfos.length - 1) / 2) / 2)].Station;
       // let afterMiddleStation = trainInfo.TimeInfos[Math.round(((trainInfo.TimeInfos.length - 1) / 2) + ((trainInfo.TimeInfos.length - 1) / 2) / 2)].Station;
 
-      updateTrainInfo.TimeInfos = this.enrichTimeInfoOfSchedules(trainInfo.TimeInfos, trainInformation);
-
+      updateTrainInfo.TimeInfos = this.enrichTimeInfoOfSchedules(trainInfo, trainInformation, updateTrainInfo);
+      updateTrainInfo.Routes = updateTrainInfo.Routes.filter(this.utils.onlyUnique);
 
       return updateTrainInfo;
     });
@@ -90,31 +90,69 @@ class EnrichJsonSchedules {
   /**
    * Update the timeInfo of a train travel to {@link EnrichedTimeInfo}
    *
-   * @param timeInfos the unaltered timeInfo of a certain train travel
+   * @param trainInfo
+   * @param trainInformation the information of stations
+   * @param updateTrainInfo
    */
-  private enrichTimeInfoOfSchedules(timeInfos: TimeInfo[], trainInformation: StationInfo): EnrichedTimeInfo {
-    let enrichedTrainInfo: EnrichedTrainInfo = {};
+  private enrichTimeInfoOfSchedules(trainInfo: TrainInfo, trainInformation: StationInfo, updateTrainInfo: EnrichedTrainInfo): EnrichedTimeInfo {
+    const enrichedTrainInfo: EnrichedTimeInfo = {};
     let isTaipeiAlreadyAdded = false;
 
     // TODO remove the station 5170 from the list because it's not yet in use
-    timeInfos = timeInfos.filter((timeInfo: TimeInfo) => timeInfo.Station !== '5170');
+    const timeInfos: TimeInfo[] = trainInfo.TimeInfos.filter((timeInfo: TimeInfo) => timeInfo.Station !== '5170');
 
     timeInfos.forEach((timeInfo: TimeInfo) => {
 
       if (timeInfo.Station === '1001') {
         timeInfo.Station = '1008';
       } else {
-        const result = trainInformation.stations.find((sel => parseInt(sel.traWebsiteCode) === parseInt(tel.Station)));
+        const result = trainInformation.stations
+          .find((stationDetails: StationDetails) => stationDetails.traWebsiteCode === timeInfo.Station);
+
+        // This means there is a new station added
         if (result == null) {
-          console.error(JSON.stringify(tel.Station));
+          console.error(`There is a new station added with ID: '${timeInfo.Station}'`);
         } else {
-          tel.Station = result.時刻表編號;
+          timeInfo.Station = result.時刻表編號.toString();
         }
       }
 
+      const routes: number[] = trainInformation.stations
+        .find((stationDetails: StationDetails) => stationDetails.時刻表編號 === parseInt(timeInfo.Station)).routeCode;
+      updateTrainInfo.Routes = updateTrainInfo.Routes.concat(routes);
+
+      if (trainInfo.Train === '1' || trainInfo.Train === '2') {
+        // This is because this TRAIN can do a round trip from Taipei to Taipei
+        if (timeInfo.Station === '1008' && isTaipeiAlreadyAdded) {
+          enrichedTrainInfo['_' + timeInfo.Station] = {
+            Station: timeInfo.Station,
+            Order: timeInfo.Order,
+            DepTime: this.utils.formatStringToTimestamp(timeInfo.DEPTime),
+            ArrTime: this.utils.formatStringToTimestamp(timeInfo.ARRTime),
+            Routes: routes,
+          };
+        } else {
+          enrichedTrainInfo[timeInfo.Station] = {
+            Station: timeInfo.Station,
+            Order: timeInfo.Order,
+            DepTime: this.utils.formatStringToTimestamp(timeInfo.DEPTime),
+            ArrTime: this.utils.formatStringToTimestamp(timeInfo.ARRTime),
+            Routes: routes,
+          };
+          isTaipeiAlreadyAdded = true;
+        }
+      } else {
+        enrichedTrainInfo[timeInfo.Station] = {
+          Station: timeInfo.Station,
+          Order: timeInfo.Order,
+          DepTime: this.utils.formatStringToTimestamp(timeInfo.DEPTime),
+          ArrTime: this.utils.formatStringToTimestamp(timeInfo.ARRTime),
+          Routes: routes,
+        };
+      }
     });
 
-    return null;
+    return enrichedTrainInfo;
   }
 
 }
@@ -138,4 +176,23 @@ export class UtilFunctions {
   public readFileSync<T>(fileName: string, path: string): T {
     return JSON.parse(readFileSync(path + fileName, 'utf-8'));
   }
+
+  /**
+   * This function will format you time sting without the seconds
+   * @param stringTime string contain a time format
+   */
+  public formatStringToTimestamp(stringTime: string): string {
+    return moment(stringTime, 'HH:mm:ss').format('HH:mm');
+  }
+
+  /**
+   * 
+   * @param value
+   * @param index
+   * @param self
+   */
+  public onlyUnique(value: number, index: number, self: number[]): boolean {
+    return self.indexOf(value) === index;
+  }
+
 }
