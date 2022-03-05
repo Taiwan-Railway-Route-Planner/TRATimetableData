@@ -5,6 +5,7 @@ export type TaiwanRailwaySchedule = Readonly<{
   UpdateTime: Date;
 }>
 
+
 export type EnrichedTaiwanRailwaySchedule = Readonly<{
   TrainInfos: EnrichedTrainInfo[];
 }>

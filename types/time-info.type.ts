@@ -6,6 +6,7 @@ export type TimeInfo = Readonly<{
   ARRTime: string;
 }>
 
+
 export type EnrichedTimeInfo = Readonly<{
   Station: string;
   Order:   string;
@@ -13,5 +14,3 @@ export type EnrichedTimeInfo = Readonly<{
   ArrTime: string;
   Routes:  number[];
 }>
-
-

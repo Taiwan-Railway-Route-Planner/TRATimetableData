@@ -1,3 +1,4 @@
+import { Stations } from './stations.type';
 import { EnrichedTimeInfo, TimeInfo } from './time-info.type';
 
 export type TrainInfo = Readonly<{
@@ -47,7 +48,3 @@ export type EnrichedTrainInfo = Readonly<{
   MultiRoute:   boolean;
   trainType:    string;
 }>
-
-
-// eslint-disable-next-line @typescript-eslint/ban-types
-export type Stations = Readonly<{}>
