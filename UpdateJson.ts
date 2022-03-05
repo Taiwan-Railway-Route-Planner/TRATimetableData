@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from 'fs';
+import { readFileSync, readdirSync, writeFile } from 'fs';
 import moment from 'moment';
 import { StationDetails, StationInfo } from './types/station-info.type';
 import { EnrichedTaiwanRailwaySchedule, TaiwanRailwaySchedule } from './types/taiwan-railway-schedule.type';
@@ -56,7 +56,15 @@ class EnrichJsonSchedules {
 
     this.SCHEDULES_NEED_UPDATE.forEach((scheduleName: string) => {
       const scheduleNeedsUpdate: TaiwanRailwaySchedule = this.utils.readFileSync<TaiwanRailwaySchedule>(scheduleName, ROUTES_THAT_NEED_UPDATES_DIR);
-      this.enrichScheduleInformation(scheduleNeedsUpdate, this.stationInformation.getStationInformation());
+      const enrichedTrainInfos : EnrichedTrainInfo[] = this.enrichScheduleInformation(scheduleNeedsUpdate, this.stationInformation.getStationInformation());
+
+
+      try {
+        const jsonExport = JSON.stringify({ TrainInfos: enrichedTrainInfos } as EnrichedTaiwanRailwaySchedule, null, 4);
+        this.utils.writeFile(DEST_PATH, scheduleName, jsonExport);
+      } catch (e) {
+        console.log(e.error, scheduleName)
+      }
     });
 
   }
@@ -64,9 +72,9 @@ class EnrichJsonSchedules {
   /**
    * Enrich the schedules with more information
    */
-  private enrichScheduleInformation(scheduleNeedsUpdate: TaiwanRailwaySchedule, trainInformation: StationInfo): void {
+  private enrichScheduleInformation(scheduleNeedsUpdate: TaiwanRailwaySchedule, trainInformation: StationInfo): EnrichedTrainInfo[] {
 
-    const updateSchedule: EnrichedTaiwanRailwaySchedule = scheduleNeedsUpdate.TrainInfos.map((trainInfo: TrainInfo) => {
+    return scheduleNeedsUpdate.TrainInfos.map((trainInfo: TrainInfo) => {
       // @ts-ignore
       let enrichedTrainInfo: EnrichedTrainInfo = {};
 
@@ -89,7 +97,6 @@ class EnrichJsonSchedules {
 
       return enrichedTrainInfo;
     });
-
   }
 
   /**
@@ -166,8 +173,8 @@ class EnrichJsonSchedules {
 
     return {
       ...cloneTrainInfo as BaseTrainInfo,
-      ...enrichedTrainInfo
-    }
+      ...enrichedTrainInfo,
+    };
   }
 
 }
@@ -185,7 +192,7 @@ export class UtilFunctions {
 
   /**
    * Read a file from a certain path and get parsed result back
-   * @param fileName the file you want to read
+   * @param fileName the file you want to read from
    * @param path the path you want to read the file from
    */
   public readFileSync<T>(fileName: string, path: string): T {
@@ -208,6 +215,20 @@ export class UtilFunctions {
    */
   public onlyUnique(value: number, index: number, self: number[]): boolean {
     return self.indexOf(value) === index;
+  }
+
+  /**
+   * Save a file to a certain path
+   * @param path the path you want to read the file too
+   * @param fileName the name of the file you want to save
+   * @param data the data you want to save in the file
+   */
+  public writeFile(path: string, fileName: string, data: string): void {
+    writeFile(DEST_PATH + fileName, data, err => {
+      if (err) {
+        console.error(`Something went wrong when trying to save the file '${fileName}', it thrown the following error: ${err}`);
+      }
+    });
   }
 
   /**
