@@ -2,6 +2,7 @@ import { readdirSync, readFileSync, writeFile } from 'fs';
 import moment from 'moment';
 import { EnrichedTrainInfo } from '../types/train-info.type';
 import { DEST_PATH } from './main';
+import ErrnoException = NodeJS.ErrnoException;
 
 export class UtilFunctions {
 
@@ -47,9 +48,12 @@ export class UtilFunctions {
    * @param data the data you want to save in the file
    */
   public writeFile(path: string, fileName: string, data: string): void {
-    writeFile(DEST_PATH + fileName, data, err => {
+    writeFile(DEST_PATH + fileName, data, (err: ErrnoException | null) => {
       if (err) {
         console.error(`Something went wrong when trying to save the file '${fileName}', it thrown the following error: ${err}`);
+      }
+      else {
+        console.info(`Successfully wrote file with name ${fileName}`)
       }
     });
   }

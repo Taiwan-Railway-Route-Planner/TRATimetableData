@@ -48,6 +48,8 @@ export class EnrichJsonSchedules {
       }
     });
 
+    console.info("I'm done with enriching!")
+
   }
 
   /**
@@ -58,6 +60,8 @@ export class EnrichJsonSchedules {
     return scheduleNeedsUpdate.TrainInfos.map((trainInfo: TrainInfo) => {
       // @ts-ignore
       let enrichedTrainInfo: EnrichedTrainInfo = {};
+
+      enrichedTrainInfo = this.enrichBaseTrainInfoToEnrichedTrainInfo(trainInfo, enrichedTrainInfo);
 
       enrichedTrainInfo.StartStation = parseInt(trainInfo.TimeInfos[0].Station);
       enrichedTrainInfo.StartTime = moment(trainInfo.TimeInfos[0].DEPTime, 'HH:mm:ss').format('HH:mm');
@@ -73,8 +77,6 @@ export class EnrichJsonSchedules {
       enrichedTrainInfo.Routes = enrichedTrainInfo.Routes.filter(this.utils.onlyUnique);
       enrichedTrainInfo.MultiRoute = enrichedTrainInfo.Routes.length !== 1;
       enrichedTrainInfo.trainType = this.utils.getTrainType(enrichedTrainInfo);
-
-      enrichedTrainInfo = this.enrichBaseTrainInfoToEnrichedTrainInfo(trainInfo, enrichedTrainInfo);
 
       return enrichedTrainInfo;
     });
@@ -149,7 +151,7 @@ export class EnrichJsonSchedules {
   }
 
   private enrichBaseTrainInfoToEnrichedTrainInfo(trainInfo: TrainInfo, enrichedTrainInfo: EnrichedTrainInfo): EnrichedTrainInfo {
-    const cloneTrainInfo: TrainInfo = Object.assign(trainInfo);
+    const cloneTrainInfo: TrainInfo = Object.assign({}, trainInfo);
     delete cloneTrainInfo.TimeInfos;
 
     return {
